@@ -1,0 +1,49 @@
+﻿@font-face {
+			font-family: "GothamProRegular";
+			src: url("../fonts/gotham_pro_regular/gotham_pro_regular.eot");
+			src: url("../fonts/gotham_pro_regular/gotham_pro_regular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/gotham_pro_regular/gotham_pro_regular.woff") format("woff"),
+			url("../fonts/gotham_pro_regular/gotham_pro_regular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "GothamProBold";
+			src: url("../fonts/gotham_pro_bold/gotham_pro_bold.eot");
+			src: url("../fonts/gotham_pro_bold/gotham_pro_bold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/gotham_pro_bold/gotham_pro_bold.woff") format("woff"),
+			url("../fonts/gotham_pro_bold/gotham_pro_bold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "GothamProBlack";
+			src: url("../fonts/gotham_pro_black/gotham_pro_black.eot");
+			src: url("../fonts/gotham_pro_black/gotham_pro_black.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/gotham_pro_black/gotham_pro_black.woff") format("woff"),
+			url("../fonts/gotham_pro_black/gotham_pro_black.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "GothamProMedium";
+			src: url("../fonts/gotham_pro_medium/gotham_pro_medium.eot");
+			src: url("../fonts/gotham_pro_medium/gotham_pro_medium.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/gotham_pro_medium/gotham_pro_medium.woff") format("woff"),
+			url("../fonts/gotham_pro_medium/gotham_pro_medium.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+		font-family: "gotham_pro_light";
+		src: url("../fonts/gotham_pro_light/gotham_pro_light.eot");
+		src: url("../fonts/gotham_pro_light/gotham_pro_light.eot?#iefix")format("embedded-opentype"),
+		url("../fonts/gotham_pro_light/gotham_pro_light.woff") format("woff"),
+		url("../fonts/gotham_pro_light/gotham_pro_light.ttf") format("truetype");
+		font-style: normal;
+		font-weight: normal;
+}
