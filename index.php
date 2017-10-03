@@ -285,7 +285,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 
 			<div class="col col-right">
 				<div class="phone">
-					<img src="img/icon-phone2.png" alt="img"/>
+					<!--<img src="img/icon-phone2.png" alt="img"/>-->
 					<span>+7 (499)</span> 404-17-03
 				</div>
 
@@ -1391,7 +1391,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 					<a target="_blank" href="https://www.finam.ru/" class="big"><img src="img/logo-partners/finam.png" alt="img" style="max-height: 113px; margin-top: -19px;"/></a>
 					<a target="_blank" href="http://learn.alfabank.ru/" class="big"><img src="img/logo-partners/logo-alfa.jpg" alt="img"/></a>
 					<a target="_blank" href="http://lp.mmgp.ru/7" class="big"><img src="img/logo-partners/logo_mmgp.png" alt="img"/></a>
-					<a target="_blank" href="https://ru.tradingview.com/" class="big"><img src="img/logo-partners/logo-teletrade.jpg" alt="img"/></a>
+					<a target="_blank" href="https://ru.tradingview.com/" class="big"><img style="width:120px" src="img/logo-partners/logo-teletrade.jpg" alt="img"/></a>
 					<a target="_blank" href="https://alfabank.ru/" class="big"><img style="max-width:250px" src="img/logo-partners/alfabank.png" alt="img"/></a>
 
 					<p style="margin-top: 30px;">Инновационный партнер</p>

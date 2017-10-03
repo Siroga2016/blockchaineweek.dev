@@ -297,7 +297,7 @@ li.buy-ticket a:hover{
 }
 body .block1 .col-right .phone{
 	float:left;
-	margin-left:-200px;
+	margin-top:10px;
 }
 .block1 .col-right .phone,
 .block1 .col-right .registration-form {
@@ -308,7 +308,7 @@ body .block1 .col-right .phone{
 	width:100%;
 }
 .block1 .phone{
-	font-size:36px;
+	font-size:26px;
 	font-family: "GothamProBold";
     margin-bottom: 62px;
     white-space: nowrap;
@@ -338,16 +338,16 @@ ul.social li a{
 ul.social li:last-child a{
 	border-right: none
 }
-ul.social li a.facebook{
+ul.social li a.facebook:hover{
 	background: url("../img/icon-facebook2.png") no-repeat center;
 }
-ul.social li a.facebook:hover{
+ul.social li a.facebook{
 	background: url("../img/icon-facebook2-active.png") no-repeat center;
 }
-ul.social li a.vk{
+ul.social li a.vk:hover{
 	background: url("../img/icon-vk2.png") no-repeat center;
 }
-ul.social li a.vk:hover{
+ul.social li a.vk{
 	background: url("../img/icon-vk2-active.png") no-repeat center;
 }
 
