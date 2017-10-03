@@ -175,7 +175,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 	<title>Russian Blockchain Week 2017 Конференция по блокчейн</title>
 	<meta name="keywords" content="russian blockchain week, blockchain week, конференция блокчейн, blockchain конференция, конференция биткоин, блокчейн семинар, биткоин семинар, обучение блокчейн, обучение  blockchain, консультации блокчейн" />
 	<meta name="description" content="Russian blockсhain Week (Российская неделя блокчейн и криптовалют) — это главное событие года в своей индустрии, которое объединяет в себе 4 формата: конференция, выставка и шоу блокчейн-проектов, Blockchain.EXPO и Blockchain.NIGHT" />
-	<link href="css/style.css" type="text/css" rel="stylesheet"/>
+	<link href="css/style.css?v=2" type="text/css" rel="stylesheet"/>
 	<link href="css/fonts.css" type="text/css" rel="stylesheet"/>
 	<link href="css/jquery.formstyler.css" type="text/css" rel="stylesheet"/>
 	<link href="css/jquery.formstyler.theme.css" type="text/css" rel="stylesheet"/>
@@ -193,6 +193,13 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 				<li><a href="#block8-bottom" onClick='ga("send", "event", "menu", "click item", "Стоимость");'>Стоимость</a></li>
 				<li><a href="#block9-bottom" onClick='ga("send", "event", "menu", "click item", "Контакты");'>Контакты</a></li>
 				<li><a href="#block10" onClick='ga("send", "event", "menu", "click item", "Партнеры");'>Партнеры</a></li>
+				<li>
+                    <button type="button"
+                            data-tc-event="59b96cd6519f7b0019309a7d"
+                            data-tc-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImlzcyI6InRpY2tldHNjbG91ZC5ydSJ9.eyJwIjoiNTk5ZWNjOThkMzUyODYwMDFhMTM2NTBmIn0.Ezb5GcX02rbPsSCSp0xgDx0FNNHOE1GYdy4SFW9oXOg">
+                        Купить сейчас
+                    </button>
+                </li>
 				<li class="buy-ticket"><a href="#block5" onClick='ga("send", "event", "head", "click button", "booking");'>Забронировать билет</a></li>
 			</ul>
 
@@ -217,6 +224,13 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 				<li><a href="#block8-bottom" onClick='ga("send", "event", "menu", "click item", "Стоимость");'>Стоимость</a></li>
 				<li><a href="#block9-bottom" onClick='ga("send", "event", "menu", "click item", "Контакты");'>Контакты</a></li>
 				<li><a href="#block10" onClick='ga("send", "event", "menu", "click item", "Партнеры");'>Партнеры</a></li>
+				<li>
+                    <button type="button"
+                            data-tc-event="59b96cd6519f7b0019309a7d"
+                            data-tc-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImlzcyI6InRpY2tldHNjbG91ZC5ydSJ9.eyJwIjoiNTk5ZWNjOThkMzUyODYwMDFhMTM2NTBmIn0.Ezb5GcX02rbPsSCSp0xgDx0FNNHOE1GYdy4SFW9oXOg">
+                        Купить сейчас
+                    </button>
+                </li>
 				<li class="buy-ticket"><a href="#block5" onClick='ga("send", "event", "head", "click button", "booking");'>Забронировать билет</a></li>
 			</ul>
 		</div>
@@ -228,6 +242,13 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 			<li><a href="#block8-bottom" onClick='ga("send", "event", "menu", "click item", "Стоимость");'>Стоимость</a></li>
 			<li><a href="#block9-bottom.mobile" onClick='ga("send", "event", "menu", "click item", "Контакты");'>Контакты</a></li>
 			<li><a href="#block10" onClick='ga("send", "event", "menu", "click item", "Партнеры");'>Партнеры</a></li>
+			<li>
+                <button type="button"
+                        data-tc-event="59b96cd6519f7b0019309a7d"
+                        data-tc-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImlzcyI6InRpY2tldHNjbG91ZC5ydSJ9.eyJwIjoiNTk5ZWNjOThkMzUyODYwMDFhMTM2NTBmIn0.Ezb5GcX02rbPsSCSp0xgDx0FNNHOE1GYdy4SFW9oXOg">
+                    Купить сейчас
+                </button>
+            </li>
 			<li><a href="#block5" onClick='ga("send", "event", "head", "click button", "booking");'>Забронировать билет</a></li>
 		</div>
 	</div><!-- .header-->
@@ -280,6 +301,11 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 				</div>
 				<div class="action-mobile">
 					<a href="#block5" class="button">Забронировать билет</a>
+                    <button type="button" class="button b-btn__buy-now"
+                            data-tc-event="59b96cd6519f7b0019309a7d"
+                            data-tc-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImlzcyI6InRpY2tldHNjbG91ZC5ydSJ9.eyJwIjoiNTk5ZWNjOThkMzUyODYwMDFhMTM2NTBmIn0.Ezb5GcX02rbPsSCSp0xgDx0FNNHOE1GYdy4SFW9oXOg">
+                        Купить сейчас
+                    </button>
 				</div>
 			</div>
 
@@ -312,11 +338,21 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 					</div>
 
 					<input type="submit" value="Зарегистрироваться" class="disabled">
+                    <button type="button"
+                            data-tc-event="59b96cd6519f7b0019309a7d"
+                            data-tc-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImlzcyI6InRpY2tldHNjbG91ZC5ydSJ9.eyJwIjoiNTk5ZWNjOThkMzUyODYwMDFhMTM2NTBmIn0.Ezb5GcX02rbPsSCSp0xgDx0FNNHOE1GYdy4SFW9oXOg">
+                        Купить сейчас
+                    </button>
 				</form>
 			</div>
 
 			<div class="align-button">
 				<a href="#block5" class="button">Забронировать билет</a>
+                <button type="button" class="button b-btn__buy-now"
+                        data-tc-event="59b96cd6519f7b0019309a7d"
+                        data-tc-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImlzcyI6InRpY2tldHNjbG91ZC5ydSJ9.eyJwIjoiNTk5ZWNjOThkMzUyODYwMDFhMTM2NTBmIn0.Ezb5GcX02rbPsSCSp0xgDx0FNNHOE1GYdy4SFW9oXOg">
+                    Купить сейчас
+                </button>
 			</div>
 		</div>	
 	</div>
