@@ -10,6 +10,9 @@ body{
 	line-height:1;
 	color:#3c3c3c;
 }
+body.hidden{
+	overflow:hidden;
+}
 input{outline:none;}
 img{border:none;}
 li{list-style:none;}
@@ -598,15 +601,27 @@ ul.social li a.vk:hover{
 .block2{
 	float:left;
 	width:100%;
-	padding: 83px 0;
 	position:relative;
-	background: url(../img/block2-fon.png) no-repeat 850px center ;
-	background-size: cover;
+	overflow: hidden;
 }
-.block2 .center{
+
+.fon-video{
+	background: url(../img/block2-fon.png) no-repeat left center ;
+	background-size: cover;
+	position:absolute;
+	left:51%;
+	top:0;
+	height:489px;
+	width:100%;
+	z-index: -1;
+	margin-top:-83px;
+}
+.block2 .center-block{
 	border: 16px solid rgb(117, 215, 91);
-	padding: 30px 0 66px 170px;
-	width: 1175px;
+	padding: 30px 0 66px 60px;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 83px 0;
 }
 
 .block2 .title{
@@ -631,8 +646,8 @@ ul.social li a.vk:hover{
 	float:left;
 	position:absolute;
 	top: 50%;
-    right: 100px;
-    margin-top: -50px;
+    right: 150px;
+    margin-top: -55px;
 }
 
 /* Block 2 mobile */
@@ -753,18 +768,23 @@ ul.social li a.vk:hover{
 }
 #block-slider .cycle-slideshow .cycle-slide:nth-child(1){
 	background: url(../img/bg-block2-bottom.jpg) no-repeat center;
+	background-size: cover; 
 }
 #block-slider .cycle-slideshow .cycle-slide:nth-child(2){
 	background: url(../img/bg-block2-bottom.jpg) no-repeat center;
+	background-size: cover; 
 }
 #block-slider .cycle-slideshow .cycle-slide:nth-child(3){
 	background: url(../img/bg-block2-bottom6.jpg) no-repeat center;
+	background-size: cover; 
 }
 #block-slider .cycle-slideshow .cycle-slide:nth-child(4){
 	background: url(../img/bg-block2-bottom5.jpg) no-repeat center;
+	background-size: cover; 
 }
 #block-slider .cycle-slideshow .cycle-slide:nth-child(5){
 	background: url(../img/bg-block2-bottom4.jpg) no-repeat center;
+	background-size: cover; 
 }
 #block-slider .title{
 	font-size:41px;
@@ -3184,8 +3204,8 @@ a.button-exit{
 /*  */
 
 #modal_form {
-	width: 800px; 
-	height: 400px; /* Рaзмеры дoлжны быть фиксирoвaны */
+	width: 854px; 
+	height: 480px; /* Рaзмеры дoлжны быть фиксирoвaны */
 	position: fixed; /* чтoбы oкнo былo в видимoй зoне в любoм месте */
 	top: 45%; /* oтступaем сверху 45%, oстaльные 5% пoдвинет скрипт */
 	left: 50%; /* пoлoвинa экрaнa слевa */

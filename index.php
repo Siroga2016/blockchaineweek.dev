@@ -290,9 +290,9 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 				</div>
 
 				<ul class="social">
-					<li><a href="https://www.facebook.com" target="_blank"  class="facebook"></a></li>
+					<li><a href="https://facebook.com/blockchainweek/" target="_blank"  class="facebook"></a></li>
 					<!--<li><a href="#" class="twitter"></a></li>-->
-					<li><a href="https://www.vk.com" class="vk" target="_blank" ></a></li>	
+					<li><a href="https://vk.com/blockchainweek.moscow" class="vk" target="_blank" ></a></li>	
 				</ul>
 
 				<form id="form1" class="registration-form">
@@ -324,9 +324,12 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 	<div class="block2-wrapper">
 		<div class="block2" id="block2">
 			<div class="center">
-		    	<div class="title">Russian Вlockchain Week</div>
-		    	<p class="text">Это конференция с докладами более чем 30 топовых экспертов, мастер-классы и презентации десятков блокчейн-проектов. Вдохновитесь новыми идеями и узнайте обо всех возможностях применения технологии, реальных кейсах и о том, что нас ждет в ближайшем будущем.</p>
-		    	<a href="javascript:void(0)" class="play-button"></a>
+				<div class="fon-video"></div>
+				<div class="center-block">
+			    	<div class="title">Russian Вlockchain Week</div>
+			    	<p class="text">Это конференция с докладами более чем 30 топовых экспертов, мастер-классы и презентации десятков блокчейн-проектов. Вдохновитесь новыми идеями и узнайте обо всех возможностях применения технологии, реальных кейсах и о том, что нас ждет в ближайшем будущем.</p>
+			    	<a href="javascript:void(0)" class="play-button"></a>
+			    </div>
 			</div>
 		</div>
 
@@ -1602,8 +1605,8 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
     });
 
     youtubeVideoPlayer4 = new YT.Player('youtube-video-4', {
-      height: '400',
-      width: '750',
+      height: '480',
+      width: '854',
       videoId: 'VlYQc-RtCCU'
     });
 

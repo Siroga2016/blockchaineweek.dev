@@ -327,6 +327,7 @@ $(document).ready(function() {
 /* popup */
 $(".play-button").on("click", function(){
     $('#modal_form, #overlay').addClass('active');
+    $('body').addClass('hidden');
 });
 
 $(".play-button").click(function(e) {
@@ -340,4 +341,5 @@ $(".play-button").click(function(e) {
 $("#overlay, #modal_close").on("click", function(){
     $('#modal_form, #overlay').removeClass('active');
     youtubeVideoPlayer4.stopVideo();
+    $('body').removeClass('hidden');
 });
