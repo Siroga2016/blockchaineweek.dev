@@ -384,5 +384,6 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 <script src="js/jquery.scrolldepth.min.js" type="text/javascript"></script>
 <script src="http://malsup.github.com/jquery.cycle2.js"></script>
 <script src="js/script.js"></script>
+<script src="https://api.ticketscloud.org/static/scripts/widget/tcwidget.js"></script>
 </body>
 </html>

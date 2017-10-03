@@ -1634,5 +1634,6 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 <script src="js/app.js"></script>
 <script src="http://malsup.github.com/jquery.cycle2.js"></script>
 <script src="js/jquery.cycle2.carousel.min.js"></script>
+<script src="https://api.ticketscloud.org/static/scripts/widget/tcwidget.js"></script>
 </body>
 </html>

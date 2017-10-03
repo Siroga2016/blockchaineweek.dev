@@ -1345,7 +1345,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 <script src="/js/script.js"></script>
 <script src="/js/particles.js"></script>
 <script src="/js/app.js"></script>
-
+<script src="https://api.ticketscloud.org/static/scripts/widget/tcwidget.js"></script>
 
 </body>
 </html>
