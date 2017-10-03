@@ -571,12 +571,13 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 				</div>
 
 				<div class="block">
-					<div class="img"><img src="img/block4-people12.jpg" alt="img"/></div>
-					<div class="name">Павел Матвеев</div>
+					<div class="img"><img src="img/speakers/novikov.jpg" alt="img"/></div>
+					<div class="name">Павел Новиков</div>
 					<div class="about-people">
-						Основатель Wirex
+						Директор центра финансовых технологий
 					</div>
 				</div>
+				
 
 				<div class="all-speakers show">
 					<a href="javascript:void(0)" class="show-all-speakers">
@@ -585,12 +586,19 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 					</a>
 				</div>
 				
+				<div class="block hide">
+					<div class="img"><img src="img/block4-people12.jpg" alt="img"/></div>
+					<div class="name">Павел Матвеев</div>
+					<div class="about-people">
+						Основатель Wirex
+					</div>
+				</div>
 
 				<div class="block hide">
-					<div class="img"><img src="img/brusov.jpg" alt="img"/></div>
-					<div class="name">Михаил Брусов</div>
+					<div class="img"><img src="img/speakers/baranov.jpg" alt="img"/></div>
+					<div class="name">Баранов Артем</div>
 					<div class="about-people">
-						CEO & co-founder Cindicator
+						Со-основатель и операционный директор Cindicator
 					</div>
 				</div>
 
@@ -1376,6 +1384,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 									<a target="_blank" href="https://pma-network.com/"><img src="img/logo-partners/pman_logo.jpg" alt="img"/></a>
 									<a target="_blank" href="https://www.englishdom.com/?utm_medium=partners&utm_source=rbw2017&utm_campaign=banner_sidebar"><img src="img/logo-partners/englishdom.png" alt="img"/></a>
 									<a target="_blank" href="https://www.prostoy.ru"><img src="img/logo-partners/prostoy.ru.png" alt="img"/></a>
+									<a target="_blank" href="https://inforeactor.ru/ "><img src="img/logo-partners/iReactor_Black.png" alt="img"/></a>
 								</div>
 							</div>
 						</div>
@@ -1465,6 +1474,8 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 						<a target="_blank" href="https://pma-network.com/"><img src="img/logo-partners/pman_logo.jpg" alt="img"/></a>
 						<a target="_blank" href="https://www.englishdom.com/?utm_medium=partners&utm_source=rbw2017&utm_campaign=banner_sidebar"><img src="img/logo-partners/englishdom.png" alt="img"/></a>
 						<a target="_blank" href="https://www.prostoy.ru"><img src="img/logo-partners/prostoy.ru.png" alt="img"/></a>
+						<a target="_blank" href="https://inforeactor.ru/ "><img src="img/logo-partners/iReactor_Black.png" alt="img"/></a>
+
 
 					</div>
 				</div>
