@@ -3226,7 +3226,7 @@ a.button-exit{
 	height: 21px;
 	position: absolute;
 	top: 0px;
-	right: 10px;
+	right: -50px;
 	cursor: pointer;
 	display: block;
 	color: #fff;
