@@ -1087,6 +1087,43 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 		</div>
 	</div>
 
+	<div class="block-cryptoclass">
+		<div class="center">
+
+			<div class="title">КРИПТОКЛАСС</div>
+			<p class="text">В рамках уникального сотрудничества RussianBlockchain Week2017 и Российского экономического университета им. Г.В. Плеханова, для всех участников конференции есть возможность дополнительно погрузится в тему блокчейн и пройти дополнительный образовательный курс в рамках одного дня на базе РЭУ им. Плеханова.</p>
+
+			<div class="subtitle">Основные темы:</div>
+			<div class="block-center">
+				<ul>
+					<li class="first">Введение в технологию блокчейн, криптовалюты и ICO</li>
+					<li class="second">Правовые аспекты создания, трейдинга и майнинга криптовалют, проведения ICO</li>
+					<li class="third">Майнинг биткойна и других криптовалют</li>
+					<li class="fouth">Криптовалютный трейдинг, деятельность криптовалютных бирж</li>
+				</ul>	
+			</div>
+
+			<div class="subtitle">Что даст участие в криптоклассе:</div>
+			<div class="block-bottom">
+				<ul>
+					<li class="first">
+						<img src="img/icon1.png" alt="img"/>
+						<p>Работа в небольшой группе с возможностью детально разобрать интересующие вас вопросы с преподавателем;</p>
+					</li>
+					<li class="second">
+						<img src="img/icon2.png" alt="img"/>
+						<p>Профессиональные связи с уникальными экспертами индустрии</p>
+					</li>
+					<li class="third">
+						<img src="img/icon3.png" alt="img"/>
+						<p>Престижный сертификат</p>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+
 	<div class="block8" id="block8"> 
 		
 		<div class="block8-top">
@@ -1325,7 +1362,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 									<a target="_blank" href="http://www.interfax.ru/"><img src="img/logo-partners/Interfax.png" alt="img"/></a>
 									<a target="_blank" href="https://freedman.club/"><img src="img/logo-partners/Freedman-club-Crypto-News.svg" alt="img"/></a>
 									<a target="_blank" href="http://sk.ru/technopark/"><img src="img/logo-partners/technopark.jpg" alt="img"/></a>
-									<a target="_blank" href="http://yellowrockets.com/"><img src="img/logo-partners/Brand_YellowRockets_logo_rocket.png" alt="img"/></a>
+									<a target="_blank" href="http://1prime.ru/ "><img src="img/logo-partners/logo-prime.jpg" alt="img"/></a>
 									<a target="_blank" href="https://ru.insider.pro/"><img src="img/logo-partners/insider.pro.jpg" alt="img"/></a>
 									<a target="_blank" href="http://inc.hse.ru/ "><img src="img/logo-partners/inc.hse.png" alt="img"/></a>
 									<a target="_blank" href="https://www.if24.ru/kontakty/"><img src="img/logo-partners/investforsight.jpg" alt="img"/></a>
@@ -1385,6 +1422,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 									<a target="_blank" href="https://www.englishdom.com/?utm_medium=partners&utm_source=rbw2017&utm_campaign=banner_sidebar"><img src="img/logo-partners/englishdom.png" alt="img"/></a>
 									<a target="_blank" href="https://www.prostoy.ru"><img src="img/logo-partners/prostoy.ru.png" alt="img"/></a>
 									<a target="_blank" href="https://inforeactor.ru/ "><img src="img/logo-partners/iReactor_Black.png" alt="img"/></a>
+									<a target="_blank" href="http://ingria-park.ru/ "><img src="img/logo-partners/Logo_TechnoparkSPb-ru.png" alt="img"/></a>
 								</div>
 							</div>
 						</div>
@@ -1415,7 +1453,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 						<a target="_blank" href="http://www.interfax.ru/"><img src="img/logo-partners/Interfax.png" alt="img"/></a>
 						<a target="_blank" href="https://freedman.club/"><img src="img/logo-partners/Freedman-club-Crypto-News.svg" alt="img"/></a>
 						<a target="_blank" href="http://sk.ru/technopark/"><img src="img/logo-partners/technopark.jpg" alt="img"/></a>
-						<a target="_blank" href="http://yellowrockets.com/"><img src="img/logo-partners/Brand_YellowRockets_logo_rocket.png" alt="img"/></a>
+						<a target="_blank" href="http://1prime.ru/ "><img src="img/logo-partners/logo-prime.jpg" alt="img"/></a>
 						<a target="_blank" href="https://ru.insider.pro/"><img src="img/logo-partners/insider.pro.jpg" alt="img"/></a>
 						<a target="_blank" href="http://inc.hse.ru/ "><img src="img/logo-partners/inc.hse.png" alt="img"/></a>
 						<a target="_blank" href="https://www.if24.ru/kontakty/"><img src="img/logo-partners/investforsight.jpg" alt="img"/></a>
@@ -1475,7 +1513,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 						<a target="_blank" href="https://www.englishdom.com/?utm_medium=partners&utm_source=rbw2017&utm_campaign=banner_sidebar"><img src="img/logo-partners/englishdom.png" alt="img"/></a>
 						<a target="_blank" href="https://www.prostoy.ru"><img src="img/logo-partners/prostoy.ru.png" alt="img"/></a>
 						<a target="_blank" href="https://inforeactor.ru/ "><img src="img/logo-partners/iReactor_Black.png" alt="img"/></a>
-
+						<a target="_blank" href="http://ingria-park.ru/ "><img src="img/logo-partners/Logo_TechnoparkSPb-ru.png" alt="img"/></a>
 
 					</div>
 				</div>
