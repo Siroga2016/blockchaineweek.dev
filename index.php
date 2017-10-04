@@ -547,6 +547,14 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 				</div>
 
 				<div class="block">
+					<div class="img"><img src="img/speakers/yudin.jpg" alt="img"/></div>
+					<div class="name">Андрей Юдин</div>
+					<div class="about-people">
+						Co-Founder CryptoBazar Fund
+					</div>
+				</div>
+
+				<div class="block">
 					<div class="img"><img src="img/block4-people7.jpg" alt="img"/></div>
 					<div class="name">Владимир Гамза</div>
 					<div class="about-people">
@@ -559,14 +567,6 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 					<div class="name">Дина Меркулова</div>
 					<div class="about-people">
 						Управляющий директор<br />по торговому финансированию Альфа-Банка
-					</div>
-				</div>
-
-				<div class="block">
-					<div class="img"><img src="img/zegelman.jpg" alt="img"/></div>
-					<div class="name">Юлий Зегельман</div>
-					<div class="about-people">
-						Управляющий партнер Velton Zegelman PC
 					</div>
 				</div>
 
@@ -586,6 +586,14 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 					</a>
 				</div>
 				
+				<div class="block hide">
+					<div class="img"><img src="img/zegelman.jpg" alt="img"/></div>
+					<div class="name">Юлий Зегельман</div>
+					<div class="about-people">
+						Управляющий партнер Velton Zegelman PC
+					</div>
+				</div>
+
 				<div class="block hide">
 					<div class="img"><img src="img/block4-people12.jpg" alt="img"/></div>
 					<div class="name">Павел Матвеев</div>
@@ -937,7 +945,13 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 					</div>
 				</div>
 				<div>
-
+					<div class="block">
+						<div class="img"><img src="img/speakers/yudin.jpg" alt="img"/></div>
+						<div class="name">Андрей Юдин</div>
+						<div class="about-people">
+							Co-Founder CryptoBazar Fund
+						</div>
+					</div>
 					<div class="block">
 						<div class="img"><img src="img/block4-people15.jpg" alt="img"/></div>
 						<div class="name">Станислав Полозов</div>
@@ -986,7 +1000,6 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 							Советник руководителя Департамента информационных технологий г. Москвы по стратегическим проектам и инновациям
 						</div>
 					</div>
-					
 
 				</div>
 		    </div>
@@ -1091,7 +1104,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 		<div class="center">
 
 			<div class="title">КРИПТОКЛАСС</div>
-			<p class="text">В рамках уникального сотрудничества RussianBlockchain Week2017 и Российского экономического университета им. Г.В. Плеханова, для всех участников конференции есть возможность дополнительно погрузится в тему блокчейн и пройти дополнительный образовательный курс в рамках одного дня на базе РЭУ им. Плеханова.</p>
+			<p class="text">В рамках уникального сотрудничества Russian Blockchain Week 2017 и Российского экономического университета им. Г.В. Плеханова, для всех участников конференции есть возможность дополнительно погрузится в тему блокчейн и пройти дополнительный образовательный курс в рамках одного дня на базе РЭУ им. Плеханова.</p>
 
 			<div class="subtitle">Основные темы:</div>
 			<div class="block-center">
@@ -1108,7 +1121,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 				<ul>
 					<li class="first">
 						<img src="img/icon1.png" alt="img"/>
-						<p>Работа в небольшой группе с возможностью детально разобрать интересующие вас вопросы с преподавателем;</p>
+						<p>Работа в небольшой группе с преподавателем;</p>
 					</li>
 					<li class="second">
 						<img src="img/icon2.png" alt="img"/>
@@ -1116,7 +1129,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 					</li>
 					<li class="third">
 						<img src="img/icon3.png" alt="img"/>
-						<p>Престижный сертификат</p>
+						<p>Престижный <br>сертификат</p>
 					</li>
 				</ul>
 			</div>
