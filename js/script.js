@@ -338,8 +338,31 @@ $(".play-button").click(function(e) {
     }
 });
 
+$(".j-sponsor1").on("click", function(){
+    $('#sponsor1, #overlay').addClass('active');
+    $('body').addClass('hidden');
+});
+
+
+$(".j-sponsor2").on("click", function(){
+    $('#sponsor2, #overlay').addClass('active');
+    $('body').addClass('hidden');
+});
+
+
+$(".j-sponsor3").on("click", function(){
+    $('#sponsor3, #overlay').addClass('active');
+    $('body').addClass('hidden');
+});
+
+
+$(".j-sponsor4").on("click", function(){
+    $('#sponsor4, #overlay').addClass('active');
+    $('body').addClass('hidden');
+});
+
 $("#overlay, #modal_close").on("click", function(){
-    $('#modal_form, #overlay').removeClass('active');
+    $('#modal_form, #overlay, #sponsor1, #sponsor2, #sponsor3, #sponsor4').removeClass('active');
     youtubeVideoPlayer4.stopVideo();
     $('body').removeClass('hidden');
 });

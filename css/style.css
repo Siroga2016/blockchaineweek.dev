@@ -3372,8 +3372,31 @@ a.button-exit{
 	opacity: 1;
 	display: block;
 }
+/*Попап со спонсором*/
+.sponsor {
+	width: 50%;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+	opacity: 0;
+	z-index: 9999;
+}
+
+@media screen and (max-width: 640px) {
+	.sponsor {
+		width: 100%;
+		margin: 30px;
+	}
+}
+.sponsor.active{
+	opacity: 1;
+	display: block;
+}
+
 /* Кнoпкa зaкрыть для тех ктo в тaнке) */
-#modal_form #modal_close {
+#modal_close {
 	width: 21px;
 	height: 21px;
 	position: absolute;
@@ -4744,4 +4767,172 @@ a.button-exit{
 	border: none;
 	box-shadow: none !important;
 	background: rgb(255, 150, 0) !important;
+}
+
+.block-sponsor {
+	float: left;
+	width: 100%;
+	color: #fff;
+	position: relative;
+	background: url(../img/sponsor.png) no-repeat center top rgba(0,0,0,0.8);
+	padding: 50px 0 70px 0;
+	font-family: 'ProximaNova-Regular';
+	background-size: cover;
+}
+
+.block-sponsor .title {
+	color: #78d55b;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 60px;
+	margin-bottom: 35px;
+}
+
+.b-sponsor__wrap {
+	display: flex;
+	flex-flow: row nowrap;
+	margin: 0 -15px;
+}
+
+.b-sponsor__item {
+	position: relative;
+	height: 295px;
+	width: 50%;
+	background-color: white;
+	color: #000000;
+	padding: 20px 25px 15px;
+	margin: 0 15px 20px;
+}
+
+.b-sponsor__item-top,
+.b-sponsor__item-bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.b-sponsor__item-top {
+	margin-bottom: 30px;
+}
+
+.b-sponsor__item-bottom {
+	width: calc(100% - 50px);
+	margin-top: 25px;
+	position: absolute;
+	bottom: 15px;
+}
+
+.b-sponsor__title {
+	color: #222222;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+.b-sponsor__img {
+	width: 30%;
+	height: 50px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+}
+
+.b-sponsor__img.prizm {
+	background-image: url('../img/prizm_logo.png');
+}
+.b-sponsor__img.smschain {
+	background-image: url('../img/SMSCHAIN-logo.png');
+}
+.b-sponsor__img.serenity {
+	background-image: url('../img/serenity-logo.png');
+}
+
+.b-sponsor__text {
+	width: 100%;
+	color: #222222;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.b-sponsor__btn {
+	display: block;
+	width: 150px;
+	height: 45px;
+	cursor: pointer;
+	background-color: #ff9600;
+	text-align: center;
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 45px;
+	vertical-align: middle;
+	font-weight: bold;
+}
+
+.b-sponsor__link {
+	color: #78d55b;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 20px;
+	text-decoration: underline;
+	width: 50%;
+	text-align: right;
+}
+
+.b-sponsor__item-empty {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	height: 100%;
+}
+
+
+@media (max-width: 640px){
+	.b-sponsor__wrap {
+		flex-flow: row wrap;
+	}
+
+	.b-sponsor__item {
+		width:100%;
+		height: 265px;
+	}
+}
+
+.b-sponsor__popup {
+	overflow: auto;
+	color: #ffffff;
+	margin-bottom: 25px;
+	padding: 20px 20px 20px 0;
+}
+
+@media (max-width: 640px) {
+	.b-sponsor__popup {
+		padding: 0 80px 0 0;
+	}
+}
+
+.sponsor .b-sponsor__title {
+	color: #ffffff;
+}
+
+.b-sponsor__popup-text {
+	height: 500px;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.b-sponsor__presentation {
+	padding-top: 25px;
+	color: #78d55b;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 20px;
+	text-decoration: underline;
+	text-align: left;
 }
