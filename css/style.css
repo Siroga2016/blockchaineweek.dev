@@ -1950,14 +1950,14 @@ ul.social li a.vk{
 	position:relative;
 	background:url("../img/block-cryptoclass.jpg") no-repeat center top;
 	padding:50px 0 70px 0;
-	font-family: 'ProximaNova-Regular';
+	font-family: "GothamProRegular";
 	background-size: cover;
 }
 
 .block-cryptoclass .title{
 	font-size:54px;
 	margin-bottom:35px;
-	font-family: 'ProximaNova-Black';
+	font-family: "GothamProBold";
 	text-transform: uppercase;
 }
 .block-cryptoclass .text{
@@ -1965,28 +1965,27 @@ ul.social li a.vk{
 	line-height:30px;
 	max-width:990px;
 	margin-bottom:55px;
-	margin-left:30px;
 }
 .block-cryptoclass .subtitle{
 	float:left;
 	width:100%;
 	margin-bottom:45px;
 	font-size:36px;
-	font-family: 'ProximaNova-Black';
+	font-family: "GothamProBold";
 	text-transform: uppercase;
 }
 .block-cryptoclass .block-center{
 	float:left;
 	width:100%;
 	margin-bottom:120px;
-	font-family: 'ProximaNova-Bold';
+	font-family: "GothamProBold";
 }
 .block-cryptoclass .block-center li{
 	float:left;
 	text-align:center;
 	width:270px;
 	margin:0 30px 0 0;
-	font-size:20px;
+	font-size:18px;
 	padding:70px 20px 30px 20px;
 	box-sizing: border-box;
 	height:200px;
@@ -2016,7 +2015,7 @@ ul.social li a.vk{
 .block-cryptoclass .block-bottom{
 	float:left;
 	width:100%;
-	font-family: 'ProximaNova-Bold';
+	font-family: "GothamProBold";
 }
 .block-cryptoclass .block-bottom li{
 	float:left;
