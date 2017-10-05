@@ -693,7 +693,14 @@ ul.social li a.vk{
 		font-family: "GothamProMedium";
 		font-size: 21px;
 	}
+	.play-button,
 	.fon-video{display:none;}
+	ul.social{
+		position: absolute;
+	    top: -10px;
+	    left: 400px;
+	}
+   
 }
 
 .tabs{
