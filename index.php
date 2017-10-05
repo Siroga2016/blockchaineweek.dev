@@ -730,6 +730,14 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 					</div>
 				</div>
 
+				<div class="block hide">
+					<div class="img"><img src="img/speakers/rozkowertz.jpg" alt="img"/></div>
+					<div class="name">Joerg Roskowertz</div>
+					<div class="about-people">
+						AMD Blockchain expert
+					</div>
+				</div>
+
 				<div class="all-speakers hide">
 					<a href="javascript:void(0)" class="show-all-speakers">
 						<span>Скрыть<br>всех</span>
@@ -1000,6 +1008,16 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 							Советник руководителя Департамента информационных технологий г. Москвы по стратегическим проектам и инновациям
 						</div>
 					</div>
+
+					<div class="block">
+						<div class="img"><img src="img/speakers/rozkowertz.jpg" alt="img"/></div>
+						<div class="name">Joerg Roskowertz</div>
+						<div class="about-people">
+							AMD Blockchain expert
+						</div>
+					</div>
+
+					
 
 				</div>
 		    </div>
