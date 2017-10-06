@@ -679,15 +679,14 @@ ul.social li a.vk{
 
 /* Block 2 mobile */
 @media (max-width: 640px){
-	.block2 {
-		padding-top: 102px;
-	}
+	
     .block2 .title {
 	    margin-bottom: 32px;
+	    font-size:48px;
     }
 	.block2 .center {
-		width: 592px;
-		padding: 57px 20px 80px 48px;
+		width: 100%;
+		padding: 60px 30px;
 	}
 	.block2 .text {
 		font-family: "GothamProMedium";
@@ -699,6 +698,10 @@ ul.social li a.vk{
 		position: absolute;
 	    top: -10px;
 	    left: 400px;
+	}
+	.block2 .center-block{
+		margin:0;
+		padding:50px;
 	}
    
 }
