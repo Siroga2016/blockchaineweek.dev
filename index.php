@@ -738,6 +738,14 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 					</div>
 				</div>
 
+				<div class="block hide">
+					<div class="img"><img src="img/speakers/muratov.jpg" alt="img"/></div>
+					<div class="name">Алексей Муратов </div>
+					<div class="about-people">
+						Основатель Prizm 
+					</div>
+				</div>
+
 				<div class="all-speakers hide">
 					<a href="javascript:void(0)" class="show-all-speakers">
 						<span>Скрыть<br>всех</span>
@@ -849,6 +857,14 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 						<div class="name">Владимир Гамза</div>
 						<div class="about-people">
 							Председатель комитета ТПП РФ по финансовым рынкам<br />и кредитным организациям
+						</div>
+					</div>
+
+					<div class="block">
+						<div class="img"><img src="img/speakers/muratov.jpg" alt="img"/></div>
+						<div class="name">Алексей Муратов </div>
+						<div class="about-people">
+							Основатель Prizm 
 						</div>
 					</div>
 				</div>
@@ -1017,9 +1033,9 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 						</div>
 					</div>
 
-					
-
 				</div>
+
+
 		    </div>
 	    </div>
 	</div>
