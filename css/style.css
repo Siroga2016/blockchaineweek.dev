@@ -5011,3 +5011,254 @@ a.button-exit{
 .b-buy-now__mobile button {
 	background: #ff9600!important;
 }
+
+.l-program {
+	float: left;
+	width: 100%;
+	padding:  0 0 60px 0;
+	position: relative;
+}
+
+.b-program__header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 35px;
+}
+
+.b-program__header .title {
+	font-size: 54px;
+	font-family: GothamProBold;
+	color: #78d55b;
+	line-height: 60px;
+	position: relative;
+	width: 50%;
+}
+
+.b-program__header .download {
+	display: flex;
+	flex-flow: row nowrap;
+	width: 220px;
+}
+
+.b-program__header .download img {
+	margin-right: 30px;
+	width: auto;
+	height: 80px;
+}
+
+.b-program__header .download p {
+	color: #78d55b;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 30px;
+	text-decoration: underline;
+}
+
+/*Таблица партнёров*/
+
+.b-program__table{
+	margin-bottom: 15px;
+}
+
+.b-program__table-header {
+	display: flex;
+	flex-flow: row nowrap;
+	color: #000000;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.b-program__table-header_half,
+.b-program__table-title_half {
+	width: 50%;
+	text-align: center;
+}
+
+.b-program__table-day {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 40px;
+	border-top: 1px solid #8a8a8a;
+	border-bottom: 1px solid #8a8a8a;
+}
+
+.b-program__table-day span {
+	color: #005668;
+	padding-right: 20px;
+}
+
+.b-program__table-day p {
+	text-align: center;
+	color: #000000;
+}
+
+.b-program__table-title {
+	display: flex;
+	flex-flow: row nowrap;
+	color: #000000;
+	font-size: 18px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 20px 0;
+}
+
+.b-programm__table-content {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.b-programm__table-content_half {
+	width: 50%;
+}
+
+.b-programm__table-content_full {
+	width: 100%;
+	display: flex;
+	margin-top: 45px;
+}
+
+.b-programm__table-item_right,
+.b-programm__table-item_left {
+	display: flex;
+	border-radius: 6px;
+	border: 1px solid #d0d0d0;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+
+.b-programm__table-item_right {
+	margin-right: 12.5px;
+}
+
+.b-programm__table-item_left {
+	margin-left: 12.5px;
+}
+
+.b-programm__table-item-time,
+.b-programm__table-item-photo,
+.b-programm__table-item-text {
+	display: flex;
+}
+
+.b-programm__table-item-time {
+	width: 55px;
+	flex-direction: column;
+	color: #000000;
+	text-transform: uppercase;
+	text-align: right;
+	margin-right: 15px;
+}
+.b-programm__table-item-time .time-start {
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+.b-programm__table-item-time .time-end {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.b-programm__table-item-photo {
+	margin-right: 20px;
+	height: 123px;
+}
+
+.b-programm__table-item-text {
+	flex-direction: column;
+}
+
+.b-programm__table-item-text .name {
+	color: #000000;
+	font-size: 17px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.b-programm__table-item-text .position {
+	color: #000000;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.b-programm__table-item-text .report {
+	color: #000000;
+	font-size: 15px;
+	line-height: 15px;
+	text-transform: uppercase;
+}
+
+.b-programm__table-item-text .title {
+	color: #000000;
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.b-programm__table-item-text .list {
+	color: #000000;
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.b-programm__table-item_default {
+	width: 100%;
+	color: #000000;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 15px;
+	line-height: 15px;
+	height: 123px;
+	ALIGN-ITEMS: center;
+	display: flex;
+	justify-content: center;
+}
+
+.b-programm__table-content_blue {
+	width: 100%;
+	border-radius: 6px;
+	background-color: #b8d1fd;
+	padding: 45px 0;
+	color: #000000;
+	font-size: 20px;
+	text-align: center;
+	margin: 15px 0;
+}
+
+.b-program__table-title {
+	width: 100%;
+	justify-content: center;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.b-programm__table-content_full .b-programm__table-item-photo {
+	margin-right: 35px;
+}
+
+.b-programm__table-item-text .list {
+	color: #000000;
+	font-size: 16px;
+	margin-top: 25px;
+}
+
+.b-programm__table-item-text .list ul {
+	margin-bottom: 25px;
+}
+
+.b-programm__table-item-text .list ul li {
+	list-style: disc;
+	text-transform: initial;
+	margin-left: 18px;
+}
+
+.b-programm__table-item-text.list-half {
+	flex-flow: row wrap;
+}
+
+.list-half .list {
+	width: 50%;
+}
