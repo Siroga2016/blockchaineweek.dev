@@ -346,10 +346,15 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 					    <div></div>
 					    <div></div>
 					</div>
-					<div class="item" onClick='$(".cycle-slideshow").cycle("goto", 0); ga("send", "event", "slider", "сlick slider", "Конференция «Блокчейн и криптовалюты-2017»");'><a>Конференция «Блокчейн и криптовалюты-2017»</a></div>
-					<div class="item" onClick='$(".cycle-slideshow").cycle("goto", 1); ga("send", "event", "slider", "сlick slider", "Шоу блокчейн-проектов и технологий");'><a>Шоу блокчейн-проектов и технологий</a></div>
-					<div class="item" onClick='$(".cycle-slideshow").cycle("goto", 2); ga("send", "event", "slider", "сlick slider", "Blockchain.EXPO-2017");'><a>Blockchain.EXPO-2017</a></div>
-					<div class="item" onClick='$(".cycle-slideshow").cycle("goto", 3); ga("send", "event", "slider", "сlick slider", "Blockchain.Night");'><a>Blockchain.Night</a></div>
+					<div class="item" onClick='$(".cycle-slideshow").cycle("goto", 0); ga("send", "event", "slider", "сlick slider", "Конференция «Блокчейн и криптовалюты-2017»");'>
+						<a>Конференция «Блокчейн и криптовалюты-2017»</a>
+					</div>
+					<div class="item" onClick='$(".cycle-slideshow").cycle("goto", 1); ga("send", "event", "slider", "сlick slider", "Шоу блокчейн-проектов и технологий");'>
+						<a>Шоу блокчейн-проектов и технологий</a>
+					</div>
+					<div class="item" onClick='$(".cycle-slideshow").cycle("goto", 3); ga("send", "event", "slider", "сlick slider", "Blockchain.Night");'>
+						<a>Blockchain.Night</a>
+					</div>
 				</div>
 			</div>
 			<div class="cycle-slideshow cycle-slideshow-main" 
@@ -372,12 +377,6 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 			    </div>
 			    <div>
 			    	<div class="center">
-			    		<div class="title">Blockchain.EXPO-2017</div>
-			    		<div class="desc">Представители производителей оборудования, компаний-разработчиков, стартапов, консультантов в сфере блокчейна и криптовалют.</div>
-			    	</div>
-			    </div>
-			    <div>
-			    	<div class="center">
 			    		<div class="title">Blockchain.Night</div>
 			    		<div class="desc">Новые связи, знания, знакомства и обсуждение проектов<br />в неформальной обстановке.</div>
 			    	</div>
@@ -387,7 +386,6 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 				<div class="cycle-pager">
 					<div class="item" onClick='$(".cycle-slideshow").cycle("goto", 0); ga("send", "event", "slider", "сlick slider", "Конференция «Блокчейн и криптовалюты-2017»");'></div>
 					<div class="item" onClick='$(".cycle-slideshow").cycle("goto", 1); ga("send", "event", "slider", "сlick slider", "Шоу блокчейн-проектов и технологий");'></div>
-					<div class="item" onClick='$(".cycle-slideshow").cycle("goto", 2); ga("send", "event", "slider", "сlick slider", "Blockchain.EXPO-2017");'></div>
 					<div class="item" onClick='$(".cycle-slideshow").cycle("goto", 3); ga("send", "event", "slider", "сlick slider", "Blockchain.Night");'></div>
 				</div>
 			</div>
@@ -505,12 +503,34 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 				</div> 
 
 				<div class="block">
-					<div class="img">
-						<img src="img/kelevra.jpg" alt="img"/>
-					</div>
-					<div class="name">Кир Келевра</div>
+					<div class="img"><img src="img/speakers/rozkowertz.jpg" alt="img"/></div>
+					<div class="name">Joerg Roskowertz</div>
 					<div class="about-people">
-						Независимый криптотрейдер
+						AMD Blockchain expert
+					</div>
+				</div>
+
+				<div class="block">
+					<div class="img"><img src="img/speakers/Blagirev.jpg" alt="img"/></div>
+					<div class="name">Алексей Благирев</div>
+					<div class="about-people">
+						Директор по инновациям, Банк «Открытие»
+					</div>
+				</div>
+
+				<div class="block">
+					<div class="img"><img src="img/speakers/novikov.jpg" alt="img"/></div>
+					<div class="name">Павел Новиков</div>
+					<div class="about-people">
+						Директор центра финансовых технологий «Сколково»
+					</div>
+				</div>
+
+				<div class="block">
+					<div class="img"><img src="img/speakers/belozerov.jpg" alt="img"/></div>
+					<div class="name">Андрей Белозёров </div>
+					<div class="about-people">
+						Советник руководителя Департамента информационных технологий г. Москвы <br>по стратегическим проектам <br> и инновациям
 					</div>
 				</div>
 				
@@ -539,6 +559,16 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 				</div>
 
 				<div class="block">
+					<div class="img">
+						<img src="img/kelevra.jpg" alt="img"/>
+					</div>
+					<div class="name">Кир Келевра</div>
+					<div class="about-people">
+						Независимый криптотрейдер
+					</div>
+				</div>
+
+				<div class="block">
 					<div class="img"><img src="img/ivanov.jpg" alt="img"/></div>
 					<div class="name">Олег Иванов</div>
 					<div class="about-people">
@@ -546,37 +576,6 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 					</div>
 				</div>
 
-				<div class="block">
-					<div class="img"><img src="img/speakers/yudin.jpg" alt="img"/></div>
-					<div class="name">Андрей Юдин</div>
-					<div class="about-people">
-						Co-Founder CryptoBazar Fund
-					</div>
-				</div>
-
-				<div class="block">
-					<div class="img"><img src="img/block4-people7.jpg" alt="img"/></div>
-					<div class="name">Владимир Гамза</div>
-					<div class="about-people">
-						Председатель комитета ТПП РФ по финансовым рынкам<br />и кредитным организациям
-					</div>
-				</div>
-
-				<div class="block">
-					<div class="img"><img src="img/merkylova.jpg" alt="img"/></div>
-					<div class="name">Дина Меркулова</div>
-					<div class="about-people">
-						Управляющий директор<br />по торговому финансированию Альфа-Банка
-					</div>
-				</div>
-
-				<div class="block">
-					<div class="img"><img src="img/speakers/novikov.jpg" alt="img"/></div>
-					<div class="name">Павел Новиков</div>
-					<div class="about-people">
-						Директор центра финансовых технологий
-					</div>
-				</div>
 				
 
 				<div class="all-speakers show">
@@ -585,7 +584,31 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 					<span>Показать <br>всех</span>
 					</a>
 				</div>
+
+				<div class="block hide">
+					<div class="img"><img src="img/speakers/yudin.jpg" alt="img"/></div>
+					<div class="name">Андрей Юдин</div>
+					<div class="about-people">
+						Co-Founder CryptoBazar Fund
+					</div>
+				</div>
+
+				<div class="block hide">
+					<div class="img"><img src="img/block4-people7.jpg" alt="img"/></div>
+					<div class="name">Владимир Гамза</div>
+					<div class="about-people">
+						Председатель комитета ТПП РФ по финансовым рынкам<br />и кредитным организациям
+					</div>
+				</div>
 				
+				<div class="block hide">
+					<div class="img"><img src="img/merkylova.jpg" alt="img"/></div>
+					<div class="name">Дина Меркулова</div>
+					<div class="about-people">
+						Управляющий директор<br />по торговому финансированию Альфа-Банка
+					</div>
+				</div>
+
 				<div class="block hide">
 					<div class="img"><img src="img/zegelman.jpg" alt="img"/></div>
 					<div class="name">Юлий Зегельман</div>
@@ -697,14 +720,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 						Основатель блокчейн платформы Universa
 					</div>
 				</div>
-
-				<div class="block  hide">
-					<div class="img"><img src="img/speakers/Blagirev.jpg" alt="img"/></div>
-					<div class="name">Алексей Благирев</div>
-					<div class="about-people">
-						Директор по инновациям, Банк «Открытие»
-					</div>
-				</div>
+				
 
 				<div class="block  hide">
 					<div class="img"><img src="img/speakers/Gurevich.jpg" alt="img"/></div>
@@ -719,22 +735,6 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 					<div class="name">Алексей Костарев</div>
 					<div class="about-people">
 						Co-founder Robot Vera
-					</div>
-				</div>
-
-				<div class="block hide">
-					<div class="img"><img src="img/speakers/belozerov.jpg" alt="img"/></div>
-					<div class="name">Андрей Белозёров </div>
-					<div class="about-people">
-						Советник руководителя Департамента информационных технологий г. Москвы по стратегическим проектам и инновациям
-					</div>
-				</div>
-
-				<div class="block hide">
-					<div class="img"><img src="img/speakers/rozkowertz.jpg" alt="img"/></div>
-					<div class="name">Joerg Roskowertz</div>
-					<div class="about-people">
-						AMD Blockchain expert
 					</div>
 				</div>
 
