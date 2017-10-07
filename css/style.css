@@ -149,10 +149,13 @@ iframe[name="google_conversion_frame"]{
 	opacity: 1;
 	box-shadow: none;
 }
+.header ul li button {
+	font-weight: normal;
+}
 .header ul li.buy-ticket a{
 	background: #FF9600;
 	background: url(../img/button-buy.png) no-repeat center left;
-	background-size:cover; 
+	background-size:cover;
 	color:#fff;
 	padding:16px 15px;
 	border-right:none;
@@ -160,7 +163,7 @@ iframe[name="google_conversion_frame"]{
 }
 li.buy-ticket a:hover{
 	background: url(../img/button-buy.png) no-repeat center left;
-	background-size:cover; 
+	background-size:cover;
 }
 
 .header .languages{
@@ -679,7 +682,7 @@ ul.social li a.vk{
 
 /* Block 2 mobile */
 @media (max-width: 640px){
-	
+
     .block2 .title {
 	    margin-bottom: 32px;
 	    font-size:48px;
@@ -703,7 +706,7 @@ ul.social li a.vk{
 		margin:0;
 		padding:50px;
 	}
-   
+
 }
 
 .tabs{
@@ -749,7 +752,7 @@ ul.social li a.vk{
 	margin-bottom:0;
 }
 .tabs ul li:hover,
-.tabs ul li.active, 
+.tabs ul li.active,
 .tabs ul li.active:hover{
     color:#46c765;
     border-bottom: 2px solid #46c765;
@@ -806,23 +809,23 @@ ul.social li a.vk{
 }
 #block-slider .cycle-slideshow .cycle-slide:nth-child(1){
 	background: url(../img/bg-block2-bottom.jpg) no-repeat center;
-	background-size: cover; 
+	background-size: cover;
 }
 #block-slider .cycle-slideshow .cycle-slide:nth-child(2){
 	background: url(../img/bg-block2-bottom.jpg) no-repeat center;
-	background-size: cover; 
+	background-size: cover;
 }
 #block-slider .cycle-slideshow .cycle-slide:nth-child(3){
 	background: url(../img/bg-block2-bottom6.jpg) no-repeat center;
-	background-size: cover; 
+	background-size: cover;
 }
 #block-slider .cycle-slideshow .cycle-slide:nth-child(4){
 	background: url(../img/bg-block2-bottom5.jpg) no-repeat center;
-	background-size: cover; 
+	background-size: cover;
 }
 #block-slider .cycle-slideshow .cycle-slide:nth-child(5){
 	background: url(../img/bg-block2-bottom4.jpg) no-repeat center;
-	background-size: cover; 
+	background-size: cover;
 }
 #block-slider .title{
 	font-size:41px;
@@ -902,7 +905,7 @@ ul.social li a.vk{
 	height: 15px;
 	border-radius: 50px;
 	background-color: #fff;
-	cursor: pointer; 
+	cursor: pointer;
 	text-indent: -9999px;
 	margin: 0 20px;
 	position: relative;
@@ -1841,7 +1844,7 @@ ul.social li a.vk{
 	font-size:14px;
 	line-height: 160%;
 	padding: 5px 20px;
-	border-bottom: 1px solid #fff 
+	border-bottom: 1px solid #fff
 }
 .block8 .pay-container .pay-block .pay-text:last-child {
 	border-bottom: none;
@@ -2008,19 +2011,19 @@ ul.social li a.vk{
 
 .block-cryptoclass .block-center li.first{
 	background:url("../img/item1.png") no-repeat center top;
-	background-size: contain; 
+	background-size: contain;
 }
 .block-cryptoclass .block-center li.second{
 	background: url("../img/item2.png") no-repeat center top;
-	background-size: contain; 
+	background-size: contain;
 }
 .block-cryptoclass .block-center li.third{
 	background: url("../img/item3.png") no-repeat center top;
-	background-size: contain; 
+	background-size: contain;
 }
 .block-cryptoclass .block-center li.fouth{
 	background: url("../img/item4.png") no-repeat center top;
-	background-size: contain; 
+	background-size: contain;
 }
 
 .block-cryptoclass .block-bottom{
@@ -2072,7 +2075,7 @@ ul.social li a.vk{
 	}
 	.block8 .pay-container {
 	    clear: both;
-	    float: none; 
+	    float: none;
 	    width: 100%;
 	    display: table;
 	    position: relative;
@@ -2190,7 +2193,7 @@ ul.social li a.vk{
 	margin-bottom:50px;
 	color:#222;
 	padding-bottom:45px;
-	float:left;	
+	float:left;
 }
 .block9 .center {
 	position: relative;
@@ -2385,7 +2388,7 @@ ul.social li a.vk{
 	bottom:-15px;
 	left:50%;
 	margin-left:-4px;
-	border: 8px solid transparent;	
+	border: 8px solid transparent;
 	border-top: 8px solid #77d55b;
 }
 
@@ -2589,7 +2592,7 @@ ul.social li a.vk{
 	.block9-bottom .bottom .div-parking .p {
 	    width: 29px;
 	    height: 29px;
-	    margin-right: 18px; 
+	    margin-right: 18px;
 	}
 }
 
@@ -2726,7 +2729,7 @@ ul.social li a.vk{
 	    max-height: 80px;
 	    max-width: 120px;
 	}
-	.block10 .slider-mobile .prev, 
+	.block10 .slider-mobile .prev,
 	.block10 .slider-mobile .next {
 		top: 196px;
 	}
@@ -3297,7 +3300,7 @@ a.button-exit{
 .registration-form .jq-selectbox__select:after{
 	content: '';
 	display: block;
-	width: 8px; 
+	width: 8px;
 	height: 8px;
 	position: absolute;
 	top: 15px;
@@ -3384,7 +3387,7 @@ a.button-exit{
 /*  */
 
 #modal_form {
-	width: 854px; 
+	width: 854px;
 	height: 480px; /* Рaзмеры дoлжны быть фиксирoвaны */
 	position: fixed; /* чтoбы oкнo былo в видимoй зoне в любoм месте */
 	top: 45%; /* oтступaем сверху 45%, oстaльные 5% пoдвинет скрипт */
@@ -3443,7 +3446,7 @@ a.button-exit{
 	opacity:0.8; /* нo немнoгo прoзрaчнa */
 	-moz-opacity:0.8; /* фикс прозрачности для старых браузеров */
 	filter:alpha(opacity=80);
-	width:100%; 
+	width:100%;
 	height:100%; /* рaзмерoм вo весь экрaн */
 	top:0; /* сверху и слевa 0, oбязaтельные свoйствa! */
 	left:0;
@@ -3670,7 +3673,7 @@ a.button-exit{
 	header ul.menu li.buy-ticket a{
 		background: #FF9600;
 		margin:0;
-	} 
+	}
 }
 
 @media screen and (max-width: 1024px){
@@ -4319,7 +4322,7 @@ a.button-exit{
 }
 .menuWrap_2D.__jfakecls {
 	display: none;
-} 
+}
 @media (max-width: 640px){
 	.page-sponsor .center {
     	width: 640px;
@@ -4327,7 +4330,7 @@ a.button-exit{
 	.wrapper--page-sponsor {
 		float: left;
 	}
-} 
+}
 
 /* block title */
 .block--sponsor-title {
@@ -4429,7 +4432,7 @@ a.button-exit{
 	    top: 181px;
 	    left: 0;
 	}
-	.block--sponsor--declare-your-company .grid .col-1, 
+	.block--sponsor--declare-your-company .grid .col-1,
 	.block--sponsor--declare-your-company .grid .col-3 {
 		width: 255px;
 	}
@@ -4502,7 +4505,7 @@ a.button-exit{
 		padding-bottom: 68px;
 		height: auto;
 	}
-	.block--advantages .center, 
+	.block--advantages .center,
 	.block--declare-yourself .center {
 		width: 590px;
 		padding: 57px 0 49px 44px;
@@ -4777,7 +4780,7 @@ a.button-exit{
 		margin: 0 auto!important;
 		float: none!important;
 	}
-	.block--video .slider-mobile .prev, 
+	.block--video .slider-mobile .prev,
 	.block--video .slider-mobile .next {
 	    top: 71px;
 	}
@@ -4963,4 +4966,48 @@ a.button-exit{
 	line-height: 20px;
 	text-decoration: underline;
 	text-align: left;
+}
+
+.b-buy-now {
+	margin-top: 20px;
+}
+
+.b-buy-now .pay-block {
+	padding: 0!important;
+}
+
+.b-buy-now .pay-block:last-child {
+	margin-right: 0;
+}
+
+.b-buy-now__mobile button,
+.b-buy-now button {
+	color: #ffffff!important;
+	height: 60px;
+	background: #c7cbcd!important;
+	opacity: 1!important;
+	width: 100%;
+	font-size: 18px!important;
+	text-shadow: none!important;
+	border-radius: 0!important;
+	text-transform: none!important;
+	box-shadow: none!important;
+}
+
+.b-buy-now button:hover {
+	color: #222222!important;
+	background: #f9f9f9!important;
+}
+
+.b-buy-now__mobile {
+	margin-top: 20px;
+	width: 450px;
+	float: right;
+	position: absolute;
+	bottom: -75px;
+	right: 21px;
+}
+
+.b-buy-now__mobile button {
+	background: #ff9600!important;
 }
