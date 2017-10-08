@@ -366,3 +366,17 @@ $("#overlay, #modal_close").on("click", function(){
     youtubeVideoPlayer4.stopVideo();
     $('body').removeClass('hidden');
 });
+
+$(".b-program__preview").on("click", function () {
+    $(this).toggleClass('is-active');
+});
+
+$(".b-programm__description .open").on("click", function () {
+    $(this).parent().toggleClass('is-active');
+    $(this).toggleClass('hide');
+});
+
+$(".b-programm__description .close").on("click", function () {
+    $(this).parent().parent().toggleClass('is-active');
+    $(this).parent().parent().find('.open').toggleClass('hide');
+});
