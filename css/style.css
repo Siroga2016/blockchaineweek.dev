@@ -3427,6 +3427,7 @@ a.button-exit{
 }
 
 /* Кнoпкa зaкрыть для тех ктo в тaнке) */
+.modal_close,
 #modal_close {
 	width: 21px;
 	height: 21px;
@@ -3437,6 +3438,14 @@ a.button-exit{
 	display: block;
 	color: #fff;
 	font-size:30px;
+}
+
+@media (max-width: 640px) {
+    .modal_close,
+    #modal_close {
+        top: -45px;
+        right: 60px;
+    }
 }
 /* Пoдлoжкa */
 #overlay {
@@ -4872,6 +4881,9 @@ a.button-exit{
 .b-sponsor__img.prizm {
 	background-image: url('../img/prizm_logo.png');
 }
+.b-sponsor__img.prizm_white {
+    background-image: url('../img/prizm_logo_white.png');
+}
 .b-sponsor__img.smschain {
 	background-image: url('../img/SMSCHAIN-logo.png');
 }
@@ -4938,6 +4950,7 @@ a.button-exit{
 	color: #ffffff;
 	margin-bottom: 25px;
 	padding: 20px 20px 20px 0;
+    max-height: 350px;
 }
 
 @media (max-width: 640px) {
@@ -4956,6 +4969,15 @@ a.button-exit{
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 24px;
+}
+
+.b-sponsor__popup-text p {
+    margin-bottom: 10px;
+}
+
+.b-sponsor__popup-text a {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
 }
 
 .b-sponsor__presentation {
@@ -5016,7 +5038,6 @@ a.button-exit{
     display: block;
 	float: left;
 	width: 100%;
-	padding:  0 0 60px 0;
 	position: relative;
 }
 
@@ -5042,6 +5063,7 @@ a.button-exit{
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 35px;
+    margin-top: 75px;
 }
 
 .b-program__header .title {
@@ -5117,7 +5139,7 @@ a.button-exit{
 	display: flex;
 	flex-flow: row nowrap;
 	color: #000000;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: normal;
 	text-transform: uppercase;
 	margin: 20px 0;
@@ -5242,7 +5264,7 @@ a.button-exit{
 	background-color: #b8d1fd;
 	padding: 45px 0;
 	color: #000000;
-	font-size: 20px;
+	font-size: 18px;
 	text-align: center;
 	margin: 15px 0;
 }
@@ -5364,9 +5386,7 @@ a.button-exit{
 }
 
 .b-programm__table-item_full .b-programm__table-item-photo {
-    width: 50%;
     order: 1;
-    margin-right: 0;
     margin-bottom: 20px;
     align-items: center;
     justify-content: center;
