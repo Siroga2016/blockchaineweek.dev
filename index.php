@@ -637,7 +637,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 					<div class="img"><img src="img/stukolov.png" alt="img"/></div>
 					<div class="name">Павел Стуколов</div>
 					<div class="about-people">
-						CEO Token Stars
+						CEO TokenStars
 					</div>
 				</div>
 
@@ -923,7 +923,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 						<div class="img"><img src="img/stukolov.png" alt="img"/></div>
 						<div class="name">Павел Стуколов</div>
 						<div class="about-people">
-							CEO Token Stars
+							CEO TokenStars
 						</div>
 					</div>
 
