@@ -1566,6 +1566,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 									<a target="_blank" href="http://www.mvexpo.ru/ "><img src="img/logo-partners/mvexpo-200x100.gif" alt="img"/></a>
 									<a target="_blank" href="http://www.moneyinformer.ru/ "><img src="img/logo-partners/mi_logo-200.png" alt="img"/></a>
 									<a target="_blank" href="https://altcoin.info/ "><img src="img/logo-partners/alt_rounded.png" alt="img"/></a>
+									<a target="_blank" href="http://www.iksmedia.ru"><img src="img/logo-partners/IKS-media.jpg" alt="img"/></a>
 								</div>
 							</div>
 						</div>
@@ -1661,6 +1662,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 						<a target="_blank" href="http://www.mvexpo.ru/ "><img src="img/logo-partners/mvexpo-200x100.gif" alt="img"/></a>
 						<a target="_blank" href="http://www.moneyinformer.ru/ "><img src="img/logo-partners/mi_logo-200.png" alt="img"/></a>
 						<a target="_blank" href="https://altcoin.info/ "><img src="img/logo-partners/alt_opacity100.png" alt="img"/></a>
+						<a target="_blank" href="http://www.iksmedia.ru"><img src="img/logo-partners/IKS-media.jpg" alt="img"/></a>
 
 					</div>
 				</div>
