@@ -742,13 +742,13 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 					<div class="img"><img src="img/speakers/muratov.jpg" alt="img"/></div>
 					<div class="name">Алексей Муратов </div>
 					<div class="about-people">
-						Основатель Prizm 
+						Основатель криптовалюты PRIZM
 					</div>
 				</div>
 
 				<div class="block hide">
 					<div class="img"><img src="img/speakers/julin.jpg" alt="img"/></div>
-					<div class="name">Артем Жилин </div>
+					<div class="name">Артем Жилин</div>
 					<div class="about-people">
 						COO Gelios
 					</div>
@@ -872,7 +872,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 						<div class="img"><img src="img/speakers/muratov.jpg" alt="img"/></div>
 						<div class="name">Алексей Муратов </div>
 						<div class="about-people">
-							Основатель Prizm 
+							Основатель криптовалюты PRIZM
 						</div>
 					</div>
 				</div>
@@ -1585,6 +1585,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 									<a target="_blank" href="http://www.moneyinformer.ru/ "><img src="img/logo-partners/mi_logo-200.png" alt="img"/></a>
 									<a target="_blank" href="https://altcoin.info/ "><img src="img/logo-partners/alt_opacity100.png" alt="img"/></a>
 									<a target="_blank" href="http://www.iksmedia.ru"><img src="img/logo-partners/IKS-media.jpg" alt="img"/></a>
+									<a target="_blank" href="iDealMachine.jpg"><img src="img/logo-partners/iDealMachine.jpg" alt="img"/></a>
 								</div>
 							</div>
 						</div>
@@ -1681,6 +1682,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 						<a target="_blank" href="http://www.moneyinformer.ru/ "><img src="img/logo-partners/mi_logo-200.png" alt="img"/></a>
 						<a target="_blank" href="https://altcoin.info/ "><img src="img/logo-partners/alt_opacity100.png" alt="img"/></a>
 						<a target="_blank" href="http://www.iksmedia.ru"><img src="img/logo-partners/IKS-media.jpg" alt="img"/></a>
+						<a target="_blank" href="iDealMachine.jpg"><img src="img/logo-partners/iDealMachine.jpg" alt="img"/></a>
 
 					</div>
 				</div>
