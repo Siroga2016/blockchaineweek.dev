@@ -4713,6 +4713,17 @@ a.button-exit{
 	clear: both;
 	padding-top: 78px;
 	padding-bottom: 94px;
+	float:left;
+	width:100%;
+}
+.block--video.mobile{
+	display: none
+}
+.block--video.desktop{
+	display: block
+}
+.block--video.desktop .center{
+	overflow: hidden;
 }
 .block--video .title {
     font-size: 54px;
@@ -4737,11 +4748,39 @@ a.button-exit{
 .block--video .list {
 	display: table;
 }
+.block--video .list.desktop-version{
+	width:100%;
+	display:block;
+}
+.block--video .list.desktop-version .video  img{
+	max-width:100%;
+}
+.block--video.desktop .cycle-slide{
+	white-space: nowrap;
+	vertical-align: top;
+	font-size: 0;
+}
+.block--video.mobile .cycle-slide{
+	vertical-align: top;
+	font-size: 0;
+	width:100%;
+	text-align:center;
+}
 .block--video .video {
-	float: left;
+	float:left;
 	width: 350px;
 	text-align: center;
 	margin-right: 59px;
+	vertical-align: top;
+}
+.block--video.desktop .video {
+	display:inline-block;
+	float:none;
+}
+.block--video.mobile .video {
+	display:inline-block;
+	float:none;
+	margin:0 auto;
 }
 .block--video .video .name {
 	color: #222222;
@@ -4754,7 +4793,31 @@ a.button-exit{
 	font-size: 16px;
 	font-family: "GothamProRegular";
 	line-height: 155%;
+	white-space: normal;
 }
+
+
+.block--video .list.desktop-version  .prev,
+.block--video .list.desktop-version  .next {
+	display: block;
+	position: absolute;
+	top: 208px;
+	width: 43px;
+	height: 54px;
+	z-index: 500;
+}
+.block--video .list.desktop-version  .prev {
+	background: #78d55b url(../img/ic-arrow-prev-white.png) no-repeat center;
+	left: 0;
+}
+.block--video .list.desktop-version  .next {
+	background: #78d55b url(../img/ic-arrow-next-white.png) no-repeat center;
+	right: 0;
+}
+.block--video .list.desktop-version .cycle-slide{
+	vertical-align: top;
+}
+
 
 @media (min-width: 641px){
 	.block--video .slider-mobile {
@@ -4775,6 +4838,7 @@ a.button-exit{
 	.block--video .slider-mobile .nav {
 		display: none;
 	}
+	
 }
 @media (max-width: 640px){
 	.block--video .slider-mobile {
@@ -4792,6 +4856,16 @@ a.button-exit{
 	.block--video .slider-mobile .prev,
 	.block--video .slider-mobile .next {
 	    top: 71px;
+	}
+	.block--video.mobile{
+		display:block;
+	}
+	.block--video.desktop{
+		display: none
+	}
+	.block--video.mobile .list.desktop-version  .prev,
+	.block--video.mobile .list.desktop-version  .next {
+		top: 270px;
 	}
 }
 @media (min-width: 641px) {

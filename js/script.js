@@ -318,6 +318,29 @@ $(document).ready(function() {
         if ($(this).hasClass('video-3')){
             youtubeVideoPlayer3.playVideo();
         }
+        if ($(this).hasClass('video-5')){
+            youtubeVideoPlayer5.playVideo();
+        }
+        if ($(this).hasClass('video-6')){
+            youtubeVideoPlayer6.playVideo();
+        }
+
+
+         if ($(this).hasClass('video-11')){
+            youtubeVideoPlayer11.playVideo();
+        }
+        if ($(this).hasClass('video-22')){
+            youtubeVideoPlayer22.playVideo();
+        }
+        if ($(this).hasClass('video-33')){
+            youtubeVideoPlayer33.playVideo();
+        }
+        if ($(this).hasClass('video-55')){
+            youtubeVideoPlayer55.playVideo();
+        }
+        if ($(this).hasClass('video-66')){
+            youtubeVideoPlayer66.playVideo();
+        }
     });
 
 

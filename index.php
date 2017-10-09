@@ -1040,22 +1040,24 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 	    </div>
 	</div>
 
-	<div class="block--video">
+	
+
+	<div class="block--video desktop">
 		<div class="center">
 			<div class="title">Интервью со спикерами</div>
-			<div class="list slider-mobile">
+			<div class="list desktop-version">
 			    <div class="nav">
-			        <span class="prev" id="block-video-prev"></span>
-			        <span class="next" id="block-video-next"></span>
+			        <span class="prev" id="block-video-prev2"></span>
+			        <span class="next" id="block-video-next2"></span>
 			    </div>
 
 			    <div class="cycle-slideshow" 
-			        data-cycle-fx=scrollHorz
-			        data-cycle-timeout=0
-			        data-cycle-prev="#block-video-prev"
-			        data-cycle-next="#block-video-next"
-			        data-cycle-slides="> div"
-			        >
+			    data-cycle-fx="scrollHorz"
+			     data-cycle-timeout=0
+			      data-cycle-prev="#block-video-prev2"
+			       data-cycle-next="#block-video-next2"
+			        data-cycle-slides="> div" >
+
 			        <div>
 						<div class="video">
 		 					<div class="preview video-1">
@@ -1065,8 +1067,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 		 					<div class="name">Дмитрий Булычков</div>
 		 					<div class="desc">Директор проектов Центра технологических инноваций Сбербанка</div>
 						</div>
-					</div>
-					<div>
+
 						<div class="video">
 		 					<div class="preview video-2">
 		 						<img src="img/video-preview-2.jpg"/>
@@ -1075,8 +1076,6 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 		 					<div class="name">Максим Азрильян</div>
 		 					<div class="desc">Главный технический архитектор <br />Альфа-Банка</div>
 						</div>
-					</div>
-					<div>
 						<div class="video">
 		 					<div class="preview video-3">
 		 						<img src="img/video-preview-3.jpg"/>
@@ -1086,10 +1085,104 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 		 					<div class="desc">Управляющий партнер <br />bits.capital</div>
 						</div>
 					</div>
+
+					<div>
+						<div class="video">
+		 					<div class="preview video-5">
+		 						<img src="img/video-preview-4.jpg"/>
+		  						<div id="youtube-video-5"></div>
+		 					</div>
+		 					<div class="name">Алексей Федоров</div>
+		 					<div class="desc">Научный сотрудник Российского квантового центра, создатель «квантового блокчейна»</div>
+						</div>
+
+						<div class="video">
+		 					<div class="preview video-6">
+		 						<img src="img/video-preview-5.jpg"/>
+		  						<div id="youtube-video-6"></div>
+		 					</div>
+		 					<div class="name">Ярослав Кабаков</div>
+		 					<div class="desc">Заместитель генерального директора АО «Инвестиционная компания «ФИНАМ»</div>
+						</div>
+					</div>
+
 			    </div>
 		    </div>
 		</div>
 	</div>
+
+	<div class="block--video mobile">
+		<div class="center">
+			<div class="title">Интервью со спикерами</div>
+			<div class="list desktop-version">
+			    <div class="nav">
+			        <span class="prev" id="block-video-prev"></span>
+			        <span class="next" id="block-video-next"></span>
+			    </div>
+
+			    <div class="cycle-slideshow" 
+			    data-cycle-fx="scrollHorz"
+			     data-cycle-timeout=0
+			      data-cycle-prev="#block-video-prev"
+			       data-cycle-next="#block-video-next"
+			        data-cycle-slides="> div" >
+
+			        <div>
+						<div class="video">
+		 					<div class="preview video-11">
+		 						<img src="img/video-preview-1.jpg" />
+		 						<div id="youtube-video-11"></div>
+		 					</div>
+		 					<div class="name">Дмитрий Булычков</div>
+		 					<div class="desc">Директор проектов Центра технологических инноваций Сбербанка</div>
+						</div>
+					</div>
+					<div>
+						<div class="video">
+		 					<div class="preview video-22">
+		 						<img src="img/video-preview-2.jpg"/>
+		  						<div id="youtube-video-22"></div>
+		 					</div>
+		 					<div class="name">Максим Азрильян</div>
+		 					<div class="desc">Главный технический архитектор <br />Альфа-Банка</div>
+						</div>
+					</div>
+					<div>
+						<div class="video">
+		 					<div class="preview video-33">
+		 						<img src="img/video-preview-3.jpg"/>
+		  						<div id="youtube-video-33"></div>
+		 					</div>
+		 					<div class="name">Степан Гершуни</div>
+		 					<div class="desc">Управляющий партнер <br />bits.capital</div>
+						</div>
+					</div>
+					<div>
+						<div class="video">
+		 					<div class="preview video-55">
+		 						<img src="img/video-preview-4.jpg"/>
+		  						<div id="youtube-video-55"></div>
+		 					</div>
+		 					<div class="name">Алексей Федоров</div>
+		 					<div class="desc">Научный сотрудник Российского квантового центра, создатель «квантового блокчейна»</div>
+						</div>
+					</div>
+					<div>
+						<div class="video">
+		 					<div class="preview video-66">
+		 						<img src="img/video-preview-5.jpg"/>
+		  						<div id="youtube-video-66"></div>
+		 					</div>
+		 					<div class="name">Ярослав Кабаков</div>
+		 					<div class="desc">Заместитель генерального директора АО «Инвестиционная компания «ФИНАМ»</div>
+						</div>
+					</div>
+
+			    </div>
+		    </div>
+		</div>
+	</div>
+
 	<div class="block5" id="block5">
 		<div class="center">
 			<div class="left">
@@ -1713,6 +1806,47 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
       videoId: 'VlYQc-RtCCU'
     });
 
+    youtubeVideoPlayer5 = new YT.Player('youtube-video-5', {
+      height: '196',
+      width: '350',
+      videoId: 'tI5qy4ftZKc'
+    });
+
+    youtubeVideoPlayer6 = new YT.Player('youtube-video-6', {
+      height: '196',
+      width: '350',
+      videoId: '9v5iBKUK7_4'
+    });
+
+    youtubeVideoPlayer11 = new YT.Player('youtube-video-11', {
+      height: '196',
+      width: '350',
+      videoId: '7xF6JHkuDOw'
+    });
+
+    youtubeVideoPlayer22 = new YT.Player('youtube-video-22', {
+      height: '196',
+      width: '350',
+      videoId: 'SqPRWf7UqDA'
+    });
+
+    youtubeVideoPlayer33 = new YT.Player('youtube-video-33', {
+      height: '196',
+      width: '350',
+      videoId: 'GnYXuQjPSbQ'
+    });
+
+    youtubeVideoPlayer55 = new YT.Player('youtube-video-55', {
+      height: '196',
+      width: '350',
+      videoId: 'tI5qy4ftZKc'
+    });
+
+    youtubeVideoPlayer66 = new YT.Player('youtube-video-66', {
+      height: '196',
+      width: '350',
+      videoId: '9v5iBKUK7_4'
+    });
   }
 </script>
 
