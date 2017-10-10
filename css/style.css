@@ -127,7 +127,7 @@ iframe[name="google_conversion_frame"]{
 	box-sizing: inherit;
 	color:#fff;
 	float:left;
-	padding:15px 15px;
+	padding:15px 8px;
 	border-left:1px solid #fff;
 	border-top:1px solid #fff;
 	border-bottom:1px solid #fff;
@@ -215,7 +215,7 @@ li.buy-ticket a:hover{
 .header-fixed ul li a,
 .header-fixed ul li button {
 	color: #000000;
-	padding: 0 15px;
+	padding: 0 8px;
 	height: 60px;
 	line-height: 60px;
 	font-size: 14px;
