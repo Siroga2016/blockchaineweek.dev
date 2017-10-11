@@ -783,6 +783,14 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 					</div>
 				</div>
 
+				<div class="block hide">
+					<div class="img"><img src="img/speakers/insarov.jpg" alt="img"/></div>
+					<div class="name">Андрей Инсаров</div>
+					<div class="about-people">
+						СЕО SMSCHAIN
+					</div>
+				</div>
+
 				<div class="all-speakers hide">
 					<a href="javascript:void(0)" class="show-all-speakers">
 						<span>Скрыть<br>всех</span>
@@ -1079,8 +1087,15 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 							COO Gelios
 						</div>
 					</div>
-
+					<div class="block">
+						<div class="img"><img src="img/speakers/insarov.jpg" alt="img"/></div>
+						<div class="name">Андрей Инсаров</div>
+						<div class="about-people">
+							СЕО SMSCHAIN
+						</div>
+					</div>
 				</div>
+
 
 
 		    </div>
@@ -1346,7 +1361,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                          Директор центра финансовых технологий. Фонд Сколково
                                     </div>
                                     <div class="report">
-                                    	ТЕМА УТОЧНЯЕТСЯ
+                                    	3 очень конкретных совета, которые позволят блокчейн-проекту взлететь
                                     </div>
                                 </div>
                             </div>
@@ -1619,10 +1634,10 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Олег Иванов
                                     </div>
                                     <div class="position">
-                                        Учредитель компании «CryptoBazar»
+                                        CEO и основатель CryptoBazar Fund
                                     </div>
                                     <div class="report">
-                                        Инвестирование в&nbsp;криптовалюты. Инвестирование в проекты до выхода на ICO
+                                        Инвестирование в проекты до выхода на ICO
                                     </div>
                                 </div>
                             </div>
@@ -2825,7 +2840,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                          Директор центра финансовых технологий. Фонд Сколково
                                     </div>
                                     <div class="report">
-                                    	Тема уточняется
+                                    	3 очень конкретных совета, которые позволят блокчейн-проекту взлететь
                                     </div>
                                 </div>
                             </div>
