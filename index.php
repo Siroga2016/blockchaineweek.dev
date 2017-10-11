@@ -1746,7 +1746,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Сооснователь проекта Serenity Financial
                                     </div>
                                     <div class="report">
-                                       
+                                       Альтернативное регулирование Форекс индустрии  с использованием блокчейн технологий.
                                     </div>
                                 </div>
                             </div>
@@ -2483,7 +2483,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                 </div>
                             </div>
 
-                            <div class="b-programm__table-item_right">
+                            <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
                                         13:00
@@ -2555,7 +2555,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                         <div class="b-programm__table-content_half">
                             
 
-                            <div class="b-programm__table-item_right">
+                            <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
                                         16:00
@@ -3220,7 +3220,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Сооснователь проекта Serenity Financial
                                     </div>
                                     <div class="report">
-                                        Тема уточняется
+                                        Альтернативное регулирование Форекс индустрии  с использованием блокчейн технологий.
                                     </div>
                                 </div>
                             </div>
@@ -4702,8 +4702,11 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 									<a target="_blank" href="http://www.moneyinformer.ru/ "><img src="img/logo-partners/mi_logo-200.png" alt="img"/></a>
 									<a target="_blank" href="https://altcoin.info/ "><img src="img/logo-partners/alt_opacity100.png" alt="img"/></a>
 									<a target="_blank" href="http://www.iksmedia.ru"><img src="img/logo-partners/IKS-media.jpg" alt="img"/></a>
-									<a target="_blank" href="iDealMachine.jpg"><img src="img/logo-partners/iDealMachine.jpg" alt="img"/></a>
-									<a target="_blank" href="iDealMachine.jpg"><img src="img/logo-partners/DIT_Logo.jpg" alt="img"/></a>
+									<a target="_blank" href="http://www.idealmachine.ru/"><img src="img/logo-partners/iDealMachine.jpg" alt="img"/></a>
+									<a target="_blank" href="https://www.mos.ru/dit/"><img src="img/logo-partners/DIT_Logo.jpg" alt="img"/></a>
+									<a target="_blank" href="http://sbi.tusur.ru/ "><img src="img/logo-partners/logo-m-top.png" alt="img"/></a>
+									<a target="_blank" href="http://www.bitmoneyekb.com/ "><img src="img/logo-partners/bit-money.png" alt="img"/></a>
+									<a target="_blank" href="http://www.fxstreet.ru.com/"><img src="img/logo-partners/fxs_logo_whiteback_screen.png" alt="img"/></a>
 								</div>
 							</div>
 						</div>
@@ -4800,8 +4803,11 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 						<a target="_blank" href="http://www.moneyinformer.ru/ "><img src="img/logo-partners/mi_logo-200.png" alt="img"/></a>
 						<a target="_blank" href="https://altcoin.info/ "><img src="img/logo-partners/alt_opacity100.png" alt="img"/></a>
 						<a target="_blank" href="http://www.iksmedia.ru"><img src="img/logo-partners/IKS-media.jpg" alt="img"/></a>
-						<a target="_blank" href="iDealMachine.jpg"><img src="img/logo-partners/iDealMachine.jpg" alt="img"/></a>
-						<a target="_blank" href="iDealMachine.jpg"><img src="img/logo-partners/DIT_Logo.jpg" alt="img"/></a>
+						<a target="_blank" href="http://www.idealmachine.ru/"><img src="img/logo-partners/iDealMachine.jpg" alt="img"/></a>
+						<a target="_blank" href="https://www.mos.ru/dit/"><img src="img/logo-partners/DIT_Logo.jpg" alt="img"/></a>
+						<a target="_blank" href="http://sbi.tusur.ru/ "><img src="img/logo-partners/logo-m-top.png" alt="img"/></a>
+						<a target="_blank" href="http://www.bitmoneyekb.com/ "><img src="img/logo-partners/bit-money.png" alt="img"/></a>
+						<a target="_blank" href="http://www.fxstreet.ru.com/"><img src="img/logo-partners/fxs_logo_whiteback_screen.png" alt="img"/></a>
 					</div>
 				</div>
 				<div class="block--become-partner">
