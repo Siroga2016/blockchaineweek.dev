@@ -4289,7 +4289,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
     <div class="b-sponsor__popup">
         <div class="b-sponsor__item-top">
             <div class="b-sponsor__title">PRIZM</div>
-            <div class="b-sponsor__img prizm_white"></div>
+            <a href="http://prizm.club/ru/" target="_blank" class="b-sponsor__img prizm_white"></a>
         </div>
         <div class="b-sponsor__popup-text">
             <p>Полностью росийская разработка Общественного движения CWT. Нет эмиссионого центра, может использоваться
@@ -4361,7 +4361,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
     <div class="b-sponsor__popup">
         <div class="b-sponsor__item-top">
             <div class="b-sponsor__title">SMSCHAIN</div>
-            <div class="b-sponsor__img smschain"></div>
+            <a href="https://smschain.org/" target="_blank" class="b-sponsor__img smschain"></a>
         </div>
         <div class="b-sponsor__popup-text">
             <p>
@@ -4424,7 +4424,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
     <div class="b-sponsor__popup">
         <div class="b-sponsor__item-top">
             <div class="b-sponsor__title">SERENITY FINANCIAL</div>
-            <div class="b-sponsor__img serenity"></div>
+            <a href="Serenity-financial.io" target="_blank" class="b-sponsor__img serenity"></a>
         </div>
         <div class="b-sponsor__popup-text">
             <p><b>Платформа SERENITY&nbsp;FINANCIAL</b> объединяет брокеров любых юрисдикций и&nbsp;трейдеров со&nbsp;всего мира. Благодаря
