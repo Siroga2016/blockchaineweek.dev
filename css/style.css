@@ -5257,7 +5257,11 @@ a.button-exit{
 .b-programm__table-item-text {
 	display: flex;
 }
-
+.b-programm__table-item-photo img{
+	width:123px;
+	height:123px;
+	border-radius: 50%
+}
 .b-programm__table-item-time {
 	width: 55px;
 	flex-direction: column;

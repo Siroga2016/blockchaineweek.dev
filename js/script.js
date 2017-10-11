@@ -324,6 +324,9 @@ $(document).ready(function() {
         if ($(this).hasClass('video-6')){
             youtubeVideoPlayer6.playVideo();
         }
+        if ($(this).hasClass('video-7')){
+            youtubeVideoPlayer7.playVideo();
+        }
 
 
          if ($(this).hasClass('video-11')){
@@ -341,6 +344,7 @@ $(document).ready(function() {
         if ($(this).hasClass('video-66')){
             youtubeVideoPlayer66.playVideo();
         }
+        
     });
 
 
