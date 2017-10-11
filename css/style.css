@@ -5125,6 +5125,10 @@ a.button-exit{
 	position: relative;
 }
 
+.b-programm__table-item-text.registration-text{
+	margin-left:145px;
+}
+
 @media (max-width: 640px){
 	.b-program {
 		display: none;

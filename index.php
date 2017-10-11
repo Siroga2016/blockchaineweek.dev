@@ -791,6 +791,14 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 					</div>
 				</div>
 
+				<div class="block hide">
+					<div class="img"><img src="img/speakers/vasin.jpg" alt="img"/></div>
+					<div class="name">Антон Васин</div>
+					<div class="about-people">
+						Сооснователь проекта Serenity Financial
+					</div>
+				</div>
+
 				<div class="all-speakers hide">
 					<a href="javascript:void(0)" class="show-all-speakers">
 						<span>Скрыть<br>всех</span>
@@ -1092,6 +1100,14 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 						<div class="name">Андрей Инсаров</div>
 						<div class="about-people">
 							СЕО SMSCHAIN
+						</div>
+					</div>
+
+					<div class="block">
+						<div class="img"><img src="img/speakers/vasin.jpg" alt="img"/></div>
+						<div class="name">Антон Васин</div>
+						<div class="about-people">
+							Сооснователь проекта Serenity Financial
 						</div>
 					</div>
 				</div>
@@ -1414,21 +1430,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
-                            <div class="b-programm__table-item_right">
-                                <div class="b-programm__table-item-time">
-                                    <div class="time-start">
-                                        11:40
-                                    </div>
-                                    <div class="time-end">
-                                        12:00
-                                    </div>
-                                </div>
-                                <div class="b-programm__table-item-text">
-                                    <div class="name">
-                                        Кофе брейк
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                         <div class="b-programm__table-content_half">
 
@@ -1441,7 +1443,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         10:00
                                     </div>
                                 </div>
-                                <div class="b-programm__table-item-text">
+                                <div class="b-programm__table-item-text registration-text">
                                     <div class="name">
                                         Регистрация
                                     </div>
@@ -1690,10 +1692,26 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div class="b-programm__table-item_right">
-                                <div class="b-programm__table-item_default">
-                                    Панельная дискуссия. <br>"Криптовалюты 2018. Мнения экспертов"
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        13:45
+                                    </div>
+                                    <div class="time-end">
+                                        14:00
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="img/speakers/default2.jpg" alt="">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        
+                                    </div>
+                                    <div class="report">
+                                    	Панельная дискуссия. <br>"Криптовалюты 2018. Мнения экспертов"
+                                    </div>
                                 </div>
                             </div>
 
@@ -1860,12 +1878,10 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Антон Зазимонец
                                     </div>
                                     <div class="position">
-                                        
-                                        CEO<br>
-										Iskander ICOFund
+                                        CEO Iskander ICOFund
                                     </div>
                                     <div class="report">
-                                        Как повысить капитализацию блокчейн проекта. Создание экономической модели токена для&nbsp;ICO
+                                        ТЕМА УТОЧНЯЕТСЯ
                                     </div>
                                 </div>
                             </div>
@@ -2136,6 +2152,22 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                     </div>
                     <div class="b-programm__table-content">
                         <div class="b-programm__table-content_half">
+                            
+                        	<div class="b-programm__table-item_right">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        9:00
+                                    </div>
+                                    <div class="time-end">
+                                        10:00
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-text registration-text">
+                                    <div class="name">
+                                        Регистрация
+                                    </div>
+                                </div>
+                            </div>
                             <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -2210,6 +2242,23 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                             </div>
                         </div>
                         <div class="b-programm__table-content_half">
+                            
+                            <div class="b-programm__table-item_left">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        9:00
+                                    </div>
+                                    <div class="time-end">
+                                        10:00
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-text registration-text">
+                                    <div class="name">
+                                        Регистрация
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -2377,7 +2426,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                             <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        14:00
+                                        13:30
                                     </div>
                                     <div class="time-end">
                                         15:00
@@ -2396,12 +2445,6 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     <div class="report">
                                     	
                                     </div>
-                                </div>
-                            </div>
-
-                            <div class="b-programm__table-item_right">
-                                <div class="b-programm__table-item_default">
-                                    Панельная дискуссия
                                 </div>
                             </div>
 
@@ -2454,7 +2497,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Основатель DAO.Finance и iVenturer
                                     </div>
                                     <div class="report">
-                                        Как защитить корпоративные сети с помощью блокчейна?
+                                        Тема уточняется
                                     </div>
                                 </div>
                             </div>
@@ -2489,7 +2532,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         13:00
                                     </div>
                                     <div class="time-end">
-                                        15:00
+                                        14:00
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -2504,6 +2547,32 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                     <div class="report">
                                     	Тема уточняется
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="b-programm__table-item_left">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        14:00
+                                    </div>
+                                    <div class="time-end">
+                                        15:00
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/speakers/technopark-ava.jpg" alt="img">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Модератор: Павел Новиков;
+										Технопарк Сколкого.
+                                    </div>
+                                    <div class="position">
+                                    </div>
+                                    <div class="report">
+                                    	Питч-сессия с голосованием.<br>
+										«Технологические блокчейн-проекты Сколково»
                                     </div>
                                 </div>
                             </div>
@@ -2579,8 +2648,6 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
-
-                             
 
                         </div>
                     </div>
@@ -2894,11 +2961,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
-                             <div class="b-programm__table-item-text">
-                                <div class="name">
-                                    Кофе брейк
-                                </div>
-                            </div>
+                             
 
                         </div>
                     </div>
@@ -3144,7 +3207,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="Алексей Муратов">
+                                    <img src="../img/speakers/muratov.jpg" alt="Алексей Муратов">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
@@ -3159,12 +3222,24 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                 </div>
                             </div>
 
-                            <div class="b-programm__table-item_right">
-                                <div class="b-programm__table-item_default">
-                                    Панельная дискуссия. <br>"Криптовалюты 2018. Мнения экспертов"
+                            <div class="b-programm__table-item_full">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        13:45
+                                    </div>
+                                    <div class="time-end">
+                                        14:00
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+
+                                    </div>
+                                    <div class="report">
+                                       Панельная дискуссия. <br>"Криптовалюты 2018. Мнения экспертов"
+                                    </div>
                                 </div>
                             </div>
-
 
                         </div>
                     </div>
@@ -3922,7 +3997,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Основатель DAO.Finance и iVenturer
                                     </div>
                                     <div class="report">
-                                        Как защитить корпоративные сети с помощью блокчейна?
+                                        ТЕМА УТОЧНЯЕТСЯ
                                     </div>
                                 </div>
                             </div>
@@ -4614,7 +4689,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 									<a target="_blank" href="https://www.finam.ru/"><img src="img/logo-partners/finam.png" alt="img" style="max-height: 113px; margin-top: -19px;"/></a>
 									<a target="_blank" href="http://learn.alfabank.ru/"><img src="img/logo-partners/logo-alfa.jpg" alt="img"/></a>
 									<a target="_blank" href="http://lp.mmgp.ru/7"><img src="img/logo-partners/logo_mmgp.png" alt="img"/></a>
-									<a target="_blank" href="https://ru.tradingview.com/"><img src="img/logo-partners/logo-teletrade.jpg" alt="img"/></a>
+									<a target="_blank" href="https://ru.tradingview.com/"><img src="img/logo-partners/tradingview.svg" alt="img"/></a>
 									<a target="_blank" href="https://alfabank.ru/"><img src="img/logo-partners/alfabank.png" alt="img"/></a>
 								</div>
 							</div>
@@ -4722,7 +4797,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 					<a target="_blank" href="https://www.finam.ru/" class="big"><img src="img/logo-partners/finam.png" alt="img" style="max-height: 113px; margin-top: -19px;"/></a>
 					<a target="_blank" href="http://learn.alfabank.ru/" class="big"><img src="img/logo-partners/logo-alfa.jpg" alt="img"/></a>
 					<a target="_blank" href="http://lp.mmgp.ru/7" class="big"><img src="img/logo-partners/logo_mmgp.png" alt="img"/></a>
-					<a target="_blank" href="https://ru.tradingview.com/" class="big"><img style="width:120px" src="img/logo-partners/logo-teletrade.jpg" alt="img"/></a>
+					<a target="_blank" href="https://ru.tradingview.com/" class="big"><img style="width:120px" src="img/logo-partners/tradingview.svg" alt="img"/></a>
 					<a target="_blank" href="https://alfabank.ru/" class="big"><img style="max-width:250px" src="img/logo-partners/alfabank.png" alt="img"/></a>
 
 					<p style="margin-top: 30px;">Инновационный партнер</p>
