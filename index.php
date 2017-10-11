@@ -1982,7 +1982,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="Андрей Инсаров">
+                                    <img src="img/speakers/insarov.jpg" alt="img"/>
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
@@ -3458,7 +3458,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="Андрей Инсаров">
+                                    <img src="img/speakers/insarov.jpg" alt="img"/>
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
