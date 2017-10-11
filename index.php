@@ -1151,6 +1151,15 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 		 					<div class="name">Ярослав Кабаков</div>
 		 					<div class="desc">Заместитель генерального директора АО «Инвестиционная компания «ФИНАМ»</div>
 						</div>
+
+						<div class="video">
+		 					<div class="preview video-7">
+		 						<img src="img/video-preview-6.jpg"/>
+		  						<div id="youtube-video-7"></div>
+		 					</div>
+		 					<div class="name">Артём Гуревич</div>
+		 					<div class="desc">Co-founder Get Crypto</div>
+						</div>
 					</div>
 
 			    </div>
@@ -1265,7 +1274,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 		</div>
 	</div>
 
-    <div id="programm" class="l-program">
+  <div id="programm" class="l-program">
         <div class="b-program">
             <div class="center">
                 <div class="b-program__header">
@@ -1291,21 +1300,64 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                     </div>
                     <div class="b-program__table-title">
                         <div class="b-program__table-title_half">
-                            Принципы технологии, основы
+                            Принципы технологии блокчейн и будущее её применения
                         </div>
                         <div class="b-program__table-title_half">
-                            Финтех
+                            Финтех. Блокчейн в банковском секторе
                         </div>
                     </div>
                     <div class="b-programm__table-content">
                         <div class="b-programm__table-content_half">
+                            
+                            <div class="b-programm__table-item_right">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        9:00
+                                    </div>
+                                    <div class="time-end">
+                                        10:00
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Регистрация
+                                    </div>
+                                </div>
+                            </div>
+
+
                             <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
                                         10:00
                                     </div>
                                     <div class="time-end">
-                                        10:40
+                                        10:30
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/speakers/novikov.jpg" alt="Дмитрий Булычков">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Павел Новиков
+                                    </div>
+                                    <div class="position">
+                                         Директор центра финансовых технологий. Фонд Сколково
+                                    </div>
+                                    <div class="report">
+                                    	ТЕМА УТОЧНЯЕТСЯ
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="b-programm__table-item_right">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        10:30
+                                    </div>
+                                    <div class="time-end">
+                                        11:00
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -1316,20 +1368,20 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Дмитрий Булычков
                                     </div>
                                     <div class="position">
-                                        Сбербанк, Директор проектов Центра технологических инноваций
+                                        Директор проектов Центра технологических инноваций Сбербанка
                                     </div>
                                     <div class="report">
-                                        Технология Блокейн: настоящее и&nbsp;перспективы
+                                        Технология Блокчейн: настоящее и&nbsp;перспективы
                                     </div>
                                 </div>
                             </div>
                             <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        10:40
+                                        11:00
                                     </div>
                                     <div class="time-end">
-                                        11:20
+                                        11:40
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -1350,65 +1402,44 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                             <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        11:20
-                                    </div>
-                                    <div class="time-end">
                                         11:40
                                     </div>
-                                </div>
-                                <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="Павел Новиков">
+                                    <div class="time-end">
+                                        12:00
+                                    </div>
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Павел Новиков
+                                        Кофе брейк
                                     </div>
-                                    <div class="position">
-                                        Сколково
-                                    </div>
-                                    <div class="report">
-                                        Тема уточняется
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="b-programm__table-item_right">
-                                <div class="b-programm__table-item_default">
-                                    Панельная дискуссия
                                 </div>
                             </div>
                         </div>
                         <div class="b-programm__table-content_half">
-                            <div class="b-programm__table-item_left">
+
+                        	<div class="b-programm__table-item_left">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        9:00
+                                    </div>
+                                    <div class="time-end">
+                                        10:00
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Регистрация
+                                    </div>
+                                </div>
+                            </div>
+
+                        	<div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
                                         10:00
                                     </div>
                                     <div class="time-end">
-                                        10:40
-                                    </div>
-                                </div>
-                                <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/azrilyan.png" alt="Максим Азрильян">
-                                </div>
-                                <div class="b-programm__table-item-text">
-                                    <div class="name">
-                                        Максим Азрильян
-                                    </div>
-                                    <div class="position">
-                                        Главный технический архитектор Альфа-Банк
-                                    </div>
-                                    <div class="report">
-                                        Блокчейн-проекты в&nbsp;банковском секторе
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="b-programm__table-item_left">
-                                <div class="b-programm__table-item-time">
-                                    <div class="time-start">
-                                        10:20
-                                    </div>
-                                    <div class="time-end">
-                                        10:40
+                                        10:30
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -1426,37 +1457,39 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
+
                             <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        10:40
+                                        10:30
                                     </div>
                                     <div class="time-end">
                                         11:00
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/merkulova.png" alt="Дина Меркулова">
+                                    <img src="../img/lectors/azrilyan.png" alt="Максим Азрильян">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Дина Меркулова
+                                        Максим Азрильян
                                     </div>
                                     <div class="position">
-                                        Управляющий директор по&nbsp;торговому финансированию Альфа-Банк
+                                        Главный технический архитектор Альфа-Банк
                                     </div>
                                     <div class="report">
-                                        Кейсы Альфа-Банка при&nbsp;реализации
+                                        Блокчейн-проекты в&nbsp;банковском секторе
                                     </div>
                                 </div>
                             </div>
+
                             <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
                                         11:00
                                     </div>
                                     <div class="time-end">
-                                        11:20
+                                        11:30
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -1474,30 +1507,33 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
+
                             <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        11:20
+                                        11:30
                                     </div>
                                     <div class="time-end">
-                                        11:40
+                                        12:00
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/arhipov.png" alt="Алексей Архипов">
+                                    <img src="../img/lectors/default.png" alt="Сергей Рыжавин ">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Алексей Архипов
+                                        Сергей Рыжавин 
                                     </div>
                                     <div class="position">
-                                        Директор по развитию криптотехнологий, QIWI. Руководитель направления развития технологии распределенных реестров, Ассоциации ФинТех
+                                         B2BX. Продакт-менеджер PAMM/MAM/social trading
                                     </div>
                                     <div class="report">
-                                        Что вы&nbsp;должны знать о&nbsp;технологии Мастречейн
+                                        Эволюция IT инфраструктуры. Как покупать криптовалюты в 2018 - 2019
                                     </div>
                                 </div>
                             </div>
+                            
+                           
 
 
                         </div>
@@ -1509,10 +1545,10 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                     </div>
                     <div class="b-program__table-title">
                         <div class="b-program__table-title_half">
-                            Криптовалюты, инвестиции
+                            Инвестиции и криптовалюты
                         </div>
                         <div class="b-program__table-title_half">
-                            Стартапы
+                            Финтех. Блокчейн в банковском секторе
                         </div>
                     </div>
                     <div class="b-programm__table-content">
@@ -1523,7 +1559,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         12:00
                                     </div>
                                     <div class="time-end">
-                                        12:30
+                                        12:25
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -1534,7 +1570,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Ярослав Кабаков
                                     </div>
                                     <div class="position">
-                                        Заместитель генерального директора АО&nbsp;«Инвестиционная компания «ФИНАМ»
+                                        Заместитель генерального директора АО&nbsp;«Инвестиционная компания ФИНАМ»
                                     </div>
                                     <div class="report">
                                         Инвестиции в&nbsp;криптовалюты для&nbsp;консервативных&nbsp;инвесторов
@@ -1544,10 +1580,10 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                             <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        12:30
+                                        12:25
                                     </div>
                                     <div class="time-end">
-                                        13:00
+                                        12:50
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -1565,203 +1601,14 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
-                            <div class="b-programm__table-item_right">
-                                <div class="b-programm__table-item-time">
-                                    <div class="time-start">
-                                        13:00
-                                    </div>
-                                    <div class="time-end">
-                                        13:30
-                                    </div>
-                                </div>
-                                <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/ivanov.png" alt="Олег Иванов">
-                                </div>
-                                <div class="b-programm__table-item-text">
-                                    <div class="name">
-                                        Олег Иванов
-                                    </div>
-                                    <div class="position">
-                                        Учредитель компании «CryptoBazar»
-                                    </div>
-                                    <div class="report">
-                                        Инвестирование в&nbsp;криптовалюты. Инвестирование в&nbsp;проекты до&nbsp;выхода на&nbsp;ICO
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="b-programm__table-item_right">
-                                <div class="b-programm__table-item-time">
-                                    <div class="time-start">
-                                        13:30
-                                    </div>
-                                    <div class="time-end">
-                                        14:00
-                                    </div>
-                                </div>
-                                <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="Алексей Муратов">
-                                </div>
-                                <div class="b-programm__table-item-text">
-                                    <div class="name">
-                                        Алексей Муратов
-                                    </div>
-                                    <div class="position">
-                                        Основатель Prizm
-                                    </div>
-                                    <div class="report">
-                                        Существующие проблемы криптовалют, перспективы решения и&nbsp;возможные альтернативы
-                                    </div>
-                                </div>
-                            </div>
 
-                        </div>
-                        <div class="b-programm__table-content_half">
-                            <div class="b-programm__table-item_left">
-                                <div class="b-programm__table-item-time">
-                                    <div class="time-start">
-                                        12:00
-                                    </div>
-                                    <div class="time-end">
-                                        12:20
-                                    </div>
-                                </div>
-                                <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/brusov.png" alt="Михаил Брусов">
-                                </div>
-                                <div class="b-programm__table-item-text">
-                                    <div class="name">
-                                        Михаил Брусов
-                                    </div>
-                                    <div class="position">
-                                        CEO & co-founder Cindicator
-                                    </div>
-                                    <div class="report">
-                                        Сможет ли ICO полностью заменить венчурное инвестирование для&nbsp;технологических компаний
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="b-programm__table-item_left">
-                                <div class="b-programm__table-item-time">
-                                    <div class="time-start">
-                                        12:20
-                                    </div>
-                                    <div class="time-end">
-                                        12:40
-                                    </div>
-                                </div>
-                                <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/polozov.png" alt="Станислав Полозов  ">
-                                </div>
-                                <div class="b-programm__table-item-text">
-                                    <div class="name">
-                                        Станислав Полозов
-                                    </div>
-                                    <div class="position">
-                                        Руководитель отдела внедрения платформы Emer
-                                    </div>
-                                    <div class="report">
-                                        Как защитить корпоративные сети c&nbsp;помощью блокчейна?
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="b-programm__table-item_left">
-                                <div class="b-programm__table-item-time">
-                                    <div class="time-start">
-                                        12:40
-                                    </div>
-                                    <div class="time-end">
-                                        13:00
-                                    </div>
-                                </div>
-                                <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/kostarev.png" alt="Алексей Костарев ">
-                                </div>
-                                <div class="b-programm__table-item-text">
-                                    <div class="name">
-                                        Алексей Костарев
-                                    </div>
-                                    <div class="position">
-                                        BDO в Giftoman. Карта постоянного клиента
-                                    </div>
-                                    <div class="report">
-                                        Тема уточняется
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="b-programm__table-item_left">
-                                <div class="b-programm__table-item-time">
-                                    <div class="time-start">
-                                        13:00
-                                    </div>
-                                    <div class="time-end">
-                                        13:20
-                                    </div>
-                                </div>
-                                <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="Вячеслав Семенчук">
-                                </div>
-                                <div class="b-programm__table-item-text">
-                                    <div class="name">
-                                        Вячеслав Семенчук
-                                    </div>
-                                    <div class="position">
-                                        Серийный предприниматель. Основатель первой кошерной криптовалюты и блокчейн экосистемы BITCOEN
-                                    </div>
-                                    <div class="report">
-                                        Тема уточняется
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="b-program__table">
-                    <div class="b-program__table-day">
-                        <p>14:00-15:00 Обед</p>
-                    </div>
-                    <div class="b-program__table-title">
-                        <div class="b-program__table-title_half">
-                            Майнинг, оборудование
-                        </div>
-                        <div class="b-program__table-title_half">
-                            Трейдинг / инвестиции
-                        </div>
-                    </div>
-                    <div class="b-programm__table-content">
-                        <div class="b-programm__table-content_half">
                             <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        15:00
+                                        12:50
                                     </div>
                                     <div class="time-end">
-                                        16:00
-                                    </div>
-                                </div>
-                                <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/gurevich.png" alt="Артём Гуревич ">
-                                </div>
-                                <div class="b-programm__table-item-text">
-                                    <div class="name">
-                                        Артём Гуревич
-                                    </div>
-                                    <div class="position">
-                                        Co-Founder в Get Crypto
-                                    </div>
-                                    <div class="report">
-                                        Майнинг: хайп и бизнес
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="b-programm__table-content_half">
-                            <div class="b-programm__table-item_left">
-                                <div class="b-programm__table-item-time">
-                                    <div class="time-start">
-                                        15:00
-                                    </div>
-                                    <div class="time-end">
-                                        15:40
+                                        13:15
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -1779,13 +1626,14 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
-                            <div class="b-programm__table-item_left">
+                           
+                            <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        15:40
+                                        13:15
                                     </div>
                                     <div class="time-end">
-                                        16:20
+                                        13:30
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -1799,34 +1647,170 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Директор по маркетингу Trading View
                                     </div>
                                     <div class="report">
-                                        Как защитить корпоративные сети c&nbsp;помощью блокчейна?
+                                        Влияние криптовалют на финансовые рынки и трейдинг. Текущее состояние и тенденции.
                                     </div>
                                 </div>
                             </div>
+                            <div class="b-programm__table-item_right">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        13:30
+                                    </div>
+                                    <div class="time-end">
+                                        13:45
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="img/speakers/muratov.jpg" alt="Алексей Муратов">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Алексей Муратов
+                                    </div>
+                                    <div class="position">
+                                        Основатель криптовалюты PRIZM
+                                    </div>
+                                    <div class="report">
+                                        Существующие проблемы криптовалют, перспективы решения и&nbsp;возможные альтернативы
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="b-programm__table-item_right">
+                                <div class="b-programm__table-item_default">
+                                    Панельная дискуссия. <br>"Криптовалюты 2018. Мнения экспертов"
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="b-programm__table-content_half">
+                            	
+                            <div class="b-programm__table-item_left">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        12:20
+                                    </div>
+                                    <div class="time-end">
+                                        13:00
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/arhipov.png" alt="Алексей Архипов">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Алексей Архипов
+                                    </div>
+                                    <div class="position">
+                                        Руководитель направления развития технологии распределенного реестра, Ассоциации ФинТех
+                                    </div>
+                                    <div class="report">
+                                        Мастерчейн – первый юридически чистый блокчейн в России
+                                    </div>
+                                </div>
+                            </div>
+
+                             <div class="b-programm__table-item_left">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        13:00
+                                    </div>
+                                    <div class="time-end">
+                                        13:20
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/default.png" alt="Антон Васин">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Антон Васин
+                                    </div>
+                                    <div class="position">
+                                        Сооснователь проекта Serenity Financial
+                                    </div>
+                                    <div class="report">
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             <div class="b-programm__table-item_left">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        13:20
+                                    </div>
+                                    <div class="time-end">
+                                        13:45
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/merkulova.png" alt="Дина Меркулова">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Дина Меркулова
+                                    </div>
+                                    <div class="position">
+                                         Кейсы Альфа-Банка при реализации технологии блокчейн
+                                    </div>
+                                    <div class="report">
+                                        Кейсы Альфа-Банка при&nbsp;реализации
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="b-programm__table-item_left">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        13:45
+                                    </div>
+                                    <div class="time-end">
+                                        14:00
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="img/speakers/julin.jpg" alt="Артем Жилин">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Артем Жилин
+                                    </div>
+                                    <div class="position">
+                                         COO Gelios 
+                                    </div>
+                                    <div class="report">
+                                        Методы KYC применительно к блокчейн технологиям
+                                    </div>
+                                </div>
+                            </div>
+                           
                         </div>
                     </div>
                 </div>
                 <div class="b-program__table">
                     <div class="b-program__table-day">
-                        <p>16:40-17:00 Кофе брейк</p>
+                        <p>14:00-15:00 Обед</p>
                     </div>
                     <div class="b-program__table-title">
                         <div class="b-program__table-title_half">
-                            ICO
+                            ICO как способ привлечения денег в стартап
                         </div>
                         <div class="b-program__table-title_half">
-                            Пошаговые инструкции для новичков
+                            Блокчейн проекты
                         </div>
                     </div>
                     <div class="b-programm__table-content">
                         <div class="b-programm__table-content_half">
-                            <div class="b-programm__table-item_right">
+
+                        	 <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        17:00
+                                        15:00
                                     </div>
                                     <div class="time-end">
-                                        17:30
+                                        15:40
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -1847,10 +1831,10 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                             <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        17:30
+                                        15:40
                                     </div>
                                     <div class="time-end">
-                                        18:00
+                                        16:00
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -1861,18 +1845,261 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Антон Зазимонец
                                     </div>
                                     <div class="position">
-                                        CEO в Iskander ICOFund
+                                        
+                                        CEO<br>
+										Iskander ICOFund
                                     </div>
                                     <div class="report">
                                         Как повысить капитализацию блокчейн проекта. Создание экономической модели токена для&nbsp;ICO
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="b-programm__table-item_right">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        16:00
+                                    </div>
+                                    <div class="time-end">
+                                        16:20
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="img/speakers/baranov.jpg" alt="Баранов Артем">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Баранов Артем
+                                    </div>
+                                    <div class="position">
+                                         Сооснователь и операционный директор Cindicator
+                                    </div>
+                                    <div class="report">
+                                        Сможет ли ICO полностью заменить венчурное инвестирование для технологических компаний
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="b-programm__table-item_right">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        16:20
+                                    </div>
+                                    <div class="time-end">
+                                        16:40
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/default.png" alt="Алексей Воронин">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Алексей Воронин
+                                    </div>
+                                    <div class="position">
+                                          Founder ICO LAB
+                                    </div>
+                                    <div class="report">
+                                        Как спасти ICO
+                                    </div>
+                                </div>
+                            </div>
+                            
                         </div>
                         <div class="b-programm__table-content_half">
+
+                        	 
                             <div class="b-programm__table-item_left">
-                                <div class="b-programm__table-item_default">
-                                    Уточняется спикер<br/>и тема выступления
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        15:00
+                                    </div>
+                                    <div class="time-end">
+                                        15:20
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/polozov.png" alt="Станислав Полозов  ">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Станислав Полозов
+                                    </div>
+                                    <div class="position">
+                                        Руководитель отдела внедрения платформы Emer
+                                    </div>
+                                    <div class="report">
+                                        Как защитить корпоративные сети c&nbsp;помощью блокчейна?
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="b-programm__table-item_left">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        15:20
+                                    </div>
+                                    <div class="time-end">
+                                        15:40
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/kostarev.png" alt="Алексей Костарев ">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Алексей Костарев
+                                    </div>
+                                    <div class="position">
+                                        Co-founder Robot Vera
+                                    </div>
+                                    <div class="report">
+                                        Как блокчейн технологии могут поменять рынок HR
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="b-programm__table-item_left">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        15:40
+                                    </div>
+                                    <div class="time-end">
+                                        16:00
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/default.png" alt="Андрей Инсаров">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Андрей Инсаров
+                                    </div>
+                                    <div class="position">
+                                        СЕО SMSCHAIN
+                                    </div>
+                                    <div class="report">
+                                        P2b сервисы на рынке телекоммуникаций
+                                    </div>
+                                </div>
+                            </div>
+
+                             <div class="b-programm__table-item_left">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        16:00
+                                    </div>
+                                    <div class="time-end">
+                                        16:40
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/stukolov.png" alt="Павел Стуколов ">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Павел Стуколов
+                                    </div>
+                                    <div class="position">
+                                        CEO TokenStars
+                                    </div>
+                                    <div class="report">
+                                        Как привлечь более 1 млн $ на стадии pre-ICO
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="b-program__table">
+                    <div class="b-program__table-day">
+                        <p>16:40-17:00 Кофе брейк</p>
+                    </div>
+                    <div class="b-program__table-title">
+                        <div class="b-program__table-title_half">
+                            Майнинг и оборудование, прогнозы
+                        </div>
+                        <div class="b-program__table-title_half">
+                            Блокчейн проекты
+                        </div>
+                    </div>
+                    <div class="b-programm__table-content">
+                        <div class="b-programm__table-content_half">
+                            
+                            <div class="b-programm__table-item_right">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        17:00
+                                    </div>
+                                    <div class="time-end">
+                                        17:30
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/gurevich.png" alt="Артём Гуревич ">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Артём Гуревич
+                                    </div>
+                                    <div class="position">
+                                        Co-Founder в Get Crypto
+                                    </div>
+                                    <div class="report">
+                                        Майнинг: хайп и бизнес
+                                    </div>
+                                </div>
+                            </div>
+
+                             <div class="b-programm__table-item_right">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        17:30
+                                    </div>
+                                    <div class="time-end">
+                                        18:00
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="img/speakers/rozkowertz.jpg" alt="Joerg Roskowertz">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Joerg Roskowertz
+                                    </div>
+                                    <div class="position">
+                                         AMD Blockchain expert
+                                    </div>
+                                    <div class="report">
+                                        Оборудование для майнинга и обзор перспектив оборудования нового поколения
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="b-programm__table-content_half">
+                             <div class="b-programm__table-item_left">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        17:00
+                                    </div>
+                                    <div class="time-end">
+                                        18:00
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/default.png" alt="Алексей Иванов">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Согласовываются спикеры и темы выступлений
+                                    </div>
+                                    <div class="position">
+                                         
+                                    </div>
+                                    <div class="report">
+                                    	
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1886,10 +2113,10 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                     </div>
                     <div class="b-program__table-title">
                         <div class="b-program__table-title_half">
-                            Разработка блокчейн
+                            Разработка проектов на блокчейн для не программистов
                         </div>
                         <div class="b-program__table-title_half">
-                            ICO
+                            ICO, как способ привлечения денег в стартап
                         </div>
                     </div>
                     <div class="b-programm__table-content">
@@ -1900,7 +2127,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         10:00
                                     </div>
                                     <div class="time-end">
-                                        10:30
+                                        11:00
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -1914,7 +2141,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Блокчейн-евангелист Microsoft
                                     </div>
                                     <div class="report">
-                                        Microsoft blockchain stack
+                                        Blockchain: От прорывной концепции до комплексного решения для компаний
                                     </div>
                                 </div>
                             </div>
@@ -1924,7 +2151,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         11:00
                                     </div>
                                     <div class="time-end">
-                                        11:30
+                                        11:20
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -1938,7 +2165,31 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Основатель и руководитель в Bits.media
                                     </div>
                                     <div class="report">
-                                        Планы развития и нововведения в консенсусе блокчейна Ethereum
+                                        Чего нового ожидать в Ethereum?
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="b-programm__table-item_right">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        11:20
+                                    </div>
+                                    <div class="time-end">
+                                        11:40
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/fedorov.png" alt="Алексей Федоров ">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Алексей Федоров
+                                    </div>
+                                    <div class="position">
+                                        Научный сотрудник Российского квантового центра, создатель «квантового блокчейна»
+                                    </div>
+                                    <div class="report">
+                                        Угроза квантовых компьютеров для блокчейн индустрии
                                     </div>
                                 </div>
                             </div>
@@ -1992,6 +2243,55 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
+                             <div class="b-programm__table-item_left">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        11:00
+                                    </div>
+                                    <div class="time-end">
+                                        11:20
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/ageyev.png" alt="Виктор Агеев">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Виктор Агеев
+                                    </div>
+                                    <div class="position">
+                                        CEO Сryptonomica.net
+                                    </div>
+                                    <div class="report">
+                                        Новые юридические механизмы для blockchain
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="b-programm__table-item_left">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        11:20
+                                    </div>
+                                    <div class="time-end">
+                                        11:40
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/default.png" alt="Андрей Юдин">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Андрей Юдин
+                                    </div>
+                                    <div class="position">
+                                        Co-founder CryptoBazar Fund
+                                    </div>
+                                    <div class="report">
+                                        Как правильно выбрать проект для инвестирования
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -2001,14 +2301,15 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                     </div>
                     <div class="b-program__table-title">
                         <div class="b-program__table-title_half">
-                            Законодательство
+                            Законодательное регулирование
                         </div>
                         <div class="b-program__table-title_half">
-                            Стартапы
+                            Блокчейн проекты
                         </div>
                     </div>
                     <div class="b-programm__table-content">
                         <div class="b-programm__table-content_half">
+                           
                             <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -2016,6 +2317,30 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                     <div class="time-end">
                                         12:30
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/zegelman.png" alt="Юлий Зегельман">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Юлий Зегельман
+                                    </div>
+                                    <div class="position">
+                                        Управляющий партнер Velton Zegelman PC
+                                    </div>
+                                    <div class="report">
+                                        Обзор международной практики, работа с США и SEC. Где&nbsp;криптовалюты используются официально
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="b-programm__table-item_right">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        12:30
+                                    </div>
+                                    <div class="time-end">
+                                        13:30
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -2029,169 +2354,54 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Pуководитель межведомственной рабочей группы по оценкам рисков оборота криптовалюты Государственной Думы
                                     </div>
                                     <div class="report">
-                                        Перспективы совершенствования законодательства в области оборота
+                                        Перспективы совершенствования законодательства в области оборота криптовалют
                                     </div>
                                 </div>
                             </div>
+
                             <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        12:30
-                                    </div>
-                                    <div class="time-end">
-                                        13:00
-                                    </div>
-                                </div>
-                                <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/gamza.png" alt="Владимир Гамза ">
-                                </div>
-                                <div class="b-programm__table-item-text">
-                                    <div class="name">
-                                        Владимир Гамза
-                                    </div>
-                                    <div class="position">
-                                        Председатель Комитета ТПП РФ по финансовым рынкам и кредитным организациям
-                                    </div>
-                                    <div class="report">
-                                        Государство и блокчейн технологии
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="b-programm__table-item_right">
-                                <div class="b-programm__table-item-time">
-                                    <div class="time-start">
-                                        13:00
-                                    </div>
-                                    <div class="time-end">
-                                        13:30
-                                    </div>
-                                </div>
-                                <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/ageyev.png" alt="Виктор Агеев">
-                                </div>
-                                <div class="b-programm__table-item-text">
-                                    <div class="name">
-                                        Виктор Агеев
-                                    </div>
-                                    <div class="position">
-                                        CEO, cryptonomica.net
-                                    </div>
-                                    <div class="report">
-                                        Новые юридические механизмы для blockchain
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="b-programm__table-item_right">
-                                <div class="b-programm__table-item-time">
-                                    <div class="time-start">
-                                        13:30
-                                    </div>
-                                    <div class="time-end">
                                         14:00
                                     </div>
+                                    <div class="time-end">
+                                        15:00
+                                    </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/zegelman.png" alt="Юлий Зегельман">
+                                    <img src="../img/lectors/default.png" alt="Спикер уточняется">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Юлий Зегельман
+                                        Согласовываются спикеры и темы выступлений 
                                     </div>
                                     <div class="position">
-                                        Управляющий партнер Velton Zegelman PC!
+                                         
                                     </div>
                                     <div class="report">
-                                        Обзор международной практики, работа с США и SEC. Где&nbsp;криптовалюты используются официально
+                                    	
                                     </div>
                                 </div>
                             </div>
+
                             <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item_default">
                                     Панельная дискуссия
                                 </div>
                             </div>
 
+                            
+
                         </div>
                         <div class="b-programm__table-content_half">
+                            
                             <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
                                         12:00
                                     </div>
                                     <div class="time-end">
-                                        12:30
-                                    </div>
-                                </div>
-                                <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/martin.png" alt="Павел Мартынов">
-                                </div>
-                                <div class="b-programm__table-item-text">
-                                    <div class="name">
-                                        Павел Мартынов
-                                    </div>
-                                    <div class="position">
-                                        Основатель Steepshot
-                                    </div>
-                                    <div class="report">
-                                        Как запустить свой блокчейн-стартап
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="b-programm__table-item_left">
-                                <div class="b-programm__table-item-time">
-                                    <div class="time-start">
-                                        12:30
-                                    </div>
-                                    <div class="time-end">
-                                        13:00
-                                    </div>
-                                </div>
-                                <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/olin.png" alt="Алексей Олин  ">
-                                </div>
-                                <div class="b-programm__table-item-text">
-                                    <div class="name">
-                                        Алексей Олин
-                                    </div>
-                                    <div class="position">
-                                        Основатель DAO.Finance и iVenturer
-                                    </div>
-                                    <div class="report">
-                                        Как защитить корпоративные сети с помощью блокчейна?
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="b-programm__table-item_left">
-                                <div class="b-programm__table-item-time">
-                                    <div class="time-start">
-                                        13:00
-                                    </div>
-                                    <div class="time-end">
-                                        13:30
-                                    </div>
-                                </div>
-                                <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/stukolov.png" alt="Павел Стуколов ">
-                                </div>
-                                <div class="b-programm__table-item-text">
-                                    <div class="name">
-                                        Павел Стуколов
-                                    </div>
-                                    <div class="position">
-                                        CEO Token Stars
-                                    </div>
-                                    <div class="report">
-                                        Как привлечь более 1 млн $ на стадии pre-ICO
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="b-programm__table-item_left">
-                                <div class="b-programm__table-item-time">
-                                    <div class="time-start">
-                                        13:30
-                                    </div>
-                                    <div class="time-end">
-                                        14:00
+                                        12:20
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -2209,6 +2419,80 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
+                            <div class="b-programm__table-item_left">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        12:20
+                                    </div>
+                                    <div class="time-end">
+                                        12:40
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/olin.png" alt="Алексей Олин  ">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Алексей Олин
+                                    </div>
+                                    <div class="position">
+                                        Основатель DAO.Finance и iVenturer
+                                    </div>
+                                    <div class="report">
+                                        Как защитить корпоративные сети с помощью блокчейна?
+                                    </div>
+                                </div>
+                            </div>
+                           <div class="b-programm__table-item_left">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        12:40
+                                    </div>
+                                    <div class="time-end">
+                                        13:00
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/martin.png" alt="Павел Мартынов">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Павел Мартынов
+                                    </div>
+                                    <div class="position">
+                                        Основатель Steepshot
+                                    </div>
+                                    <div class="report">
+                                        Как запустить свой блокчейн-стартап
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="b-programm__table-item_right">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        13:00
+                                    </div>
+                                    <div class="time-end">
+                                        15:00
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/default.png" alt="img">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Спикер уточняется
+                                    </div>
+                                    <div class="position">
+                                         
+                                    </div>
+                                    <div class="report">
+                                    	Тема уточняется
+                                    </div>
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -2218,69 +2502,71 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                     </div>
                     <div class="b-program__table-title">
                         <div class="b-program__table-title_half">
-                            Разработка блокчейн проектов для не разработчиков
+                            
                         </div>
                         <div class="b-program__table-title_half">
-                            Сколково
+                            
                         </div>
                     </div>
                     <div class="b-programm__table-content">
                         <div class="b-programm__table-content_half">
+
                             <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
                                         16:00
                                     </div>
                                     <div class="time-end">
-                                        16:20
+                                        17:00
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/tihonov.png" alt="Иван Тихонов ">
+                                    <img src="../img/lectors/default.png" alt="Алексей Иванов">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Иван Тихонов
+                                        Спикер уточняется
                                     </div>
                                     <div class="position">
-                                        Основатель и руководитель в Bits.media
+                                         
                                     </div>
                                     <div class="report">
-                                        Что нового ожидать в Ethereum?
+                                    	Тема уточняется
                                     </div>
                                 </div>
                             </div>
+                            
+                        </div>
+                        <div class="b-programm__table-content_half">
+                            
+
                             <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        16:20
+                                        16:00
                                     </div>
                                     <div class="time-end">
-                                        16:40
+                                        17:00
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/fedorov.png" alt="Алексей Федоров ">
+                                    <img src="../img/lectors/default.png" alt="Алексей Иванов">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Алексей Федоров
+                                        Спикер уточняется
                                     </div>
                                     <div class="position">
-                                        Научный сотрудник Российского квантового центра, создатель «квантового блокчейна»
+                                         
                                     </div>
                                     <div class="report">
-                                        Угроза квантовых компьютеров для блокчейниндустрии
+                                    	Тема уточняется
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="b-programm__table-content_half">
-                            <div class="b-programm__table-item_left">
-                                <div class="b-programm__table-item_default">
-                                    Уточняется спикер<br/>и тема выступления
-                                </div>
-                            </div>
+
+                             
+
                         </div>
                     </div>
                     <div class="b-program__table-day">
@@ -2419,7 +2705,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                         <div class="b-programm__table-content_full">
                             <div class="b-programm__table-item-time">
                                 <div class="time-start">
-                                    14:15
+                                    14:45
                                 </div>
                                 <div class="time-end">
                                     15:45
@@ -2444,12 +2730,46 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                             </div>
                         </div>
                     </div>
+
                     <div class="b-program__table-day">
-                        <p>15:45-18:00 Закрытие конференции</p>
+                        <p>15:45-16:00 Кофе брейк</p>
                     </div>
+
+                    <div class="b-programm__table-content">
+                        <div class="b-programm__table-content_full">
+                            <div class="b-programm__table-item-time">
+                                <div class="time-start">
+                                    16:00
+                                </div>
+                                <div class="time-end">
+                                    18:00
+                                </div>
+                            </div>
+                            <div class="b-programm__table-item-photo">
+                                <img src="../img/lectors/plehanov.png" alt="">
+                            </div>
+                            <div class="b-programm__table-item-text">
+                                <div class="title">
+                                    Криптовалютный трейдинг, деятельность криптовалютных бирж
+                                </div>
+                                <div class="list">
+                                    <ul>
+                                        <li>Хранение криптовалютных активов и текущие расчеты криптовалютой.</li>
+                                        <li>Технологии хранения криптовалютных активов.</li>
+                                        <li>Криптовалюта, как средство платежа.</li>
+                                        <li>Трейдинг и портфельные инвестиции.</li>
+                                        <li>Операции на P2P внебиржевых площадках.</li>
+                                        <li>Портфельные инвестиции в криптовалюту.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
+        
         <div class="b-program-mobile">
             <div class="center">
                 <div class="b-program__header">
@@ -2463,17 +2783,60 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                     </div>
                     <div class="b-program__preview">
                         <div class="b-program__preview-header">
-                            <p class="title">Принципы технологии, основы</p>
+                            <p class="title">Принципы технологии блокчейн и будущее её применения</p>
                             <span class="place">Главный зал</span>
                         </div>
                         <div class="b-programm__table-content">
-                            <div class="b-programm__table-item_full">
+
+                        	<div class="b-programm__table-item_full">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        9:00
+                                    </div>
+                                    <div class="time-end">
+                                        10:00
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Регистрация
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        	<div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
                                         10:00
                                     </div>
                                     <div class="time-end">
-                                        10:40
+                                        10:30
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/speakers/novikov.jpg" alt="Дмитрий Булычков">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Павел Новиков
+                                    </div>
+                                    <div class="position">
+                                         Директор центра финансовых технологий. Фонд Сколково
+                                    </div>
+                                    <div class="report">
+                                    	Тема уточняется
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="b-programm__table-item_full">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        10:30
+                                    </div>
+                                    <div class="time-end">
+                                        11:00
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -2484,20 +2847,21 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Дмитрий Булычков
                                     </div>
                                     <div class="position">
-                                        Сбербанк, Директор проектов Центра технологических инноваций
+                                        Директор проектов Центра технологических инноваций Сбербанка
                                     </div>
                                     <div class="report">
                                         Технология Блокейн: настоящее и&nbsp;перспективы
                                     </div>
                                 </div>
                             </div>
+
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        10:40
+                                        11:00
                                     </div>
                                     <div class="time-end">
-                                        11:20
+                                        11:40
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -2515,74 +2879,43 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
-                            <div class="b-programm__table-item_full">
-                                <div class="b-programm__table-item-time">
-                                    <div class="time-start">
-                                        11:20
-                                    </div>
-                                    <div class="time-end">
-                                        11:40
-                                    </div>
-                                </div>
-                                <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="Павел Новиков">
-                                </div>
-                                <div class="b-programm__table-item-text">
-                                    <div class="name">
-                                        Павел Новиков
-                                    </div>
-                                    <div class="position">
-                                        Сколково
-                                    </div>
-                                    <div class="report">
-                                        Тема уточняется
-                                    </div>
+                             <div class="b-programm__table-item-text">
+                                <div class="name">
+                                    Кофе брейк
                                 </div>
                             </div>
-                            <div class="b-programm__table-item_full">
-                                <div class="b-programm__table-item_default">
-                                    Панельная дискуссия
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                     <div class="b-program__preview">
                         <div class="b-program__preview-header">
-                            <p class="title">Финтех</p>
+                            <p class="title">Финтех. Блокчейн в банковском секторе</p>
                             <span class="place">Зал мастер-классов и стартапов</span>
                         </div>
                         <div class="b-programm__table-content">
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        10:00
+                                        9:00
                                     </div>
                                     <div class="time-end">
-                                        10:40
+                                        10:00
                                     </div>
-                                </div>
-                                <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/azrilyan.png" alt="Максим Азрильян">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Максим Азрильян
-                                    </div>
-                                    <div class="position">
-                                        Главный технический архитектор Альфа-Банк
-                                    </div>
-                                    <div class="report">
-                                        Блокчейн-проекты в&nbsp;банковском секторе
+                                        Регистрация
                                     </div>
                                 </div>
                             </div>
-                            <div class="b-programm__table-item_full">
+
+                        	<div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        10:20
+                                        10:00
                                     </div>
                                     <div class="time-end">
-                                        10:40
+                                        10:30
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -2600,37 +2933,39 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
+
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        10:40
+                                        10:30
                                     </div>
                                     <div class="time-end">
                                         11:00
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/merkulova.png" alt="Дина Меркулова">
+                                    <img src="../img/lectors/azrilyan.png" alt="Максим Азрильян">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Дина Меркулова
+                                        Максим Азрильян
                                     </div>
                                     <div class="position">
-                                        Управляющий директор по&nbsp;торговому финансированию Альфа-Банк
+                                        Главный технический архитектор Альфа-Банк
                                     </div>
                                     <div class="report">
-                                        Кейсы Альфа-Банка при&nbsp;реализации
+                                        Блокчейн-проекты в&nbsp;банковском секторе
                                     </div>
                                 </div>
                             </div>
+
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
                                         11:00
                                     </div>
                                     <div class="time-end">
-                                        11:20
+                                        11:30
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -2648,27 +2983,28 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
+
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        11:20
+                                        11:30
                                     </div>
                                     <div class="time-end">
-                                        11:40
+                                        12:00
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/arhipov.png" alt="Алексей Архипов">
+                                    <img src="../img/lectors/default.png" alt="Сергей Рыжавин ">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Алексей Архипов
+                                        Сергей Рыжавин 
                                     </div>
                                     <div class="position">
-                                        Директор по развитию криптотехнологий, QIWI. Руководитель направления развития технологии распределенных реестров, Ассоциации ФинТех
+                                         B2BX. Продакт-менеджер PAMM/MAM/social trading
                                     </div>
                                     <div class="report">
-                                        Что вы&nbsp;должны знать о&nbsp;технологии Мастречейн
+                                        Эволюция IT инфраструктуры. Как покупать криптовалюты в 2018 - 2019
                                     </div>
                                 </div>
                             </div>
@@ -2691,7 +3027,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         12:00
                                     </div>
                                     <div class="time-end">
-                                        12:30
+                                        12:25
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -2702,7 +3038,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Ярослав Кабаков
                                     </div>
                                     <div class="position">
-                                        Заместитель генерального директора АО&nbsp;«Инвестиционная компания «ФИНАМ»
+                                        Заместитель генерального директора АО&nbsp;«Инвестиционная компания ФИНАМ»
                                     </div>
                                     <div class="report">
                                         Инвестиции в&nbsp;криптовалюты для&nbsp;консервативных&nbsp;инвесторов
@@ -2712,10 +3048,10 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        12:30
+                                        12:25
                                     </div>
                                     <div class="time-end">
-                                        13:00
+                                        12:50
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -2736,10 +3072,10 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        13:00
+                                        12:50
                                     </div>
                                     <div class="time-end">
-                                        13:30
+                                        13:15
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -2757,13 +3093,39 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="b-programm__table-item_full">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        13:15
+                                    </div>
+                                    <div class="time-end">
+                                        13:30
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/default.png" alt="Алексей Шульженко  ">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Алексей Шульженко
+                                    </div>
+                                    <div class="position">
+                                        Директор по маркетингу Trading View
+                                    </div>
+                                    <div class="report">
+                                        Как защитить корпоративные сети c&nbsp;помощью блокчейна?
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
                                         13:30
                                     </div>
                                     <div class="time-end">
-                                        14:00
+                                        13:45
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -2781,45 +3143,253 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="b-programm__table-item_right">
+                                <div class="b-programm__table-item_default">
+                                    Панельная дискуссия. <br>"Криптовалюты 2018. Мнения экспертов"
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
                     <div class="b-program__preview">
                         <div class="b-program__preview-header">
-                            <p class="title">Стартапы</p>
+                            <p class="title">Финтех. Блокчейн в банковском секторе</p>
                             <span class="place">Зал мастер-классов и стартапов</span>
                         </div>
                         <div class="b-programm__table-content">
-                            <div class="b-programm__table-item_full">
+                           
+                           <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        12:00
+                                        12:20
                                     </div>
                                     <div class="time-end">
-                                        12:20
+                                        13:00
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/brusov.png" alt="Михаил Брусов">
+                                    <img src="../img/lectors/arhipov.png" alt="Алексей Архипов">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Михаил Брусов
+                                        Алексей Архипов
                                     </div>
                                     <div class="position">
-                                        CEO & co-founder Cindicator
+                                        Руководитель направления развития технологии распределенного реестра, Ассоциации ФинТех
                                     </div>
                                     <div class="report">
-                                        Сможет ли ICO полностью заменить венчурное инвестирование для&nbsp;технологических компаний
+                                        Мастерчейн – первый юридически чистый блокчейн в России
                                     </div>
                                 </div>
                             </div>
+
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        12:20
+                                        13:00
                                     </div>
                                     <div class="time-end">
-                                        12:40
+                                        13:20
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/default.png" alt="Антон Васин">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Антон Васин
+                                    </div>
+                                    <div class="position">
+                                        Сооснователь проекта Serenity Financial
+                                    </div>
+                                    <div class="report">
+                                        Тема уточняется
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="b-programm__table-item_full">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        13:20
+                                    </div>
+                                    <div class="time-end">
+                                        13:45
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/merkulova.png" alt="Дина Меркулова">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Дина Меркулова
+                                    </div>
+                                    <div class="position">
+                                        Кейсы Альфа-Банка при реализации технологии блокчейн
+                                    </div>
+                                    <div class="report">
+                                        Кейсы Альфа-Банка при&nbsp;реализации
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="b-programm__table-item_full">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        13:45
+                                    </div>
+                                    <div class="time-end">
+                                        14:00
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="img/speakers/julin.jpg" alt="Артем Жилин">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Артем Жилин
+                                    </div>
+                                    <div class="position">
+                                        COO Gelios 
+                                    </div>
+                                    <div class="report">
+                                        Методы KYC применительно к блокчейн технологиям
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="b-program__table">
+                    <div class="b-program__table-day">
+                        <p>14:00-15:00 Обед</p>
+                    </div>
+                    <div class="b-program__preview">
+                        <div class="b-program__preview-header">
+                            <p class="title">ICO, как способ привлечения денег в стартап</p>
+                            <span class="place">Главный зал</span>
+                        </div>
+                        <div class="b-programm__table-content">
+
+                        	<div class="b-programm__table-item_full">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        15:00
+                                    </div>
+                                    <div class="time-end">
+                                        15:40
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/gershuni.png" alt="Степан Гершуни ">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Степан Гершуни
+                                    </div>
+                                    <div class="position">
+                                        Управляющий партнёр bits.capital
+                                    </div>
+                                    <div class="report">
+                                        Как повысить капитализацию блокчейн проекта. Создание экономической модели токена для&nbsp;ICO
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="b-programm__table-item_full">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        15:40
+                                    </div>
+                                    <div class="time-end">
+                                        16:00
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/zazimonec.png" alt="Антон Зазимонец ">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Антон Зазимонец
+                                    </div>
+                                    <div class="position">
+                                        CEO в Iskander ICOFund
+                                    </div>
+                                    <div class="report">
+                                        Тема уточняется
+                                    </div>
+                                </div>
+                            </div>
+
+                        	<div class="b-programm__table-item_full">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        16:00
+                                    </div>
+                                    <div class="time-end">
+                                        16:20
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="img/speakers/baranov.jpg" alt="Баранов Артем">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Баранов Артем
+                                    </div>
+                                    <div class="position">
+                                        Сооснователь и операционный директор Cindicator
+                                    </div>
+                                    <div class="report">
+                                        Сможет ли ICO полностью заменить венчурное инвестирование для технологических компаний
+                                    </div>
+                                </div>
+                            </div>
+                           
+                            <div class="b-programm__table-item_full">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        16:20
+                                    </div>
+                                    <div class="time-end">
+                                        16:40
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/default.png" alt="Алексей Воронин">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Алексей Воронин
+                                    </div>
+                                    <div class="position">
+                                        Founder ICO LAB
+                                    </div>
+                                    <div class="report">
+                                        Как спасти ICO
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="b-program__preview">
+                        <div class="b-program__preview-header">
+                            <p class="title">Блокчейн проекты</p>
+                            <span class="place">Зал мастер-классов и стартапов</span>
+                        </div>
+                        <div class="b-programm__table-content">
+
+                        	<div class="b-programm__table-item_full">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        15:00
+                                    </div>
+                                    <div class="time-end">
+                                        15:20
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -2840,10 +3410,10 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        12:40
+                                        15:20
                                     </div>
                                     <div class="time-end">
-                                        13:00
+                                        15:40
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -2861,50 +3431,79 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
+
+                            
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        13:00
+                                        15:40
                                     </div>
                                     <div class="time-end">
-                                        13:20
+                                        16:00
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="Вячеслав Семенчук">
+                                    <img src="../img/lectors/default.png" alt="Андрей Инсаров">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Вячеслав Семенчук
+                                        Андрей Инсаров
                                     </div>
                                     <div class="position">
-                                        Серийный предприниматель. Основатель первой кошерной криптовалюты и блокчейн экосистемы BITCOEN
+                                        СЕО SMSCHAIN
                                     </div>
                                     <div class="report">
-                                        Тема уточняется
+                                         P2b сервисы на рынке телекоммуникаций
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="b-programm__table-item_full">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        16:00
+                                    </div>
+                                    <div class="time-end">
+                                        16:40
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/stukolov.png" alt="Павел Стуколов ">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Павел Стуколов
+                                    </div>
+                                    <div class="position">
+                                        CEO TokenStars
+                                    </div>
+                                    <div class="report">
+                                        Как привлечь более 1 млн $ на стадии pre-ICO
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
                 <div class="b-program__table">
                     <div class="b-program__table-day">
-                        <p>14:00-15:00 Обед</p>
+                        <p>16:40-17:00 Кофе брейк</p>
                     </div>
                     <div class="b-program__preview">
                         <div class="b-program__preview-header">
-                            <p class="title">Майнинг, оборудование</p>
+                            <p class="title">Майнинг и оборудование, прогнозы</p>
                             <span class="place">Главный зал</span>
                         </div>
                         <div class="b-programm__table-content">
-                            <div class="b-programm__table-item_full">
+
+                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        15:00
+                                        17:00
                                     </div>
                                     <div class="time-end">
-                                        16:00
+                                        17:30
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -2915,106 +3514,14 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Артём Гуревич
                                     </div>
                                     <div class="position">
-                                        Co-Founder в Get Crypto
+                                        Co-founder в Get Crypto
                                     </div>
                                     <div class="report">
                                         Майнинг: хайп и бизнес
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="b-program__preview">
-                        <div class="b-program__preview-header">
-                            <p class="title">Трейдинг / инвестиции</p>
-                            <span class="place">Зал мастер-классов и стартапов</span>
-                        </div>
-                        <div class="b-programm__table-content">
-                            <div class="b-programm__table-item_full">
-                                <div class="b-programm__table-item-time">
-                                    <div class="time-start">
-                                        15:00
-                                    </div>
-                                    <div class="time-end">
-                                        15:40
-                                    </div>
-                                </div>
-                                <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/ivanov.png" alt="Олег Иванов">
-                                </div>
-                                <div class="b-programm__table-item-text">
-                                    <div class="name">
-                                        Олег Иванов
-                                    </div>
-                                    <div class="position">
-                                        Учредитель компании «CryptoBazar»
-                                    </div>
-                                    <div class="report">
-                                        Инвестирование в&nbsp;криптовалюты. Инвестирование в проекты до выхода на ICO
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="b-programm__table-item_full">
-                                <div class="b-programm__table-item-time">
-                                    <div class="time-start">
-                                        15:40
-                                    </div>
-                                    <div class="time-end">
-                                        16:20
-                                    </div>
-                                </div>
-                                <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="Алексей Шульженко  ">
-                                </div>
-                                <div class="b-programm__table-item-text">
-                                    <div class="name">
-                                        Алексей Шульженко
-                                    </div>
-                                    <div class="position">
-                                        Директор по маркетингу Trading View
-                                    </div>
-                                    <div class="report">
-                                        Как защитить корпоративные сети c&nbsp;помощью блокчейна?
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="b-program__table">
-                    <div class="b-program__table-day">
-                        <p>16:40-17:00 Кофе брейк</p>
-                    </div>
-                    <div class="b-program__preview">
-                        <div class="b-program__preview-header">
-                            <p class="title">ICO</p>
-                            <span class="place">Главный зал</span>
-                        </div>
-                        <div class="b-programm__table-content">
-                            <div class="b-programm__table-item_full">
-                                <div class="b-programm__table-item-time">
-                                    <div class="time-start">
-                                        17:00
-                                    </div>
-                                    <div class="time-end">
-                                        17:30
-                                    </div>
-                                </div>
-                                <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/gershuni.png" alt="Степан Гершуни ">
-                                </div>
-                                <div class="b-programm__table-item-text">
-                                    <div class="name">
-                                        Степан Гершуни
-                                    </div>
-                                    <div class="position">
-                                        Управляющий партнёр bits.capital
-                                    </div>
-                                    <div class="report">
-                                        Как повысить капитализацию блокчейн проекта. Создание экономической модели токена для&nbsp;ICO
-                                    </div>
-                                </div>
-                            </div>
+
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -3025,25 +3532,26 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/zazimonec.png" alt="Антон Зазимонец ">
+                                    <img src="img/speakers/rozkowertz.jpg" alt="Joerg Roskowertz">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Антон Зазимонец
+                                        Joerg Roskowertz
                                     </div>
                                     <div class="position">
-                                        CEO в Iskander ICOFund
+                                        AMD Blockchain expert
                                     </div>
                                     <div class="report">
-                                        Как повысить капитализацию блокчейн проекта. Создание экономической модели токена для&nbsp;ICO
+                                        Оборудование для майнинга и обзор перспектив оборудования нового поколения
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                     <div class="b-program__preview">
                         <div class="b-program__preview-header">
-                            <p class="title">Пошаговые инструкции для новичков</p>
+                            <p class="title">Блокчейн проекты</p>
                             <span class="place">Зал мастер-классов и стартапов</span>
                         </div>
                         <div class="b-programm__table-content">
@@ -3073,7 +3581,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         10:00
                                     </div>
                                     <div class="time-end">
-                                        10:30
+                                        11:00
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -3097,7 +3605,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         11:00
                                     </div>
                                     <div class="time-end">
-                                        11:30
+                                        11:20
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -3115,11 +3623,38 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="b-programm__table-item_full">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        11:20
+                                    </div>
+                                    <div class="time-end">
+                                        11:40
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/fedorov.png" alt="Алексей Федоров ">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Алексей Федоров
+                                    </div>
+                                    <div class="position">
+                                        Научный сотрудник Российского квантового центра, создатель «квантового блокчейна»
+                                    </div>
+                                    <div class="report">
+                                        Угроза квантовых компьютеров для блокчейн индустрии
+                                    </div>
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
                     <div class="b-program__preview">
                         <div class="b-program__preview-header">
-                            <p class="title">ICO</p>
+                            <p class="title">ICO, как способ привлечения денег в стартап</p>
                             <span class="place">Зал мастер-классов и стартапов</span>
                         </div>
                         <div class="b-programm__table-content">
@@ -3147,6 +3682,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
+
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -3171,74 +3707,14 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="b-program__table">
-                    <div class="b-program__table-day">
-                        <p>11:40-12:00 Кофе брейк</p>
-                    </div>
-                    <div class="b-program__preview">
-                        <div class="b-program__preview-header">
-                            <p class="title">Законодательство</p>
-                            <span class="place">Главный зал</span>
-                        </div>
-                        <div class="b-programm__table-content">
+
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        12:00
+                                        11:00
                                     </div>
                                     <div class="time-end">
-                                        12:30
-                                    </div>
-                                </div>
-                                <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/sidorenko.png" alt="Элина Сидоренкo ">
-                                </div>
-                                <div class="b-programm__table-item-text">
-                                    <div class="name">
-                                        Элина Сидоренкo
-                                    </div>
-                                    <div class="position">
-                                        Pуководитель межведомственной рабочей группы по оценкам рисков оборота криптовалюты Государственной Думы
-                                    </div>
-                                    <div class="report">
-                                        Перспективы совершенствования законодательства в области оборота
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="b-programm__table-item_full">
-                                <div class="b-programm__table-item-time">
-                                    <div class="time-start">
-                                        12:30
-                                    </div>
-                                    <div class="time-end">
-                                        13:00
-                                    </div>
-                                </div>
-                                <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/gamza.png" alt="Владимир Гамза ">
-                                </div>
-                                <div class="b-programm__table-item-text">
-                                    <div class="name">
-                                        Владимир Гамза
-                                    </div>
-                                    <div class="position">
-                                        Председатель Комитета ТПП РФ по финансовым рынкам и кредитным организациям
-                                    </div>
-                                    <div class="report">
-                                        Государство и блокчейн технологии
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="b-programm__table-item_full">
-                                <div class="b-programm__table-item-time">
-                                    <div class="time-start">
-                                        13:00
-                                    </div>
-                                    <div class="time-end">
-                                        13:30
+                                        11:20
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -3256,13 +3732,54 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
+
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        13:30
+                                        11:20
                                     </div>
                                     <div class="time-end">
-                                        14:00
+                                        11:40
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/default.png" alt="Андрей Юдин">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Андрей Юдин
+                                    </div>
+                                    <div class="position">
+                                        Co-founder CryptoBazar Fund
+                                    </div>
+                                    <div class="report">
+                                        Как правильно выбрать проект для инвестирования
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="b-program__table">
+                    <div class="b-program__table-day">
+                        <p>11:40-12:00 Кофе брейк</p>
+                    </div>
+                    <div class="b-program__preview">
+                        <div class="b-program__preview-header">
+                            <p class="title">Законодательное регулирование</p>
+                            <span class="place">Главный зал</span>
+                        </div>
+                        <div class="b-programm__table-content">
+                            
+                           
+                            <div class="b-programm__table-item_full">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        12:00
+                                    </div>
+                                    <div class="time-end">
+                                        12:30
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -3280,98 +3797,78 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="b-programm__table-item_full">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        12:30
+                                    </div>
+                                    <div class="time-end">
+                                        13:30
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/sidorenko.png" alt="Элина Сидоренкo ">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Элина Сидоренкo
+                                    </div>
+                                    <div class="position">
+                                        Pуководитель межведомственной рабочей группы по оценкам рисков оборота криптовалюты Государственной Думы
+                                    </div>
+                                    <div class="report">
+                                        Перспективы совершенствования законодательства в области оборота
+                                    </div>
+                                </div>
+                            </div>
+
+                             <div class="b-programm__table-item_full">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        13:30
+                                    </div>
+                                    <div class="time-end">
+                                        15:00
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/default.png" alt="img">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                         Согласовываются спикеры и темы выступлений 
+                                    </div>
+                                    <div class="position">
+                                        
+                                    </div>
+                                    <div class="report">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item_default">
-                                    Панельная дискуссия
+                                    Панельная дискуссия - Блокчейн и криптовалюты в Российском законодательстве. 
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="b-program__preview">
                         <div class="b-program__preview-header">
-                            <p class="title">Стартапы</p>
+                            <p class="title">Блокчейн проекты</p>
                             <span class="place">Зал мастер-классов и стартапов</span>
                         </div>
                         <div class="b-programm__table-content">
+                            
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
                                         12:00
                                     </div>
                                     <div class="time-end">
-                                        12:30
-                                    </div>
-                                </div>
-                                <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/martin.png" alt="Павел Мартынов">
-                                </div>
-                                <div class="b-programm__table-item-text">
-                                    <div class="name">
-                                        Павел Мартынов
-                                    </div>
-                                    <div class="position">
-                                        Основатель Steepshot
-                                    </div>
-                                    <div class="report">
-                                        Как запустить свой блокчейн-стартап
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="b-programm__table-item_full">
-                                <div class="b-programm__table-item-time">
-                                    <div class="time-start">
-                                        12:30
-                                    </div>
-                                    <div class="time-end">
-                                        13:00
-                                    </div>
-                                </div>
-                                <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/olin.png" alt="Алексей Олин  ">
-                                </div>
-                                <div class="b-programm__table-item-text">
-                                    <div class="name">
-                                        Алексей Олин
-                                    </div>
-                                    <div class="position">
-                                        Основатель DAO.Finance и iVenturer
-                                    </div>
-                                    <div class="report">
-                                        Как защитить корпоративные сети с помощью блокчейна?
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="b-programm__table-item_full">
-                                <div class="b-programm__table-item-time">
-                                    <div class="time-start">
-                                        13:00
-                                    </div>
-                                    <div class="time-end">
-                                        13:30
-                                    </div>
-                                </div>
-                                <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/stukolov.png" alt="Павел Стуколов ">
-                                </div>
-                                <div class="b-programm__table-item-text">
-                                    <div class="name">
-                                        Павел Стуколов
-                                    </div>
-                                    <div class="position">
-                                        CEO Token Stars
-                                    </div>
-                                    <div class="report">
-                                        Как привлечь более 1 млн $ на стадии pre-ICO
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="b-programm__table-item_full">
-                                <div class="b-programm__table-item-time">
-                                    <div class="time-start">
-                                        13:30
-                                    </div>
-                                    <div class="time-end">
-                                        14:00
+                                        12:20
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -3389,6 +3886,80 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="b-programm__table-item_full">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        12:20
+                                    </div>
+                                    <div class="time-end">
+                                        12:40
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/olin.png" alt="Алексей Олин  ">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Алексей Олин
+                                    </div>
+                                    <div class="position">
+                                        Основатель DAO.Finance и iVenturer
+                                    </div>
+                                    <div class="report">
+                                        Как защитить корпоративные сети с помощью блокчейна?
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="b-programm__table-item_full">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        12:40
+                                    </div>
+                                    <div class="time-end">
+                                        13:00
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/martin.png" alt="Павел Мартынов">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Павел Мартынов
+                                    </div>
+                                    <div class="position">
+                                        Основатель Steepshot
+                                    </div>
+                                    <div class="report">
+                                        Как запустить свой блокчейн-стартап
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="b-programm__table-item_full">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        13:00
+                                    </div>
+                                    <div class="time-end">
+                                        15:00
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/default.png" alt="default ">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Согласовываются спикеры и темы выступлений 
+                                    </div>
+                                    <div class="position">
+                                    </div>
+                                    <div class="report">
+                                    </div>
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -3398,8 +3969,39 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                     </div>
                     <div class="b-program__preview">
                         <div class="b-program__preview-header">
-                            <p class="title">Разработка блокчейн проектов для не разработчиков</p>
+                            <p class="title"></p>
                             <span class="place">Главный зал</span>
+                        </div>
+                        <div class="b-programm__table-content">
+                            
+                            <div class="b-programm__table-item_full">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        16:00
+                                    </div>
+                                    <div class="time-end">
+                                        17:00
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/default.png" alt="default ">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Согласовываются спикеры и темы выступлений 
+                                    </div>
+                                    <div class="position">
+                                    </div>
+                                    <div class="report">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="b-program__preview">
+                        <div class="b-program__preview-header">
+                            <p class="title"></p>
+                            <span class="place">Зал мастер-классов и стартапов</span>
                         </div>
                         <div class="b-programm__table-content">
                             <div class="b-programm__table-item_full">
@@ -3408,59 +4010,20 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         16:00
                                     </div>
                                     <div class="time-end">
-                                        16:20
+                                        17:00
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/tihonov.png" alt="Иван Тихонов ">
+                                    <img src="../img/lectors/default.png" alt="default ">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Иван Тихонов
+                                        Согласовываются спикеры и темы выступлений 
                                     </div>
                                     <div class="position">
-                                        Основатель и руководитель в Bits.media
                                     </div>
                                     <div class="report">
-                                        Что нового ожидать в Ethereum?
                                     </div>
-                                </div>
-                            </div>
-                            <div class="b-programm__table-item_full">
-                                <div class="b-programm__table-item-time">
-                                    <div class="time-start">
-                                        16:20
-                                    </div>
-                                    <div class="time-end">
-                                        16:40
-                                    </div>
-                                </div>
-                                <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/fedorov.png" alt="Алексей Федоров ">
-                                </div>
-                                <div class="b-programm__table-item-text">
-                                    <div class="name">
-                                        Алексей Федоров
-                                    </div>
-                                    <div class="position">
-                                        Научный сотрудник Российского квантового центра, создатель «квантового блокчейна»
-                                    </div>
-                                    <div class="report">
-                                        Угроза квантовых компьютеров для блокчейниндустрии
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="b-program__preview">
-                        <div class="b-program__preview-header">
-                            <p class="title">Сколково</p>
-                            <span class="place">Зал мастер-классов и стартапов</span>
-                        </div>
-                        <div class="b-programm__table-content">
-                            <div class="b-programm__table-item_full">
-                                <div class="b-programm__table-item_default">
-                                    Уточняется спикер<br/>и тема выступления
                                 </div>
                             </div>
                         </div>
@@ -3640,7 +4203,40 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                         </div>
                     </div>
                     <div class="b-program__table-day">
-                        <p>15:45-18:00 Закрытие конференции</p>
+                        <p>15:45-16:00 Кофе брейк</p>
+                    </div>
+                    <div class="b-programm__table-content">
+                        <div class="b-programm__table-content_full">
+                            <div class="b-programm__table-item-time">
+                                <div class="time-start">
+                                    16:00
+                                </div>
+                                <div class="time-end">
+                                    18:00
+                                </div>
+                            </div>
+                            <div class="b-programm__table-item-text">
+                                <div class="title">
+                                    Криптовалютный трейдинг, деятельность криптовалютных бирж
+                                </div>
+                                <div class="b-programm__description">
+                                    <div class="open">Описание</div>
+                                    <div class="content">
+                                        <div class="list list_mt-45">
+                                            <ul>
+                                                <li>Хранение криптовалютных активов и текущие расчеты криптовалютой.</li>
+		                                        <li>Технологии хранения криптовалютных активов.</li>
+		                                        <li>Криптовалюта, как средство платежа.</li>
+		                                        <li>Трейдинг и портфельные инвестиции.</li>
+		                                        <li>Операции на P2P внебиржевых площадках.</li>
+		                                        <li>Портфельные инвестиции в криптовалюту.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="close">Скрыть описание</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -4092,6 +4688,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 									<a target="_blank" href="https://altcoin.info/ "><img src="img/logo-partners/alt_opacity100.png" alt="img"/></a>
 									<a target="_blank" href="http://www.iksmedia.ru"><img src="img/logo-partners/IKS-media.jpg" alt="img"/></a>
 									<a target="_blank" href="iDealMachine.jpg"><img src="img/logo-partners/iDealMachine.jpg" alt="img"/></a>
+									<a target="_blank" href="iDealMachine.jpg"><img src="img/logo-partners/DIT_Logo.jpg" alt="img"/></a>
 								</div>
 							</div>
 						</div>
@@ -4189,7 +4786,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 						<a target="_blank" href="https://altcoin.info/ "><img src="img/logo-partners/alt_opacity100.png" alt="img"/></a>
 						<a target="_blank" href="http://www.iksmedia.ru"><img src="img/logo-partners/IKS-media.jpg" alt="img"/></a>
 						<a target="_blank" href="iDealMachine.jpg"><img src="img/logo-partners/iDealMachine.jpg" alt="img"/></a>
-
+						<a target="_blank" href="iDealMachine.jpg"><img src="img/logo-partners/DIT_Logo.jpg" alt="img"/></a>
 					</div>
 				</div>
 				<div class="block--become-partner">
@@ -4517,34 +5114,10 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
       videoId: '9v5iBKUK7_4'
     });
 
-    youtubeVideoPlayer11 = new YT.Player('youtube-video-11', {
+    youtubeVideoPlayer7 = new YT.Player('youtube-video-7', {
       height: '196',
       width: '350',
-      videoId: '7xF6JHkuDOw'
-    });
-
-    youtubeVideoPlayer22 = new YT.Player('youtube-video-22', {
-      height: '196',
-      width: '350',
-      videoId: 'SqPRWf7UqDA'
-    });
-
-    youtubeVideoPlayer33 = new YT.Player('youtube-video-33', {
-      height: '196',
-      width: '350',
-      videoId: 'GnYXuQjPSbQ'
-    });
-
-    youtubeVideoPlayer55 = new YT.Player('youtube-video-55', {
-      height: '196',
-      width: '350',
-      videoId: 'tI5qy4ftZKc'
-    });
-
-    youtubeVideoPlayer66 = new YT.Player('youtube-video-66', {
-      height: '196',
-      width: '350',
-      videoId: '9v5iBKUK7_4'
+      videoId: 'pYyEVv1n800'
     });
   }
 </script>
