@@ -1264,6 +1264,16 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 		 					<div class="desc">Заместитель генерального директора АО «Инвестиционная компания «ФИНАМ»</div>
 						</div>
 					</div>
+					<div>
+						<div class="video">
+		 					<div class="preview video-77">
+		 						<img src="img/video-preview-6.jpg"/>
+		  						<div id="youtube-video-77"></div>
+		 					</div>
+		 					<div class="name">Артём Гуревич</div>
+		 					<div class="desc">Co-founder Get Crypto</div>
+						</div>
+					</div>
 
 			    </div>
 		    </div>
@@ -5286,6 +5296,44 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
     });
 
     youtubeVideoPlayer7 = new YT.Player('youtube-video-7', {
+      height: '196',
+      width: '350',
+      videoId: 'pYyEVv1n800'
+    });
+
+    // for mobile version video
+    ///////////////////////////////////////////////////////////////
+    youtubeVideoPlayer11 = new YT.Player('youtube-video-11', {
+      height: '196',
+      width: '350',
+      videoId: '7xF6JHkuDOw'
+    });
+
+    youtubeVideoPlayer22 = new YT.Player('youtube-video-22', {
+      height: '196',
+      width: '350',
+      videoId: 'SqPRWf7UqDA'
+    });
+
+    youtubeVideoPlayer33 = new YT.Player('youtube-video-33', {
+      height: '196',
+      width: '350',
+      videoId: 'GnYXuQjPSbQ'
+    });
+
+    youtubeVideoPlayer55 = new YT.Player('youtube-video-55', {
+      height: '196',
+      width: '350',
+      videoId: 'tI5qy4ftZKc'
+    });
+
+    youtubeVideoPlayer66 = new YT.Player('youtube-video-66', {
+      height: '196',
+      width: '350',
+      videoId: '9v5iBKUK7_4'
+    });
+
+    youtubeVideoPlayer77 = new YT.Player('youtube-video-77', {
       height: '196',
       width: '350',
       videoId: 'pYyEVv1n800'

@@ -328,7 +328,8 @@ $(document).ready(function() {
             youtubeVideoPlayer7.playVideo();
         }
 
-
+        // for mobile version video
+        ///////////////////////////////////////////
          if ($(this).hasClass('video-11')){
             youtubeVideoPlayer11.playVideo();
         }
@@ -344,7 +345,9 @@ $(document).ready(function() {
         if ($(this).hasClass('video-66')){
             youtubeVideoPlayer66.playVideo();
         }
-        
+        if ($(this).hasClass('video-77')){
+            youtubeVideoPlayer77.playVideo();
+        }
     });
 
 
