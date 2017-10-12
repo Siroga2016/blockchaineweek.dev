@@ -4737,6 +4737,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 									<a target="_blank" href="http://lp.mmgp.ru/7"><img src="img/logo-partners/logo_mmgp.png" alt="img"/></a>
 									<a target="_blank" href="https://ru.tradingview.com/"><img src="img/logo-partners/tradingview.svg" alt="img"/></a>
 									<a target="_blank" href="https://alfabank.ru/"><img src="img/logo-partners/alfabank.png" alt="img"/></a>
+									<a target="_blank" href="https://www.mos.ru/dit/"><img src="img/logo-partners/DIT_Logo.jpg" alt="img"/></a>
 								</div>
 							</div>
 						</div>
@@ -4824,7 +4825,6 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 									<a target="_blank" href="https://altcoin.info/ "><img src="img/logo-partners/alt_opacity100.png" alt="img"/></a>
 									<a target="_blank" href="http://www.iksmedia.ru"><img src="img/logo-partners/IKS-media.jpg" alt="img"/></a>
 									<a target="_blank" href="http://www.idealmachine.ru/"><img src="img/logo-partners/iDealMachine.jpg" alt="img"/></a>
-									<a target="_blank" href="https://www.mos.ru/dit/"><img src="img/logo-partners/DIT_Logo.jpg" alt="img"/></a>
 									<a target="_blank" href="http://sbi.tusur.ru/ "><img src="img/logo-partners/logo-m-top.png" alt="img"/></a>
 									<a target="_blank" href="http://www.bitmoneyekb.com/ "><img src="img/logo-partners/bit-money.png" alt="img"/></a>
 									<a target="_blank" href="http://www.fxstreet.ru.com/"><img src="img/logo-partners/fxs_logo_whiteback_screen.png" alt="img"/></a>
@@ -4860,6 +4860,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 					<a target="_blank" href="http://lp.mmgp.ru/7" class="big"><img src="img/logo-partners/logo_mmgp.png" alt="img"/></a>
 					<a target="_blank" href="https://ru.tradingview.com/" class="big"><img style="width:120px" src="img/logo-partners/tradingview.svg" alt="img"/></a>
 					<a target="_blank" href="https://alfabank.ru/" class="big"><img style="max-width:250px" src="img/logo-partners/alfabank.png" alt="img"/></a>
+					<a target="_blank" href="https://www.mos.ru/dit/"><img src="img/logo-partners/DIT_Logo.jpg" alt="img"  style="max-width: 220px;"/></a>
 
 					<p style="margin-top: 30px;">Инновационный партнер</p>
 					<div class="information-partners">
@@ -4940,7 +4941,6 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 						<a target="_blank" href="https://altcoin.info/ "><img src="img/logo-partners/alt_opacity100.png" alt="img"/></a>
 						<a target="_blank" href="http://www.iksmedia.ru"><img src="img/logo-partners/IKS-media.jpg" alt="img"/></a>
 						<a target="_blank" href="http://www.idealmachine.ru/"><img src="img/logo-partners/iDealMachine.jpg" alt="img"/></a>
-						<a target="_blank" href="https://www.mos.ru/dit/"><img src="img/logo-partners/DIT_Logo.jpg" alt="img"/></a>
 						<a target="_blank" href="http://sbi.tusur.ru/ "><img src="img/logo-partners/logo-m-top.png" alt="img"/></a>
 						<a target="_blank" href="http://www.bitmoneyekb.com/ "><img src="img/logo-partners/bit-money.png" alt="img"/></a>
 						<a target="_blank" href="http://www.fxstreet.ru.com/"><img src="img/logo-partners/fxs_logo_whiteback_screen.png" alt="img"/></a>
@@ -4956,7 +4956,6 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 						<a target="_blank" href="http://probusinesstv.ru"><img src="img/logo-partners/PRObusiness-logo.jpg" alt="img"/></a>
 						<a target="_blank" href="https://helpinver.com"><img src="img/logo-partners/helpinwer.png" alt="img"/></a>
 						<a target="_blank" href="http://coinews.io/ru/category/1-kripto"><img src="img/logo-partners/coinews.io.png" alt="img"/></a>
-
 						<a target="_blank" href="https://ituber.me"><img src="img/logo-partners/ituber.jpg" alt="img"/></a>
 						<a target="_blank" href="https://innmind.com/ru"><img src="img/logo-partners/Innmind.jpg" alt="img"/></a>
 					</div>
