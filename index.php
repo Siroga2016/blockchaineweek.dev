@@ -190,7 +190,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 				<li><a href="#block2" onClick='ga("send", "event", "menu", "click item", "О мероприятии");'>О мероприятии</a></li>
 				<li><a href="#block3" onClick='ga("send", "event", "menu", "click item", "Ключевые темы");'>Ключевые темы</a></li>
 				<li><a href="#block4" onClick='ga("send", "event", "menu", "click item", "Спикеры");'>Спикеры</a></li>
-				<li><a href="#programm" onclick='ga("send", "event", "menu", "click item", "Программа");'>Программа</a></li>
+				<!--<li><a href="#programm" onclick='ga("send", "event", "menu", "click item", "Программа");'>Программа</a></li>-->
 				<li><a href="#block8-bottom" onClick='ga("send", "event", "menu", "click item", "Стоимость");'>Стоимость</a></li>
 				<li><a href="#block9-bottom" onClick='ga("send", "event", "menu", "click item", "Контакты");'>Контакты</a></li>
 				<li><a href="#block10" onClick='ga("send", "event", "menu", "click item", "Партнеры");'>Партнеры</a></li>
@@ -222,7 +222,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 				<li><a href="#block2" onClick='ga("send", "event", "menu", "click item", "О мероприятии");'>О мероприятии</a></li>
 				<li><a href="#block3" onClick='ga("send", "event", "menu", "click item", "Ключевые темы");'>Ключевые темы</a></li>
 				<li><a href="#block4" onClick='ga("send", "event", "menu", "click item", "Спикеры");'>Спикеры</a></li>
-				<li><a href="#programm" onclick='ga("send", "event", "menu", "click item", "Программа");'>Программа</a></li>
+				<!--<li><a href="#programm" onclick='ga("send", "event", "menu", "click item", "Программа");'>Программа</a></li>-->
 				<li><a href="#block8-bottom" onClick='ga("send", "event", "menu", "click item", "Стоимость");'>Стоимость</a></li>
 				<li><a href="#block9-bottom" onClick='ga("send", "event", "menu", "click item", "Контакты");'>Контакты</a></li>
 				<li><a href="#block10" onClick='ga("send", "event", "menu", "click item", "Партнеры");'>Партнеры</a></li>
@@ -1305,7 +1305,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 		</div>
 	</div>
 
-  <div id="programm" class="l-program">
+  <!--<div id="programm" class="l-program">
         <div class="b-program">
             <div class="center">
                 <div class="b-program__header">
@@ -1703,7 +1703,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="img/speakers/default2.jpg" alt="">
+                                    <img src="../img/lectors/default.png" alt="img">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
@@ -1754,7 +1754,8 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="Антон Васин">
+                                    <img src="../img/speakers/vasin.jpg" alt="Антон Васин">
+
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
@@ -3192,7 +3193,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Директор по маркетингу Trading View
                                     </div>
                                     <div class="report">
-                                        Как защитить корпоративные сети c&nbsp;помощью блокчейна?
+                                        Влияние криптовалют на финансовые рынки и трейдинг. Текущее состояние и тенденции
                                     </div>
                                 </div>
                             </div>
@@ -3230,6 +3231,9 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     <div class="time-end">
                                         14:00
                                     </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/default.png" alt="img">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
@@ -3285,7 +3289,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="Антон Васин">
+                                    <img src="../img/speakers/vasin.jpg" alt="Антон Васин">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
@@ -3514,10 +3518,10 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Алексей Костарев
                                     </div>
                                     <div class="position">
-                                        BDO в Giftoman. Карта постоянного клиента
+                                        Co-founder Robot Vera
                                     </div>
                                     <div class="report">
-                                        Тема уточняется
+                                        Как блокчейн технологии могут поменять рынок HR
                                     </div>
                                 </div>
                             </div>
@@ -3685,7 +3689,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Блокчейн-евангелист Microsoft
                                     </div>
                                     <div class="report">
-                                        Microsoft blockchain stack
+                                        Blockchain: От прорывной концепции до комплексного решения для компаний
                                     </div>
                                 </div>
                             </div>
@@ -3709,7 +3713,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Основатель и руководитель в Bits.media
                                     </div>
                                     <div class="report">
-                                        Планы развития и нововведения в консенсусе блокчейна Ethereum
+                                        Чего нового ожидать в Ethereum?
                                     </div>
                                 </div>
                             </div>
@@ -3731,7 +3735,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Алексей Федоров
                                     </div>
                                     <div class="position">
-                                        Научный сотрудник Российского квантового центра, создатель «квантового блокчейна»
+                                        Угроза квантовых компьютеров для блокчейн индустрии   
                                     </div>
                                     <div class="report">
                                         Угроза квантовых компьютеров для блокчейн индустрии
@@ -3938,11 +3942,29 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                 </div>
                             </div>
 
-                            <div class="b-programm__table-item_full">
-                                <div class="b-programm__table-item_default">
-                                    Панельная дискуссия - Блокчейн и криптовалюты в Российском законодательстве. 
+                            
+                             <div class="b-programm__table-item_full">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        13:45
+                                    </div>
+                                    <div class="time-end">
+                                        14:00
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/default.png" alt="img">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+
+                                    </div>
+                                    <div class="report">
+                                       Панельная дискуссия - Блокчейн и криптовалюты в Российском законодательстве.
+                                    </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                     <div class="b-program__preview">
@@ -4033,7 +4055,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         13:00
                                     </div>
                                     <div class="time-end">
-                                        15:00
+                                        14:00
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -4042,6 +4064,30 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
                                         Согласовываются спикеры и темы выступлений 
+                                    </div>
+                                    <div class="position">
+                                    </div>
+                                    <div class="report">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="b-programm__table-item_full">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        14:00
+                                    </div>
+                                    <div class="time-end">
+                                        15:00
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/speakers/technopark-ava.jpg" alt="img">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Модератор: Павел Новиков;
+										Технопарк Сколкого.
                                     </div>
                                     <div class="position">
                                     </div>
@@ -4331,7 +4377,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 
 	<div class="block-8-top">
 		<div class="center">
@@ -4471,8 +4517,8 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 				            <div class="pay-text">Доступ в основной поток (конференц-зал)</div>
 				            <div class="pay-text">Доступ в выставочную зону</div>
 				        </div>
-				        <div class="price price1">19 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
-				        <div class="price price2">23 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
+				        <div class="price price1">23 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
+				        <div class="price price2">25 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
 				        <a href="#block5" onClick='selectTicketType("Базовый"); ga("send", "event", "tarif", "сlick button", "Базовый");'>Забронировать билет</a>
 				    </div>
 				    <div class="pay-block green">
@@ -4483,8 +4529,8 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 				            <div class="pay-text">Доступ на презентацию стартапов и зал мастер-классов</div>
 				            <div class="pay-text">Презентации спикеров и видеозаписи выступлений</div>
 				        </div>
-				        <div class="price price1">29 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
-				        <div class="price price2">34 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
+				        <div class="price price1">34 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
+				        <div class="price price2">39 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
 				        <a href="#block5" onClick='selectTicketType("Бизнес"); ga("send", "event", "tarif", "сlick button", "Бизнес");'>Забронировать билет</a>
 				    </div>
 				    <div class="pay-block orange">
@@ -4497,12 +4543,12 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 				            <div class="pay-text">Доступ на 3-ий день обучения (криптокласс)</div>
 				            <div class="pay-text">Сертификат об обучении от РЭУ им. Г.В. Плеханова</div>
 				        </div>
-				        <div class="price price1">38 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
-				        <div class="price price2">44 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
+				        <div class="price price1">44 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
+				        <div class="price price2">45 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
 				        <a href="#block5" onClick='selectTicketType("Бизнес+"); ga("send", "event", "tarif", "сlick button", "Бизнес+");'>Забронировать билет</a>
 				    </div>
 				    <div class="pay-bottom">
-				        <div class="row">Цена до 12 октября (руб.)<span>Скидка до 12 октября 10%</span></div>
+				        <div class="row">Цена до 25 октября (руб.)<span>Скидка до 25 октября 10%</span></div>
 				        <div class="row">Цена октября (руб.)</div>
 				    </div>
 				</div>
@@ -4551,8 +4597,8 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 						            <div class="pay-text">Доступ в основной поток (конференц-зал)</div>
 						            <div class="pay-text">Доступ в выставочную зону</div>
 						        </div>
-						        <div class="price price1">19 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
-						        <div class="price price2">23 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
+						        <div class="price price1">23 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
+						        <div class="price price2">25 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
 						        <a href="#block5" onClick='selectTicketType("Базовый"); ga("send", "event", "tarif", "сlick button", "Базовый");'>Забронировать билет</a>
 						    </div>
 						</div>
@@ -4565,8 +4611,8 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 						            <div class="pay-text">Доступ на презентацию стартапов и зал мастер-классов</div>
 						            <div class="pay-text">Презентации спикеров и видеозаписи выступлений</div>
 						        </div>
-						        <div class="price price1">29 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
-						        <div class="price price2">34 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
+						        <div class="price price1">34 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
+						        <div class="price price2">39 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
 						        <a href="#block5" onClick='selectTicketType("Бизнес"); ga("send", "event", "tarif", "сlick button", "Бизнес");'>Забронировать билет</a>
 						    </div>
 						</div>
@@ -4581,8 +4627,8 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 						            <div class="pay-text">Доступ на 3-ий день обучения (криптокласс)</div>
 						            <div class="pay-text">Сертификат об обучении от РЭУ им. Г.В. Плеханова</div>
 						        </div>
-						        <div class="price price1">38 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
-						        <div class="price price2">44 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
+						        <div class="price price1">44 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
+						        <div class="price price2">45 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
 						        <a href="#block5" onClick='selectTicketType("Бизнес+"); ga("send", "event", "tarif", "сlick button", "Бизнес+");'>Забронировать билет</a>
 						    </div>
 						</div>
@@ -4597,7 +4643,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                     </div>
 
 					<div class="pay-bottom">
-						<div class="row">Цена до<br />12 октября (руб.)<span>Скидка до 12 октября 10%</span></div>
+						<div class="row">Цена до<br />25 октября (руб.)<span>Скидка до 25 октября 10%</span></div>
 						<div class="row">Цена октября (руб.)</div>
 					</div>
 
@@ -4782,6 +4828,21 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 									<a target="_blank" href="http://sbi.tusur.ru/ "><img src="img/logo-partners/logo-m-top.png" alt="img"/></a>
 									<a target="_blank" href="http://www.bitmoneyekb.com/ "><img src="img/logo-partners/bit-money.png" alt="img"/></a>
 									<a target="_blank" href="http://www.fxstreet.ru.com/"><img src="img/logo-partners/fxs_logo_whiteback_screen.png" alt="img"/></a>
+
+									<a target="_blank" href="https://chainnews.ru"><img src="img/logo-partners/chainnews.png" alt="img"/></a>
+									<a target="_blank" href="http://konkir.ru"><img src="img/logo-partners/konkir.jpg" alt="img"/></a>
+									<a target="_blank" href="https://anycoin.news"><img src="img/logo-partners/logo-anycoin.png" alt="img"/></a>
+									<a target="_blank" href="https://expotrade.ru"><img src="img/logo-partners/expoTrade.png" alt="img"/></a>
+									<a target="_blank" href="http://www.techbook.ru"><img src="img/logo-partners/techbook.gif" alt="img"/></a>
+									<a target="_blank" href="http://finpublic.ru"><img src="img/logo-partners/finpublic.png" alt="img"/></a>
+									<a target="_blank" href="https://expoclub.ru"><img src="img/logo-partners/expoclub.png" alt="img"/></a>
+									<a target="_blank" href="http://itpark-kazan.ru"><img src="img/logo-partners/itpark.png" alt="img"/></a>
+									<a target="_blank" href="http://probusinesstv.ru"><img src="img/logo-partners/PRObusiness-logo.jpg" alt="img"/></a>
+									<a target="_blank" href="https://helpinver.com"><img src="img/logo-partners/helpinwer.png" alt="img"/></a>
+									<a target="_blank" href="http://coinews.io/ru/category/1-kripto"><img src="img/logo-partners/coinews.io.png" alt="img"/></a>
+									<a target="_blank" href="https://ituber.me"><img src="img/logo-partners/ituber.jpg" alt="img"/></a>
+									<a target="_blank" href="https://innmind.com/ru"><img src="img/logo-partners/Innmind.jpg" alt="img"/></a>
+
 								</div>
 							</div>
 						</div>
@@ -4883,6 +4944,21 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 						<a target="_blank" href="http://sbi.tusur.ru/ "><img src="img/logo-partners/logo-m-top.png" alt="img"/></a>
 						<a target="_blank" href="http://www.bitmoneyekb.com/ "><img src="img/logo-partners/bit-money.png" alt="img"/></a>
 						<a target="_blank" href="http://www.fxstreet.ru.com/"><img src="img/logo-partners/fxs_logo_whiteback_screen.png" alt="img"/></a>
+
+						<a target="_blank" href="https://chainnews.ru"><img src="img/logo-partners/chainnews.png" alt="img"/></a>
+						<a target="_blank" href="http://konkir.ru"><img src="img/logo-partners/konkir.jpg" alt="img"/></a>
+						<a target="_blank" href="https://anycoin.news"><img src="img/logo-partners/logo-anycoin.png" alt="img"/></a>
+						<a target="_blank" href="https://expotrade.ru"><img src="img/logo-partners/expoTrade.png" alt="img"/></a>
+						<a target="_blank" href="http://www.techbook.ru"><img src="img/logo-partners/techbook.gif" alt="img"/></a>
+						<a target="_blank" href="http://finpublic.ru"><img src="img/logo-partners/finpublic.png" alt="img"/></a>
+						<a target="_blank" href="https://expoclub.ru"><img src="img/logo-partners/expoclub.png" alt="img"/></a>
+						<a target="_blank" href="http://itpark-kazan.ru"><img src="img/logo-partners/itpark.png" alt="img"/></a>
+						<a target="_blank" href="http://probusinesstv.ru"><img src="img/logo-partners/PRObusiness-logo.jpg" alt="img"/></a>
+						<a target="_blank" href="https://helpinver.com"><img src="img/logo-partners/helpinwer.png" alt="img"/></a>
+						<a target="_blank" href="http://coinews.io/ru/category/1-kripto"><img src="img/logo-partners/coinews.io.png" alt="img"/></a>
+
+						<a target="_blank" href="https://ituber.me"><img src="img/logo-partners/ituber.jpg" alt="img"/></a>
+						<a target="_blank" href="https://innmind.com/ru"><img src="img/logo-partners/Innmind.jpg" alt="img"/></a>
 					</div>
 				</div>
 				<div class="block--become-partner">
