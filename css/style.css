@@ -5535,3 +5535,55 @@ a.button-exit{
 	align-items: center;
 	justify-content: center;
 }
+
+.block-night {
+	float: left;
+	width: 100%;
+	color: #fff;
+	position: relative;
+	background: url(../img/night.png) no-repeat center top;
+	padding: 50px 0 70px 0;
+	font-family: 'ProximaNova-Regular';
+	background-size: cover;
+}
+
+.block-night .title {
+	color: #fdfdfd;
+	font-family: "GothamProMedium";
+	font-size: 57px;
+	line-height: 57px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1.14px;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 640px) {
+	.block-night .title {
+		font-size: 50px;
+	}
+}
+
+.block-night .time {
+	color: #fdfdfd;
+	font-family: "GothamProMedium";
+	font-size: 49px;
+	font-weight: bold;
+	line-height: 49px;
+	letter-spacing: 0.98px;
+}
+
+.block-night .text {
+	color: #fdfdfd;
+	font-family: "GothamProMedium";
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 39px;
+	text-transform: uppercase;
+	letter-spacing: 0.66px;
+	margin: 90px 0 150px;
+}
+
+.block-night .logo {
+	display: block;
+}

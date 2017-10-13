@@ -175,7 +175,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 	<title>Russian Blockchain Week 2017 Конференция по блокчейн</title>
 	<meta name="keywords" content="russian blockchain week, blockchain week, конференция блокчейн, blockchain конференция, конференция биткоин, блокчейн семинар, биткоин семинар, обучение блокчейн, обучение  blockchain, консультации блокчейн" />
 	<meta name="description" content="Russian blockсhain Week (Российская неделя блокчейн и криптовалют) — это главное событие года в своей индустрии, которое объединяет в себе 4 формата: конференция, выставка и шоу блокчейн-проектов, Blockchain.EXPO и Blockchain.NIGHT" />
-	<link href="css/style.css?v=2" type="text/css" rel="stylesheet"/>
+	<link href="css/style.css?v=4" type="text/css" rel="stylesheet"/>
 	<link href="css/fonts.css" type="text/css" rel="stylesheet"/>
 	<link href="css/jquery.formstyler.css" type="text/css" rel="stylesheet"/>
 	<link href="css/jquery.formstyler.theme.css" type="text/css" rel="stylesheet"/>
@@ -462,6 +462,23 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 			</div>
 		</div>
 	</div>
+
+	<div class="block-night">
+            <div class="center">
+                <div class="title">
+                    Blockchain.Night
+                </div>
+                <div class="time">
+                    19:00, 27 октября
+                </div>
+                <div class="text">
+                    Налаживайте связи и&nbsp;знакомства<br/> в неформальной обстановке
+                </div>
+                <a href="http://icolab.fund/ru.html" target="_blank" class="logo">
+                    <img src="/img/icoFUND.png" alt="">
+                </a>
+            </div>
+        </div>
 
 	<div class="block4" id="block4">
 		<div class="center">
