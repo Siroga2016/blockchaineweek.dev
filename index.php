@@ -4671,7 +4671,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 
 					<div class="pay-bottom">
 						<div class="row">Цена до<br />25 октября<?/*<span>Скидка до 25 октября 10%</span>*/?></div>
-						<div class="row">Цена в день мероприятия</div>
+						<div class="row">Цена в день меро&shy;приятия</div>
 					</div>
 
 				</div>
