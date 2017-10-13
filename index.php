@@ -463,23 +463,6 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 		</div>
 	</div>
 
-	<div class="block-night">
-            <div class="center">
-                <div class="title">
-                    Blockchain.Night
-                </div>
-                <div class="time">
-                    19:00, 27 октября
-                </div>
-                <div class="text">
-                    Налаживайте связи и&nbsp;знакомства<br/> в неформальной обстановке
-                </div>
-                <a href="http://icolab.fund/ru.html" target="_blank" class="logo">
-                    <img src="/img/icoFUND.png" alt="">
-                </a>
-            </div>
-        </div>
-
 	<div class="block4" id="block4">
 		<div class="center">
 			<div class="title">30 топовых спикеров</div>
@@ -1134,6 +1117,23 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 		    </div>
 	    </div>
 	</div>
+
+	<div class="block-night">
+        <div class="center">
+            <div class="title">
+                Blockchain.Night
+            </div>
+            <div class="time">
+                19:00, 27 октября
+            </div>
+            <div class="text">
+                Налаживайте связи и&nbsp;знакомства<br/> в неформальной обстановке
+            </div>
+            <a href="http://icolab.fund/ru.html" target="_blank" class="logo">
+                <img src="/img/icoFUND.png" alt="">
+            </a>
+        </div>
+    </div>
 
 
 
@@ -4758,10 +4758,10 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 							<div class="links-partner">
 								<p style="margin-bottom: 20px;">Партнеры</p>
 								<div class="content flex-logo">
-									<a target="_blank" href="https://www.moedelo.org/"><img src="img/logo-partners/moedelo.jpg" alt="img" class="flex-img"/></a>
+								    <a target="_blank" href="https://www.mos.ru/dit/"><img src="img/logo-partners/DIT_Logo.jpg" class="flex-img" alt="img"/></a>
 									<a target="_blank" href="https://www.finam.ru/"><img src="img/logo-partners/finam.png" alt="img" class="flex-img" style="max-height: 113px; margin-top: -19px;"/></a>
 									<a target="_blank" href="http://learn.alfabank.ru/"><img src="img/logo-partners/logo-alfa.jpg" class="flex-img" alt="img"/></a>
-									<a target="_blank" href="https://www.mos.ru/dit/"><img src="img/logo-partners/DIT_Logo.jpg" class="flex-img" alt="img"/></a>
+									<a target="_blank" href="https://www.moedelo.org/"><img src="img/logo-partners/moedelo.jpg" alt="img" class="flex-img"/></a>
 									<a target="_blank" href="https://ru.tradingview.com/"><img src="img/logo-partners/tradingview.svg" class="flex-img" alt="img" style="width:140px"/></a>
 									<a target="_blank" href="https://alfabank.ru/"><img src="img/logo-partners/alfabank.png" class="flex-img" alt="img"/></a>
 									<a target="_blank" href="http://lp.mmgp.ru/7" style="margin: 0 0 15px"><img src="img/logo-partners/logo_mmgp.png" class="flex-img" alt="img"/></a>
@@ -4881,13 +4881,13 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 					<span>Помогает создавать условия для цифровизации экономики и разрабатывает новые технологические решения в целях обеспечения развития финансового рынка РФ.</span>
 
 					<p style="margin-bottom: 20px;">Партнеры</p>
-					<a target="_blank" href="https://www.moedelo.org/" class="big"><img src="img/logo-partners/moedelo.jpg" alt="img"/></a>
+					<a target="_blank" href="https://www.mos.ru/dit/"><img src="img/logo-partners/DIT_Logo.jpg" alt="img"  style="max-width: 220px;"/></a>
 					<a target="_blank" href="https://www.finam.ru/" class="big"><img src="img/logo-partners/finam.png" alt="img" style="max-height: 113px; margin-top: -19px;"/></a>
 					<a target="_blank" href="http://learn.alfabank.ru/" class="big"><img src="img/logo-partners/logo-alfa.jpg" alt="img"/></a>
 					<a target="_blank" href="http://lp.mmgp.ru/7" class="big"><img src="img/logo-partners/logo_mmgp.png" alt="img"/></a>
 					<a target="_blank" href="https://ru.tradingview.com/" class="big"><img style="width:120px" src="img/logo-partners/tradingview.svg" alt="img"/></a>
 					<a target="_blank" href="https://alfabank.ru/" class="big"><img style="max-width:250px" src="img/logo-partners/alfabank.png" alt="img"/></a>
-					<a target="_blank" href="https://www.mos.ru/dit/"><img src="img/logo-partners/DIT_Logo.jpg" alt="img"  style="max-width: 220px;"/></a>
+					<a target="_blank" href="https://www.moedelo.org/" class="big"><img src="img/logo-partners/moedelo.jpg" alt="img"/></a>
 
 					<p style="margin-top: 30px;">Инновационный партнер</p>
 					<div class="information-partners">
