@@ -4558,8 +4558,8 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 				        <a href="#block5" onClick='selectTicketType("Бизнес+"); ga("send", "event", "tarif", "сlick button", "Бизнес+");'>Забронировать билет</a>
 				    </div>
 				    <div class="pay-bottom">
-				        <div class="row">Цена до 25 октября (руб.)<span>Скидка до 25 октября 10%</span></div>
-				        <div class="row">Цена октября (руб.)</div>
+				        <div class="row">Цена до 25 октября (руб.)<?/*<span>Скидка до 25 октября 10%</span>*/?></div>
+				        <div class="row">Цена в день мероприятия</div>
 				    </div>
 				</div>
 
@@ -4653,8 +4653,8 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                     </div>
 
 					<div class="pay-bottom">
-						<div class="row">Цена до<br />25 октября (руб.)<span>Скидка до 25 октября 10%</span></div>
-						<div class="row">Цена октября (руб.)</div>
+						<div class="row">Цена до<br />25 октября (руб.)<?/*<span>Скидка до 25 октября 10%</span>*/?></div>
+						<div class="row">Цена в день мероприятия</div>
 					</div>
 
 				</div>
@@ -4740,14 +4740,14 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 						<div>
 							<div class="links-partner">
 								<p style="margin-bottom: 20px;">Партнеры</p>
-								<div class="content">
-									<a target="_blank" href="https://www.moedelo.org/"><img src="img/logo-partners/moedelo.jpg" alt="img"/></a>
-									<a target="_blank" href="https://www.finam.ru/"><img src="img/logo-partners/finam.png" alt="img" style="max-height: 113px; margin-top: -19px;"/></a>
-									<a target="_blank" href="http://learn.alfabank.ru/"><img src="img/logo-partners/logo-alfa.jpg" alt="img"/></a>
-									<a target="_blank" href="https://www.mos.ru/dit/"><img src="img/logo-partners/DIT_Logo.jpg" alt="img"/></a>
-									<a target="_blank" href="https://ru.tradingview.com/"><img src="img/logo-partners/tradingview.svg" alt="img" style="width:140px"/></a>
-									<a target="_blank" href="https://alfabank.ru/"><img src="img/logo-partners/alfabank.png" alt="img"/></a>
-									<a target="_blank" href="http://lp.mmgp.ru/7"><img src="img/logo-partners/logo_mmgp.png" alt="img"/></a>
+								<div class="content flex-logo">
+									<a target="_blank" href="https://www.moedelo.org/"><img src="img/logo-partners/moedelo.jpg" alt="img" class="flex-img"/></a>
+									<a target="_blank" href="https://www.finam.ru/"><img src="img/logo-partners/finam.png" alt="img" class="flex-img" style="max-height: 113px; margin-top: -19px;"/></a>
+									<a target="_blank" href="http://learn.alfabank.ru/"><img src="img/logo-partners/logo-alfa.jpg" class="flex-img" alt="img"/></a>
+									<a target="_blank" href="https://www.mos.ru/dit/"><img src="img/logo-partners/DIT_Logo.jpg" class="flex-img" alt="img"/></a>
+									<a target="_blank" href="https://ru.tradingview.com/"><img src="img/logo-partners/tradingview.svg" class="flex-img" alt="img" style="width:140px"/></a>
+									<a target="_blank" href="https://alfabank.ru/"><img src="img/logo-partners/alfabank.png" class="flex-img" alt="img"/></a>
+									<a target="_blank" href="http://lp.mmgp.ru/7"><img src="img/logo-partners/logo_mmgp.png" class="flex-img" alt="img"/></a>
 								</div>
 							</div>
 						</div>

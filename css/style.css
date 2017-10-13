@@ -2131,7 +2131,7 @@ ul.social li a.vk{
 	.block8 .pay-bottom .row {
 		padding-right: calc(100% - 145px);
 		width: 120px;
-		padding-left: 20px;
+		padding-left: 10px;
 		line-height: 141%;
 		margin-bottom: 11px;
 	}
@@ -2743,8 +2743,12 @@ ul.social li a.vk{
 		font-size: 20px;
 	}
 	.block10 .links-partner a {
-		margin: 0px 55px 15px 0px;
-		width:auto;
+		margin: 0 auto 15px;
+		width: 50%;
+	}
+	.block10 .links-partner a .flex-img {
+		display: block;
+		margin: auto;
 	}
 	.block10 .actions {
 		padding: 0 65px;
@@ -5523,4 +5527,11 @@ a.button-exit{
 
 .b-programm__description.is-active .content {
 	display: block;
+}
+
+.flex-logo {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
 }
