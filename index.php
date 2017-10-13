@@ -4544,7 +4544,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 				            <div class="pay-text">Доступ в основной поток (конференц-зал)</div>
 				            <div class="pay-text">Доступ в выставочную зону</div>
 				        </div>
-				        <div class="price price1">23 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
+				        <div class="price price1">19 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
 				        <div class="price price2">25 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
 				        <a href="#block5" onClick='selectTicketType("Базовый"); ga("send", "event", "tarif", "сlick button", "Базовый");'>Забронировать билет</a>
 				    </div>
@@ -4556,7 +4556,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 				            <div class="pay-text">Доступ на презентацию стартапов и зал мастер-классов</div>
 				            <div class="pay-text">Презентации спикеров и видеозаписи выступлений</div>
 				        </div>
-				        <div class="price price1">34 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
+				        <div class="price price1">29 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
 				        <div class="price price2">39 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
 				        <a href="#block5" onClick='selectTicketType("Бизнес"); ga("send", "event", "tarif", "сlick button", "Бизнес");'>Забронировать билет</a>
 				    </div>
@@ -4570,7 +4570,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 				            <div class="pay-text">Доступ на 3-ий день обучения (криптокласс)</div>
 				            <div class="pay-text">Сертификат об обучении от РЭУ им. Г.В. Плеханова</div>
 				        </div>
-				        <div class="price price1">44 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
+				        <div class="price price1">38 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
 				        <div class="price price2">45 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
 				        <a href="#block5" onClick='selectTicketType("Бизнес+"); ga("send", "event", "tarif", "сlick button", "Бизнес+");'>Забронировать билет</a>
 				    </div>
@@ -4624,7 +4624,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 						            <div class="pay-text">Доступ в основной поток (конференц-зал)</div>
 						            <div class="pay-text">Доступ в выставочную зону</div>
 						        </div>
-						        <div class="price price1">23 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
+						        <div class="price price1">19 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
 						        <div class="price price2">25 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
 						        <a href="#block5" onClick='selectTicketType("Базовый"); ga("send", "event", "tarif", "сlick button", "Базовый");'>Забронировать билет</a>
 						    </div>
@@ -4638,7 +4638,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 						            <div class="pay-text">Доступ на презентацию стартапов и зал мастер-классов</div>
 						            <div class="pay-text">Презентации спикеров и видеозаписи выступлений</div>
 						        </div>
-						        <div class="price price1">34 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
+						        <div class="price price1">29 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
 						        <div class="price price2">39 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
 						        <a href="#block5" onClick='selectTicketType("Бизнес"); ga("send", "event", "tarif", "сlick button", "Бизнес");'>Забронировать билет</a>
 						    </div>
@@ -4654,7 +4654,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 						            <div class="pay-text">Доступ на 3-ий день обучения (криптокласс)</div>
 						            <div class="pay-text">Сертификат об обучении от РЭУ им. Г.В. Плеханова</div>
 						        </div>
-						        <div class="price price1">44 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
+						        <div class="price price1">38 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
 						        <div class="price price2">45 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
 						        <a href="#block5" onClick='selectTicketType("Бизнес+"); ga("send", "event", "tarif", "сlick button", "Бизнес+");'>Забронировать билет</a>
 						    </div>
