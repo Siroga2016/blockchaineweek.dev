@@ -4744,10 +4744,10 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 									<a target="_blank" href="https://www.moedelo.org/"><img src="img/logo-partners/moedelo.jpg" alt="img"/></a>
 									<a target="_blank" href="https://www.finam.ru/"><img src="img/logo-partners/finam.png" alt="img" style="max-height: 113px; margin-top: -19px;"/></a>
 									<a target="_blank" href="http://learn.alfabank.ru/"><img src="img/logo-partners/logo-alfa.jpg" alt="img"/></a>
-									<a target="_blank" href="http://lp.mmgp.ru/7"><img src="img/logo-partners/logo_mmgp.png" alt="img"/></a>
-									<a target="_blank" href="https://ru.tradingview.com/"><img src="img/logo-partners/tradingview.svg" alt="img"/></a>
-									<a target="_blank" href="https://alfabank.ru/"><img src="img/logo-partners/alfabank.png" alt="img"/></a>
 									<a target="_blank" href="https://www.mos.ru/dit/"><img src="img/logo-partners/DIT_Logo.jpg" alt="img"/></a>
+									<a target="_blank" href="https://ru.tradingview.com/"><img src="img/logo-partners/tradingview.svg" alt="img" style="width:140px"/></a>
+									<a target="_blank" href="https://alfabank.ru/"><img src="img/logo-partners/alfabank.png" alt="img"/></a>
+									<a target="_blank" href="http://lp.mmgp.ru/7"><img src="img/logo-partners/logo_mmgp.png" alt="img"/></a>
 								</div>
 							</div>
 						</div>
