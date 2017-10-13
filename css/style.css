@@ -5542,7 +5542,7 @@ a.button-exit{
 	color: #fff;
 	position: relative;
 	background: url(../img/night.png) no-repeat center top;
-	padding: 50px 0 70px 0;
+	padding: 50px 0;
 	font-family: 'ProximaNova-Regular';
 	background-size: cover;
 }
@@ -5581,7 +5581,7 @@ a.button-exit{
 	line-height: 39px;
 	text-transform: uppercase;
 	letter-spacing: 0.66px;
-	margin: 90px 0 150px;
+	margin: 70px 0;
 }
 
 .block-night .logo {
