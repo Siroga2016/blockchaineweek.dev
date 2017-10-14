@@ -5587,3 +5587,17 @@ a.button-exit{
 .block-night .logo {
 	display: block;
 }
+
+.block-night .logo-moobile {
+	display: none;
+}
+
+@media (max-width: 640px) {
+	.block-night .logo {
+		display: none;
+	}
+
+	.block-night .logo-moobile {
+		display: block;
+	}
+}
