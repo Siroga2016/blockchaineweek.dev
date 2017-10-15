@@ -5125,6 +5125,11 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
             <div class="b-sponsor__title">PRIZM</div>
             <a href="http://prizm.club/ru/" target="_blank" class="b-sponsor__img prizm_white"></a>
         </div>
+        <div class="b-video__wrapper">
+            <div class="b-video">
+                <iframe src="https://www.youtube.com/embed/qN6Z5tvlg7g" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
         <div class="b-sponsor__popup-text">
             <p>Полностью росийская разработка Общественного движения CWT. Нет эмиссионого центра, может использоваться
                 как&nbsp;полностью прозрачное (блокчейн) и&nbsp;децентрализованное платежное средство.</p>
