@@ -350,7 +350,20 @@ $(document).ready(function() {
         }
     });
 
-
+    $(".sponsor").click(function() {
+        if ($(this).hasClass('video-sp-1')) {
+            youtubeVideoPlayerSp1.playVideo();
+        }
+        // if ($(this).hasClass('video-sp-2')) {
+        //     youtubeVideoPlayerSp2.playVideo();
+        // }
+        // if ($(this).hasClass('video-sp-3')) {
+        //     youtubeVideoPlayerSp3.playVideo();
+        // }
+        // if ($(this).hasClass('video-sp-4')) {
+        //     youtubeVideoPlayerSp4.playVideo();
+        // }
+    });
 });
 
 
