@@ -5355,6 +5355,49 @@ a.button-exit{
 	text-align: center;
 	margin: 15px 0;
 }
+.b-programm__table-content_blue.blockchain-night{
+	background: url('../img/fon-blockchain-night.jpg') no-repeat center;
+	background-size: cover; 
+	color:#fff;
+	text-align: left;
+	padding:30px 45px;
+	float:left;
+	width:100%;
+	box-sizing: border-box;
+}
+.b-programm__table-content_blue.blockchain-night .left{
+	float:left;
+	max-width:720px;
+	width:100%;
+}
+.b-programm__table-content_blue.blockchain-night b{
+	font-size:40px;
+}
+.b-programm__table-content_blue.blockchain-night p{
+	font-size:23px;
+	line-height:34px;
+	letter-spacing: 0.4px
+}
+
+.b-programm__table-content_blue.blockchain-night .right{
+	float:right;
+	font-size:16px;
+}
+.b-programm__table-content_blue.blockchain-night .right span{
+	font-family: "GothamProBold";
+	font-size:30px;
+}
+.b-programm__table-content_blue.blockchain-night .right p{
+	float:left;
+	margin-right:15px;
+	font-size: 17px;
+	line-height:22px;
+}
+.b-programm__table-content_blue.blockchain-night .right img{
+	float:left;
+    margin-top: 5px;
+    margin-right: -13px;
+}
 
 .b-program__table-title {
 	width: 100%;
@@ -5561,6 +5604,26 @@ a.button-exit{
 @media (max-width: 640px) {
 	.block-night .title {
 		font-size: 50px;
+	}
+	.b-programm__table-content_blue.blockchain-night{
+		text-align:center;
+	}
+	.b-programm__table-content_blue.blockchain-night .left p{
+		margin-bottom:30px;
+	}
+	.b-programm__table-content_blue.blockchain-night .right{
+		width:100%;
+	}
+	.b-programm__table-content_blue.blockchain-night .right p{
+		margin-right:30px;
+		float:none;
+		display: inline-block;
+	}
+	.b-programm__table-content_blue.blockchain-night .right img{
+		max-width:100px;
+		float:none;
+		display: inline-block;
+		margin-bottom:-10px;
 	}
 }
 

@@ -1335,7 +1335,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 		</div>
 	</div>
 
-  <!--<div id="programm" class="l-program">
+  	<!--<div id="programm" class="l-program">
         <div class="b-program">
             <div class="center">
                 <div class="b-program__header">
@@ -2685,9 +2685,17 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                     <div class="b-program__table-day">
                         <p>16:40-17:00 Закрытие конференции</p>
                     </div>
-                    <div class="b-programm__table-content_blue">
-                        <b>Blockchain.Night</b>
-                        <p>Новые связи, знания, знакомства и обсуждение проектов в неформальной обстановке</p>
+                    <div class="b-programm__table-content_blue blockchain-night">
+                    	<div class="left">
+	                        <b>Blockchain.Night</b>
+	                        <p>Новые связи, знания, знакомства и обсуждение проектов в неформальной обстановке</p>
+	                    </div>
+	                    <div class="right">
+	                    	<p>При поддержке<br>
+								<span>ICOfund</span>
+							</p>
+							<img src="../img/logo-icolab.jpg" alt="img">
+	                    </div>
                     </div>
                 </div>
                 <div class="b-program__table">
@@ -4197,9 +4205,17 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                     <div class="b-program__table-day">
                         <p>16:40-17:00 Закрытие конференции</p>
                     </div>
-                    <div class="b-programm__table-content_blue">
-                        <b>Blockchain.Night</b>
-                        <p>Новые связи, знания, знакомства и обсуждение проектов в неформальной обстановке</p>
+                    <div class="b-programm__table-content_blue blockchain-night">
+                    	<div class="left">
+	                        <b>Blockchain.Night</b>
+	                        <p>Новые связи, знания, знакомства и обсуждение проектов в неформальной обстановке</p>
+	                    </div>
+	                    <div class="right">
+	                    	<p>При поддержке<br>
+								<span>ICOfund</span>
+							</p>
+							<img src="../img/logo-icolab.jpg" alt="img">
+	                    </div>
                     </div>
                 </div>
                 <div class="b-program__table">
@@ -4887,6 +4903,9 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 									<a target="_blank" href="https://ituber.me"><img src="img/logo-partners/ituber.jpg" alt="img"/></a>
 									<a target="_blank" href="https://innmind.com/ru"><img src="img/logo-partners/Innmind.jpg" alt="img"/></a>
 
+									<a target="_blank" href="https://lagente.do"><img src="img/logo-partners/logo_lagente.jpg" alt="img"/></a>
+									<a target="_blank" href="https://zucker.studio/"><img src="img/logo-partners/Zucker-Studio.png" alt="img"/></a>
+
 								</div>
 							</div>
 						</div>
@@ -5002,6 +5021,9 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 						<a target="_blank" href="http://coinews.io/ru/category/1-kripto"><img src="img/logo-partners/coinews.io.png" alt="img"/></a>
 						<a target="_blank" href="https://ituber.me"><img src="img/logo-partners/ituber.jpg" alt="img"/></a>
 						<a target="_blank" href="https://innmind.com/ru"><img src="img/logo-partners/Innmind.jpg" alt="img"/></a>
+
+						<a target="_blank" href="https://lagente.do"><img src="img/logo-partners/logo_lagente.jpg" alt="img"/></a>
+						<a target="_blank" href="https://zucker.studio/"><img src="img/logo-partners/Zucker-Studio.png" alt="img"/></a>
 					</div>
 				</div>
 				<div class="block--become-partner">
