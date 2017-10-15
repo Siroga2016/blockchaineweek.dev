@@ -1369,7 +1369,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                     </div>
                     <div class="b-programm__table-content">
                         <div class="b-programm__table-content_half">
-                            
+
                             <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -1460,7 +1460,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
                         <div class="b-programm__table-content_half">
 
@@ -1569,7 +1569,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Сергей Рыжавин 
+                                        Сергей Рыжавин
                                     </div>
                                     <div class="position">
                                          B2BX. Продакт-менеджер PAMM/MAM/social trading
@@ -1579,8 +1579,8 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
-                            
-                           
+
+
 
 
                         </div>
@@ -1673,7 +1673,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
-                           
+
                             <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -1737,7 +1737,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        
+
                                     </div>
                                     <div class="report">
                                     	Панельная дискуссия. <br>"Криптовалюты 2018. Мнения экспертов"
@@ -1748,7 +1748,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 
                         </div>
                         <div class="b-programm__table-content_half">
-                            	
+
                             <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -1799,7 +1799,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
-                            
+
                              <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -1842,14 +1842,14 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Артем Жилин
                                     </div>
                                     <div class="position">
-                                         COO Gelios 
+                                         COO Gelios
                                     </div>
                                     <div class="report">
                                         Методы KYC применительно к блокчейн технологиям
                                     </div>
                                 </div>
                             </div>
-                           
+
                         </div>
                     </div>
                 </div>
@@ -1966,11 +1966,11 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
                         <div class="b-programm__table-content_half">
 
-                        	 
+
                             <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -2086,7 +2086,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                     </div>
                     <div class="b-programm__table-content">
                         <div class="b-programm__table-content_half">
-                            
+
                             <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -2157,10 +2157,10 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Согласовываются спикеры и темы выступлений
                                     </div>
                                     <div class="position">
-                                         
+
                                     </div>
                                     <div class="report">
-                                    	
+
                                     </div>
                                 </div>
                             </div>
@@ -2183,7 +2183,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                     </div>
                     <div class="b-programm__table-content">
                         <div class="b-programm__table-content_half">
-                            
+
                         	<div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -2273,7 +2273,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                             </div>
                         </div>
                         <div class="b-programm__table-content_half">
-                            
+
                             <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -2404,7 +2404,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                     </div>
                     <div class="b-programm__table-content">
                         <div class="b-programm__table-content_half">
-                           
+
                             <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -2468,22 +2468,22 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Согласовываются спикеры и темы выступлений 
+                                        Согласовываются спикеры и темы выступлений
                                     </div>
                                     <div class="position">
-                                         
+
                                     </div>
                                     <div class="report">
-                                    	
+
                                     </div>
                                 </div>
                             </div>
 
-                            
+
 
                         </div>
                         <div class="b-programm__table-content_half">
-                            
+
                             <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -2574,7 +2574,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Спикер уточняется
                                     </div>
                                     <div class="position">
-                                         
+
                                     </div>
                                     <div class="report">
                                     	Тема уточняется
@@ -2607,7 +2607,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -2617,10 +2617,10 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                     </div>
                     <div class="b-program__table-title">
                         <div class="b-program__table-title_half">
-                            
+
                         </div>
                         <div class="b-program__table-title_half">
-                            
+
                         </div>
                     </div>
                     <div class="b-programm__table-content">
@@ -2643,17 +2643,17 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Спикер уточняется
                                     </div>
                                     <div class="position">
-                                         
+
                                     </div>
                                     <div class="report">
                                     	Тема уточняется
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
                         <div class="b-programm__table-content_half">
-                            
+
 
                             <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
@@ -2672,7 +2672,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Спикер уточняется
                                     </div>
                                     <div class="position">
-                                         
+
                                     </div>
                                     <div class="report">
                                     	Тема уточняется
@@ -2890,7 +2890,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                 </div>
             </div>
         </div>
-        
+
         <div class="b-program-mobile">
             <div class="center">
                 <div class="b-program__header">
@@ -3000,7 +3000,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
-                             
+
 
                         </div>
                     </div>
@@ -3115,7 +3115,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Сергей Рыжавин 
+                                        Сергей Рыжавин
                                     </div>
                                     <div class="position">
                                          B2BX. Продакт-менеджер PAMM/MAM/social trading
@@ -3291,7 +3291,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                             <span class="place">Зал мастер-классов и стартапов</span>
                         </div>
                         <div class="b-programm__table-content">
-                           
+
                            <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -3384,7 +3384,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Артем Жилин
                                     </div>
                                     <div class="position">
-                                        COO Gelios 
+                                        COO Gelios
                                     </div>
                                     <div class="report">
                                         Методы KYC применительно к блокчейн технологиям
@@ -3480,7 +3480,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
-                           
+
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -3505,7 +3505,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
-                           
+
                         </div>
                     </div>
                     <div class="b-program__preview">
@@ -3564,7 +3564,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                 </div>
                             </div>
 
-                            
+
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -3773,7 +3773,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Алексей Федоров
                                     </div>
                                     <div class="position">
-                                        Угроза квантовых компьютеров для блокчейн индустрии   
+                                        Угроза квантовых компьютеров для блокчейн индустрии
                                     </div>
                                     <div class="report">
                                         Угроза квантовых компьютеров для блокчейн индустрии
@@ -3903,8 +3903,8 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                             <span class="place">Главный зал</span>
                         </div>
                         <div class="b-programm__table-content">
-                            
-                           
+
+
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -3969,18 +3969,18 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                         Согласовываются спикеры и темы выступлений 
+                                         Согласовываются спикеры и темы выступлений
                                     </div>
                                     <div class="position">
-                                        
+
                                     </div>
                                     <div class="report">
-                                        
+
                                     </div>
                                 </div>
                             </div>
 
-                            
+
                              <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -4011,7 +4011,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                             <span class="place">Зал мастер-классов и стартапов</span>
                         </div>
                         <div class="b-programm__table-content">
-                            
+
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -4101,7 +4101,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Согласовываются спикеры и темы выступлений 
+                                        Согласовываются спикеры и темы выступлений
                                     </div>
                                     <div class="position">
                                     </div>
@@ -4133,7 +4133,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -4147,7 +4147,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                             <span class="place">Главный зал</span>
                         </div>
                         <div class="b-programm__table-content">
-                            
+
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -4162,7 +4162,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Согласовываются спикеры и темы выступлений 
+                                        Согласовываются спикеры и темы выступлений
                                     </div>
                                     <div class="position">
                                     </div>
@@ -4192,7 +4192,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Согласовываются спикеры и темы выступлений 
+                                        Согласовываются спикеры и темы выступлений
                                     </div>
                                     <div class="position">
                                     </div>
@@ -4488,7 +4488,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                     <div class="b-sponsor__item-bottom">
                         <div class="b-sponsor__btn j-sponsor1">О проекте</div>
                         <div>
-                            <!--<div class="b-sponsor__video-link j-video1">Видеоинтервью</div>-->
+                            <div class="b-sponsor__video-link j-video1">Видеоинтервью</div>
                             <a href="files/PRIZM.pdf" target="_blank" class="b-sponsor__link">Смотреть презентацию</a>
                         </div>
                     </div>
