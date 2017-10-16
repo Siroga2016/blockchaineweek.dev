@@ -175,7 +175,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 	<title>Russian Blockchain Week 2017 Конференция по блокчейн</title>
 	<meta name="keywords" content="russian blockchain week, blockchain week, конференция блокчейн, blockchain конференция, конференция биткоин, блокчейн семинар, биткоин семинар, обучение блокчейн, обучение  blockchain, консультации блокчейн" />
 	<meta name="description" content="Russian blockсhain Week (Российская неделя блокчейн и криптовалют) — это главное событие года в своей индустрии, которое объединяет в себе 4 формата: конференция, выставка и шоу блокчейн-проектов, Blockchain.EXPO и Blockchain.NIGHT" />
-	<link href="css/style.css?v=6" type="text/css" rel="stylesheet"/>
+	<link href="css/style.css?v=7" type="text/css" rel="stylesheet"/>
 	<link href="css/fonts.css" type="text/css" rel="stylesheet"/>
 	<link href="css/jquery.formstyler.css" type="text/css" rel="stylesheet"/>
 	<link href="css/jquery.formstyler.theme.css" type="text/css" rel="stylesheet"/>
@@ -5491,7 +5491,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 <script src="js/jquery.formstyler.min.js"></script>
 <script src="js/jquery.maskedinput.min.js" type="text/javascript"></script>
 <script src="js/jquery.scrolldepth.min.js" type="text/javascript"></script>
-<script src="js/script.js"></script>
+<script src="js/script.js?v=2"></script>
 <script src="js/particles.js"></script>
 <script src="js/app.js"></script>
 <script src="http://malsup.github.com/jquery.cycle2.js"></script>
