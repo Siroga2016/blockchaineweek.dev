@@ -411,6 +411,7 @@ $(".j-sponsor4").on("click", function(){
 
 $("#overlay, #modal_close").on("click", function(){
     $('#modal_form, #overlay, #sponsor1, #sponsor2, #sponsor3, #sponsor4, #sponsor-video1').removeClass('active');
+    $(".b-video").removeClass('is-active');
     youtubeVideoPlayer4.stopVideo();
     youtubeVideoPlayerSp1.stopVideo();
     $('body').removeClass('hidden');
@@ -428,4 +429,9 @@ $(".b-programm__description .open").on("click", function () {
 $(".b-programm__description .close").on("click", function () {
     $(this).parent().parent().toggleClass('is-active');
     $(this).parent().parent().find('.open').toggleClass('hide');
+});
+
+$(".b-video").on("click", function () {
+    $(this).addClass('is-active');
+    $("#videosp1")[0].src += "?autoplay=1";
 });

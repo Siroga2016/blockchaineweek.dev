@@ -4930,7 +4930,7 @@ a.button-exit{
 }
 
 .b-sponsor__item-top {
-	margin-bottom: 30px;
+	margin-bottom: 5px;
 }
 
 .b-sponsor__item-bottom {
@@ -5028,7 +5028,7 @@ a.button-exit{
 	color: #ffffff;
 	margin-bottom: 25px;
 	padding: 20px 20px 20px 0;
-	max-height: 350px;
+	max-height: 485px;
 }
 
 @media (max-width: 640px) {
@@ -5357,7 +5357,7 @@ a.button-exit{
 }
 .b-programm__table-content_blue.blockchain-night{
 	background: url('../img/fon-blockchain-night.jpg') no-repeat center;
-	background-size: cover; 
+	background-size: cover;
 	color:#fff;
 	text-align: left;
 	padding:30px 45px;
@@ -5689,4 +5689,36 @@ a.button-exit{
 	.block-night .logo-moobile {
 		display: block;
 	}
+}
+
+.b-video img {
+	width: 100%;
+}
+
+.b-video:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	background: url(../img/ic-video-play.png) center center no-repeat;
+}
+
+.b-video iframe {
+	display: none;
+}
+
+.b-video.is-active:after {
+	display: none;
+}
+
+.b-video.is-active img {
+	display: none;
+}
+
+.b-video.is-active iframe {
+	display: block;
 }

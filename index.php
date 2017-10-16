@@ -5126,8 +5126,9 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
             <a href="http://prizm.club/ru/" target="_blank" class="b-sponsor__img prizm_white"></a>
         </div>
         <div class="b-video__wrapper">
-            <div class="b-video">
-                <iframe src="https://www.youtube.com/embed/qN6Z5tvlg7g" frameborder="0" allowfullscreen></iframe>
+             <div class="b-video">
+                <img src="../img/prizm_preview.jpg" alt="">
+                <iframe id="videosp1" src="https://www.youtube.com/embed/qN6Z5tvlg7g" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
         <div class="b-sponsor__popup-text">
@@ -5162,7 +5163,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
             <p>Проект использует технологию блокчейн, за&nbsp;основу используется ядро NXT&nbsp;Core, которое в&nbsp;процессе
                 разработки, было полностью переработано. Реализован уникальный механизм Парамайнинг, то&nbsp;есть&nbsp;эмиссия
                 новых монет отвязана от&nbsp;процесса <span style="white-space: nowrap">майнинга/форжинга</span>, как&nbsp;это&nbsp;происходит в&nbsp;любых других криптовалютах
-                (<sppan style="white-space: nowrap">Proof-of&nbsp;Work</span>/<span style="white-space: nowrap">Proof-of-Stake</span>).</p>
+                (<sppan style="white-space: nowrap">Proof-of-Work</span>/<span style="white-space: nowrap">Proof-of-Stake</span>).</p>
             <p>В&nbsp;ПРИЗМ эмиссия новых монет осуществляется децентрализованно на&nbsp;кошельках всех пользавателей сети
                 одновременно. Благодаря этому, по&nbsp;мере развития сети с&nbsp;генезис кошелька новые монеты распределяются
                 на&nbsp;все большее количество адресов. Таким образом ПРИЗМ все сильнее распыляется и&nbsp;становится все более
