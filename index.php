@@ -5386,9 +5386,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
             <a href="Serenity-financial.io" target="_blank" class="b-sponsor__img serenity"></a>
         </div>
          <div class="b-video__wrapper">
-             <div class="b-video">
-                <div id="youtube-sponsor-video-se"></div>
-            </div>
+            <div id="youtube-sponsor-video-se"></div>
         </div>
         <div class="b-sponsor__popup-text">
             <p><b>Платформа SERENITY&nbsp;FINANCIAL</b> объединяет брокеров любых юрисдикций и&nbsp;трейдеров со&nbsp;всего мира. Благодаря
@@ -5548,7 +5546,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 <script src="js/jquery.formstyler.min.js"></script>
 <script src="js/jquery.maskedinput.min.js" type="text/javascript"></script>
 <script src="js/jquery.scrolldepth.min.js" type="text/javascript"></script>
-<script src="js/script.js?v=2"></script>
+<script src="js/script.js?v=3"></script>
 <script src="js/particles.js"></script>
 <script src="js/app.js"></script>
 <script src="http://malsup.github.com/jquery.cycle2.js"></script>
