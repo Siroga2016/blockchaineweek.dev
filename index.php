@@ -4919,14 +4919,14 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 					<p style="margin-bottom: 20px;">Партнеры</p>
 					<a target="_blank" href="https://www.mos.ru/dit/"><img src="img/logo-partners/DIT_Logo.jpg" alt="img"  style="max-width: 220px;"/></a>
 					<a target="_blank" href="https://www.finam.ru/" class="big"><img src="img/logo-partners/finam.png" alt="img" style="max-height: 113px; margin-top: -19px;"/></a>
-					<a target="_blank" href="http://learn.alfabank.ru/" class="big"><img src="img/logo-partners/logo-alfa.jpg" alt="img"/></a>
+					<a target="_blank" href="http://learn.alfabank.ru/" class="big alfabank"><img src="img/logo-partners/logo-alfa.jpg" alt="img"/></a>
 					<a target="_blank" href="http://lp.mmgp.ru/7" class="big"><img src="img/logo-partners/logo_mmgp.png" alt="img"/></a>
 					<a target="_blank" href="https://ru.tradingview.com/" class="big"><img style="width:120px" src="img/logo-partners/tradingview.svg" alt="img"/></a>
 					<a target="_blank" href="https://alfabank.ru/" class="big"><img style="max-width:250px" src="img/logo-partners/alfabank.png" alt="img"/></a>
 					<a target="_blank" href="https://www.moedelo.org/" class="big"><img src="img/logo-partners/moedelo.jpg" alt="img"/></a>
 
 					<p style="margin-top: 30px;">Инновационный партнер</p>
-					<div class="information-partners">
+					<div class="information-partners inovations-partner">
 						<a target="_blank" href="http://sk.ru/technopark/"><img src="img/logo-partners/sklogo_ru.png" style="max-height:120px" alt="img"/></a>
 						<span>Миссия Фонда «Сколково» – создание Экосистемы, формирование благоприятных условий для инновационного процесса.</span>
 					</div>

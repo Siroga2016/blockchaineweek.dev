@@ -2695,7 +2695,12 @@ ul.social li a.vk{
 	width: 20%;
 	text-align: center;
 }
-
+.block10 .links-partner a.alfabank{
+	text-align: center
+}
+.block10 .inovations-partner a{
+	text-align: left;
+}
 /* Block 10 mobile */
 @media (max-width: 640px){
 	.block10 .links-partner,
@@ -5613,7 +5618,7 @@ a.button-exit{
 	width: 100%;
 	color: #fff;
 	position: relative;
-	background: url(../img/night.png) no-repeat center top;
+	background: url(../img/night.jpg) no-repeat center top;
 	padding: 50px 0;
 	font-family: 'ProximaNova-Regular';
 	background-size: cover;
