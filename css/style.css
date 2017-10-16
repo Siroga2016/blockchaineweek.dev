@@ -4968,6 +4968,9 @@ a.button-exit{
 .b-sponsor__img.serenity {
 	background-image: url('../img/serenity-logo.png');
 }
+.b-sponsor__img.serenity_transparent {
+	background-image: url('../img/serenity-logo_transparent.png');
+}
 
 .b-sponsor__text {
 	width: 100%;
