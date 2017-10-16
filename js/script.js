@@ -414,6 +414,7 @@ $("#overlay, #modal_close").on("click", function(){
     $(".b-video").removeClass('is-active');
     youtubeVideoPlayer4.stopVideo();
     youtubeVideoPlayerSp1.stopVideo();
+    youtubeVideoPlayerSp1Click.stopVideo();
     $('body').removeClass('hidden');
 });
 
@@ -433,5 +434,5 @@ $(".b-programm__description .close").on("click", function () {
 
 $(".b-video").on("click", function () {
     $(this).addClass('is-active');
-    $("#videosp1")[0].src += "?autoplay=1";
+    youtubeVideoPlayerSp1Click.playVideo();
 });

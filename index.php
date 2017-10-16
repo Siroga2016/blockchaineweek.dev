@@ -5128,7 +5128,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
         <div class="b-video__wrapper">
              <div class="b-video">
                 <img src="../img/prizm_preview.jpg" alt="">
-                <iframe id="videosp1" src="https://www.youtube.com/embed/qN6Z5tvlg7g" frameborder="0" allowfullscreen></iframe>
+                <div id="youtube-sponsor-video-4-click"></div>
             </div>
         </div>
         <div class="b-sponsor__popup-text">
@@ -5477,6 +5477,10 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
     });
 
     youtubeVideoPlayerSp1 = new YT.Player('youtube-sponsor-video-4', {
+        videoId: 'qN6Z5tvlg7g'
+    });
+
+    youtubeVideoPlayerSp1Click = new YT.Player('youtube-sponsor-video-4-click', {
         videoId: 'qN6Z5tvlg7g'
     });
   }
