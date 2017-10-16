@@ -357,9 +357,9 @@ $(document).ready(function() {
         // if ($(this).hasClass('video-sp-2')) {
         //     youtubeVideoPlayerSp2.playVideo();
         // }
-        // if ($(this).hasClass('video-sp-3')) {
-        //     youtubeVideoPlayerSp3.playVideo();
-        // }
+        if ($(this).hasClass('video-sp-3')) {
+            youtubeVideoPlayerSp3.playVideo();
+        }
         // if ($(this).hasClass('video-sp-4')) {
         //     youtubeVideoPlayerSp4.playVideo();
         // }
@@ -392,6 +392,12 @@ $(".j-video1").on("click", function(){
     youtubeVideoPlayerSp1.playVideo();
 });
 
+$(".j-video3").on("click", function(){
+    $('#sponsor-video3, #overlay').addClass('active');
+    $('body').addClass('hidden');
+    youtubeVideoPlayerSp3.playVideo();
+});
+
 $(".j-sponsor2").on("click", function(){
     $('#sponsor2, #overlay').addClass('active');
     $('body').addClass('hidden');
@@ -410,9 +416,13 @@ $(".j-sponsor4").on("click", function(){
 });
 
 $("#overlay, #modal_close").on("click", function(){
-    $('#modal_form, #overlay, #sponsor1, #sponsor2, #sponsor3, #sponsor4, #sponsor-video1').removeClass('active');
+    $('#modal_form, #overlay, #sponsor1, #sponsor2, #sponsor3, #sponsor4, #sponsor-video1, #sponsor-video3').removeClass('active');
+    $(".b-video").removeClass('is-active');
     youtubeVideoPlayer4.stopVideo();
     youtubeVideoPlayerSp1.stopVideo();
+    youtubeVideoPlayerSp1Click.stopVideo();
+    youtubeVideoPlayerSp3.stopVideo();
+    youtubeVideoPlayerSp3Click.stopVideo();
     $('body').removeClass('hidden');
 });
 
@@ -428,4 +438,14 @@ $(".b-programm__description .open").on("click", function () {
 $(".b-programm__description .close").on("click", function () {
     $(this).parent().parent().toggleClass('is-active');
     $(this).parent().parent().find('.open').toggleClass('hide');
+});
+
+$(".b-video-sp-1").on("click", function () {
+    $(this).addClass('is-active');
+    youtubeVideoPlayerSp1Click.playVideo();
+});
+
+$(".b-video-sp-3").on("click", function () {
+    $(this).addClass('is-active');
+    youtubeVideoPlayerSp3Click.playVideo();
 });
