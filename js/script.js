@@ -357,9 +357,9 @@ $(document).ready(function() {
         // if ($(this).hasClass('video-sp-2')) {
         //     youtubeVideoPlayerSp2.playVideo();
         // }
-        // if ($(this).hasClass('video-sp-3')) {
-        //     youtubeVideoPlayerSp3.playVideo();
-        // }
+        if ($(this).hasClass('video-sp-3')) {
+            youtubeVideoPlayerSp3.playVideo();
+        }
         // if ($(this).hasClass('video-sp-4')) {
         //     youtubeVideoPlayerSp4.playVideo();
         // }
@@ -401,6 +401,7 @@ $(".j-sponsor2").on("click", function(){
 $(".j-sponsor3").on("click", function(){
     $('#sponsor3, #overlay').addClass('active');
     $('body').addClass('hidden');
+    youtubeVideoPlayerSp3.playVideo();
 });
 
 
@@ -415,6 +416,8 @@ $("#overlay, #modal_close").on("click", function(){
     youtubeVideoPlayer4.stopVideo();
     youtubeVideoPlayerSp1.stopVideo();
     youtubeVideoPlayerSp1Click.stopVideo();
+    youtubeVideoPlayerSp3.stopVideo();
+    youtubeVideoPlayerSp3Click.stopVideo();
     $('body').removeClass('hidden');
 });
 
@@ -432,7 +435,12 @@ $(".b-programm__description .close").on("click", function () {
     $(this).parent().parent().find('.open').toggleClass('hide');
 });
 
-$(".b-video").on("click", function () {
+$(".b-video-sp-1").on("click", function () {
     $(this).addClass('is-active');
     youtubeVideoPlayerSp1Click.playVideo();
+});
+
+$(".b-video-sp-3").on("click", function () {
+    $(this).addClass('is-active');
+    youtubeVideoPlayerSp3Click.playVideo();
 });

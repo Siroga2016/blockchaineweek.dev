@@ -4520,7 +4520,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                     <div class="b-sponsor__item-bottom">
                         <div class="b-sponsor__btn j-sponsor3">О проекте</div>
                         <div>
-                            <!--<div class="b-sponsor__video-link j-video3">Видеоинтервью</div>-->
+                            <div class="b-sponsor__video-link j-video3">Видеоинтервью</div>
                             <a href="files/Serenity_ru.pptx" download class="b-sponsor__link">Смотреть презентацию</a>
                         </div>
                     </div>
@@ -5126,7 +5126,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
             <a href="http://prizm.club/ru/" target="_blank" class="b-sponsor__img prizm_white"></a>
         </div>
         <div class="b-video__wrapper">
-             <div class="b-video">
+             <div class="b-video b-video-sp-1">
                 <img src="../img/prizm_preview.jpg" alt="">
                 <div id="youtube-sponsor-video-4-click"></div>
             </div>
@@ -5341,6 +5341,55 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
             <div class="b-sponsor__title">SERENITY FINANCIAL</div>
             <a href="Serenity-financial.io" target="_blank" class="b-sponsor__img serenity"></a>
         </div>
+         <div class="b-video__wrapper">
+             <div class="b-video b-video-sp-3">
+                <img src="/img/serenity_preview.jpg" alt="">
+                <div id="youtube-sponsor-video-se-click"></div>
+            </div>
+        </div>
+        <div class="b-sponsor__popup-text">
+            <p><b>Платформа SERENITY&nbsp;FINANCIAL</b> объединяет брокеров любых юрисдикций и&nbsp;трейдеров со&nbsp;всего мира. Благодаря
+                системе депозитария и&nbsp;технологии блокчейна платформа обеспечивает гарантию честности сделок и&nbsp;вывода
+                средств.</p>
+            <p><b>Миссия проекта</b>&nbsp;—&nbsp;создать безопасное, прозрачное, стандартизированное пространство для&nbsp;контроля торговых
+                и&nbsp;неторговых операций между брокером и&nbsp;трейдером, а&nbsp;также стабилизационный фонд, страхующий риски.</p>
+            <p><b>Арбитражная платформа Serenity</b> создана с&nbsp;целью защитить интересы трейдеров, обеспечить брокеров
+                технологиями и&nbsp;ликвидностью и&nbsp;сформировать пространство для&nbsp;цивилизованных отношений.</p>
+            <p><b>Создатели платформы</b> имеют более 10&nbsp;лет опыта работы на&nbsp;рынке форекс как&nbsp;со&nbsp;стороны трейдера, так&nbsp;и&nbsp;со&nbsp;стороны
+                брокера. Поэтому они знают о&nbsp;проблемах отрасли всё. Проект уже&nbsp;получил позитивные отзывы от&nbsp;трейдеров и&nbsp;ряда брокеров.</p>
+            <p><b>Изменить имидж рынка форекс</b> возможно только с&nbsp;помощью глобальных реформ. Консервативные методы
+                регулирования устарели и&nbsp;уже не&nbsp;способны выполнять свои задачи в&nbsp;<span style="white-space: nowrap">интернет-трейдинге</span>. <b>SERENITY</b> решает
+                проблемы отрасли, используя современные технологии блокчейна.</p>
+            <p><b>Для миллионов трейдеров во&nbsp;всем мире</b> будет решен вопрос, как&nbsp;выбрать брокера, которому можно доверять,
+                так&nbsp;как&nbsp;Serenity даст гарантии, что&nbsp;брокерам, участникам системы, можно доверять свои средства.</p>
+            <p><b>Принцип работы платформы простой:</b> клиент регистрируются в&nbsp;Serenity, покупает токены, выбирает любого
+                брокера из&nbsp;списка Serenity, переводит ему&nbsp;токены и&nbsp;получает на&nbsp;торговый счет эквивалент в&nbsp;любой
+                доступной валюте. Все транзакции и&nbsp;торговые сделки записываются в&nbsp;блокчейн, чтоvисключает возможность
+                подделки. Средства клиента хранятся в&nbsp;депозитарии Serenity, что&nbsp;исключает возможность использования
+                их&nbsp;брокером в&nbsp;своих целях.</p>
+            <p><b>Арбитром&nbsp;в&nbsp;спорах выступает Serenity.</b> Имея все данные из&nbsp;блокчейна и&nbsp;профессиональную комиссию, Serenity
+                выносит вердикт и&nbsp;может заставить брокера выплатить клиенту прибыль.</p>
+            <p><b>Для инвесторов проект интересен тем,</b> что&nbsp;за&nbsp;проектом стоят реальные брокерские компании, которые
+                выступают первичными инвесторами, имеют огромный опыт в&nbsp;отрасли и&nbsp;ресурсы для&nbsp;реализации проекта.
+                Средний потенциал доходности проекта&nbsp;—&nbsp;$1&nbsp;000&nbsp;000&nbsp;в&nbsp;месяц. Стоимость одного токена&nbsp;—&nbsp;0,1 eth.</p>
+            <p>Присоединяйтесь к&nbsp;успешному проекту!</p>
+        </div>
+    </div>
+    <a href="files/Serenity_ru.pptx" download class="b-sponsor__presentation">Смотреть презентацию</a>
+</div>
+
+<div id="sponsor-video3" class="sponsor video-sp-3">
+    <span id="modal_close">X</span>
+    <div class="b-sponsor__popup">
+        <div class="b-sponsor__item-top">
+            <div class="b-sponsor__title">SERENITY FINANCIAL</div>
+            <a href="Serenity-financial.io" target="_blank" class="b-sponsor__img serenity"></a>
+        </div>
+         <div class="b-video__wrapper">
+             <div class="b-video">
+                <div id="youtube-sponsor-video-se"></div>
+            </div>
+        </div>
         <div class="b-sponsor__popup-text">
             <p><b>Платформа SERENITY&nbsp;FINANCIAL</b> объединяет брокеров любых юрисдикций и&nbsp;трейдеров со&nbsp;всего мира. Благодаря
                 системе депозитария и&nbsp;технологии блокчейна платформа обеспечивает гарантию честности сделок и&nbsp;вывода
@@ -5482,6 +5531,14 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 
     youtubeVideoPlayerSp1Click = new YT.Player('youtube-sponsor-video-4-click', {
         videoId: 'qN6Z5tvlg7g'
+    });
+
+    youtubeVideoPlayerSp3 = new YT.Player('youtube-sponsor-video-se', {
+        videoId: 'CuXmbGVme1w'
+    });
+
+    youtubeVideoPlayerSp3Click = new YT.Player('youtube-sponsor-video-se-click', {
+        videoId: 'CuXmbGVme1w'
     });
   }
 </script>
