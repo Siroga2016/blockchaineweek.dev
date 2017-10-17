@@ -1348,7 +1348,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                 <div class="b-program__table">
                     <div class="b-program__table-header">
                         <div class="b-program__table-header_half">
-                            Главный зал
+                            Конференц зал
                         </div>
                         <div class="b-program__table-header_half">
                             Зал мастер-классов и стартапов
@@ -1588,7 +1588,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                 </div>
                 <div class="b-program__table">
                     <div class="b-program__table-day">
-                        <p>11:40-12:00 Кофе брейк</p>
+                        <p>11:40-12:20 Кофе брейк</p>
                     </div>
                     <div class="b-program__table-title">
                         <div class="b-program__table-title_half">
@@ -1740,7 +1740,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 
                                     </div>
                                     <div class="report">
-                                    	Панельная дискуссия. <br>"Криптовалюты 2018. Мнения экспертов"
+                                    	Панельная дискуссия. <br>Криптовалюты 2018. Мнения экспертов
                                     </div>
                                 </div>
                             </div>
@@ -1774,7 +1774,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                 </div>
                             </div>
 
-                             <div class="b-programm__table-item_left">
+                            <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
                                         13:00
@@ -1800,7 +1800,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                 </div>
                             </div>
 
-                             <div class="b-programm__table-item_left">
+                            <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
                                         13:20
@@ -1817,7 +1817,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Дина Меркулова
                                     </div>
                                     <div class="position">
-                                         Кейсы Альфа-Банка при реализации технологии блокчейн
+                                         Управляющий директор по торговому финансированию Альфа-Банка
                                     </div>
                                     <div class="report">
                                         Кейсы Альфа-Банка при&nbsp;реализации
@@ -1902,11 +1902,11 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/zazimonec.png" alt="Антон Зазимонец ">
+                                    <img src="../img/lectors/zazimonec.png" alt="Антон Занимовец">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Антон Зазимонец
+                                        Антон Занимовец
                                     </div>
                                     <div class="position">
                                         CEO Iskander ICOFund
@@ -1952,7 +1952,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="Алексей Воронин">
+                                    <img src="../img/speakers/voronin.jpg" alt="Алексей Воронин">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
@@ -2112,7 +2112,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                 </div>
                             </div>
 
-                             <div class="b-programm__table-item_right">
+                            <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
                                         17:30
@@ -2140,10 +2140,36 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 
                         </div>
                         <div class="b-programm__table-content_half">
+
                              <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
                                         17:00
+                                    </div>
+                                    <div class="time-end">
+                                        17:30
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="img/barinov.jpg" alt="img">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Игорь Баринов
+                                    </div>
+                                    <div class="position">
+                                    	Сo-founder Block notary, партнер фонда Bits.capital
+                                    </div>
+                                    <div class="report">
+                                    	Технические аспекты при проведении ICO
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="b-programm__table-item_left">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        17:30
                                     </div>
                                     <div class="time-end">
                                         18:00
@@ -2164,6 +2190,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -2324,17 +2351,17 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/barinov.png" alt="Игорь Баринов ">
+                                    <img src="../img/lectors/default.png" alt="img">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Игорь Баринов
+                                        Спикер уточняется
                                     </div>
                                     <div class="position">
-                                        Сo-founder Block notary, партнер фонда Bits.capital
+                                        
                                     </div>
                                     <div class="report">
-                                        Технические аспекты при  проведении ICO
+                                        ТЕМА УТОЧНЯЕТСЯ
                                     </div>
                                 </div>
                             </div>
@@ -2460,26 +2487,46 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         13:30
                                     </div>
                                     <div class="time-end">
-                                        15:00
+                                        14:00
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="Спикер уточняется">
+                                    <img src="../img/lectors/default.png" alt="Иванов Алексей">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Согласовываются спикеры и темы выступлений
+                                        Иванов Алексей
                                     </div>
                                     <div class="position">
-
+                                        Директор Института права и развития ВШЭ-Сколково 
                                     </div>
                                     <div class="report">
-
+                                        Тема уточняется
                                     </div>
                                 </div>
                             </div>
 
+                            <div class="b-programm__table-item_right">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        14:00
+                                    </div>
+                                    <div class="time-end">
+                                        15:00
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/default.png" alt="img">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
 
+                                    </div>
+                                    <div class="report">
+                                    	Панельная дискуссия.<br> Блокчейн и криптовалюты в Российском законодательстве. 
+                                    </div>
+                                </div>
+                            </div>
 
                         </div>
                         <div class="b-programm__table-content_half">
@@ -2654,11 +2701,35 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                         </div>
                         <div class="b-programm__table-content_half">
 
+                        	<div class="b-programm__table-item_left">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        16:00
+                                    </div>
+                                    <div class="time-end">
+                                        16:20
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/default.png" alt="img">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Вячеслав Семенчук
+                                    </div>
+                                    <div class="position">
+                                    	Серийный предприниматель. Основатель первой кошерной криптовалюты и блокчейн экосистемы. BITCOEN
+                                    </div>
+                                    <div class="report">
+                                    	Тема уточняется
+                                    </div>
+                                </div>
+                            </div>
 
                             <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        16:00
+                                        16:20
                                     </div>
                                     <div class="time-end">
                                         17:00
@@ -2905,7 +2976,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                     <div class="b-program__preview">
                         <div class="b-program__preview-header">
                             <p class="title">Принципы технологии блокчейн и будущее её применения</p>
-                            <span class="place">Главный зал</span>
+                            <span class="place">Конференц зал</span>
                         </div>
                         <div class="b-programm__table-content">
 
@@ -3130,12 +3201,12 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                 </div>
                 <div class="b-program__table">
                     <div class="b-program__table-day">
-                        <p>11:40-12:00 Кофе брейк</p>
+                        <p>11:40-12:20 Кофе брейк</p>
                     </div>
                     <div class="b-program__preview">
                         <div class="b-program__preview-header">
                             <p class="title">Криптовалюты, инвестиции</p>
-                            <span class="place">Главный зал</span>
+                            <span class="place">Конференц зал</span>
                         </div>
                         <div class="b-programm__table-content">
                             <div class="b-programm__table-item_full">
@@ -3278,7 +3349,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 
                                     </div>
                                     <div class="report">
-                                       Панельная дискуссия. <br>"Криптовалюты 2018. Мнения экспертов"
+                                       Панельная дискуссия. <br>Криптовалюты 2018. Мнения экспертов
                                     </div>
                                 </div>
                             </div>
@@ -3359,7 +3430,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         Дина Меркулова
                                     </div>
                                     <div class="position">
-                                        Кейсы Альфа-Банка при реализации технологии блокчейн
+                                        Управляющий директор по торговому финансированию Альфа-Банка
                                     </div>
                                     <div class="report">
                                         Кейсы Альфа-Банка при&nbsp;реализации
@@ -3402,7 +3473,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                     <div class="b-program__preview">
                         <div class="b-program__preview-header">
                             <p class="title">ICO, как способ привлечения денег в стартап</p>
-                            <span class="place">Главный зал</span>
+                            <span class="place">Конференц зал</span>
                         </div>
                         <div class="b-programm__table-content">
 
@@ -3441,11 +3512,11 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/zazimonec.png" alt="Антон Зазимонец ">
+                                    <img src="../img/lectors/zazimonec.png" alt="Антон Занимовец ">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Антон Зазимонец
+                                        Антон Занимовец
                                     </div>
                                     <div class="position">
                                         CEO в Iskander ICOFund
@@ -3491,7 +3562,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="Алексей Воронин">
+                                    <img src="../img/speakers/voronin.jpg" alt="Алексей Воронин">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
@@ -3625,7 +3696,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                     <div class="b-program__preview">
                         <div class="b-program__preview-header">
                             <p class="title">Майнинг и оборудование, прогнозы</p>
-                            <span class="place">Главный зал</span>
+                            <span class="place">Конференц зал</span>
                         </div>
                         <div class="b-programm__table-content">
 
@@ -3686,6 +3757,32 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                             <p class="title">Блокчейн проекты</p>
                             <span class="place">Зал мастер-классов и стартапов</span>
                         </div>
+						
+						 <div class="b-programm__table-item_full">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        17:00
+                                    </div>
+                                    <div class="time-end">
+                                        17:30
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="img/barinov.jpg" alt="img">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Игорь Баринов
+                                    </div>
+                                    <div class="position">
+                                       Сo-founder Block notary, партнер фонда Bits.capital
+                                    </div>
+                                    <div class="report">
+                                        Технические аспекты при проведении ICO
+                                    </div>
+                                </div>
+                            </div>
+							
                         <div class="b-programm__table-content">
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item_default">
@@ -3704,7 +3801,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                     <div class="b-program__preview">
                         <div class="b-program__preview-header">
                             <p class="title">Разработка блокчейн</p>
-                            <span class="place">Главный зал</span>
+                            <span class="place">Конференц зал</span>
                         </div>
                         <div class="b-programm__table-content">
                             <div class="b-programm__table-item_full">
@@ -3825,17 +3922,17 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/barinov.png" alt="Игорь Баринов ">
+                                    <img src="../img/lectors/default.png" alt="img">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Игорь Баринов
+                                        Спикер уточняется
                                     </div>
                                     <div class="position">
-                                        Сo-founder Block notary, партнер фонда Bits.capital
+									
                                     </div>
                                     <div class="report">
-                                        Технические аспекты при  проведении ICO
+                                        ТЕМА УТОЧНЯЕТСЯ
                                     </div>
                                 </div>
                             </div>
@@ -3900,7 +3997,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                     <div class="b-program__preview">
                         <div class="b-program__preview-header">
                             <p class="title">Законодательное регулирование</p>
-                            <span class="place">Главный зал</span>
+                            <span class="place">Конференц зал</span>
                         </div>
                         <div class="b-programm__table-content">
 
@@ -3954,28 +4051,28 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                             </div>
-
-                             <div class="b-programm__table-item_full">
+							
+							<div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
                                         13:30
                                     </div>
                                     <div class="time-end">
-                                        15:00
+                                        14:00
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="img">
+                                   <img src="../img/lectors/default.png" alt="Иванов Алексей">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                         Согласовываются спикеры и темы выступлений
+                                        Иванов Алексей
                                     </div>
                                     <div class="position">
-
+                                        Директор Института права и развития ВШЭ-Сколково 
                                     </div>
                                     <div class="report">
-
+                                        Тема уточняется
                                     </div>
                                 </div>
                             </div>
@@ -3984,10 +4081,10 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                              <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        13:45
+                                        14:00
                                     </div>
                                     <div class="time-end">
-                                        14:00
+                                        15:00
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -4144,7 +4241,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                     <div class="b-program__preview">
                         <div class="b-program__preview-header">
                             <p class="title"></p>
-                            <span class="place">Главный зал</span>
+                            <span class="place">Конференц зал</span>
                         </div>
                         <div class="b-programm__table-content">
 
@@ -4177,11 +4274,39 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                             <p class="title"></p>
                             <span class="place">Зал мастер-классов и стартапов</span>
                         </div>
-                        <div class="b-programm__table-content">
+                        
+						<div class="b-programm__table-content">
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
                                         16:00
+                                    </div>
+                                    <div class="time-end">
+                                        16:20
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/default.png" alt="img">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Вячеслав Семенчук
+                                    </div>
+                                    <div class="position">
+										Серийный предприниматель. Основатель первой кошерной криптовалюты и блокчейн экосистемы. BITCOEN
+                                    </div>
+                                    <div class="report">
+										Тема уточняется
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+						
+						<div class="b-programm__table-content">
+                            <div class="b-programm__table-item_full">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        16:20
                                     </div>
                                     <div class="time-end">
                                         17:00
@@ -4698,6 +4823,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 		</div>
 	</div>
 
+	<!--
 	<div class="block9" id="block9">
 		<div class="center">
 			<div class="title">Участники конференции —<br> не только единомышленники,<br /> но и новые возможности</div>
@@ -4710,7 +4836,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 				<div class="tooltip tooltip-bottom-left">Инвесторы</div>
 			</div>
 		</div>
-	</div>
+	</div>-->
 
 	<div class="block9-bottom" id="block9-bottom">
 		<div class="center">
@@ -4822,6 +4948,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 									<a target="_blank" href="http://1prime.ru/ "><img src="img/logo-partners/logo-prime.jpg" alt="img"/></a>
 									<a target="_blank" href="https://ru.insider.pro/"><img src="img/logo-partners/insider.pro.jpg" alt="img"/></a>
 									<a target="_blank" href="http://inc.hse.ru/ "><img src="img/logo-partners/inc.hse.png" alt="img"/></a>
+									<a target="_blank" href="https://utro.ru"><img src="img/logo-partners/utro-logo.png" alt="img"/></a>
 									<a target="_blank" href="https://www.if24.ru/kontakty/"><img src="img/logo-partners/investforsight.jpg" alt="img"/></a>
 									<a target="_blank" href="http://thewallmagazine.ru/"><img src="img/logo-partners/thewall.jpg" alt="img"/></a>
 									<a target="_blank" href="https://www.mediacrat.com"><img src="img/logo-partners/BRICS_logo_white.png" alt="img"/></a>
@@ -4905,7 +5032,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 
 									<a target="_blank" href="https://lagente.do"><img src="img/logo-partners/logo_lagente.jpg" alt="img"/></a>
 									<a target="_blank" href="https://zucker.studio/"><img src="img/logo-partners/Zucker-Studio.png" alt="img"/></a>
-
+									<a target="_blank" href="http://www.regruss.ru"><img src="img/logo-partners/regionalnaya_rossiya.png" alt="img"/></a>
 								</div>
 							</div>
 						</div>
@@ -4940,6 +5067,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 						<a target="_blank" href="http://1prime.ru/ "><img src="img/logo-partners/logo-prime.jpg" alt="img"/></a>
 						<a target="_blank" href="https://ru.insider.pro/"><img src="img/logo-partners/insider.pro.jpg" alt="img"/></a>
 						<a target="_blank" href="http://inc.hse.ru/ "><img src="img/logo-partners/inc.hse.png" alt="img"/></a>
+						<a target="_blank" href="https://utro.ru"><img src="img/logo-partners/utro-logo.png" alt="img"/></a>
 						<a target="_blank" href="https://www.if24.ru/kontakty/"><img src="img/logo-partners/investforsight.jpg" alt="img"/></a>
 						<a target="_blank" href="http://thewallmagazine.ru/"><img src="img/logo-partners/thewall.jpg" alt="img"/></a>
 						<a target="_blank" href="https://www.mediacrat.com"><img src="img/logo-partners/BRICS_logo_white.png" alt="img"/></a>
@@ -5024,6 +5152,9 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 
 						<a target="_blank" href="https://lagente.do"><img src="img/logo-partners/logo_lagente.jpg" alt="img"/></a>
 						<a target="_blank" href="https://zucker.studio/"><img src="img/logo-partners/Zucker-Studio.png" alt="img"/></a>
+						<a target="_blank" href="http://www.regruss.ru"><img src="img/logo-partners/regionalnaya_rossiya.png" alt="img"/></a>
+						
+
 					</div>
 				</div>
 				<div class="block--become-partner">
