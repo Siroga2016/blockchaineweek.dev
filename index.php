@@ -2,7 +2,6 @@
 session_start();
 error_reporting(85);
 
-
 $utm = array("utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term");
 
 $utm_clean = false; foreach($utm as $v){if(trim($_GET[$v])&&trim($_GET[$v])!=$_SESSION[$v]){$utm_clean = true; break;}}
@@ -13,143 +12,6 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 <!DOCTYPE html>
 <html>
 <head>
-
-<!-- Код тега ремаркетинга Google -->
-
-<script type="text/javascript">
-
-var google_tag_params = {
-
-dynx_itemid: 'REPLACE_WITH_VALUE',
-
-dynx_itemid2: 'REPLACE_WITH_VALUE',
-
-dynx_pagetype: 'REPLACE_WITH_VALUE',
-
-dynx_totalvalue: 'REPLACE_WITH_VALUE',
-
-};
-
-</script>
-
-<script type="text/javascript">
-
-/* <![CDATA[ */
-
-var google_conversion_id = 856609541;
-
-var google_custom_params = window.google_tag_params;
-
-var google_remarketing_only = true;
-
-/* ]]> */
-
-</script>
-
-<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
-
-</script>
-
-<noscript>
-
-<div style="display:inline;">
-
-<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/856609541/?guid=ON&amp;script=0"/>
-
-</div>
-
-</noscript>
-<!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '1855224518076375');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=1855224518076375&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
-
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter45636015 = new Ya.Metrika({
-                    id:45636015,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true
-                });
-            } catch(e) { }
-        });
-
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/45636015" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter45373752 = new Ya.Metrika({
-                    id:45373752,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true,
-                    webvisor:true,
-                    trackHash:true
-                });
-            } catch(e) { }
-        });
-
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/45373752" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-103044283-1', 'auto');
-  ga('send', 'pageview');
-</script>
-<!-- BEGIN JIVOSITE CODE {literal} -->
-<script type='text/javascript'>
-(function(){ var widget_id = 'cz1ToJAZR2';var d=document;var w=window;function l(){
-var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
-<!-- {/literal} END JIVOSITE CODE -->
-<script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = 'https://vk.com/rtrg?p=VK-RTRG-156489-gtgHR';</script>
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -1733,7 +1595,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="img">
+                                    <img src="../img/discuss.jpg" alt="img">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
@@ -1931,7 +1793,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Баранов Артем
+                                        Артем Баранов
                                     </div>
                                     <div class="position">
                                          Сооснователь и операционный директор Cindicator
@@ -2176,17 +2038,17 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="Алексей Иванов">
+                                    <img src="../img/lectors/default.png" alt="img">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Согласовываются спикеры и темы выступлений
+                                        СПИКЕР УТОЧНЯЕТСЯ
                                     </div>
                                     <div class="position">
 
                                     </div>
                                     <div class="report">
-
+                                    	ТЕМА УТОЧНЯЕТСЯ
                                     </div>
                                 </div>
                             </div>
@@ -2495,7 +2357,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Иванов Алексей
+                                        Алексей Иванов
                                     </div>
                                     <div class="position">
                                         Директор Института права и развития ВШЭ-Сколково 
@@ -2516,7 +2378,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="img">
+                                    <img src="../img/discuss.jpg" alt="img">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
@@ -2679,11 +2541,11 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         16:00
                                     </div>
                                     <div class="time-end">
-                                        17:00
+                                        16:40
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="Алексей Иванов">
+                                    <img src="../img/lectors/default.png" alt="img">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
@@ -2732,11 +2594,11 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         16:20
                                     </div>
                                     <div class="time-end">
-                                        17:00
+                                        16:40
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="Алексей Иванов">
+                                    <img src="../img/lectors/default.png" alt="img">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
@@ -3342,7 +3204,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="img">
+                                    <img src="../img/discuss.jpg" alt="img">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
@@ -4066,7 +3928,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Иванов Алексей
+                                         Алексей Иванов
                                     </div>
                                     <div class="position">
                                         Директор Института права и развития ВШЭ-Сколково 
@@ -4088,7 +3950,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="img">
+                                    <img src="../img/discuss.jpg" alt="img">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
@@ -4251,7 +4113,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         16:00
                                     </div>
                                     <div class="time-end">
-                                        17:00
+                                        16:40
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -4309,7 +4171,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
                                         16:20
                                     </div>
                                     <div class="time-end">
-                                        17:00
+                                        16:40
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -5033,6 +4895,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 									<a target="_blank" href="https://lagente.do"><img src="img/logo-partners/logo_lagente.jpg" alt="img"/></a>
 									<a target="_blank" href="https://zucker.studio/"><img src="img/logo-partners/Zucker-Studio.png" alt="img"/></a>
 									<a target="_blank" href="http://www.regruss.ru"><img src="img/logo-partners/regionalnaya_rossiya.png" alt="img"/></a>
+									<a target="_blank" href="http://www.plusworld.ru"><img src="img/logo-partners/plas.jpg" alt="img"/></a>
 								</div>
 							</div>
 						</div>
@@ -5153,7 +5016,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 						<a target="_blank" href="https://lagente.do"><img src="img/logo-partners/logo_lagente.jpg" alt="img"/></a>
 						<a target="_blank" href="https://zucker.studio/"><img src="img/logo-partners/Zucker-Studio.png" alt="img"/></a>
 						<a target="_blank" href="http://www.regruss.ru"><img src="img/logo-partners/regionalnaya_rossiya.png" alt="img"/></a>
-						
+						<a target="_blank" href="http://www.plusworld.ru"><img src="img/logo-partners/plas.jpg" alt="img"/></a>
 
 					</div>
 				</div>
@@ -5550,6 +5413,123 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
     <a href="files/Serenity_ru.pptx" download class="b-sponsor__presentation">Смотреть презентацию</a>
 </div>
 
+
+<!-- Код тега ремаркетинга Google -->
+<script type="text/javascript">
+	var google_tag_params = {
+	dynx_itemid: 'REPLACE_WITH_VALUE',
+	dynx_itemid2: 'REPLACE_WITH_VALUE',
+	dynx_pagetype: 'REPLACE_WITH_VALUE',
+	dynx_totalvalue: 'REPLACE_WITH_VALUE',
+	};
+</script>
+
+<script type="text/javascript">
+	/* <![CDATA[ */
+	var google_conversion_id = 856609541;
+	var google_custom_params = window.google_tag_params;
+	var google_remarketing_only = true;
+	/* ]]> */
+</script>
+
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+
+<noscript>
+	<div style="display:inline;">
+	<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/856609541/?guid=ON&amp;script=0"/>
+	</div>
+</noscript>
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1855224518076375');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1855224518076375&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter45636015 = new Ya.Metrika({
+                    id:45636015,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/45636015" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter45373752 = new Ya.Metrika({
+                    id:45373752,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true,
+                    trackHash:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/45373752" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-103044283-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- BEGIN JIVOSITE CODE {literal} -->
+<script type='text/javascript'>
+(function(){ var widget_id = 'cz1ToJAZR2';var d=document;var w=window;function l(){
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
+<!-- {/literal} END JIVOSITE CODE -->
+<script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = 'https://vk.com/rtrg?p=VK-RTRG-156489-gtgHR';</script>
 
 <script>
   var youtubeVideoTag1 = document.createElement('script');
