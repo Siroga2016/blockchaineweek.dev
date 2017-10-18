@@ -4923,6 +4923,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 									<a target="_blank" href="http://www.plusworld.ru"><img src="img/logo-partners/plas.jpg" alt="img"/></a>
 									<a target="_blank" href="http://balakovo-bi.ru"><img src="img/logo-partners/BMP.jpg" alt="img"/></a>
 									<a target="_blank" href="https://www.rubrain.com"><img src="img/logo-partners/rubrain.jpg" alt="img"/></a>
+									<a target="_blank" href="https://www.seonews.ru"><img src="img/logo-partners/seonews.svg" alt="img"/></a>
 								</div>
 							</div>
 						</div>
@@ -5046,6 +5047,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 						<a target="_blank" href="http://www.plusworld.ru"><img src="img/logo-partners/plas.jpg" alt="img"/></a>
 						<a target="_blank" href="http://balakovo-bi.ru"><img src="img/logo-partners/BMP.jpg" alt="img"/></a>
 						<a target="_blank" href="https://www.rubrain.com"><img src="img/logo-partners/rubrain.jpg" alt="img"/></a>
+						<a target="_blank" href="https://www.seonews.ru"><img src="img/logo-partners/seonews.svg" alt="img"/></a>
 					</div>
 				</div>
 				<div class="block--become-partner">
