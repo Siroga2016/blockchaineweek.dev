@@ -2387,8 +2387,33 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     <div class="report">
                                     	Панельная дискуссия.<br> Блокчейн и криптовалюты в Российском законодательстве. 
                                     </div>
+                                    <div class="position">
+                                    </div>
+
+                                     <div class="name">
+                                        Андрей Белозёров
+                                    </div>
+                                    <div class="position">
+                                        Советник руководителя Департамента информационных технологий города Москвы по стратегическим проектам и инновациям;
+                                    </div>
+
+                                    <div class="name">
+                                        Алексей Иванов
+                                    </div>
+                                    <div class="position">
+                                        Директор Института права и развития ВШЭ-Сколково;
+                                    </div>
+                                    <div class="name">
+                                        Элина Сидоренко
+                                    </div>
+                                    <div class="position">
+                                        Руководитель межведомственной рабочей группы по оценкам рисков оборота криптовалюты Государственной Думы.
+                                    </div>
+
                                 </div>
+
                             </div>
+
 
                         </div>
                         <div class="b-programm__table-content_half">
@@ -4896,6 +4921,8 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 									<a target="_blank" href="https://zucker.studio/"><img src="img/logo-partners/Zucker-Studio.png" alt="img"/></a>
 									<a target="_blank" href="http://www.regruss.ru"><img src="img/logo-partners/regionalnaya_rossiya.png" alt="img"/></a>
 									<a target="_blank" href="http://www.plusworld.ru"><img src="img/logo-partners/plas.jpg" alt="img"/></a>
+									<a target="_blank" href="http://balakovo-bi.ru"><img src="img/logo-partners/BMP.jpg" alt="img"/></a>
+									<a target="_blank" href="https://www.rubrain.com"><img src="img/logo-partners/rubrain.jpg" alt="img"/></a>
 								</div>
 							</div>
 						</div>
@@ -5017,7 +5044,8 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 						<a target="_blank" href="https://zucker.studio/"><img src="img/logo-partners/Zucker-Studio.png" alt="img"/></a>
 						<a target="_blank" href="http://www.regruss.ru"><img src="img/logo-partners/regionalnaya_rossiya.png" alt="img"/></a>
 						<a target="_blank" href="http://www.plusworld.ru"><img src="img/logo-partners/plas.jpg" alt="img"/></a>
-
+						<a target="_blank" href="http://balakovo-bi.ru"><img src="img/logo-partners/BMP.jpg" alt="img"/></a>
+						<a target="_blank" href="https://www.rubrain.com"><img src="img/logo-partners/rubrain.jpg" alt="img"/></a>
 					</div>
 				</div>
 				<div class="block--become-partner">
