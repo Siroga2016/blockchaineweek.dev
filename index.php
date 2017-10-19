@@ -4555,7 +4555,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                 
                  <div class="b-sponsor__item">
                     <div class="b-sponsor__item-top">
-                        <div class="b-sponsor__title">B2BrokerL</div>
+                        <div class="b-sponsor__title">B2Broker</div>
                         <a href="http://www.b2bx.pro" target="_blank" class="b-sponsor__img b2broker"></a>
                     </div>
                     <div class="b-sponsor__text">Первая в мире криптовалютная биржа-агрегатор для институциональных клиентов.
@@ -4575,7 +4575,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 
 				<div class="b-sponsor__item">
                     <div class="b-sponsor__item-top">
-                        <div class="b-sponsor__title">GeliosL</div>
+                        <div class="b-sponsor__title">Gelios</div>
                         <a href="javascript:void(0)" target="_blank" class="b-sponsor__img gelios"></a>
                     </div>
                     <div class="b-sponsor__text">
@@ -4607,9 +4607,6 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 
             </div>
 
-
-
-
             <div class="b-sponsor__wrap">
 
                <div class="b-sponsor__item">
@@ -4626,7 +4623,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                     <div class="b-sponsor__item-bottom">
                         <div class="b-sponsor__btn j-sponsor8">О проекте</div>
                         <div>
-                            <!--<a href="files/presentation.pdf" download class="b-sponsor__link">Смотреть презентацию</a>-->
+                            <!--<a href="files/presentation.pdf" target="_blank" class="b-sponsor__link">Смотреть презентацию</a>-->
                         </div>
                     </div>
                 </div>
@@ -5593,6 +5590,32 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
     <a href="files/B2Broker.pdf" target="_blank" class="b-sponsor__presentation">Смотреть презентацию</a>
 </div>
 
+<div id="sponsor6" class="sponsor">
+    <span id="modal_close">X</span>
+    <div class="b-sponsor__popup">
+        <div class="b-sponsor__item-top">
+            <div class="b-sponsor__title">Gelios</div>
+            <a href="javascript:void(0)" target="_blank" class="b-sponsor__img gelios-white"></a>
+        </div>
+        <div class="b-sponsor__popup-text">
+            <p></p>
+        </div>
+    </div>
+</div>
+
+<div id="sponsor7" class="sponsor">
+    <span id="modal_close">X</span>
+    <div class="b-sponsor__popup">
+        <div class="b-sponsor__item-top">
+            <div class="b-sponsor__title">SmartValley</div>
+            <a href="https://smartvalley.io" target="_blank" class="b-sponsor__img smartvalley-white"></a>
+        </div>
+        <div class="b-sponsor__popup-text">
+            <p></p>
+        </div>
+    </div>
+</div>
+
 <div id="sponsor8" class="sponsor">
     <span id="modal_close">X</span>
     <div class="b-sponsor__popup">
@@ -5601,13 +5624,13 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
             <a href="http://ethlend.io" target="_blank" class="b-sponsor__img ethlend-white"></a>
         </div>
         <div class="b-sponsor__popup-text">
-            <p>ETHLend- это100% равноправная платформа для децентрализованногокредитования, разработанная на основе сети Ethereum.Одно из главных преимуществ децентрализованного кредитования на основе blockchain – это предоставление доступа к всемирному капиталу и снижение зависимости от банковской инфраструктуры.</p>
+            <p>ETHLend- это 100% равноправная платформа для децентрализованногокредитования, разработанная на основе сети Ethereum.Одно из главных преимуществ децентрализованного кредитования на основе blockchain – это предоставление доступа<br> к всемирному капиталу и снижение зависимости от банковской инфраструктуры.</p>
 
-			<p>Прогнозируется, что  всемирный рынок P2P-кредитования вырастет по среднегодовому темпу роста на 53.06% в течение 2016-2020 гг.Также возрастет необходимость в безопасном методе кредитования на основе blockchain. </p>
+			<p>Прогнозируется, что  всемирный рынок P2P-кредитования вырастет<br> по среднегодовому темпу роста на 53.06% в течение 2016-2020 гг. <br>Также возрастет необходимость в безопасном методе кредитования <br>на основе blockchain. </p>
 
-			<p>СистемаУмных Контрактов (SmartContracts)ETHlend обеспечивает мгновенное и безопасное кредитование, предоставляя заём в любое время и в любом месте, тем самым органически дополняя рынок P2Pкредитования путем предоставления возможности кредиторам и заемщикам привлекать средства из любой финансовой организации в мире. Дополнительно данная система снижает и уравнивает процентные ставки по всему миру, предоставляя глобальный пул ликвидности на равных основах.</p>
+			<p>Система Умных Контрактов (SmartContracts)vETHlend обеспечивает мгновенное и безопасное кредитование, предоставляя заём в любое время и в любом месте, тем самым органически дополняя рынок P2Pкредитования путем предоставления возможности кредиторам<br> и заемщикам привлекать средства из любой финансовой организации<br> в мире. Дополнительно данная система снижает и уравнивает процентные ставки по всему миру, предоставляя глобальный пул ликвидности <br>на равных основах.</p>
 
-			<p>Первый кредит был выданнами 8 июня 2017 годаблагодаря полностью рабочей альфа-версии протокола, гдевместо кредитования на основефиатных валют, участники использовали валюту Ethereum. Процесс кредитования полностью децентрализован-  никто, включая ETHLend, не может изменить, манипулировать или повлиять на процесс выдачи или получения кредита, что делает систему  безопасной по своему строению.</p>
+			<p>Первый кредит был выданнами 8 июня 2017 годаблагодаря полностью рабочей альфа-версии протокола, гдевместо кредитования<br> на основефиатных валют, участники использовали валюту Ethereum. Процесс кредитования полностью децентрализован-  никто, включая ETHLend, не может изменить, манипулировать или повлиять на процесс выдачи или получения кредита, что делает систему  безопасной по своему строению.</p>
 
 			<p>В нашей платформе в качестве залоговых средств заёмщик использует ERC-20 токены, которые представляютсобой “дигитализированный” эквивалент стоимости актива компании  в системе blockchain. На данный момент рынок ERC-20 токенов оценивается в несколько миллиардов долларов США.</p>
 

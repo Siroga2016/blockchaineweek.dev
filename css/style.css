@@ -4982,14 +4982,26 @@ a.button-exit{
 .b-sponsor__img.b2broker {
 	background-image: url('../img/b2broker-black.png');
 }
+.b-sponsor__img.b2broker-white {
+	background-image: url('../img/logo_b2bbroker.jpg');
+}
 .b-sponsor__img.gelios {
 	background-image: url('../img/gelios-black.png');
 }
+.b-sponsor__img.gelios-white {
+	background-image: url('../img/gelios-white.png');
+}
 .b-sponsor__img.smartvalley {
-	background-image: url('../img/SmartValley.png');
+	background-image: url('../img/SmartValley-white.png');
+}
+.b-sponsor__img.smartvalley-white {
+	background-image: url('../img/SmartValley-white.png');
 }
 .b-sponsor__img.ethlend {
 	background-image: url('../img/ETHLend.jpg');
+}
+.b-sponsor__img.ethlend-white {
+	background-image: url('../img/ETHLend-white.jpg');
 }
 
 
