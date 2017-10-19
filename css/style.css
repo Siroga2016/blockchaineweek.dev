@@ -4977,6 +4977,23 @@ a.button-exit{
 	background-image: url('../img/serenity-logo_transparent.png');
 }
 
+
+
+.b-sponsor__img.b2broker {
+	background-image: url('../img/b2broker-black.png');
+}
+.b-sponsor__img.gelios {
+	background-image: url('../img/gelios-black.png');
+}
+.b-sponsor__img.smartvalley {
+	background-image: url('../img/SmartValley.png');
+}
+.b-sponsor__img.ethlend {
+	background-image: url('../img/ETHLend.jpg');
+}
+
+
+
 .b-sponsor__text {
 	width: 100%;
 	color: #222222;

@@ -415,8 +415,28 @@ $(".j-sponsor4").on("click", function(){
     $('body').addClass('hidden');
 });
 
+$(".j-sponsor5").on("click", function(){
+    $('#sponsor5, #overlay').addClass('active');
+    $('body').addClass('hidden');
+});
+
+$(".j-sponsor6").on("click", function(){
+    $('#sponsor6, #overlay').addClass('active');
+    $('body').addClass('hidden');
+});
+
+$(".j-sponsor7").on("click", function(){
+    $('#sponsor7, #overlay').addClass('active');
+    $('body').addClass('hidden');
+});
+
+$(".j-sponsor8").on("click", function(){
+    $('#sponsor8, #overlay').addClass('active');
+    $('body').addClass('hidden');
+});
+
 $("#overlay, #modal_close").on("click", function(){
-    $('#modal_form, #overlay, #sponsor1, #sponsor2, #sponsor3, #sponsor4, #sponsor-video1, #sponsor-video3').removeClass('active');
+    $('#modal_form, #overlay, #sponsor1, #sponsor2, #sponsor3, #sponsor4, #sponsor5, #sponsor6, #sponsor7, #sponsor8, #sponsor-video1, #sponsor-video3').removeClass('active');
     $(".b-video").removeClass('is-active');
     youtubeVideoPlayer4.stopVideo();
     youtubeVideoPlayerSp1.stopVideo();
