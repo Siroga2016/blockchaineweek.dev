@@ -661,6 +661,14 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 					</div>
 				</div>
 
+				<div class="block hide">
+					<div class="img"><img src="img/speakers/churakov.jpg" alt="img"/></div>
+					<div class="name">Чураков Илья</div>
+					<div class="about-people">
+						Основатель сервиса дистанционного обучения ExpertSystem.ru
+					</div>
+				</div>
+
 				<div class="all-speakers hide">
 					<a href="javascript:void(0)" class="show-all-speakers">
 						<span>Скрыть<br>всех</span>
@@ -970,6 +978,13 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 						<div class="name">Антон Васин</div>
 						<div class="about-people">
 							Сооснователь проекта Serenity Financial
+						</div>
+					</div>
+					<div class="block">
+						<div class="img"><img src="img/speakers/churakov.jpg" alt="img"/></div>
+						<div class="name">Чураков Илья</div>
+						<div class="about-people">
+							Основатель сервиса дистанционного обучения ExpertSystem.ru
 						</div>
 					</div>
 				</div>
@@ -4836,6 +4851,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 									<a target="_blank" href="https://ru.insider.pro/"><img src="img/logo-partners/insider.pro.jpg" alt="img"/></a>
 									<a target="_blank" href="http://inc.hse.ru/ "><img src="img/logo-partners/inc.hse.png" alt="img"/></a>
 									<a target="_blank" href="https://utro.ru"><img src="img/logo-partners/utro-logo.png" alt="img"/></a>
+									<a target="_blank" href="https://forklog.com"><img src="img/logo-partners/forklog.png" alt="img"/></a>
 									<a target="_blank" href="https://www.if24.ru/kontakty/"><img src="img/logo-partners/investforsight.jpg" alt="img"/></a>
 									<a target="_blank" href="http://thewallmagazine.ru/"><img src="img/logo-partners/thewall.jpg" alt="img"/></a>
 									<a target="_blank" href="https://www.mediacrat.com"><img src="img/logo-partners/BRICS_logo_white.png" alt="img"/></a>
@@ -4959,6 +4975,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 						<a target="_blank" href="https://ru.insider.pro/"><img src="img/logo-partners/insider.pro.jpg" alt="img"/></a>
 						<a target="_blank" href="http://inc.hse.ru/ "><img src="img/logo-partners/inc.hse.png" alt="img"/></a>
 						<a target="_blank" href="https://utro.ru"><img src="img/logo-partners/utro-logo.png" alt="img"/></a>
+						<a target="_blank" href="https://forklog.com"><img src="img/logo-partners/forklog.png" alt="img"/></a>
 						<a target="_blank" href="https://www.if24.ru/kontakty/"><img src="img/logo-partners/investforsight.jpg" alt="img"/></a>
 						<a target="_blank" href="http://thewallmagazine.ru/"><img src="img/logo-partners/thewall.jpg" alt="img"/></a>
 						<a target="_blank" href="https://www.mediacrat.com"><img src="img/logo-partners/BRICS_logo_white.png" alt="img"/></a>
@@ -5048,6 +5065,8 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 						<a target="_blank" href="http://balakovo-bi.ru"><img src="img/logo-partners/BMP.jpg" alt="img"/></a>
 						<a target="_blank" href="https://www.rubrain.com"><img src="img/logo-partners/rubrain.jpg" alt="img"/></a>
 						<a target="_blank" href="https://www.seonews.ru"><img src="img/logo-partners/seonews.svg" alt="img"/></a>
+						
+
 					</div>
 				</div>
 				<div class="block--become-partner">
