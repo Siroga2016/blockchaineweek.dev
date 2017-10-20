@@ -4552,8 +4552,14 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                         </div>
                     </div>
                 </div>
+
+                <div class="b-sponsor__item">
+                    <div class="b-sponsor__item-empty">
+                        Скоро здесь появится<br>новый блокчейн-проект
+                    </div>
+                </div>
                 
-                 <div class="b-sponsor__item">
+                <?/* <div class="b-sponsor__item">
                     <div class="b-sponsor__item-top">
                         <div class="b-sponsor__title">B2Broker</div>
                         <a href="http://www.b2bx.pro" target="_blank" class="b-sponsor__img b2broker"></a>
@@ -4567,11 +4573,11 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                             <a href="files/B2Broker.pdf" target="_blank" class="b-sponsor__link">Смотреть презентацию</a>
                         </div>
                     </div>
-                </div>
+                </div>*/?>
 
             </div>
 
-            <div class="b-sponsor__wrap">
+            <?/*<div class="b-sponsor__wrap">
 
 				<div class="b-sponsor__item">
                     <div class="b-sponsor__item-top">
@@ -4605,11 +4611,11 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                     </div>
                 </div>
 
-            </div>
+            </div>*/?>
 
-            <div class="b-sponsor__wrap">
+            <?/*<div class="b-sponsor__wrap">
 
-               <div class="b-sponsor__item">
+                <div class="b-sponsor__item">
                     <div class="b-sponsor__item-top">
                         <div class="b-sponsor__title">ETHLend</div>
                         <a href="http://ethlend.io" target="_blank" class="b-sponsor__img ethlend"></a>
@@ -4633,8 +4639,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                         Скоро здесь появится<br>новый блокчейн-проект
                     </div>
                 </div>
-
-            </div>
+            </div>*/?>
 
             
 
