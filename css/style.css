@@ -5004,7 +5004,40 @@ a.button-exit{
 	background-image: url('../img/ETHLend-white.jpg');
 }
 
+.b-sponsor__img.faceter {
+	background-image: url('../img/faceter.png');
+}
+.b-sponsor__img.faceter_white {
+	background-image: url('../img/faceter_white.png');
+}
 
+.b-sponsor__img.mining-solutions {
+	background-image: url('../img/mining-solutions.png');
+}
+
+.b-sponsor__img.snovio {
+	background-image: url('../img/snovio.png');
+}
+
+.b-sponsor__img.rega-risk {
+	background-image: url('../img/rega-risk.png');
+}
+
+.b-sponsor__img.bonum {
+	background-image: url('../img/bonum.png');
+}
+
+.b-sponsor__img.telecore {
+	background-image: url('../img/telecore.png');
+}
+
+.b-sponsor__img.zodiaq {
+	background-image: url('../img/zodiaq_white.png');
+}
+
+.b-sponsor__img.zodiaq_white {
+	background-image: url('../img/zodiaq.png');
+}
 
 .b-sponsor__text {
 	width: 100%;
@@ -5012,6 +5045,10 @@ a.button-exit{
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 24px;
+}
+
+.b-sponsor__text li {
+	list-style: disc;
 }
 
 .b-sponsor__btn {
