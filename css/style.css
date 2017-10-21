@@ -5015,8 +5015,16 @@ a.button-exit{
 	background-image: url('../img/mining-solutions.png');
 }
 
+.b-sponsor__img.mining-solutions_white {
+	background-image: url('../img/mining-solutions_white.png');
+}
+
 .b-sponsor__img.snovio {
 	background-image: url('../img/snovio.png');
+}
+
+.b-sponsor__img.snovio_white {
+	background-image: url('../img/snovio-white.png');
 }
 
 .b-sponsor__img.rega-risk {
@@ -5029,6 +5037,10 @@ a.button-exit{
 
 .b-sponsor__img.telecore {
 	background-image: url('../img/telecore.png');
+}
+
+.b-sponsor__img.telecore_white {
+	background-image: url('../img/telecore-white.png');
 }
 
 .b-sponsor__img.zodiaq {
@@ -5130,6 +5142,13 @@ a.button-exit{
 .b-sponsor__popup-text a {
 	color: #ffffff;
 	border-bottom: 1px solid #ffffff;
+}
+
+.b-sponsor__popup-text a.b-sponsor__presentation {
+	display: inline-block;
+	color: #78d55b;
+	border-bottom: 1px solid transparent;
+	text-decoration: underline;
 }
 
 .b-sponsor__popup-text li {
