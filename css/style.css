@@ -5132,6 +5132,10 @@ a.button-exit{
 	border-bottom: 1px solid #ffffff;
 }
 
+.b-sponsor__popup-text li {
+	list-style: disc;
+}
+
 .b-sponsor__presentation {
 	padding-top: 25px;
 	color: #78d55b;

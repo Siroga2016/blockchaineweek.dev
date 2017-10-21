@@ -472,7 +472,7 @@ $(".j-sponsor14").on("click", function(){
 });
 
 $(".j-sponsor15").on("click", function(){
-    $('#sponsor14, #overlay').addClass('active');
+    $('#sponsor15, #overlay').addClass('active');
     $('body').addClass('hidden');
 });
 
