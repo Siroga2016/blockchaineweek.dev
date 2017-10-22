@@ -6065,7 +6065,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
     <div class="b-sponsor__popup">
         <div class="b-sponsor__item-top">
             <div class="b-sponsor__title">Snovio</div>
-            <a href="https://tokensale.snov.io/ru/" target="_blank" class="b-sponsor__img snovio"></a>
+            <a href="https://tokensale.snov.io/ru/" target="_blank" class="b-sponsor__img snovio_white"></a>
         </div>
         <div class="b-video__wrapper">
             <div id="youtube-sponsor-video-snovio"></div>
