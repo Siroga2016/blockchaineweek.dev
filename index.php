@@ -4669,10 +4669,30 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                 </div>
 
                 <div class="b-sponsor__item">
+                    <div class="b-sponsor__item-top">
+                        <div class="b-sponsor__title">Mining Solutions</div>
+                        <a href="https://www.minso.net/" target="_blank" class="b-sponsor__img mining-solutions"></a>
+                    </div>
+                    <div class="b-sponsor__text">
+                        Компания разрабатывает простые и&nbsp;удобные программные решения, которые эффективно производят
+                        настройку и&nbsp;управление GPU&nbsp;мощностями, сберегая электроэнергию и&nbsp;экологию, повышают
+                        финансовую привлекательность. Решения высокого уровня позволяют производить быстрое переключение
+                        мощностей для&nbsp;обработки различных алгоритмов, закладывают основы по&nbsp;применению GPU&nbsp;мощностей
+                        для&nbsp;актуальных задач общества.
+                    </div>
+                    <div class="b-sponsor__item-bottom">
+                        <div class="b-sponsor__btn j-sponsor10">О проекте</div>
+                        <div>
+                            <a href="../files/Mining-Solution.pdf" target="_blank" class="b-sponsor__link">Смотреть презентацию</a>
+                        </div>
+                    </div>
+                </div>
+
+                <?/*<div class="b-sponsor__item">
                     <div class="b-sponsor__item-empty">
                         Скоро здесь появится<br>новый блокчейн-проект
                     </div>
-                </div>
+                </div>*/?>
                 
                 <?/* <div class="b-sponsor__item">
                     <div class="b-sponsor__item-top">
@@ -5763,6 +5783,60 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 
         </div>
     </div>
+</div>
+
+<div id="sponsor10" class="sponsor">
+    <span id="modal_close">X</span>
+    <div class="b-sponsor__popup">
+        <div class="b-sponsor__item-top">
+            <div class="b-sponsor__title">Mining Solutions</div>
+            <a href="https://www.minso.net/" target="_blank" class="b-sponsor__img mining-solutions_white"></a>
+        </div>
+        <div class="b-sponsor__popup-text">
+            <p>Развивая свой майнинговый центр, специалисты компании Mining Solutions обратили внимание на&nbsp;то,
+                что&nbsp;при&nbsp;использовании GPU&nbsp;не&nbsp;решено много простых задач. В&nbsp;частности, простой
+                и&nbsp;удобный разгон видеокарт,
+                излишнее выделение тепла&nbsp;и, как&nbsp;следствие, проблемы либо&nbsp;с&nbsp;вентиляцией,
+                либо&nbsp;с&nbsp;местом размещения. Все&nbsp;вместе это&nbsp;понижает финансовую привлекательность проектов по&nbsp;GPU-майнингу.</p>
+            <P>Эксперты Mining&nbsp;Solutions провели большое количество тестов и&nbsp;зафиксировали наилучшие достижения,
+                написали удобное&nbsp;ПО, с&nbsp;которым&nbsp;даже&nbsp;непрофессионал сможет эффективно произвести настройку своих&nbsp;GPU&nbsp;мощностей,
+                не&nbsp;подвергая риску оборудование.</P>
+            <p>На&nbsp;сегодняшний день в&nbsp;майнинговом центре Mining&nbsp;Solutions настройки проводятся с&nbsp;применением <span style="white-space: nowrap">MSP&nbsp;Driver&nbsp;P106-100</span>
+                и&nbsp;<span style="white-space: nowrap">MSP Driver RX 400/500 series</span>. Из&nbsp;технической документации следует, что&nbsp;скорость расчетов
+                в&nbsp;среднем&nbsp;на&nbsp;<span style="white-space: nowrap">10%-20% выше базовых</span>, а&nbsp;потребляемая мощность <span style="white-space: nowrap">на 20%-30% ниже базой</span>.
+                Повышение скорости и&nbsp;уменьшение энергопотребления существенно увеличивают финансовую привлекательность
+                проектов по&nbsp;GPU&nbsp;майнингу.</p>
+            <p>В&nbsp;процессе общения с&nbsp;участниками майнингового сообщества выяснилась необходимость в&nbsp;инструментах
+                более&nbsp;высокого уровня, которые&nbsp;бы&nbsp;обеспечивали быстрое и&nbsp;удобное переключение обрабатываемых алгоритмов.
+                В&nbsp;Mining&nbsp;Solutions эта&nbsp;задача решена посредством разработки собственного MSP&nbsp;Miner.
+                Устанавливая правильные драйвера под&nbsp;каждый алгоритм мы&nbsp;быстро и&nbsp;надежно получаем оптимальные настройки
+                и&nbsp;максимальную отдачу.</p>
+            <p>На&nbsp;конференциях и&nbsp;в&nbsp;кулуарах мы&nbsp;все&nbsp;чаще слышим&nbsp;о&nbsp;том, что&nbsp;криптомайнинг
+                скоро умрет, либо&nbsp;станет совсем&nbsp;не&nbsp;эффективным. Эта&nbsp;информация сильно снижает интерес
+                вхождения новых игроков, а&nbsp;уже&nbsp;существующие не&nbsp;сильно спешат расширяться.</p>
+            <p>Имея в&nbsp;арсенале линейку собственных решений: <span style="white-space: nowrap">MSP Drivers</span>,
+                <span style="white-space: nowrap">MSP Miner</span>, <span style="white-space: nowrap">MSP Pool</span>
+                мы&nbsp;решили разработать решение, которое&nbsp;бы&nbsp;стало основным связующим звеном между&nbsp;владельцами
+                GPU&nbsp;мощностей и&nbsp;потребителями расчетных мощностей. В&nbsp;данной задаче проблема не&nbsp;в&nbsp;том,
+                чтобы найти платежеспособного клиента, а&nbsp;в&nbsp;том, чтобы&nbsp;научиться обрабатывать поставленные задачи
+                большим количеством распределенных счетных мощностей. По&nbsp;предварительным переговорам, большой объем
+                счетных мощностей требуется в&nbsp;таких отраслях&nbsp;как: наука&nbsp;и&nbsp;образование,
+                навигационная диспетчеризация (авиа, авто), медицина, космос, качественные съемки и&nbsp;<span style="white-space: nowrap">видео/виртуальные игры</span>.</p>
+            <p>В&nbsp;качестве основного решения разрабатывается <span style="white-space: nowrap">MSP Next Generation</span>.
+                Это решение, которое&nbsp;будет являться мостиком между&nbsp;задачами реального общества и&nbsp;ресурсами
+                криптосообщества. Для&nbsp;решения этой&nbsp;задачи требуется большое количество исследований, привлечения
+                квалифицированных экспертов из&nbsp;разных отраслей, математиков и&nbsp;программистов. Наша команда понимает,
+                что&nbsp;надо&nbsp;делать и&nbsp;куда надо&nbsp;двигаться, но&nbsp;для&nbsp;реализации данного проекта
+                в&nbsp;сжатые&nbsp;сроки требуется большой объем ресурсов, которые мы&nbsp;планируем собрать,
+                проведя кампанию по&nbsp;реализации наших токенов.</p>
+            <p>Следует отметить, что&nbsp;токен <span style="white-space: nowrap">Mining Solutions</span> не&nbsp;является
+                платежным средством в&nbsp;прямом смысле. Он&nbsp;является элементом экосреды, за&nbsp;счет которого будут
+                функционировать многие процессы. За&nbsp;токены нельзя приобрести решения <span style="white-space: nowrap">Mining Solutions</span>,
+                но&nbsp;можно&nbsp;стать активным участником сообщества и&nbsp;получить решения Бесплатно!
+                Также&nbsp;участники сообщества имеют возможность активно участвовать в&nbsp;решении актуальных задач.</p>
+        </div>
+    </div>
+    <a href="../files/Mining-Solution.pdf" target="_blank" class="b-sponsor__presentation">Смотреть презентацию</a>
 </div>
 
 
