@@ -5025,6 +5025,7 @@ a.button-exit{
 
 .b-sponsor__img.snovio_white {
 	background-image: url('../img/snovio-white.png');
+	max-height: 40px;
 }
 
 .b-sponsor__img.rega-risk {
