@@ -37,7 +37,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 	<title>Russian Blockchain Week 2017 Конференция по блокчейн</title>
 	<meta name="keywords" content="russian blockchain week, blockchain week, конференция блокчейн, blockchain конференция, конференция биткоин, блокчейн семинар, биткоин семинар, обучение блокчейн, обучение  blockchain, консультации блокчейн" />
 	<meta name="description" content="Russian blockсhain Week (Российская неделя блокчейн и криптовалют) — это главное событие года в своей индустрии, которое объединяет в себе 4 формата: конференция, выставка и шоу блокчейн-проектов, Blockchain.EXPO и Blockchain.NIGHT" />
-	<link href="css/style.css?v=8" type="text/css" rel="stylesheet"/>
+	<link href="css/style.css?v=9" type="text/css" rel="stylesheet"/>
 	<link href="css/fonts.css" type="text/css" rel="stylesheet"/>
 	<link href="css/jquery.formstyler.css" type="text/css" rel="stylesheet"/>
 	<link href="css/jquery.formstyler.theme.css" type="text/css" rel="stylesheet"/>
@@ -4709,9 +4709,41 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                         </div>
                     </div>
                 </div>*/?>
-
             </div>
 
+            <div class="b-sponsor__wrap">
+                <div class="b-sponsor__item">
+                    <div class="b-sponsor__item-top">
+                        <div class="b-sponsor__title">FACETER</div>
+                        <a href="https://faceter.io/?utm_source=blockchainweek_moscow&utm_medium=referral&utm_campaign=blockchain_week" target="_blank" class="b-sponsor__img faceter"></a>
+                    </div>
+                    <div class="b-sponsor__text">
+                        Cистема, которая анализирует видео с&nbsp;камер наблюдения, распознает лица и&nbsp;объекты, может&nbsp;быть&nbsp;настроена на&nbsp;конкретные сценарии поведения в&nbsp;определенных ситуациях. Выпущена версия для&nbsp;B2B. Вскоре сервис откроется для&nbsp;обычных пользователей. Им&nbsp;станет доступна технология интеллектуального видеонаблюдения, которую&nbsp;сейчас может себе позволить только крупный бизнес.
+                    </div>
+                    <div class="b-sponsor__item-bottom">
+                        <div class="b-sponsor__btn j-sponsor9">О проекте</div>
+                    </div>
+                </div>
+                <div class="b-sponsor__item">
+                    <div class="b-sponsor__item-top">
+                        <div class="b-sponsor__title">REGA Risk Sharing</div>
+                        <a href="https://rega.life/" target="_blank" class="b-sponsor__img rega-risk"></a>
+                    </div>
+                    <div class="b-sponsor__text">
+                        Разработчик децентрализованной crowdsurance платформы на&nbsp;технологии умных контрактов,
+                        скоринга и&nbsp;искусственного интеллекта. Краудшуранс&nbsp;(сrowdsurance)&nbsp;-&nbsp;это&nbsp;объединение
+                        физических&nbsp;лиц в&nbsp;группы с&nbsp;целью&nbsp;разделения собственных рисков. Такое&nbsp;коллективное
+                        объединение строится на&nbsp;принципах автономных децентрализованных организаций с&nbsp;применением технологии
+                        блокчейн и&nbsp;регулируется смарт-контрактами.
+                    </div>
+                    <div class="b-sponsor__item-bottom">
+                        <div class="b-sponsor__btn j-sponsor12">О проекте</div>
+                        <div>
+                            <a href="../files/REGA-brief-last.pdf" target="_blank" class="b-sponsor__link">Смотреть презентацию</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <?/*<div class="b-sponsor__wrap">
 
 				<div class="b-sponsor__item">
@@ -5785,6 +5817,29 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
     </div>
 </div>
 
+<div id="sponsor9" class="sponsor">
+    <span id="modal_close">X</span>
+    <div class="b-sponsor__popup">
+        <div class="b-sponsor__item-top">
+            <div class="b-sponsor__title">FACETER</div>
+            <a href="https://faceter.io/?utm_source=blockchainweek_moscow&utm_medium=referral&utm_campaign=blockchain_week" target="_blank" class="b-sponsor__img faceter_white"></a>
+        </div>
+        <div class="b-sponsor__popup-text">
+            <p>Faceter.io&nbsp;—&nbsp;международный проект основан тремя единомышленниками из&nbsp;разных&nbsp;стран, которые&nbsp;с&nbsp;2014&nbsp;года
+                совместно ведут исследования и&nbsp;разработки в&nbsp;области распознавания визуальных образов с&nbsp;помощью
+                нейросетей и&nbsp;deep&nbsp;learning (одна&nbsp;из&nbsp;технологий искусственного интеллекта). Первый успешный продукт&nbsp;-&nbsp;pay.cards&nbsp;-&nbsp;команда выпустила
+                в&nbsp;2015&nbsp;году. Это&nbsp;открытая библиотека для&nbsp;разработчиков приложений,
+                распознающих данные на&nbsp;банковских картах. Продукт получил высокую оценку профессионального сообщества
+                и&nbsp;до&nbsp;сих&nbsp;пор&nbsp;активно используется разработчиками по&nbsp;всему&nbsp;миру.</p>
+            <p>Полученный опыт команда применила для&nbsp;создания&nbsp;Faceter&nbsp;-&nbsp;системы, которая анализирует видео с&nbsp;камер
+                наблюдения, распознает лица и&nbsp;объекты, может&nbsp;быть&nbsp;настроена на&nbsp;конкретные сценарии поведения
+                в&nbsp;определенных ситуациях. Обычным пользователям и&nbsp;малому бизнесу станет доступна технология
+                интеллектуального видеонаблюдения, которую сейчас может себе позволить только крупный бизнес в&nbsp;силу
+                дороговизны таких решений.</p>
+        </div>
+    </div>
+</div>
+
 <div id="sponsor10" class="sponsor">
     <span id="modal_close">X</span>
     <div class="b-sponsor__popup">
@@ -5837,6 +5892,34 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
         </div>
     </div>
     <a href="../files/Mining-Solution.pdf" target="_blank" class="b-sponsor__presentation">Смотреть презентацию</a>
+</div>
+
+<div id="sponsor12" class="sponsor">
+    <span id="modal_close">X</span>
+    <div class="b-sponsor__popup">
+        <div class="b-sponsor__item-top">
+            <div class="b-sponsor__title">REGA Risk Sharing</div>
+            <a href="https://rega.life/" target="_blank" class="b-sponsor__img rega-risk_white"></a>
+        </div>
+        <div class="b-sponsor__popup-text">
+            <p>Разработчик децентрализованной crowdsurance платформы на&nbsp;технологии умных контрактов, скоринга
+                и&nbsp;искусственного интеллекта. <b>Краудшуранс&nbsp;(сrowdsurance)</b>&nbsp;-&nbsp;это&nbsp;объединение
+                физических&nbsp;лиц в&nbsp;группы с&nbsp;целью минимизации собственных рисков. Такое&nbsp;коллективное
+                объединение строится на&nbsp;принципах автономных децентрализованных организаций с&nbsp;применением
+                технологии блокчейн и&nbsp;регулируется смарт-контрактами.</p>
+            <p>Проект REGARiskSharing развивает собственную платформу на&nbsp;технологии блокчейн для&nbsp;развёртывания
+                на&nbsp;ее&nbsp;основе краудшуранс продуктов для&nbsp;конечных пользователей по&nbsp;взаимному
+                управлению рисками и&nbsp;минимизации их&nbsp;финансовых последствий.</p>
+            <p>REGARiskSharing&nbsp;-&nbsp;единственный проект в&nbsp;своем сегменте, выходящий на&nbsp;ICO
+                с&nbsp;уже&nbsp;имеющимся и&nbsp;работающим&nbsp;MVP. В&nbsp;марте&nbsp;2017&nbsp;года
+                <span style="white-space: nowrap">REGA RISK Sharing</span> запустила пилотный продукт
+                <span style="white-space: nowrap">Lexi Club</span>&nbsp;-&nbsp;социальный краудшуранс
+                сервис для&nbsp;владельцев домашних животных. Для защиты животного не&nbsp;требуется предварительное чипирование,
+                предъявление паспорта животного и&nbsp;встреча со&nbsp;страховым агентом.</p>
+            <p>Больше информации на&nbsp;<a href="https://rega.life/" target="_blank">сайте</a> проекта.</p>
+            <a href="../files/REGA-brief-last.pdf" target="_blank" class="b-sponsor__presentation">Смотреть презентацию</a>
+        </div>
+    </div>
 </div>
 
 
