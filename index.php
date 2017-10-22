@@ -518,7 +518,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 
 				<div class="block hide">
 					<div class="img"><img src="img/speakers/baranov.jpg" alt="img"/></div>
-					<div class="name">Баранов Артем</div>
+					<div class="name"> Артем Баранов</div>
 					<div class="about-people">
 						Со-основатель и операционный директор Cindicator
 					</div>
@@ -668,6 +668,23 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 						Основатель сервиса дистанционного обучения ExpertSystem.ru
 					</div>
 				</div>
+
+				<div class="block hide">
+					<div class="img"><img src="img/speakers/malkov.jpg" alt="img"/></div>
+					<div class="name">Александр Мальков </div>
+					<div class="about-people">
+						CEO Arbi
+					</div>
+				</div>
+
+				<div class="block hide">
+					<div class="img"><img src="img/speakers/chulkov.jpg" alt="img"/></div>
+					<div class="name">Станислав Чулков</div>
+					<div class="about-people">
+						Founder of Mining Solutions
+					</div>
+				</div>
+
 
 				<div class="all-speakers hide">
 					<a href="javascript:void(0)" class="show-all-speakers">
@@ -989,7 +1006,22 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 					</div>
 				</div>
 
-
+				<div>
+					<div class="block">
+						<div class="img"><img src="img/speakers/malkov.jpg" alt="img"/></div>
+						<div class="name">Александр Мальков </div>
+						<div class="about-people">
+							CEO Arbi
+						</div>
+					</div>
+					<div class="block">
+						<div class="img"><img src="img/speakers/chulkov.jpg" alt="img"/></div>
+						<div class="name">Станислав Чулков</div>
+						<div class="about-people">
+							Founder of Mining Solutions
+						</div>
+					</div>
+				</div>
 
 		    </div>
 	    </div>
@@ -1006,11 +1038,11 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
             <div class="text">
                 Налаживайте связи и&nbsp;знакомства<br/>в неформальной обстановке
             </div>
-            <a href="http://icolab.fund/ru.html" target="_blank" class="logo">
-                <img src="/img/icoFUND.png" alt="">
+            <a href="https://smartvalley.io/" target="_blank" class="logo">
+                <img src="/img/img-smartvalley.png" alt="img">
             </a>
-            <a href="http://icolab.fund/ru.html" target="_blank" class="logo-moobile">
-                 <img src="/img/icoFUNDmobile.png" alt="">
+            <a href="https://smartvalley.io/" target="_blank" class="logo-moobile">
+                 <img src="/img/img-smartvalley.png" alt="img">
             </a>
         </div>
     </div>
@@ -1087,6 +1119,17 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 		 					</div>
 		 					<div class="name">Артём Гуревич</div>
 		 					<div class="desc">Co-founder Get Crypto</div>
+						</div>
+					</div>
+
+					<div>
+						<div class="video">
+		 					<div class="preview video-8">
+		 						<img src="img/video-preview-8.jpg"/>
+		  						<div id="youtube-video-8"></div>
+		 					</div>
+		 					<div class="name">Александр Бородич</div>
+		 					<div class="desc">Основатель блокчейн платформы Universa</div>
 						</div>
 					</div>
 
@@ -1171,6 +1214,16 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 		 					<div class="desc">Co-founder Get Crypto</div>
 						</div>
 					</div>
+					<div>
+						<div class="video">
+		 					<div class="preview video-88">
+		 						<img src="img/video-preview-8.jpg"/>
+		  						<div id="youtube-video-88"></div>
+		 					</div>
+		 					<div class="name">Александр Бородич</div>
+		 					<div class="desc">Основатель блокчейн платформы Universa</div>
+						</div>
+					</div>
 
 			    </div>
 		    </div>
@@ -1212,7 +1265,8 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 		</div>
 	</div>
 
-  	<!--<div id="programm" class="l-program">
+<!--
+  	<div id="programm" class="l-program">
         <div class="b-program">
             <div class="center">
                 <div class="b-program__header">
@@ -1477,30 +1531,8 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                     </div>
                     <div class="b-programm__table-content">
                         <div class="b-programm__table-content_half">
-                            <div class="b-programm__table-item_right">
-                                <div class="b-programm__table-item-time">
-                                    <div class="time-start">
-                                        12:00
-                                    </div>
-                                    <div class="time-end">
-                                        12:25
-                                    </div>
-                                </div>
-                                <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/kabakov.png" alt="Ярослав Кабаков ">
-                                </div>
-                                <div class="b-programm__table-item-text">
-                                    <div class="name">
-                                        Ярослав Кабаков
-                                    </div>
-                                    <div class="position">
-                                        Заместитель генерального директора АО&nbsp;«Инвестиционная компания ФИНАМ»
-                                    </div>
-                                    <div class="report">
-                                        Инвестиции в&nbsp;криптовалюты для&nbsp;консервативных&nbsp;инвесторов
-                                    </div>
-                                </div>
-                            </div>
+
+                            
                             <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -2014,11 +2046,37 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                 </div>
                             </div>
 
+                            <div class="b-programm__table-item_right">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        18:00
+                                    </div>
+                                    <div class="time-end">
+                                        18:20
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="img/speakers/chulkov.jpg" alt=" Станислав Чулков">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                         Станислав Чулков
+                                    </div>
+                                    <div class="position">
+                                         Founder of Mining Solutions
+                                    </div>
+                                    <div class="report">
+                                        Практические аспекты GPU майнинга
+                                    </div>
+                                </div>
+                            </div>
 
                         </div>
                         <div class="b-programm__table-content_half">
 
-                             <div class="b-programm__table-item_left">
+                           
+
+                            <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
                                         17:00
@@ -2028,7 +2086,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="img/barinov.jpg" alt="img">
+                                    <img src="../img/barinov.jpg" alt="img">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
@@ -2262,7 +2320,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                         CEO Сryptonomica.net
                                     </div>
                                     <div class="report">
-                                        Новые юридические механизмы для blockchain
+                                        Юридическая механизмы для blockchain и ICO
                                     </div>
                                 </div>
                             </div>
@@ -2575,6 +2633,8 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                     <div class="b-programm__table-content">
                         <div class="b-programm__table-content_half">
 
+                            
+
                             <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -2582,6 +2642,31 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     </div>
                                     <div class="time-end">
                                         16:40
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/kabakov.png" alt="Ярослав Кабаков ">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Ярослав Кабаков
+                                    </div>
+                                    <div class="position">
+                                        Заместитель генерального директора АО&nbsp;«Инвестиционная компания ФИНАМ»
+                                    </div>
+                                    <div class="report">
+                                        Инвестиции в&nbsp;криптовалюты для&nbsp;консервативных&nbsp;инвесторов
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="b-programm__table-item_right">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        16:40
+                                    </div>
+                                    <div class="time-end">
+                                        17:00
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
@@ -2665,9 +2750,9 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 	                    </div>
 	                    <div class="right">
 	                    	<p>При поддержке<br>
-								<span>ICOfund</span>
+								<span>Smart Valley</span>
 							</p>
-							<img src="../img/logo-icolab.jpg" alt="img">
+							<a href="https://smartvalley.io/" target="_blank"><img src="../img/logo-smartvalley.jpg" alt="img"></a>
 	                    </div>
                     </div>
                 </div>
@@ -3111,30 +3196,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                             <span class="place">Конференц зал</span>
                         </div>
                         <div class="b-programm__table-content">
-                            <div class="b-programm__table-item_full">
-                                <div class="b-programm__table-item-time">
-                                    <div class="time-start">
-                                        12:00
-                                    </div>
-                                    <div class="time-end">
-                                        12:25
-                                    </div>
-                                </div>
-                                <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/kabakov.png" alt="Ярослав Кабаков ">
-                                </div>
-                                <div class="b-programm__table-item-text">
-                                    <div class="name">
-                                        Ярослав Кабаков
-                                    </div>
-                                    <div class="position">
-                                        Заместитель генерального директора АО&nbsp;«Инвестиционная компания ФИНАМ»
-                                    </div>
-                                    <div class="report">
-                                        Инвестиции в&nbsp;криптовалюты для&nbsp;консервативных&nbsp;инвесторов
-                                    </div>
-                                </div>
-                            </div>
+                            
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -3443,7 +3505,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Баранов Артем
+                                         Артем Баранов
                                     </div>
                                     <div class="position">
                                         Сооснователь и операционный директор Cindicator
@@ -3652,6 +3714,31 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                 </div>
                             </div>
 
+                            <div class="b-programm__table-item_full">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        18:00
+                                    </div>
+                                    <div class="time-end">
+                                        18:20
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="img/speakers/chulkov.jpg" alt=" Станислав Чулков">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                       Станислав Чулков
+                                    </div>
+                                    <div class="position">
+                                        Founder of Mining Solutions
+                                    </div>
+                                    <div class="report">
+                                        Практические аспекты GPU майнинга
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                     <div class="b-program__preview">
@@ -3659,8 +3746,10 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                             <p class="title">Блокчейн проекты</p>
                             <span class="place">Зал мастер-классов и стартапов</span>
                         </div>
-						
-						 <div class="b-programm__table-item_full">
+							
+                        <div class="b-programm__table-content">
+
+                        	<div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
                                         17:00
@@ -3684,8 +3773,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     </div>
                                 </div>
                             </div>
-							
-                        <div class="b-programm__table-content">
+
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item_default">
                                     Уточняется спикер<br/>и тема выступления
@@ -3859,7 +3947,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                         CEO, cryptonomica.net
                                     </div>
                                     <div class="report">
-                                        Новые юридические механизмы для blockchain
+                                        Юридическая механизмы для blockchain и ICO
                                     </div>
                                 </div>
                             </div>
@@ -4157,18 +4245,45 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="default ">
+                                    <img src="../img/lectors/kabakov.png" alt="Ярослав Кабаков ">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Согласовываются спикеры и темы выступлений
+                                        Ярослав Кабаков
+                                    </div>
+                                    <div class="position">
+                                    	Заместитель генерального директора АО&nbsp;«Инвестиционная компания ФИНАМ»
+                                    </div>
+                                    <div class="report">
+                                    	Инвестиции в&nbsp;криптовалюты для&nbsp;консервативных&nbsp;инвесторов
+                                    </div>
+                                </div>
+                            </div>
+
+                             <div class="b-programm__table-item_full">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        16:40
+                                    </div>
+                                    <div class="time-end">
+                                        17:00
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/lectors/kabakov.png" alt="Ярослав Кабаков ">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        СПИКЕР УТОЧНЯЕТСЯ
                                     </div>
                                     <div class="position">
                                     </div>
                                     <div class="report">
+                                    	ТЕМА УТОЧНЯЕТСЯ
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                     <div class="b-program__preview">
@@ -4239,9 +4354,9 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 	                    </div>
 	                    <div class="right">
 	                    	<p>При поддержке<br>
-								<span>ICOfund</span>
+								<span>Smart Valley</span>
 							</p>
-							<img src="../img/logo-icolab.jpg" alt="img">
+							<a href="https://smartvalley.io/"  target="_blank"> <img src="../img/logo-smartvalley.jpg" alt="img"></a>
 	                    </div>
                     </div>
                 </div>
@@ -5030,6 +5145,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 									<a target="_blank" href="https://www.seonews.ru"><img src="img/logo-partners/seonews.svg" alt="img"/></a>
 									<a target="_blank" href="http://mti.edu.ru"><img src="img/logo-partners/MTI-logo.jpeg" alt="img"/></a>
 									<a target="_blank" href="https://mbschool.ru"><img src="img/logo-partners/MBS-logo.png" alt="img"/></a>
+									<a target="_blank" href="https://blockchainevents.ru/"><img src="img/logo-partners/blockchainevents_onwhite.jpg" alt="img"/></a>
 								</div>
 							</div>
 						</div>
@@ -5158,6 +5274,8 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 						
 						<a target="_blank" href="http://mti.edu.ru"><img src="img/logo-partners/MTI-logo.jpeg" alt="img"/></a>
 						<a target="_blank" href="https://mbschool.ru"><img src="img/logo-partners/MBS-logo.png" alt="img"/></a>
+
+						<a target="_blank" href="https://blockchainevents.ru/"><img src="img/logo-partners/blockchainevents_onwhite.jpg" alt="img"/></a>
 					</div>
 				</div>
 				<div class="block--become-partner">
@@ -5830,6 +5948,12 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
       videoId: 'pYyEVv1n800'
     });
 
+     youtubeVideoPlayer8 = new YT.Player('youtube-video-8', {
+      height: '196',
+      width: '350',
+      videoId: 'RfXBvVZwxWY'
+    });
+
     // for mobile version video
     ///////////////////////////////////////////////////////////////
     youtubeVideoPlayer11 = new YT.Player('youtube-video-11', {
@@ -5866,6 +5990,12 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
       height: '196',
       width: '350',
       videoId: 'pYyEVv1n800'
+    });
+
+     youtubeVideoPlayer8 = new YT.Player('youtube-video-88', {
+      height: '196',
+      width: '350',
+      videoId: 'RfXBvVZwxWY'
     });
 
     youtubeVideoPlayerSp1 = new YT.Player('youtube-sponsor-video-4', {

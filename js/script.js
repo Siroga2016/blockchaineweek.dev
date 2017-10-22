@@ -327,6 +327,9 @@ $(document).ready(function() {
         if ($(this).hasClass('video-7')){
             youtubeVideoPlayer7.playVideo();
         }
+        if ($(this).hasClass('video-8')){
+            youtubeVideoPlayer8.playVideo();
+        }
 
         // for mobile version video
         ///////////////////////////////////////////
@@ -347,6 +350,9 @@ $(document).ready(function() {
         }
         if ($(this).hasClass('video-77')){
             youtubeVideoPlayer77.playVideo();
+        }
+         if ($(this).hasClass('video-88')){
+            youtubeVideoPlayer88.playVideo();
         }
     });
 

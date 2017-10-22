@@ -5494,11 +5494,13 @@ a.button-exit{
 	margin-right:15px;
 	font-size: 17px;
 	line-height:22px;
+	margin-top:10px;
 }
 .b-programm__table-content_blue.blockchain-night .right img{
 	float:left;
 	margin-top: 5px;
 	margin-right: -13px;
+	max-height:90px;
 }
 
 .b-program__table-title {
@@ -5781,6 +5783,9 @@ a.button-exit{
 
 .block-night .logo-moobile {
 	display: none;
+}
+.block-night .logo-moobile  img{
+	max-width:100%;
 }
 
 @media (max-width: 640px) {
