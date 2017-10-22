@@ -5032,6 +5032,10 @@ a.button-exit{
 	background-image: url('../img/rega-risk.png');
 }
 
+.b-sponsor__img.rega-risk_white {
+	background-image: url('../img/rega-risk_white.png');
+}
+
 .b-sponsor__img.bonum {
 	background-image: url('../img/bonum.png');
 }
@@ -5493,8 +5497,8 @@ a.button-exit{
 }
 .b-programm__table-content_blue.blockchain-night .right img{
 	float:left;
-    margin-top: 5px;
-    margin-right: -13px;
+	margin-top: 5px;
+	margin-right: -13px;
 }
 
 .b-program__table-title {
@@ -5678,29 +5682,29 @@ a.button-exit{
 }
 
 .b-sponsor__video-link {
-    display: inline;
-    color: #78d55b;
-    padding-right: 20px;
-    font-size: 16px;
-    font-weight: 700;
-    text-decoration: underline;
-    cursor: pointer;
+	display: inline;
+	color: #78d55b;
+	padding-right: 20px;
+	font-size: 16px;
+	font-weight: 700;
+	text-decoration: underline;
+	cursor: pointer;
 }
 
 .b-video__wrapper {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 25px;
-    height: 0;
-    margin-bottom: 25px;
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+	margin-bottom: 25px;
 }
 
 .b-video__wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .block-night {
