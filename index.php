@@ -52,7 +52,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 				<li><a href="#block2" onClick='ga("send", "event", "menu", "click item", "О мероприятии");'>О мероприятии</a></li>
 				<li><a href="#block3" onClick='ga("send", "event", "menu", "click item", "Ключевые темы");'>Ключевые темы</a></li>
 				<li><a href="#block4" onClick='ga("send", "event", "menu", "click item", "Спикеры");'>Спикеры</a></li>
-				<!--<li><a href="#programm" onclick='ga("send", "event", "menu", "click item", "Программа");'>Программа</a></li>-->
+				<li><a href="#block-programm" onclick='ga("send", "event", "menu", "click item", "Программа");'>Программа</a></li>
 				<li><a href="#block8-bottom" onClick='ga("send", "event", "menu", "click item", "Стоимость");'>Стоимость</a></li>
 				<li><a href="#block9-bottom" onClick='ga("send", "event", "menu", "click item", "Контакты");'>Контакты</a></li>
 				<li><a href="#block10" onClick='ga("send", "event", "menu", "click item", "Партнеры");'>Партнеры</a></li>
@@ -84,7 +84,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 				<li><a href="#block2" onClick='ga("send", "event", "menu", "click item", "О мероприятии");'>О мероприятии</a></li>
 				<li><a href="#block3" onClick='ga("send", "event", "menu", "click item", "Ключевые темы");'>Ключевые темы</a></li>
 				<li><a href="#block4" onClick='ga("send", "event", "menu", "click item", "Спикеры");'>Спикеры</a></li>
-				<!--<li><a href="#programm" onclick='ga("send", "event", "menu", "click item", "Программа");'>Программа</a></li>-->
+				<li><a href="#block-program" onclick='ga("send", "event", "menu", "click item", "Программа");'>Программа</a></li>
 				<li><a href="#block8-bottom" onClick='ga("send", "event", "menu", "click item", "Стоимость");'>Стоимость</a></li>
 				<li><a href="#block9-bottom" onClick='ga("send", "event", "menu", "click item", "Контакты");'>Контакты</a></li>
 				<li><a href="#block10" onClick='ga("send", "event", "menu", "click item", "Партнеры");'>Партнеры</a></li>
@@ -104,7 +104,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 			<li><a href="#block2" onClick='ga("send", "event", "menu", "click item", "О мероприятии");'>О мероприятии</a></li>
 			<li><a href="#block3" onClick='ga("send", "event", "menu", "click item", "Ключевые темы");'>Ключевые темы</a></li>
 			<li><a href="#block4" onClick='ga("send", "event", "menu", "click item", "Спикеры");'>Спикеры</a></li>
-			<li><a href="#programm" onclick='ga("send", "event", "menu", "click item", "Программа");'>Программа</a></li>
+			<li><a href="#block-program" onclick='ga("send", "event", "menu", "click item", "Программа");'>Программа</a></li>
 			<li><a href="#block8-bottom" onClick='ga("send", "event", "menu", "click item", "Стоимость");'>Стоимость</a></li>
 			<li><a href="#block9-bottom.mobile" onClick='ga("send", "event", "menu", "click item", "Контакты");'>Контакты</a></li>
 			<li><a href="#block10" onClick='ga("send", "event", "menu", "click item", "Партнеры");'>Партнеры</a></li>
@@ -322,6 +322,12 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 				    </div>
 			    </div>
 			</div>
+		</div>
+	</div>
+
+	<div class="block-program" id="block-program">
+		<div class="center">
+			<a href="../RBW2017.pdf" target="_blank" class="button-program">Программа мероприятия</a>
 		</div>
 	</div>
 

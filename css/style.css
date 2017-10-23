@@ -982,6 +982,35 @@ ul.social li a.vk{
 	}
 }
 
+.block-program{
+	float:left;
+	width:100%;
+	padding:50px 0 50px 0;
+	position:relative;
+	background: #78d55b;
+	text-align:center;
+}
+
+.block-program .button-program {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    line-height: 1em;
+    text-transform: inherit;
+    font-family: GothamProBold;
+    display: inline-block;
+    box-shadow: none;
+    text-shadow: none;
+    padding: 23px 35px;
+    background: rgb(255, 150, 0);
+    margin: 0px auto;
+    border-radius: 0px;
+    text-decoration: none;
+}
+.block-program .button-program:hover{
+	text-decoration: none;
+	opacity:0.8;
+}
+
 /* block3 */
 .block3{
 	float:left;
