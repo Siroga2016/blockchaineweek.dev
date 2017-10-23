@@ -2730,6 +2730,18 @@ ul.social li a.vk{
 .block10 .inovations-partner a{
 	text-align: left;
 }
+
+.technical-partner p{
+	text-transform: normal;
+}
+.technical-partner img{
+	max-width:270px !important;
+}
+
+.slider-mobile .links-partner img.avms-logo{
+	min-width:100%;
+}
+
 /* Block 10 mobile */
 @media (max-width: 640px){
 	.block10 .links-partner,

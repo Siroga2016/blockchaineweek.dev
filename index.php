@@ -440,6 +440,14 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 				</div>
 
 				<div class="block">
+					<div class="img"><img src="img/speakers/petryashov.jpg" alt="img"/></div>
+					<div class="name">Олег Петряшёв</div>
+					<div class="about-people">
+						 Генеральный директор Russian Вlockchain Week
+					</div>
+				</div>
+
+				<div class="block">
 					<div class="img"><img src="img/azrilyan.jpg" alt="img"/></div>
 					<div class="name">Максим Азрильян</div>
 					<div class="about-people">
@@ -465,21 +473,19 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 					</div>
 				</div>
 
-				<div class="block">
-					<div class="img"><img src="img/ivanov.jpg" alt="img"/></div>
-					<div class="name">Олег Иванов</div>
-					<div class="about-people">
-						Основатель CryptoBazar
-					</div>
-				</div>
-
-
-
 				<div class="all-speakers show">
 					<a href="javascript:void(0)" class="show-all-speakers">
 					+
 					<span>Показать <br>всех</span>
 					</a>
+				</div>
+
+				<div class="block hide">
+					<div class="img"><img src="img/ivanov.jpg" alt="img"/></div>
+					<div class="name">Олег Иванов</div>
+					<div class="about-people">
+						Основатель CryptoBazar
+					</div>
 				</div>
 
 				<div class="block hide">
@@ -731,10 +737,10 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 					</div>
 
 					<div class="block">
-						<div class="img"><img src="img/gershuni.jpg" alt="img"/></div>
-						<div class="name">Степан Гершуни</div>
+						<div class="img"><img src="img/speakers/petryashov.jpg" alt="img"/></div>
+						<div class="name">Олег Петряшёв</div>
 						<div class="about-people">
-							  Управляющий партнер bits.capital
+							 Генеральный директор Russian Вlockchain Week
 						</div>
 					</div>
 
@@ -1020,6 +1026,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 							CEO Arbi
 						</div>
 					</div>
+					
 					<div class="block">
 						<div class="img"><img src="img/speakers/chulkov.jpg" alt="img"/></div>
 						<div class="name">Станислав Чулков</div>
@@ -1027,6 +1034,15 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 							Founder of Mining Solutions
 						</div>
 					</div>
+
+					<div class="block">
+						<div class="img"><img src="img/gershuni.jpg" alt="img"/></div>
+						<div class="name">Степан Гершуни</div>
+						<div class="about-people">
+							  Управляющий партнер bits.capital
+						</div>
+					</div>
+					
 				</div>
 
 		    </div>
@@ -5128,6 +5144,16 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 						</div>
 
 						<div>
+							<div class="links-partner">
+								<p style="margin-top: 30px;">Технический партнер</p>
+								<div class="content technical-partner">
+									<a target="_blank" href="http://avms.ru/"><img src="img/logo-partners/mediasystem-group.png" alt="img" class="avms-logo"/></a>
+									<span>MediaSystem Group — один из ведущих операторов по техническому оснащению мероприятий.</span>
+								</div>
+							</div>
+						</div>
+
+						<div>
 							<div class="links-partner information--partners">
 								<p style="margin-top: 30px; margin-bottom: 40px;">Информационные партнеры</p>
 								<div class="content">
@@ -5256,6 +5282,13 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 					</div>
 
 					<br>
+					<p>Технический партнер</p>
+					<div class="information-partners technical-partner">
+						<a target="_blank" href="http://avms.ru/"><img src="img/logo-partners/mediasystem-group.png" alt="img"/></a>
+						<span>MediaSystem Group — один из ведущих операторов по техническому оснащению мероприятий.</span>
+					</div>
+
+					<br>
 					<p style="margin-top: 30px;">Информационные партнеры</p>
 					<div class="information-partners">
 						<a target="_blank" href="http://www.interfax.ru/"><img src="img/logo-partners/Interfax.png" alt="img"/></a>
@@ -5324,7 +5357,6 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 						<a target="_blank" href="https://www.prostoy.ru"><img src="img/logo-partners/prostoy.ru.png" alt="img"/></a>
 						<a target="_blank" href="https://inforeactor.ru/ "><img src="img/logo-partners/iReactor_Black.png" alt="img"/></a>
 						<a target="_blank" href="http://ingria-park.ru/ "><img src="img/logo-partners/Logo_TechnoparkSPb-ru.png" alt="img"/></a>
-
 						<a target="_blank" href="http://www.mvexpo.ru/ "><img src="img/logo-partners/mvexpo-200x100.gif" alt="img"/></a>
 						<a target="_blank" href="http://www.moneyinformer.ru/ "><img src="img/logo-partners/mi_logo-200.png" alt="img"/></a>
 						<a target="_blank" href="https://altcoin.info/ "><img src="img/logo-partners/alt_opacity100.png" alt="img"/></a>
@@ -5333,7 +5365,6 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 						<a target="_blank" href="http://sbi.tusur.ru/ "><img src="img/logo-partners/logo-m-top.png" alt="img"/></a>
 						<a target="_blank" href="http://www.bitmoneyekb.com/ "><img src="img/logo-partners/bit-money.png" alt="img"/></a>
 						<a target="_blank" href="http://www.fxstreet.ru.com/"><img src="img/logo-partners/fxs_logo_whiteback_screen.png" alt="img"/></a>
-
 						<a target="_blank" href="https://chainnews.ru"><img src="img/logo-partners/chainnews.png" alt="img"/></a>
 						<a target="_blank" href="http://konkir.ru"><img src="img/logo-partners/konkir.jpg" alt="img"/></a>
 						<a target="_blank" href="https://anycoin.news"><img src="img/logo-partners/logo-anycoin.png" alt="img"/></a>
@@ -5347,7 +5378,6 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 						<a target="_blank" href="http://coinews.io/ru/category/1-kripto"><img src="img/logo-partners/coinews.io.png" alt="img"/></a>
 						<a target="_blank" href="https://ituber.me"><img src="img/logo-partners/ituber.jpg" alt="img"/></a>
 						<a target="_blank" href="https://innmind.com/ru"><img src="img/logo-partners/Innmind.jpg" alt="img"/></a>
-
 						<a target="_blank" href="https://lagente.do"><img src="img/logo-partners/logo_lagente.jpg" alt="img"/></a>
 						<a target="_blank" href="https://zucker.studio/"><img src="img/logo-partners/Zucker-Studio.png" alt="img"/></a>
 						<a target="_blank" href="http://www.regruss.ru"><img src="img/logo-partners/regionalnaya_rossiya.png" alt="img"/></a>
@@ -5355,11 +5385,11 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 						<a target="_blank" href="http://balakovo-bi.ru"><img src="img/logo-partners/BMP.jpg" alt="img"/></a>
 						<a target="_blank" href="https://www.rubrain.com"><img src="img/logo-partners/rubrain.jpg" alt="img"/></a>
 						<a target="_blank" href="https://www.seonews.ru"><img src="img/logo-partners/seonews.svg" alt="img"/></a>
-						
 						<a target="_blank" href="http://mti.edu.ru"><img src="img/logo-partners/MTI-logo.jpeg" alt="img"/></a>
 						<a target="_blank" href="https://mbschool.ru"><img src="img/logo-partners/MBS-logo.png" alt="img"/></a>
-
 						<a target="_blank" href="https://blockchainevents.ru/"><img src="img/logo-partners/blockchainevents_onwhite.jpg" alt="img"/></a>
+						<a target="_blank" href="http://asiablockchain.org"><img src="img/logo-partners/www.asiablockchain.org.png" alt="img"/></a>
+						
 					</div>
 				</div>
 				<div class="block--become-partner">
