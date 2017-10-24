@@ -37,7 +37,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 	<title>Russian Blockchain Week 2017 Конференция по блокчейн</title>
 	<meta name="keywords" content="russian blockchain week, blockchain week, конференция блокчейн, blockchain конференция, конференция биткоин, блокчейн семинар, биткоин семинар, обучение блокчейн, обучение  blockchain, консультации блокчейн" />
 	<meta name="description" content="Russian blockсhain Week (Российская неделя блокчейн и криптовалют) — это главное событие года в своей индустрии, которое объединяет в себе 4 формата: конференция, выставка и шоу блокчейн-проектов, Blockchain.EXPO и Blockchain.NIGHT" />
-	<link href="css/style.css?v=10" type="text/css" rel="stylesheet"/>
+	<link href="css/style.css?v=13" type="text/css" rel="stylesheet"/>
 	<link href="css/fonts.css" type="text/css" rel="stylesheet"/>
 	<link href="css/jquery.formstyler.css" type="text/css" rel="stylesheet"/>
 	<link href="css/jquery.formstyler.theme.css" type="text/css" rel="stylesheet"/>
@@ -717,7 +717,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 					<div class="img"><img src="img/speakers/soika.jpg" alt="img"/></div>
 					<div class="name">Константин Сойка </div>
 					<div class="about-people">
-						Snovio, маркетолог 
+						Snovio, маркетолог
 					</div>
 				</div>
 
@@ -733,7 +733,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 					<div class="img"><img src="img/speakers/malugin.jpg" alt="img"/></div>
 					<div class="name">Александр Малюгин</div>
 					<div class="about-people">
-						 Руководитель направления продаж по комплексным решениям для майнинга и блокчейн 
+						 Руководитель направления продаж по комплексным решениям для майнинга и блокчейн
 					</div>
 				</div>
 
@@ -741,7 +741,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 					<div class="img"><img src="img/speakers/semenchuck.jpg" alt="img"/></div>
 					<div class="name">Вячеслав Семенчук </div>
 					<div class="about-people">
-						 Серийный предприниматель. Основатель первой кошерной криптовалюты и блокчейн экосистемы. BITCOEN 
+						 Серийный предприниматель. Основатель первой кошерной криптовалюты и блокчейн экосистемы. BITCOEN
 					</div>
 				</div>
 
@@ -749,7 +749,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 					<div class="img"><img src="img/speakers/ryjavin.jpg" alt="img"/></div>
 					<div class="name">Сергей Рыжавкин</div>
 					<div class="about-people">
-						 B2BX. Продакт-менеджер PAMM/MAM/social trading 
+						 B2BX. Продакт-менеджер PAMM/MAM/social trading
 					</div>
 				</div>
 
@@ -757,7 +757,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 					<div class="img"><img src="img/speakers/sevancian.jpg" alt="img"/></div>
 					<div class="name">Сергей Севанцян </div>
 					<div class="about-people">
-						 Blockchainer, Adviser, ICO supervisor 
+						 Blockchainer, Adviser, ICO supervisor
 					</div>
 				</div>
 
@@ -773,7 +773,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 					<div class="img"><img src="img/speakers/shulgenko.jpg" alt="img"/></div>
 					<div class="name">Алексей Шульженко </div>
 					<div class="about-people">
-						 Директор по маркетингу Trading View 
+						 Директор по маркетингу Trading View
 					</div>
 				</div>
 
@@ -1042,7 +1042,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 					</div>
 				</div>
 
-				<div>	
+				<div>
 					<div class="block">
 						<div class="img"><img src="img/block4-people8.jpg" alt="img"/></div>
 						<div class="name">Павел Мартынов</div>
@@ -1173,7 +1173,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 						<div class="img"><img src="img/speakers/soika.jpg" alt="img"/></div>
 						<div class="name">Константин Сойка </div>
 						<div class="about-people">
-							Snovio, маркетолог 
+							Snovio, маркетолог
 						</div>
 					</div>
 				</div>
@@ -1191,7 +1191,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 						<div class="img"><img src="img/speakers/malugin.jpg" alt="img"/></div>
 						<div class="name">Александр Малюгин</div>
 						<div class="about-people">
-							 Руководитель направления продаж по комплексным решениям для майнинга и блокчейн 
+							 Руководитель направления продаж по комплексным решениям для майнинга и блокчейн
 						</div>
 					</div>
 
@@ -1199,7 +1199,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 						<div class="img"><img src="img/speakers/semenchuck.jpg" alt="img"/></div>
 						<div class="name">Вячеслав Семенчук </div>
 						<div class="about-people">
-							 Серийный предприниматель. Основатель первой кошерной криптовалюты и блокчейн экосистемы. BITCOEN 
+							 Серийный предприниматель. Основатель первой кошерной криптовалюты и блокчейн экосистемы. BITCOEN
 						</div>
 					</div>
 
@@ -1207,7 +1207,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 						<div class="img"><img src="img/speakers/ryjavin.jpg" alt="img"/></div>
 						<div class="name">Сергей Рыжавкин</div>
 						<div class="about-people">
-							 B2BX. Продакт-менеджер PAMM/MAM/social trading 
+							 B2BX. Продакт-менеджер PAMM/MAM/social trading
 						</div>
 					</div>
 				</div>
@@ -1217,7 +1217,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 						<div class="img"><img src="img/speakers/sevancian.jpg" alt="img"/></div>
 						<div class="name">Сергей Севанцян </div>
 						<div class="about-people">
-							 Blockchainer, Adviser, ICO supervisor 
+							 Blockchainer, Adviser, ICO supervisor
 						</div>
 					</div>
 
@@ -1233,7 +1233,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 						<div class="img"><img src="img/speakers/shulgenko.jpg" alt="img"/></div>
 						<div class="name">Алексей Шульженко </div>
 						<div class="about-people">
-							 Директор по маркетингу Trading View 
+							 Директор по маркетингу Trading View
 						</div>
 					</div>
 				</div>
@@ -1599,13 +1599,13 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                          Управляющий партнер United Traders
                                     </div>
                                     <div class="report">
-                                    	Основы технологии блокчейн и обзор криптовалют - 
+                                    	Основы технологии блокчейн и обзор криптовалют -
                                     	трейдинг, инвестиции и ICO
                                     </div>
                                 </div>
                             </div>
 
-                          
+
 
                             <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
@@ -1724,7 +1724,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -1973,7 +1973,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                 </div>
                             </div>
 
-                            
+
                             <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -2411,7 +2411,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     	Сооснователь и CTO в Faceter
                                     </div>
                                     <div class="report">
-                                    	Как запустить массовый продукт на децентрализованной 
+                                    	Как запустить массовый продукт на децентрализованной
                                     	инфраструктуре: исследуем возможность и стоимость
                                     </div>
                                 </div>
@@ -2843,7 +2843,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                 </div>
                             </div>
 
-                            
+
                             <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -3065,7 +3065,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     <div class="position">
                                         Председатель Эксперного совета по цыфровой экономике и блокчейн технологиям
                                         при Комитете Государственноый Думы ФС РФ по экономической промышлености,
-                                        инновационному развитию и предпренимательству 
+                                        инновационному развитию и предпренимательству
                                     </div>
 
                                 </div>
@@ -5113,6 +5113,9 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                     </div>
                     <div class="b-sponsor__item-bottom">
                         <div class="b-sponsor__btn j-sponsor9">О проекте</div>
+                        <div>
+                            <a href="../files/Faceter.pdf" target="_blank" class="b-sponsor__link">Смотреть презентацию</a>
+                        </div>
                     </div>
                 </div>
                 <div class="b-sponsor__item">
@@ -5200,7 +5203,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 
                <div class="b-sponsor__item">
                     <div class="b-sponsor__item-top">
-                        <div class="b-sponsor__title">SmartValley</div>
+                        <div class="b-sponsor__title">Smart Valley</div>
                         <a href="https://smartvalley.io" target="_blank" class="b-sponsor__img smartvalley"></a>
                     </div>
                     <div class="b-sponsor__text">
@@ -5243,7 +5246,47 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                     </div>
                 </div>
             </div>*/?>
-
+            <div class="b-sponsor__wrap">
+                <div class="b-sponsor__item">
+                    <div class="b-sponsor__item-top">
+                        <div class="b-sponsor__title">BONUM</div>
+                        <a href="http://bonumchain.com/" target="_blank" class="b-sponsor__img bonum"></a>
+                    </div>
+                    <div class="b-sponsor__text">
+                        Bonum&nbsp;–&nbsp;платформа, предоставляющая услуги:
+                        <ul>
+                            <li>Криптозайма&nbsp;–&nbsp;получения займа в&nbsp;криптовалюте или&nbsp;фиате
+                                с&nbsp;обеспечением в&nbsp;виде залога;</li>
+                            <li>Депозита&nbsp;–&nbsp;возможность вложения криптовалюты и&nbsp;токенов под&nbsp;процент.</li>
+                        </ul>
+                    </div>
+                    <div class="b-sponsor__item-bottom">
+                        <div class="b-sponsor__btn j-sponsor13">О проекте</div>
+                        <div>
+                            <a href="../files/Bonum.pdf" target="_blank" class="b-sponsor__link">Смотреть презентацию</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="b-sponsor__item">
+                    <div class="b-sponsor__item-top">
+                        <div class="b-sponsor__title">Smart Valley</div>
+                        <a href="https://smartvalley.io" target="_blank" class="b-sponsor__img smartvalley"></a>
+                    </div>
+                    <div class="b-sponsor__text">
+                        Smart&nbsp;Valley&nbsp;–&nbsp;автоматизированная площадка для&nbsp;привлечения финансирования проектов
+                        и&nbsp;проведения легального&nbsp;ICO. Сервис обеспечивает высокое качество проектов и&nbsp;защиту
+                        от&nbsp;мошенничества с&nbsp;помощью системы скоринга и&nbsp;биржи экспертов, построенными полностью
+                        на&nbsp;блокчейне.
+                    </div>
+                    <div class="b-sponsor__item-bottom">
+                        <div class="b-sponsor__btn j-sponsor7">О проекте</div>
+                        <div>
+                            <div class="b-sponsor__video-link j-video5">Видеоинтервью</div>
+                            <a href="../files/SmartValley.pdf" target="_blank" class="b-sponsor__link">Смотреть презентацию</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
 
@@ -6285,13 +6328,59 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
     <span class="modal_close">X</span>
     <div class="b-sponsor__popup">
         <div class="b-sponsor__item-top">
-            <div class="b-sponsor__title">SmartValley</div>
+            <div class="b-sponsor__title">Smart Valley</div>
             <a href="https://smartvalley.io" target="_blank" class="b-sponsor__img smartvalley-white"></a>
         </div>
+        <div class="b-video__wrapper">
+            <div class="b-video b-video-sp-5">
+                <img src="../img/smartvalley_preview.png" alt="">
+                <div id="youtube-sponsor-video-smartvalley-click"></div>
+            </div>
+        </div>
         <div class="b-sponsor__popup-text">
-            <p></p>
+            <p>Smart&nbsp;Valley&nbsp;—&nbsp;это децентрализованная «Силиконовая&nbsp;долина», которая связывает инвесторов, проекты,
+                специалистов, профессиональные сообщества со&nbsp;всего мира и&nbsp;из&nbsp;любой его&nbsp;точки,
+                где&nbsp;каждый проект может независимо от&nbsp;своего месторасположения привлечь инвестиции,
+                специалистов, сообщество и&nbsp;реализовать свою идею!</p>
+            <p>Одним из&nbsp;ключевых сервисов экосистемы будет сервис мультискоринга, который децентрализованно оценивает
+                проект с&nbsp;помощью экспертов, сообществ (мудрость толпы), и&nbsp;искусственного интеллекта.</p>
+            <p>На&nbsp;нашей платформе проект может выпустить токен на&nbsp;любой платформе, будь то&nbsp;Ethereum,
+                Bitshares, Waves или&nbsp;EOS</p>
+            <p>Благодаря нашему проекту инвесторы по&nbsp;всему миру смогут безопасно и&nbsp;легально вкладывать свои деньги,
+                проекты&nbsp;-&nbsp;их&nbsp;получать, специалисты найдут работу в&nbsp;новой отрасли, а&nbsp;проектные
+                команды и&nbsp;маркетологи найдут друг друга</p>
+            <p>Экосистема разрабатывается как&nbsp;децентрализованное приложение на&nbsp;платформе Ethereum.</p>
         </div>
     </div>
+    <a href="files/SmartValley.pdf" target="_blank" class="b-sponsor__link">Смотреть презентацию</a>
+</div>
+
+<div id="sponsor-video5" class="sponsor video-sp-5">
+    <span class="modal_close">X</span>
+    <div class="b-sponsor__popup">
+        <div class="b-sponsor__item-top">
+            <div class="b-sponsor__title">Smart Valley</div>
+            <a href="https://smartvalley.io" target="_blank" class="b-sponsor__img smartvalley-white"></a>
+        </div>
+        <div class="b-video__wrapper">
+            <div id="youtube-sponsor-video-smartvalley"></div>
+        </div>
+        <div class="b-sponsor__popup-text">
+            <p>Smart&nbsp;Valley&nbsp;—&nbsp;это децентрализованная «Силиконовая&nbsp;долина», которая связывает инвесторов, проекты,
+                специалистов, профессиональные сообщества со&nbsp;всего мира и&nbsp;из&nbsp;любой его&nbsp;точки,
+                где&nbsp;каждый проект может независимо от&nbsp;своего месторасположения привлечь инвестиции,
+                специалистов, сообщество и&nbsp;реализовать свою идею!</p>
+            <p>Одним из&nbsp;ключевых сервисов экосистемы будет сервис мультискоринга, который децентрализованно оценивает
+                проект с&nbsp;помощью экспертов, сообществ (мудрость толпы), и&nbsp;искусственного интеллекта.</p>
+            <p>На&nbsp;нашей платформе проект может выпустить токен на&nbsp;любой платформе, будь то&nbsp;Ethereum,
+                Bitshares, Waves или&nbsp;EOS</p>
+            <p>Благодаря нашему проекту инвесторы по&nbsp;всему миру смогут безопасно и&nbsp;легально вкладывать свои деньги,
+                проекты&nbsp;-&nbsp;их&nbsp;получать, специалисты найдут работу в&nbsp;новой отрасли, а&nbsp;проектные
+                команды и&nbsp;маркетологи найдут друг друга</p>
+            <p>Экосистема разрабатывается как&nbsp;децентрализованное приложение на&nbsp;платформе Ethereum.</p>
+        </div>
+    </div>
+    <a href="files/SmartValley.pdf" target="_blank" class="b-sponsor__link">Смотреть презентацию</a>
 </div>
 
 <div id="sponsor8" class="sponsor">
@@ -6341,6 +6430,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                 дороговизны таких решений.</p>
         </div>
     </div>
+    <a href="../files/Faceter.pdf" target="_blank" class="b-sponsor__presentation">Смотреть презентацию</a>
 </div>
 
 <div id="sponsor10" class="sponsor">
@@ -6702,6 +6792,50 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
     </div>
 </div>
 
+<div id="sponsor13" class="sponsor">
+    <span id="modal_close">X</span>
+    <div class="b-sponsor__popup">
+        <div class="b-sponsor__item-top">
+            <div class="b-sponsor__title">BONUM</div>
+            <a href="http://bonumchain.com/" target="_blank" class="b-sponsor__img bonum_white"></a>
+        </div>
+        <div class="b-sponsor__popup-text">
+            <p>Bonum предлагает своим клиентам следующие продукты:</p>
+            <p>Нецелевой займ в&nbsp;криптовалюте, токенах или&nbsp;фиатной валюте под&nbsp;залог криптоактивов
+                (криптовалют и&nbsp;токенов).</p>
+            <p>Благодаря платформе вы&nbsp;получаете возможность получить необходимые средства «здесь и&nbsp;сейчас»
+                и&nbsp;тратить&nbsp;их по&nbsp;своему усмотрению. Залог&nbsp;–&nbsp;единственное обеспечение займа.</p>
+            <p>Вклад в&nbsp;криптовалюте или токенах.</p>
+            <p>Bonum дает вам&nbsp;возможность преумножить свой капитал по&nbsp;принципу «вложил-забыл». Вклады будут обеспечены
+                залогами, а&nbsp;также резервным фондом, который будет формироваться в&nbsp;ходе&nbsp;ICO. Т.о.&nbsp;вклады
+                клиентов будут защищены.</p>
+            <p>Мультивалютная опция.</p>
+            <p>Мы реализуем опции мультивалютного залога и&nbsp;мультивалютного вклада. Иными словами, клиент может
+                сформировать залог и&nbsp;вклад в&nbsp;виде портфеля криптоактивов.</p>
+            <p>В&nbsp;нашей системе, клиенты могут играть роль, как&nbsp;вкладчика, так&nbsp;и&nbsp;заемщика. Заемщик
+                получает в&nbsp;свое распоряжение средства, которые может использовать по&nbsp;своему усмотрению. Вкладчик
+                получает возможность выгодного вложения.</p>
+            <p>Все существенные условия займа и&nbsp;вклада: ставка, срок, сумма, дата платежа и&nbsp;погашения известны клиенту
+                заранее и&nbsp;понятны: переменные процентные ставки, плавающие сроки платежа и&nbsp;погашения не&nbsp;используются,
+                скрытые комиссии отсутствуют.</p>
+            <p>Проект Bonum опирается на&nbsp;рост капитализации рынка блокчейн активов (не&nbsp;только криптовалют), вначале
+                которого мы&nbsp;сейчас находимся. Рост капитализации этого рынка будет привлекать все&nbsp;больше игроков и&nbsp;все
+                больше моделей экономического поведения из&nbsp;обычной, привычной нам&nbsp;экономики. Учитывая текущие размеры
+                указанного рынка можно прогнозировать, что он&nbsp;может вырасти даже не&nbsp;в&nbsp;десятки, а&nbsp;в&nbsp;сотни раз.
+                Соответственно, будут расти и&nbsp;объемы финансовых операций, связанных с&nbsp;пассивным извлечением доходов
+                (вкладами) и&nbsp;займами, основанными на&nbsp;блокчейн активах.</p>
+            <p>Наша цель&nbsp;–&nbsp;создать стандарт в&nbsp;отрасли и&nbsp;универсальное решение, позволяющее достигнуть эффективного
+                распределения криптовалют, исходя из&nbsp;нужд клиентов, и&nbsp;тем самым увеличить благосостояние вкладчиков
+                и&nbsp;удовлетворить потребности заемщиков.</p>
+            <p>Фаундеры проекта уже&nbsp;имеют опыт создания, управления и&nbsp;эффективного развития крупной федеральной
+                финансовой корпорации&nbsp;–&nbsp;одного из&nbsp;лидеров микрофинансового рынка&nbsp;РФ. Компания прошла комплексную
+                проверку Центрального Банка&nbsp;РФ, работает в&nbsp;правовом поле&nbsp;РФ и&nbsp;в&nbsp;восьми часовых поясах
+                по&nbsp;всей стране.</p>
+        </div>
+    </div>
+    <a href="../files/Bonum.pdf" target="_blank" class="b-sponsor__presentation">Смотреть презентацию</a>
+</div>
+
 
 <!-- Код тега ремаркетинга Google -->
 <script type="text/javascript">
@@ -6970,6 +7104,14 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
     youtubeVideoPlayerSp4Click = new YT.Player('youtube-sponsor-video-snovio-click', {
         videoId: 'BYIpuxVB5x8'
     });
+
+    youtubeVideoPlayerSp5 = new YT.Player('youtube-sponsor-video-smartvalley', {
+        videoId: 'j3iNkGWXpOY'
+    });
+
+    youtubeVideoPlayerSp5Click = new YT.Player('youtube-sponsor-video-smartvalley-click', {
+        videoId: 'j3iNkGWXpOY'
+    });
   }
 </script>
 
@@ -6978,7 +7120,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 <script src="js/jquery.formstyler.min.js"></script>
 <script src="js/jquery.maskedinput.min.js" type="text/javascript"></script>
 <script src="js/jquery.scrolldepth.min.js" type="text/javascript"></script>
-<script src="js/script.js?v=6"></script>
+<script src="js/script.js?v=7"></script>
 <script src="js/particles.js"></script>
 <script src="js/app.js"></script>
 <script src="http://malsup.github.com/jquery.cycle2.js"></script>
