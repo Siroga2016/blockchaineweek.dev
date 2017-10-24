@@ -355,21 +355,6 @@ $(document).ready(function() {
             youtubeVideoPlayer88.playVideo();
         }
     });
-
-    $(".sponsor").click(function() {
-        if ($(this).hasClass('video-sp-1')) {
-            youtubeVideoPlayerSp1.playVideo();
-        }
-        // if ($(this).hasClass('video-sp-2')) {
-        //     youtubeVideoPlayerSp2.playVideo();
-        // }
-        if ($(this).hasClass('video-sp-3')) {
-            youtubeVideoPlayerSp3.playVideo();
-        }
-        if ($(this).hasClass('video-sp-4')) {
-            youtubeVideoPlayerSp4.playVideo();
-        }
-    });
 });
 
 
@@ -482,7 +467,7 @@ $(".j-sponsor15").on("click", function(){
     $('body').addClass('hidden');
 });
 
-$("#overlay, #modal_close").on("click", function(){
+$("#overlay, #modal_close, .modal_close").on("click", function(){
     $('#modal_form, #overlay, #sponsor1, #sponsor2, #sponsor3, #sponsor4, #sponsor5, #sponsor6, #sponsor7, #sponsor8,' +
         ' #sponsor9, #sponsor10, #sponsor11, #sponsor12, #sponsor13, #sponsor14, #sponsor15, #sponsor-video1, ' +
         '#sponsor-video3, #sponsor-video4').removeClass('active');

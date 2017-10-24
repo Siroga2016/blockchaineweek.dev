@@ -1026,7 +1026,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 							CEO Arbi
 						</div>
 					</div>
-					
+
 					<div class="block">
 						<div class="img"><img src="img/speakers/chulkov.jpg" alt="img"/></div>
 						<div class="name">Станислав Чулков</div>
@@ -1042,7 +1042,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 							  Управляющий партнер bits.capital
 						</div>
 					</div>
-					
+
 				</div>
 
 		    </div>
@@ -1554,7 +1554,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                     <div class="b-programm__table-content">
                         <div class="b-programm__table-content_half">
 
-                            
+
                             <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -2096,7 +2096,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                         </div>
                         <div class="b-programm__table-content_half">
 
-                           
+
 
                             <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
@@ -2315,7 +2315,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                         Спикер уточняется
                                     </div>
                                     <div class="position">
-                                        
+
                                     </div>
                                     <div class="report">
                                         ТЕМА УТОЧНЯЕТСЯ
@@ -2455,7 +2455,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                         Алексей Иванов
                                     </div>
                                     <div class="position">
-                                        Директор Института права и развития ВШЭ-Сколково 
+                                        Директор Института права и развития ВШЭ-Сколково
                                     </div>
                                     <div class="report">
                                         Тема уточняется
@@ -2480,7 +2480,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 
                                     </div>
                                     <div class="report">
-                                    	Панельная дискуссия.<br> Блокчейн и криптовалюты в Российском законодательстве. 
+                                    	Панельная дискуссия.<br> Блокчейн и криптовалюты в Российском законодательстве.
                                     </div>
                                     <div class="position">
                                     </div>
@@ -2655,7 +2655,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                     <div class="b-programm__table-content">
                         <div class="b-programm__table-content_half">
 
-                            
+
 
                             <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
@@ -3218,7 +3218,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                             <span class="place">Конференц зал</span>
                         </div>
                         <div class="b-programm__table-content">
-                            
+
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -3768,7 +3768,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                             <p class="title">Блокчейн проекты</p>
                             <span class="place">Зал мастер-классов и стартапов</span>
                         </div>
-							
+
                         <div class="b-programm__table-content">
 
                         	<div class="b-programm__table-item_full">
@@ -3941,7 +3941,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                         Спикер уточняется
                                     </div>
                                     <div class="position">
-									
+
                                     </div>
                                     <div class="report">
                                         ТЕМА УТОЧНЯЕТСЯ
@@ -4063,7 +4063,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     </div>
                                 </div>
                             </div>
-							
+
 							<div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -4081,7 +4081,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                          Алексей Иванов
                                     </div>
                                     <div class="position">
-                                        Директор Института права и развития ВШЭ-Сколково 
+                                        Директор Института права и развития ВШЭ-Сколково
                                     </div>
                                     <div class="report">
                                         Тема уточняется
@@ -4313,7 +4313,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                             <p class="title"></p>
                             <span class="place">Зал мастер-классов и стартапов</span>
                         </div>
-                        
+
 						<div class="b-programm__table-content">
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
@@ -4340,7 +4340,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                 </div>
                             </div>
                         </div>
-						
+
 						<div class="b-programm__table-content">
                             <div class="b-programm__table-item_full">
                                 <div class="b-programm__table-item-time">
@@ -4715,14 +4715,14 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                         Скоро здесь появится<br>новый блокчейн-проект
                     </div>
                 </div>*/?>
-                
+
                 <?/* <div class="b-sponsor__item">
                     <div class="b-sponsor__item-top">
                         <div class="b-sponsor__title">B2Broker</div>
                         <a href="http://www.b2bx.pro" target="_blank" class="b-sponsor__img b2broker"></a>
                     </div>
                     <div class="b-sponsor__text">Первая в мире криптовалютная биржа-агрегатор для институциональных клиентов.
-						Успешно прошла этап pre-ico и уже собрала более 5 млн. Евро. 
+						Успешно прошла этап pre-ico и уже собрала более 5 млн. Евро.
                     </div>
                     <div class="b-sponsor__item-bottom">
                         <div class="b-sponsor__btn j-sponsor5">О проекте</div>
@@ -4808,7 +4808,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                             <a href="files/B2Broker.pdf" download class="b-sponsor__link">Смотреть презентацию</a>
                         </div>
                     </div>-->
-                </div>               
+                </div>
 
                <div class="b-sponsor__item">
                     <div class="b-sponsor__item-top">
@@ -4816,7 +4816,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                         <a href="https://smartvalley.io" target="_blank" class="b-sponsor__img smartvalley"></a>
                     </div>
                     <div class="b-sponsor__text">
-                    	
+
                     </div>
                     <div class="b-sponsor__item-bottom">
                         <!--<div class="b-sponsor__btn j-sponsor7">О проекте</div>-->
@@ -4856,7 +4856,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                 </div>
             </div>*/?>
 
-            
+
 
 
 
@@ -5389,7 +5389,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 						<a target="_blank" href="https://mbschool.ru"><img src="img/logo-partners/MBS-logo.png" alt="img"/></a>
 						<a target="_blank" href="https://blockchainevents.ru/"><img src="img/logo-partners/blockchainevents_onwhite.jpg" alt="img"/></a>
 						<a target="_blank" href="http://asiablockchain.org"><img src="img/logo-partners/www.asiablockchain.org.png" alt="img"/></a>
-						
+
 					</div>
 				</div>
 				<div class="block--become-partner">
@@ -5485,7 +5485,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 <div id="overlay"></div><!-- Пoдлoжкa -->
 
 <div id="sponsor1" class="sponsor">
-    <span id="modal_close">X</span>
+    <span class="modal_close">X</span>
     <div class="b-sponsor__popup">
         <div class="b-sponsor__item-top">
             <div class="b-sponsor__title">PRIZM</div>
@@ -5563,7 +5563,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 </div>
 
 <div id="sponsor-video1" class="sponsor video-sp-1">
-    <span id="modal_close">X</span>
+    <span class="modal_close">X</span>
     <div class="b-sponsor__popup">
         <div class="b-sponsor__item-top">
             <div class="b-sponsor__title">PRIZM</div>
@@ -5638,7 +5638,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 </div>
 
 <div id="sponsor2" class="sponsor">
-    <span id="modal_close">X</span>
+    <span class="modal_close">X</span>
     <div class="b-sponsor__popup">
         <div class="b-sponsor__item-top">
             <div class="b-sponsor__title">SMSCHAIN</div>
@@ -5701,7 +5701,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 </div>
 
 <div id="sponsor3" class="sponsor">
-    <span id="modal_close">X</span>
+    <span class="modal_close">X</span>
     <div class="b-sponsor__popup">
         <div class="b-sponsor__item-top">
             <div class="b-sponsor__title">SERENITY FINANCIAL</div>
@@ -5745,7 +5745,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 </div>
 
 <div id="sponsor-video3" class="sponsor video-sp-3">
-    <span id="modal_close">X</span>
+    <span class="modal_close">X</span>
     <div class="b-sponsor__popup">
         <div class="b-sponsor__item-top">
             <div class="b-sponsor__title">SERENITY FINANCIAL</div>
@@ -5786,7 +5786,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 </div>
 
 <div id="sponsor5" class="sponsor">
-    <span id="modal_close">X</span>
+    <span class="modal_close">X</span>
     <div class="b-sponsor__popup">
         <div class="b-sponsor__item-top">
             <div class="b-sponsor__title">B2Broker</div>
@@ -5828,7 +5828,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 </div>
 
 <div id="sponsor6" class="sponsor">
-    <span id="modal_close">X</span>
+    <span class="modal_close">X</span>
     <div class="b-sponsor__popup">
         <div class="b-sponsor__item-top">
             <div class="b-sponsor__title">Gelios</div>
@@ -5841,7 +5841,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 </div>
 
 <div id="sponsor7" class="sponsor">
-    <span id="modal_close">X</span>
+    <span class="modal_close">X</span>
     <div class="b-sponsor__popup">
         <div class="b-sponsor__item-top">
             <div class="b-sponsor__title">SmartValley</div>
@@ -5854,7 +5854,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 </div>
 
 <div id="sponsor8" class="sponsor">
-    <span id="modal_close">X</span>
+    <span class="modal_close">X</span>
     <div class="b-sponsor__popup">
         <div class="b-sponsor__item-top">
             <div class="b-sponsor__title">ETHLend</div>
@@ -5880,7 +5880,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 </div>
 
 <div id="sponsor9" class="sponsor">
-    <span id="modal_close">X</span>
+    <span class="modal_close">X</span>
     <div class="b-sponsor__popup">
         <div class="b-sponsor__item-top">
             <div class="b-sponsor__title">FACETER</div>
@@ -5903,7 +5903,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 </div>
 
 <div id="sponsor10" class="sponsor">
-    <span id="modal_close">X</span>
+    <span class="modal_close">X</span>
     <div class="b-sponsor__popup">
         <div class="b-sponsor__item-top">
             <div class="b-sponsor__title">Mining Solutions</div>
@@ -5957,7 +5957,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 </div>
 
 <div id="sponsor11" class="sponsor">
-    <span id="modal_close">X</span>
+    <span class="modal_close">X</span>
     <div class="b-sponsor__popup">
         <div class="b-sponsor__item-top">
             <div class="b-sponsor__title">Snovio</div>
@@ -6097,7 +6097,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 </div>
 
 <div id="sponsor-video4" class="sponsor video-sp-4">
-    <span id="modal_close">X</span>
+    <span class="modal_close">X</span>
     <div class="b-sponsor__popup">
         <div class="b-sponsor__item-top">
             <div class="b-sponsor__title">Snovio</div>
@@ -6234,7 +6234,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 </div>
 
 <div id="sponsor12" class="sponsor">
-    <span id="modal_close">X</span>
+    <span class="modal_close">X</span>
     <div class="b-sponsor__popup">
         <div class="b-sponsor__item-top">
             <div class="b-sponsor__title">REGA Risk Sharing</div>
@@ -6525,7 +6525,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 <script src="js/jquery.formstyler.min.js"></script>
 <script src="js/jquery.maskedinput.min.js" type="text/javascript"></script>
 <script src="js/jquery.scrolldepth.min.js" type="text/javascript"></script>
-<script src="js/script.js?v=3"></script>
+<script src="js/script.js?v=6"></script>
 <script src="js/particles.js"></script>
 <script src="js/app.js"></script>
 <script src="http://malsup.github.com/jquery.cycle2.js"></script>
