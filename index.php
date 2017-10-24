@@ -464,14 +464,12 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 				</div>
 
 				<div class="block">
-					<div class="img">
-						<img src="img/kelevra.jpg" alt="img"/>
-					</div>
-					<div class="name">Кир Келевра</div>
-					<div class="about-people">
-						Независимый криптотрейдер
-					</div>
-				</div>
+                    <div class="img"><img src="img/speakers/voronin.jpg" alt="img"/></div>
+                    <div class="name">Алексей Воронин</div>
+                    <div class="about-people">
+                        Founder ICO LAB
+                    </div>
+                </div>
 
 				<div class="all-speakers show">
 					<a href="javascript:void(0)" class="show-all-speakers">
@@ -497,12 +495,14 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 				</div>
 
 				<div class="block hide">
-					<div class="img"><img src="img/speakers/voronin.jpg" alt="img"/></div>
-					<div class="name">Алексей Воронин</div>
-					<div class="about-people">
-						Founder ICO LAB
-					</div>
-				</div>
+                    <div class="img">
+                        <img src="img/kelevra.jpg" alt="img"/>
+                    </div>
+                    <div class="name">Кир Келевра</div>
+                    <div class="about-people">
+                        Независимый криптотрейдер
+                    </div>
+                </div>
 
 				<div class="block hide">
 					<div class="img"><img src="img/speakers/yudin.jpg" alt="img"/></div>
