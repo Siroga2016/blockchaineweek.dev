@@ -1105,13 +1105,14 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 		 					<div class="name">Максим Азрильян</div>
 		 					<div class="desc">Главный технический архитектор <br />Альфа-Банка</div>
 						</div>
+
 						<div class="video">
-		 					<div class="preview video-3">
-		 						<img src="img/video-preview-3.jpg"/>
-		  						<div id="youtube-video-3"></div>
+		 					<div class="preview video-9">
+		 						<img src="img/video-preview-9.jpg"/>
+		  						<div id="youtube-video-9"></div>
 		 					</div>
-		 					<div class="name">Степан Гершуни</div>
-		 					<div class="desc">Управляющий партнер <br />bits.capital</div>
+		 					<div class="name">Алексей Архипов</div>
+		 					<div class="desc">Руководитель направления развития технологии распределенного реестра, Ассоциации ФинТех</div>
 						</div>
 					</div>
 
@@ -1153,6 +1154,16 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 		 					<div class="name">Александр Бородич</div>
 		 					<div class="desc">Основатель блокчейн платформы Universa</div>
 						</div>
+
+						<div class="video">
+		 					<div class="preview video-3">
+		 						<img src="img/video-preview-3.jpg"/>
+		  						<div id="youtube-video-3"></div>
+		 					</div>
+		 					<div class="name">Степан Гершуни</div>
+		 					<div class="desc">Управляющий партнер <br />bits.capital</div>
+						</div>
+
 					</div>
 
 			    </div>
@@ -1175,6 +1186,17 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 			      data-cycle-prev="#block-video-prev"
 			       data-cycle-next="#block-video-next"
 			        data-cycle-slides="> div" >
+
+			        <div>
+						<div class="video">
+		 					<div class="preview video-99">
+		 						<img src="img/video-preview-9.jpg"/>
+		  						<div id="youtube-video-99"></div>
+		 					</div>
+		 					<div class="name">Алексей Архипов</div>
+		 					<div class="desc">Руководитель направления развития технологии распределенного реестра, Ассоциации ФинТех</div>
+						</div>
+					</div>
 
 			        <div>
 						<div class="video">
@@ -4787,10 +4809,48 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                     </div>
                 </div>
                 <div class="b-sponsor__item">
+                    <div class="b-sponsor__item-top">
+                        <div class="b-sponsor__title">Snovio</div>
+                        <a href="https://tokensale.snov.io/ru/" target="_blank" class="b-sponsor__img snovio"></a>
+                    </div>
+                    <div class="b-sponsor__text">
+                        Уникальная децентрализованная платформа для&nbsp;поиска лидов, которая объединит в&nbsp;себе
+                        модель краудколлектинга и&nbsp;маркетплейса. Взаиморасчеты на&nbsp;платформе будут происходить
+                        в&nbsp;токенах&nbsp;SNOV&nbsp;-&nbsp;это&nbsp;станет базой для&nbsp;внедрения инновационного
+                        подхода в&nbsp;лидогенерации. Транзакции внутри маркетплейса будут осуществляться через
+                        <span style="white-space: nowrap">смарт-контракт</span> и&nbsp;храниться в&nbsp;блокчейне.
+                    </div>
+                    <div class="b-sponsor__item-bottom">
+                        <div class="b-sponsor__btn j-sponsor11">О проекте</div>
+                        <div>
+                            <div class="b-sponsor__video-link j-video4">Видеопрезентация</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="b-sponsor__item">
+                    <div class="b-sponsor__item-top">
+                        <div class="b-sponsor__title">Gelios</div>
+                        <a href="http://brainysoft.ru/" target="_blank" class="b-sponsor__img gelios"></a>
+                    </div>
+                    <div class="b-sponsor__text">
+                        Платформа P2P&nbsp;кредитования в&nbsp;криптовалюте на&nbsp;блокчейн. Ключевая особенность
+                        площадки&nbsp;–&nbsp;тонкая настройка процессов под&nbsp;бизнес-процессы кредитора. Глобальный охват,
+                        KYC&nbsp;маркет, кастомизированная риск-аналитика, white-label решение личного кабинета. Блокчейн
+                        используется для&nbsp;подтверждения доверия между сторонами, риск-аналитики. Проект развивается
+                        на&nbsp;платформе Brainysoft&nbsp;–&nbsp;компании-резидента Инновационного центра Сколково.
+                    </div>
+                    <div class="b-sponsor__item-bottom">
+                        <div class="b-sponsor__btn j-sponsor6">О проекте</div>
+                        <div>
+                            <a href="../files/Gelios.pdf" target="_blank" class="b-sponsor__link">Смотреть презентацию</a>
+                        </div>
+                    </div>
+                </div>
+                <?/*<div class="b-sponsor__item">
                     <div class="b-sponsor__item-empty">
                         Скоро здесь появится<br>новый блокчейн-проект
                     </div>
-                </div>
+                </div>*/?>
             </div>
             <?/*<div class="b-sponsor__wrap">
 
@@ -5828,16 +5888,69 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 </div>
 
 <div id="sponsor6" class="sponsor">
-    <span class="modal_close">X</span>
+    <span id="modal_close">X</span>
     <div class="b-sponsor__popup">
         <div class="b-sponsor__item-top">
             <div class="b-sponsor__title">Gelios</div>
             <a href="javascript:void(0)" target="_blank" class="b-sponsor__img gelios-white"></a>
         </div>
         <div class="b-sponsor__popup-text">
-            <p></p>
+            <p><b>Gelios.io&nbsp;–&nbsp;платформа p2p&nbsp;кредитования в&nbsp;криптовалюте на&nbsp;блокчейн.</b> Целью
+                платформы является предоставление возможности людям по&nbsp;всему земному шару выдавать средства
+                в&nbsp;кредит, выбирая ключевые условия финансирования&nbsp;–&nbsp;ставку, срок, сумму кредита.
+                Криптовалюта&nbsp;–&nbsp;внутренний токен Gelios, выпущенный на&nbsp;блокчейне Ethereum по&nbsp;стандарту
+                ERC&nbsp;20 позволяет нивелировать страновые границы между заинтересоваными сторонами, устранить риск
+                хардфорков (что&nbsp;в&nbsp;основном касается мейнистрим-криптовалют), осуществлять микротранзакции.
+                Ключевым отличием площадки от&nbsp;подобных проектов является максимальная кастомизируемость процесса
+                выдачи для&nbsp;кредитора, что&nbsp;приводит к&nbsp;бОльшему предложению средств для&nbsp;заемщика.</p>
+            <p>Участники системы: кредитор, заемщик, провайдер&nbsp;KYC, риск-аналитик, коллектор, вебмастер.</p>
+            <p><b>Архитектура платформы:</b></p>
+            <p>
+                <ol>
+                    <li>1. Ограниченное количество токенов стандарта ERC20&nbsp;на&nbsp;блокчейн Ethereum</li>
+                    <li>2. Hyperledger&nbsp;Fabric&nbsp;v.1.0: запись показателей сторон в&nbsp;блокчейн, обеспечение траста между сторонами,
+                        включая показатели по&nbsp;кредитам заемщика (выплаты, просрочки). Майнерами системы являются риск-аналитики,
+                        которым предоставляется возможность изучать блокчейн и&nbsp;транзакции всех заемщиков в&nbsp;анонимизированном
+                        виде.
+                    </li>
+                    <li>3. Расчетное ядро Brainysoft.</li>
+                </ol>
+            </p>
+            <p>Функции Gelios:</p>
+            <p><b>KYC&nbsp;маркет</b>: решения, такие как&nbsp;Civic, Oz&nbsp;Forensics, CredyCo позволяют либо&nbsp;выдать
+                однозначную оценку об&nbsp;идентификации и&nbsp;верификации пользователя, либо&nbsp;предоставить
+                скоринговый балл. Интеграция с&nbsp;Gelios происходит по&nbsp;API.</p>
+            <p><b>Рынок риск-алгоритмов</b>: так&nbsp;как&nbsp;майнерами в&nbsp;системе выступают риск-аналитики,
+                это&nbsp;позволяет им&nbsp;строить модели, как&nbsp;общей направленности на&nbsp;определенный тип
+                кредитного продукта, так&nbsp;и&nbsp;более&nbsp;сегментированные,
+                например c&nbsp;использованием данных о&nbsp;просрочках во&nbsp;внутреннем блокчейне, сегментацией
+                на&nbsp;отдельную страну
+                или&nbsp;даже&nbsp;город, повторных заемщиков.</p>
+            <p><b>White-label решения для&nbsp;личного кабинета заемщика.</b> Позволяет кредитору подключить личный кабинет заемщика
+                к&nbsp;собственному домену или&nbsp;мобильному приложению и&nbsp;работать по&nbsp;собственной бизнес-схеме,
+                используя все&nbsp;возможности Gelios.</p>
+            <p><b>CPA&nbsp;маркет</b>: представив свой оффер для&nbsp;вебмастеров (сумму за&nbsp;одного выданного заемщика)
+                кредитор решает
+                вопрос привлечения трафика на&nbsp;платформу. Лидогенерация является на&nbsp;текущий момент одним из&nbsp;основных
+                методов по&nbsp;привлечению трафика во&nbsp;всем&nbsp;мире. Использование антифрод-технологий (защита от&nbsp;сбрасывания
+                лидов кредитором) позволяет вебмастеру быть уверенным в&nbsp;благонадежном использовании трафика.</p>
+            <p><b>Управляющие</b>&nbsp;–&nbsp;профессиональные участники платформы, принимающие средства под управление.</p>
+            <p>Разработчик платформы&nbsp;–&nbsp;компания Brainysoft, резидент Инновационного центра Сколково с&nbsp;2014 года. Продукт
+                включает в&nbsp;себя&nbsp;API, кредитный конвейер, полное соответствие нормам регуляторов.</p>
+            <p>Механика ICO и преимущества:</p>
+            <p>
+                <ol>
+                    <li>1. Ограниченное количество токенов&nbsp;–&nbsp;80000000.</li>
+                    <li>2. Pre-ICO&nbsp;–&nbsp;декабрь&nbsp;2017. ICO&nbsp;–&nbsp;март&nbsp;2018</li>
+                    <li>3. Президент проекта&nbsp;–&nbsp;Виктор Орловский&nbsp;–&nbsp;управляющий директор SBT&nbsp;Venture&nbsp;Fund 1 и 2.</li>
+                    <li>4. Платформа разработана на&nbsp;основе действующего бизнеса Brainysoft&nbsp;–&nbsp;резидента Инновационного центра
+                        Сколково
+                    </li>
+                </ol>
+            </p>
         </div>
     </div>
+    <a href="../files/Gelios.pdf" target="_blank" class="b-sponsor__link">Смотреть презентацию</a>
 </div>
 
 <div id="sponsor7" class="sponsor">
@@ -6450,6 +6563,12 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
       videoId: 'RfXBvVZwxWY'
     });
 
+      youtubeVideoPlayer9 = new YT.Player('youtube-video-9', {
+      height: '196',
+      width: '350',
+      videoId: '8CVpHBFT_L8'
+    });
+
     // for mobile version video
     ///////////////////////////////////////////////////////////////
     youtubeVideoPlayer11 = new YT.Player('youtube-video-11', {
@@ -6488,10 +6607,16 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
       videoId: 'pYyEVv1n800'
     });
 
-     youtubeVideoPlayer8 = new YT.Player('youtube-video-88', {
+     youtubeVideoPlayer88 = new YT.Player('youtube-video-88', {
       height: '196',
       width: '350',
       videoId: 'RfXBvVZwxWY'
+    });
+
+     youtubeVideoPlayer99 = new YT.Player('youtube-video-99', {
+      height: '196',
+      width: '350',
+      videoId: '8CVpHBFT_L8'
     });
 
     youtubeVideoPlayerSp1 = new YT.Player('youtube-sponsor-video-4', {
