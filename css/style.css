@@ -5082,6 +5082,10 @@ a.button-exit{
 	background-image: url('../img/bonum.png');
 }
 
+.b-sponsor__img.bonum_white {
+	background-image: url('../img/bonum-white.png');
+}
+
 .b-sponsor__img.telecore {
 	background-image: url('../img/telecore.png');
 }
@@ -5102,8 +5106,16 @@ a.button-exit{
 	background-image: url('../img/arbi_logo.png');
 }
 
+.b-sponsor__img.arbi_white {
+	background-image: url('../img/arbi-white.png');
+}
+
 .b-sponsor__img.travelchain {
-	background-image: url('../img/arbi_logo.png');
+	background-image: url('../img/TravelChain.png');
+}
+
+.b-sponsor__img.travelchain_white {
+	background-image: url('../img/TravelChain-white.png');
 }
 
 .b-sponsor__text {
@@ -5214,8 +5226,17 @@ a.button-exit{
 	text-decoration: underline;
 }
 
-.b-sponsor__popup-text li {
+.b-sponsor__popup-text ul,
+.b-sponsor__popup-text ol {
+	margin-left: 18px;
+}
+
+.b-sponsor__popup-text ul li {
 	list-style: disc;
+}
+
+.b-sponsor__popup-text ol li {
+	list-style: decimal;
 }
 
 .b-sponsor__presentation {
