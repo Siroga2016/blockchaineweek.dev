@@ -4810,25 +4810,6 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                 </div>
                 <div class="b-sponsor__item">
                     <div class="b-sponsor__item-top">
-                        <div class="b-sponsor__title">Snovio</div>
-                        <a href="https://tokensale.snov.io/ru/" target="_blank" class="b-sponsor__img snovio"></a>
-                    </div>
-                    <div class="b-sponsor__text">
-                        Уникальная децентрализованная платформа для&nbsp;поиска лидов, которая объединит в&nbsp;себе
-                        модель краудколлектинга и&nbsp;маркетплейса. Взаиморасчеты на&nbsp;платформе будут происходить
-                        в&nbsp;токенах&nbsp;SNOV&nbsp;-&nbsp;это&nbsp;станет базой для&nbsp;внедрения инновационного
-                        подхода в&nbsp;лидогенерации. Транзакции внутри маркетплейса будут осуществляться через
-                        <span style="white-space: nowrap">смарт-контракт</span> и&nbsp;храниться в&nbsp;блокчейне.
-                    </div>
-                    <div class="b-sponsor__item-bottom">
-                        <div class="b-sponsor__btn j-sponsor11">О проекте</div>
-                        <div>
-                            <div class="b-sponsor__video-link j-video4">Видеопрезентация</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="b-sponsor__item">
-                    <div class="b-sponsor__item-top">
                         <div class="b-sponsor__title">Gelios</div>
                         <a href="http://brainysoft.ru/" target="_blank" class="b-sponsor__img gelios"></a>
                     </div>
