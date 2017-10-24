@@ -5034,7 +5034,7 @@ a.button-exit{
 	background-image: url('../img/gelios-white.png');
 }
 .b-sponsor__img.smartvalley {
-	background-image: url('../img/SmartValley-white.png');
+	background-image: url('../img/SmartValley.png');
 }
 .b-sponsor__img.smartvalley-white {
 	background-image: url('../img/SmartValley-white.png');
@@ -5098,6 +5098,14 @@ a.button-exit{
 	background-image: url('../img/zodiaq.png');
 }
 
+.b-sponsor__img.arbi {
+	background-image: url('../img/arbi_logo.png');
+}
+
+.b-sponsor__img.travelchain {
+	background-image: url('../img/arbi_logo.png');
+}
+
 .b-sponsor__text {
 	width: 100%;
 	color: #222222;
@@ -5115,6 +5123,7 @@ a.button-exit{
 
 .b-sponsor__text li {
 	list-style: disc;
+	margin-left: 18px;
 }
 
 .b-sponsor__btn {
