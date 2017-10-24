@@ -37,7 +37,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 	<title>Russian Blockchain Week 2017 Конференция по блокчейн</title>
 	<meta name="keywords" content="russian blockchain week, blockchain week, конференция блокчейн, blockchain конференция, конференция биткоин, блокчейн семинар, биткоин семинар, обучение блокчейн, обучение  blockchain, консультации блокчейн" />
 	<meta name="description" content="Russian blockсhain Week (Российская неделя блокчейн и криптовалют) — это главное событие года в своей индустрии, которое объединяет в себе 4 формата: конференция, выставка и шоу блокчейн-проектов, Blockchain.EXPO и Blockchain.NIGHT" />
-	<link href="css/style.css?v=9" type="text/css" rel="stylesheet"/>
+	<link href="css/style.css?v=10" type="text/css" rel="stylesheet"/>
 	<link href="css/fonts.css" type="text/css" rel="stylesheet"/>
 	<link href="css/jquery.formstyler.css" type="text/css" rel="stylesheet"/>
 	<link href="css/jquery.formstyler.theme.css" type="text/css" rel="stylesheet"/>
@@ -5093,7 +5093,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 				</span>
 				<p>Российском экономическом университете<br>им. Г.В. Плеханова</p>
 				<span class="last-span">г. Москва, <br>
-				Стремянный пер. 36
+				ул. Зацепа, 41
 				</span>
 			</div>
 
@@ -5108,7 +5108,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 
 				<div class="div-map">
 					<img src="img/icon-city.png" alt="img"/>
-					<a href="https://yandex.ru/maps/213/moscow/?z=16&mode=search&ll=37.627696%2C55.727268&text=%D0%A1%D1%82%D1%80%D0%B5%D0%BC%D1%8F%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%BF%D0%B5%D1%80.%2036&sll=37.645914%2C55.716680&sspn=0.020685%2C0.006977" target="_blank">Карта <br>проезда</a>
+					<a href="https://yandex.ru/maps/-/CBUeAXsN8A" target="_blank">Карта <br>проезда</a>
 				</div>
 
 			</div>
@@ -5462,7 +5462,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 				</span>
 				<p>Российском экономическом университете<br>им. Г.В. Плеханова</p>
 				<span class="last-span">г. Москва, <br>
-				Стремянный пер. 36
+				ул. Зацепа, 41
 				</span>
 			</div>
 
@@ -5477,7 +5477,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 
 				<div class="div-map">
 					<img src="img/icon-city.png" alt="img"/>
-					<a href="https://yandex.ru/maps/213/moscow/?z=16&mode=search&ll=37.627696%2C55.727268&text=%D0%A1%D1%82%D1%80%D0%B5%D0%BC%D1%8F%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%BF%D0%B5%D1%80.%2036&sll=37.645914%2C55.716680&sspn=0.020685%2C0.006977" target="_blank">Карта <br>проезда</a>
+					<a href="https://yandex.ru/maps/-/CBUeAXsN8A" target="_blank">Карта <br>проезда</a>
 				</div>
 
 			</div>
