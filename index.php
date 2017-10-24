@@ -37,7 +37,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 	<title>Russian Blockchain Week 2017 Конференция по блокчейн</title>
 	<meta name="keywords" content="russian blockchain week, blockchain week, конференция блокчейн, blockchain конференция, конференция биткоин, блокчейн семинар, биткоин семинар, обучение блокчейн, обучение  blockchain, консультации блокчейн" />
 	<meta name="description" content="Russian blockсhain Week (Российская неделя блокчейн и криптовалют) — это главное событие года в своей индустрии, которое объединяет в себе 4 формата: конференция, выставка и шоу блокчейн-проектов, Blockchain.EXPO и Blockchain.NIGHT" />
-	<link href="css/style.css?v=10" type="text/css" rel="stylesheet"/>
+	<link href="css/style.css?v=11" type="text/css" rel="stylesheet"/>
 	<link href="css/fonts.css" type="text/css" rel="stylesheet"/>
 	<link href="css/jquery.formstyler.css" type="text/css" rel="stylesheet"/>
 	<link href="css/jquery.formstyler.theme.css" type="text/css" rel="stylesheet"/>
@@ -4856,7 +4856,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 
                <div class="b-sponsor__item">
                     <div class="b-sponsor__item-top">
-                        <div class="b-sponsor__title">SmartValley</div>
+                        <div class="b-sponsor__title">Smart Valley</div>
                         <a href="https://smartvalley.io" target="_blank" class="b-sponsor__img smartvalley"></a>
                     </div>
                     <div class="b-sponsor__text">
@@ -4922,7 +4922,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                 </div>
                 <div class="b-sponsor__item">
                     <div class="b-sponsor__item-top">
-                        <div class="b-sponsor__title">SmartValley</div>
+                        <div class="b-sponsor__title">Smart Valley</div>
                         <a href="https://smartvalley.io" target="_blank" class="b-sponsor__img smartvalley"></a>
                     </div>
                     <div class="b-sponsor__text">
@@ -5981,7 +5981,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
     <span class="modal_close">X</span>
     <div class="b-sponsor__popup">
         <div class="b-sponsor__item-top">
-            <div class="b-sponsor__title">SmartValley</div>
+            <div class="b-sponsor__title">Smart Valley</div>
             <a href="https://smartvalley.io" target="_blank" class="b-sponsor__img smartvalley-white"></a>
         </div>
         <div class="b-video__wrapper">
@@ -5991,7 +5991,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
             </div>
         </div>
         <div class="b-sponsor__popup-text">
-            <p>SmartValley&nbsp;—&nbsp;это децентрализованная «Силиконовая&nbsp;долина», которая связывает инвесторов, проекты,
+            <p>Smart&nbsp;Valley&nbsp;—&nbsp;это децентрализованная «Силиконовая&nbsp;долина», которая связывает инвесторов, проекты,
                 специалистов, профессиональные сообщества со&nbsp;всего мира и&nbsp;из&nbsp;любой его&nbsp;точки,
                 где&nbsp;каждый проект может независимо от&nbsp;своего месторасположения привлечь инвестиции,
                 специалистов, сообщество и&nbsp;реализовать свою идею!</p>
@@ -6005,20 +6005,21 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
             <p>Экосистема разрабатывается как&nbsp;децентрализованное приложение на&nbsp;платформе Ethereum.</p>
         </div>
     </div>
+    <a href="files/SmartValley.pdf" target="_blank" class="b-sponsor__link">Смотреть презентацию</a>
 </div>
 
 <div id="sponsor-video5" class="sponsor video-sp-5">
     <span class="modal_close">X</span>
     <div class="b-sponsor__popup">
         <div class="b-sponsor__item-top">
-            <div class="b-sponsor__title">SmartValley</div>
+            <div class="b-sponsor__title">Smart Valley</div>
             <a href="https://smartvalley.io" target="_blank" class="b-sponsor__img smartvalley-white"></a>
         </div>
         <div class="b-video__wrapper">
             <div id="youtube-sponsor-video-smartvalley"></div>
         </div>
         <div class="b-sponsor__popup-text">
-            <p>SmartValley&nbsp;—&nbsp;это децентрализованная «Силиконовая&nbsp;долина», которая связывает инвесторов, проекты,
+            <p>Smart&nbsp;Valley&nbsp;—&nbsp;это децентрализованная «Силиконовая&nbsp;долина», которая связывает инвесторов, проекты,
                 специалистов, профессиональные сообщества со&nbsp;всего мира и&nbsp;из&nbsp;любой его&nbsp;точки,
                 где&nbsp;каждый проект может независимо от&nbsp;своего месторасположения привлечь инвестиции,
                 специалистов, сообщество и&nbsp;реализовать свою идею!</p>
@@ -6032,6 +6033,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
             <p>Экосистема разрабатывается как&nbsp;децентрализованное приложение на&nbsp;платформе Ethereum.</p>
         </div>
     </div>
+    <a href="files/SmartValley.pdf" target="_blank" class="b-sponsor__link">Смотреть презентацию</a>
 </div>
 
 <div id="sponsor8" class="sponsor">
