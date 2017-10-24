@@ -330,6 +330,9 @@ $(document).ready(function() {
         if ($(this).hasClass('video-8')){
             youtubeVideoPlayer8.playVideo();
         }
+        if ($(this).hasClass('video-9')){
+            youtubeVideoPlayer9.playVideo();
+        }
 
         // for mobile version video
         ///////////////////////////////////////////
@@ -351,8 +354,11 @@ $(document).ready(function() {
         if ($(this).hasClass('video-77')){
             youtubeVideoPlayer77.playVideo();
         }
-         if ($(this).hasClass('video-88')){
+        if ($(this).hasClass('video-88')){
             youtubeVideoPlayer88.playVideo();
+        }
+        if ($(this).hasClass('video-99')){
+            youtubeVideoPlayer99.playVideo();
         }
     });
 });
@@ -393,6 +399,12 @@ $(".j-video4").on("click", function(){
     $('#sponsor-video4, #overlay').addClass('active');
     $('body').addClass('hidden');
     youtubeVideoPlayerSp4.playVideo();
+});
+
+$(".j-video5").on("click", function(){
+    $('#sponsor-video4, #overlay').addClass('active');
+    $('body').addClass('hidden');
+    youtubeVideoPlayerSp5.playVideo();
 });
 
 $(".j-sponsor2").on("click", function(){
@@ -479,6 +491,8 @@ $("#overlay, #modal_close, .modal_close").on("click", function(){
     youtubeVideoPlayerSp3Click.stopVideo();
     youtubeVideoPlayerSp4.stopVideo();
     youtubeVideoPlayerSp4Click.stopVideo();
+    youtubeVideoPlayerSp5.stopVideo();
+    youtubeVideoPlayerSp5Click.stopVideo();
     $('body').removeClass('hidden');
 });
 
