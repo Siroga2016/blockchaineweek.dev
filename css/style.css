@@ -5013,6 +5013,7 @@ a.button-exit{
 }
 .b-sponsor__img.serenity {
 	background-image: url('../img/serenity-logo.png');
+	min-height: 60px;
 }
 .b-sponsor__img.serenity_transparent {
 	background-image: url('../img/serenity-logo_transparent.png');

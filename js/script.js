@@ -402,7 +402,7 @@ $(".j-video4").on("click", function(){
 });
 
 $(".j-video5").on("click", function(){
-    $('#sponsor-video4, #overlay').addClass('active');
+    $('#sponsor-video5, #overlay').addClass('active');
     $('body').addClass('hidden');
     youtubeVideoPlayerSp5.playVideo();
 });
@@ -482,7 +482,7 @@ $(".j-sponsor15").on("click", function(){
 $("#overlay, #modal_close, .modal_close").on("click", function(){
     $('#modal_form, #overlay, #sponsor1, #sponsor2, #sponsor3, #sponsor4, #sponsor5, #sponsor6, #sponsor7, #sponsor8,' +
         ' #sponsor9, #sponsor10, #sponsor11, #sponsor12, #sponsor13, #sponsor14, #sponsor15, #sponsor-video1, ' +
-        '#sponsor-video3, #sponsor-video4').removeClass('active');
+        '#sponsor-video3, #sponsor-video4, #sponsor-video5').removeClass('active');
     $(".b-video").removeClass('is-active');
     youtubeVideoPlayer4.stopVideo();
     youtubeVideoPlayerSp1.stopVideo();
@@ -523,4 +523,9 @@ $(".b-video-sp-3").on("click", function () {
 $(".b-video-sp-4").on("click", function () {
     $(this).addClass('is-active');
     youtubeVideoPlayerSp4Click.playVideo();
+});
+
+$(".b-video-sp-5").on("click", function () {
+    $(this).addClass('is-active');
+    youtubeVideoPlayerSp5Click.playVideo();
 });
