@@ -4698,7 +4698,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                 <div class="b-sponsor__item">
                     <div class="b-sponsor__item-top">
                         <div class="b-sponsor__title">SERENITY FINANCIAL</div>
-                        <a href="Serenity-financial.io" target="_blank" class="b-sponsor__img serenity"></a>
+                        <a href="https://serenity-financial.io/" target="_blank" class="b-sponsor__img serenity"></a>
                     </div>
                     <div class="b-sponsor__text">Первая арбитражная платформа на блокчейне для безопасного трейдинга
                         и хранения средств.
@@ -5746,7 +5746,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
     <div class="b-sponsor__popup">
         <div class="b-sponsor__item-top">
             <div class="b-sponsor__title">SERENITY FINANCIAL</div>
-            <a href="Serenity-financial.io" target="_blank" class="b-sponsor__img serenity_transparent"></a>
+            <a href="https://serenity-financial.io/" target="_blank" class="b-sponsor__img serenity_transparent"></a>
         </div>
          <div class="b-video__wrapper">
              <div class="b-video b-video-sp-3">
@@ -5790,7 +5790,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
     <div class="b-sponsor__popup">
         <div class="b-sponsor__item-top">
             <div class="b-sponsor__title">SERENITY FINANCIAL</div>
-            <a href="Serenity-financial.io" target="_blank" class="b-sponsor__img serenity_transparent"></a>
+            <a href="https://serenity-financial.io/" target="_blank" class="b-sponsor__img serenity_transparent"></a>
         </div>
          <div class="b-video__wrapper">
             <div id="youtube-sponsor-video-se"></div>
