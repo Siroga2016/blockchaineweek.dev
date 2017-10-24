@@ -37,7 +37,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 	<title>Russian Blockchain Week 2017 Конференция по блокчейн</title>
 	<meta name="keywords" content="russian blockchain week, blockchain week, конференция блокчейн, blockchain конференция, конференция биткоин, блокчейн семинар, биткоин семинар, обучение блокчейн, обучение  blockchain, консультации блокчейн" />
 	<meta name="description" content="Russian blockсhain Week (Российская неделя блокчейн и криптовалют) — это главное событие года в своей индустрии, которое объединяет в себе 4 формата: конференция, выставка и шоу блокчейн-проектов, Blockchain.EXPO и Blockchain.NIGHT" />
-	<link href="css/style.css?v=12" type="text/css" rel="stylesheet"/>
+	<link href="css/style.css?v=10" type="text/css" rel="stylesheet"/>
 	<link href="css/fonts.css" type="text/css" rel="stylesheet"/>
 	<link href="css/jquery.formstyler.css" type="text/css" rel="stylesheet"/>
 	<link href="css/jquery.formstyler.theme.css" type="text/css" rel="stylesheet"/>
@@ -489,6 +489,22 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 				</div>
 
 				<div class="block hide">
+					<div class="img"><img src="img/speakers/plotnikova.jpg" alt="img"/></div>
+					<div class="name">Анастасия Плотникова</div>
+					<div class="about-people">
+						Директор по развитию в СНГ и Восточной Европе ETHLend
+					</div>
+				</div>
+
+				<div class="block hide">
+					<div class="img"><img src="img/speakers/voronin.jpg" alt="img"/></div>
+					<div class="name">Алексей Воронин</div>
+					<div class="about-people">
+						Founder ICO LAB
+					</div>
+				</div>
+
+				<div class="block hide">
 					<div class="img"><img src="img/speakers/yudin.jpg" alt="img"/></div>
 					<div class="name">Андрей Юдин</div>
 					<div class="about-people">
@@ -537,10 +553,10 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 				</div>
 
 				<div class="block hide">
-					<div class="img"><img src="img/stukolov.png" alt="img"/></div>
-					<div class="name">Павел Стуколов</div>
+					<div class="img"><img src="img/speakers/shmidth.jpg" alt="img"/></div>
+					<div class="name">Владимир Шмидт</div>
 					<div class="about-people">
-						CEO TokenStars
+						СЕО Alt.Estate
 					</div>
 				</div>
 
@@ -675,7 +691,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 
 				<div class="block hide">
 					<div class="img"><img src="img/speakers/churakov.jpg" alt="img"/></div>
-					<div class="name">Чураков Илья</div>
+					<div class="name">Илья Чураков</div>
 					<div class="about-people">
 						Основатель сервиса дистанционного обучения ExpertSystem.ru
 					</div>
@@ -697,6 +713,69 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 					</div>
 				</div>
 
+				<div class="block hide">
+					<div class="img"><img src="img/speakers/soika.jpg" alt="img"/></div>
+					<div class="name">Константин Сойка </div>
+					<div class="about-people">
+						Snovio, маркетолог 
+					</div>
+				</div>
+
+				<div class="block hide">
+					<div class="img"><img src="img/speakers/chernickiy.jpg" alt="img"/></div>
+					<div class="name">Владимир Черницкий </div>
+					<div class="about-people">
+						Co-Founder, CTO Faceter
+					</div>
+				</div>
+
+				<div class="block hide">
+					<div class="img"><img src="img/speakers/malugin.jpg" alt="img"/></div>
+					<div class="name">Александр Малюгин</div>
+					<div class="about-people">
+						 Руководитель направления продаж по комплексным решениям для майнинга и блокчейн 
+					</div>
+				</div>
+
+				<div class="block hide">
+					<div class="img"><img src="img/speakers/semenchuck.jpg" alt="img"/></div>
+					<div class="name">Вячеслав Семенчук </div>
+					<div class="about-people">
+						 Серийный предприниматель. Основатель первой кошерной криптовалюты и блокчейн экосистемы. BITCOEN 
+					</div>
+				</div>
+
+				<div class="block hide">
+					<div class="img"><img src="img/speakers/ryjavin.jpg" alt="img"/></div>
+					<div class="name">Сергей Рыжавкин</div>
+					<div class="about-people">
+						 B2BX. Продакт-менеджер PAMM/MAM/social trading 
+					</div>
+				</div>
+
+				<div class="block hide">
+					<div class="img"><img src="img/speakers/sevancian.jpg" alt="img"/></div>
+					<div class="name">Сергей Севанцян </div>
+					<div class="about-people">
+						 Blockchainer, Adviser, ICO supervisor 
+					</div>
+				</div>
+
+				<div class="block hide">
+					<div class="img"><img src="img/speakers/sevruga.jpg" alt="img"/></div>
+					<div class="name">Сергей Севрюгин</div>
+					<div class="about-people">
+						 CEO и Со-основатель REGA Risk Insurance
+					</div>
+				</div>
+
+				<div class="block hide">
+					<div class="img"><img src="img/speakers/shulgenko.jpg" alt="img"/></div>
+					<div class="name">Алексей Шульженко </div>
+					<div class="about-people">
+						 Директор по маркетингу Trading View 
+					</div>
+				</div>
 
 				<div class="all-speakers hide">
 					<a href="javascript:void(0)" class="show-all-speakers">
@@ -732,7 +811,75 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 						<div class="img"><img src="img/block4-people6.jpg" alt="img"/></div>
 						<div class="name">Алексей Архипов</div>
 						<div class="about-people">
-							Директор по развитию криптотехнологий QIWI, руководитель направления развития технологии распределенных реестров Ассоциации ФинТех
+							Руководитель направления развития технологии распределенного реестра, Ассоциации ФинТех
+						</div>
+					</div>
+
+					<div class="block">
+						<div class="img"><img src="img/gershuni.jpg" alt="img"/></div>
+						<div class="name">Степан Гершуни</div>
+						<div class="about-people">
+							  Управляющий партнер bits.capital
+						</div>
+					</div>
+
+					<div class="block">
+						<div class="img"><img src="img/Kabakov.jpg" alt="img"/></div>
+						<div class="name">Ярослав Кабаков</div>
+						<div class="about-people">
+							Заместитель генерального директора АО «Инвестиционная компания «ФИНАМ»
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div class="block">
+						<div class="img"><img src="img/block4-people5.jpg" alt="img"/></div>
+						<div class="name">Элина Сидоренко</div>
+						<div class="about-people">
+							Руководитель межведомственной рабочей группы по оценкам рисков оборота криптовалюты Государственной думы
+						</div>
+					</div>
+
+					<div class="block">
+						<div class="img"><img src="img/speakers/rozkowertz.jpg" alt="img"/></div>
+						<div class="name">Joerg Roskowertz</div>
+						<div class="about-people">
+							AMD Blockchain expert
+						</div>
+					</div>
+
+					<div class="block">
+						<div class="img"><img src="img/speakers/Blagirev.jpg" alt="img"/></div>
+						<div class="name">Алексей Благирев</div>
+						<div class="about-people">
+							Директор по инновациям, Банк «Открытие»
+						</div>
+					</div>
+
+					<div class="block">
+						<div class="img"><img src="img/speakers/novikov.jpg" alt="img"/></div>
+						<div class="name">Павел Новиков</div>
+						<div class="about-people">
+							Директор центра финансовых технологий «Сколково»
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div class="block">
+					<div class="img"><img src="img/speakers/belozerov.jpg" alt="img"/></div>
+					<div class="name">Андрей Белозёров </div>
+					<div class="about-people">
+						Советник руководителя Департамента информационных технологий г. Москвы <br>по стратегическим проектам <br> и инновациям
+					</div>
+					</div>
+
+					<div class="block">
+						<div class="img"><img src="img/barinov.jpg" alt="img"/></div>
+						<div class="name">Игорь Баринов</div>
+						<div class="about-people">
+							 Founder of Oracles Network
 						</div>
 					</div>
 
@@ -745,19 +892,21 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 					</div>
 
 					<div class="block">
-						<div class="img"><img src="img/Kabakov.jpg" alt="img"/></div>
-						<div class="name">Ярослав Кабаков</div>
+						<div class="img"><img src="img/azrilyan.jpg" alt="img"/></div>
+						<div class="name">Максим Азрильян</div>
 						<div class="about-people">
-							Заместитель генерального директора АО «Инвестиционная компания «ФИНАМ»
+							Главный технический архитектор Альфа-Банка
 						</div>
 					</div>
 				</div>
+
+
 				<div>
 					<div class="block">
-						<div class="img"><img src="img/block4-people5.jpg" alt="img"/></div>
-						<div class="name">Элина Сидоренко</div>
+						<div class="img"><img src="img/block4-people11.jpg" alt="img"/></div>
+						<div class="name">Константин Гольдштейн</div>
 						<div class="about-people">
-							Руководитель межведомственной рабочей группы по оценкам рисков оборота криптовалюты Государственной думы
+							Ведущий технический евангелист Microsoft
 						</div>
 					</div>
 
@@ -772,35 +921,37 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 					</div>
 
 					<div class="block">
-						<div class="img"><img src="img/barinov.jpg" alt="img"/></div>
-						<div class="name">Игорь Баринов</div>
-						<div class="about-people">
-							 Founder of Oracles Network
-						</div>
-					</div>
-
-					<div class="block">
-						<div class="img"><img src="img/azrilyan.jpg" alt="img"/></div>
-						<div class="name">Максим Азрильян</div>
-						<div class="about-people">
-							Главный технический архитектор Альфа-Банка
-						</div>
-					</div>
-				</div>
-				<div>
-					<div class="block">
-						<div class="img"><img src="img/block4-people11.jpg" alt="img"/></div>
-						<div class="name">Константин Гольдштейн</div>
-						<div class="about-people">
-							Ведущий технический евангелист Microsoft
-						</div>
-					</div>
-
-					<div class="block">
 						<div class="img"><img src="img/ivanov.jpg" alt="img"/></div>
 						<div class="name">Олег Иванов</div>
 						<div class="about-people">
 							Основатель CryptoBazar
+						</div>
+					</div>
+
+					<div class="block">
+						<div class="img"><img src="img/speakers/plotnikova.jpg" alt="img"/></div>
+						<div class="name">Анастасия Плотникова</div>
+						<div class="about-people">
+							Директор по развитию в СНГ и Восточной Европе ETHLend
+						</div>
+					</div>
+				</div>
+
+
+				<div>
+					<div class="block">
+						<div class="img"><img src="img/speakers/voronin.jpg" alt="img"/></div>
+						<div class="name">Алексей Воронин</div>
+						<div class="about-people">
+							Founder ICO LAB
+						</div>
+					</div>
+
+					<div class="block">
+						<div class="img"><img src="img/speakers/yudin.jpg" alt="img"/></div>
+						<div class="name">Андрей Юдин</div>
+						<div class="about-people">
+							Co-Founder CryptoBazar Fund
 						</div>
 					</div>
 
@@ -813,22 +964,16 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 					</div>
 
 					<div class="block">
-						<div class="img"><img src="img/speakers/muratov.jpg" alt="img"/></div>
-						<div class="name">Алексей Муратов </div>
-						<div class="about-people">
-							Основатель криптовалюты PRIZM
-						</div>
-					</div>
-				</div>
-				<div>
-					<div class="block">
 						<div class="img"><img src="img/merkylova.jpg" alt="img"/></div>
 						<div class="name">Дина Меркулова</div>
 						<div class="about-people">
 							Управляющий директор<br />по торговому финансированию Альфа-Банка
 						</div>
 					</div>
+				</div>
 
+
+				<div>
 					<div class="block">
 						<div class="img"><img src="img/zegelman.jpg" alt="img"/></div>
 						<div class="name">Юлий Зегельман</div>
@@ -836,7 +981,6 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 							Управляющий партнер Velton Zegelman PC
 						</div>
 					</div>
-
 
 					<div class="block">
 						<div class="img"><img src="img/block4-people12.jpg" alt="img"/></div>
@@ -847,30 +991,24 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 					</div>
 
 					<div class="block">
-						<div class="img"><img src="img/speakers/Gurevich.jpg" alt="img"/></div>
-						<div class="name">Артём Гуревич</div>
+						<div class="img"><img src="img/speakers/baranov.jpg" alt="img"/></div>
+						<div class="name"> Артем Баранов</div>
 						<div class="about-people">
-							Co-Founder Get Crypto
+							Со-основатель и операционный директор Cindicator
+						</div>
+					</div>
+
+					<div class="block">
+						<div class="img"><img src="img/speakers/shmidth.jpg" alt="img"/></div>
+						<div class="name">Владимир Шмидт</div>
+						<div class="about-people">
+							СЕО Alt.Estate
 						</div>
 					</div>
 				</div>
+
+
 				<div>
-					<div class="block">
-						<div class="img"><img src="img/brusov.jpg" alt="img"/></div>
-						<div class="name">Михаил Брусов</div>
-						<div class="about-people">
-							CEO & co-founder Cindicator
-						</div>
-					</div>
-
-					<div class="block">
-						<div class="img"><img src="img/stukolov.png" alt="img"/></div>
-						<div class="name">Павел Стуколов</div>
-						<div class="about-people">
-							CEO TokenStars
-						</div>
-					</div>
-
 					<div class="block">
 						<div class="img"><img src="img/simanovskiy.png" alt="img"/></div>
 						<div class="name">Сергей Симановский</div>
@@ -886,8 +1024,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 							Основатель DAO.Finance и iVenturer
 						</div>
 					</div>
-				</div>
-				<div>
+
 					<div class="block">
 						<div class="img"><img src="img/fedorov.jpg" alt="img"/></div>
 						<div class="name">Алексей Федоров</div>
@@ -903,7 +1040,9 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 							CEO, cryptonomica.net
 						</div>
 					</div>
+				</div>
 
+				<div>	
 					<div class="block">
 						<div class="img"><img src="img/block4-people8.jpg" alt="img"/></div>
 						<div class="name">Павел Мартынов</div>
@@ -919,15 +1058,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 							CEO в Iskander ICOFund
 						</div>
 					</div>
-				</div>
-				<div>
-					<div class="block">
-						<div class="img"><img src="img/speakers/yudin.jpg" alt="img"/></div>
-						<div class="name">Андрей Юдин</div>
-						<div class="about-people">
-							Co-Founder CryptoBazar Fund
-						</div>
-					</div>
+
 					<div class="block">
 						<div class="img"><img src="img/block4-people15.jpg" alt="img"/></div>
 						<div class="name">Станислав Полозов</div>
@@ -943,7 +1074,9 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 							CEO ChronoBank
 						</div>
 					</div>
+				</div>
 
+				<div>
 					<div class="block">
 						<div class="img"><img src="img/tichonov.jpg" alt="img"/></div>
 						<div class="name">Иван Тихонов</div>
@@ -951,8 +1084,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 							Основатель и руководитель Bits.media
 						</div>
 					</div>
-				</div>
-				<div>
+
 					<div class="block">
 						<div class="img"><img src="img/Borodich.jpeg" alt="img"/></div>
 						<div class="name">Александр Бородич</div>
@@ -962,38 +1094,39 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 					</div>
 
 					<div class="block">
-						<div class="img"><img src="img/speakers/Blagirev.jpg" alt="img"/></div>
-						<div class="name">Алексей Благирев</div>
+						<div class="img"><img src="img/speakers/Gurevich.jpg" alt="img"/></div>
+						<div class="name">Артём Гуревич</div>
 						<div class="about-people">
-							Директор по инновациям, Банк «Открытие»
+							Co-Founder Get Crypto
 						</div>
 					</div>
 
 					<div class="block">
-						<div class="img"><img src="img/speakers/belozerov.jpg" alt="img"/></div>
-						<div class="name">Андрей Белозёров </div>
+						<div class="img"><img src="img/speakers/kostarev.jpg" alt="img"/></div>
+						<div class="name">Алексей Костарев</div>
 						<div class="about-people">
-							Советник руководителя Департамента информационных технологий г. Москвы по стратегическим проектам и инновациям
+							Co-founder Robot Vera
 						</div>
 					</div>
-
-					<div class="block">
-						<div class="img"><img src="img/speakers/rozkowertz.jpg" alt="img"/></div>
-						<div class="name">Joerg Roskowertz</div>
-						<div class="about-people">
-							AMD Blockchain expert
-						</div>
-					</div>
-
 				</div>
+
 				<div>
 					<div class="block">
+						<div class="img"><img src="img/speakers/muratov.jpg" alt="img"/></div>
+						<div class="name">Алексей Муратов </div>
+						<div class="about-people">
+							Основатель криптовалюты PRIZM
+						</div>
+					</div>
+
+					<div class="block">
 						<div class="img"><img src="img/speakers/julin.jpg" alt="img"/></div>
-						<div class="name">Артем Жилин </div>
+						<div class="name">Артем Жилин</div>
 						<div class="about-people">
 							COO Gelios
 						</div>
 					</div>
+
 					<div class="block">
 						<div class="img"><img src="img/speakers/insarov.jpg" alt="img"/></div>
 						<div class="name">Андрей Инсаров</div>
@@ -1009,16 +1142,17 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 							Сооснователь проекта Serenity Financial
 						</div>
 					</div>
+				</div>
+
+				<div>
 					<div class="block">
 						<div class="img"><img src="img/speakers/churakov.jpg" alt="img"/></div>
-						<div class="name">Чураков Илья</div>
+						<div class="name">Илья Чураков</div>
 						<div class="about-people">
 							Основатель сервиса дистанционного обучения ExpertSystem.ru
 						</div>
 					</div>
-				</div>
 
-				<div>
 					<div class="block">
 						<div class="img"><img src="img/speakers/malkov.jpg" alt="img"/></div>
 						<div class="name">Александр Мальков </div>
@@ -1036,13 +1170,72 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 					</div>
 
 					<div class="block">
-						<div class="img"><img src="img/gershuni.jpg" alt="img"/></div>
-						<div class="name">Степан Гершуни</div>
+						<div class="img"><img src="img/speakers/soika.jpg" alt="img"/></div>
+						<div class="name">Константин Сойка </div>
 						<div class="about-people">
-							  Управляющий партнер bits.capital
+							Snovio, маркетолог 
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div class="block">
+						<div class="img"><img src="img/speakers/chernickiy.jpg" alt="img"/></div>
+						<div class="name">Владимир Черницкий </div>
+						<div class="about-people">
+							Co-Founder, CTO Faceter
 						</div>
 					</div>
 
+					<div class="block">
+						<div class="img"><img src="img/speakers/malugin.jpg" alt="img"/></div>
+						<div class="name">Александр Малюгин</div>
+						<div class="about-people">
+							 Руководитель направления продаж по комплексным решениям для майнинга и блокчейн 
+						</div>
+					</div>
+
+					<div class="block">
+						<div class="img"><img src="img/speakers/semenchuck.jpg" alt="img"/></div>
+						<div class="name">Вячеслав Семенчук </div>
+						<div class="about-people">
+							 Серийный предприниматель. Основатель первой кошерной криптовалюты и блокчейн экосистемы. BITCOEN 
+						</div>
+					</div>
+
+					<div class="block">
+						<div class="img"><img src="img/speakers/ryjavin.jpg" alt="img"/></div>
+						<div class="name">Сергей Рыжавкин</div>
+						<div class="about-people">
+							 B2BX. Продакт-менеджер PAMM/MAM/social trading 
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div class="block">
+						<div class="img"><img src="img/speakers/sevancian.jpg" alt="img"/></div>
+						<div class="name">Сергей Севанцян </div>
+						<div class="about-people">
+							 Blockchainer, Adviser, ICO supervisor 
+						</div>
+					</div>
+
+					<div class="block">
+						<div class="img"><img src="img/speakers/sevruga.jpg" alt="img"/></div>
+						<div class="name">Сергей Севрюгин</div>
+						<div class="about-people">
+							 CEO и Со-основатель REGA Risk Insurance
+						</div>
+					</div>
+
+					<div class="block">
+						<div class="img"><img src="img/speakers/shulgenko.jpg" alt="img"/></div>
+						<div class="name">Алексей Шульженко </div>
+						<div class="about-people">
+							 Директор по маркетингу Trading View 
+						</div>
+					</div>
 				</div>
 
 		    </div>
@@ -1309,8 +1502,8 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 		</div>
 	</div>
 
-<!--
-  	<div id="programm" class="l-program">
+
+  	<!--<div id="programm" class="l-program">
         <div class="b-program">
             <div class="center">
                 <div class="b-program__header">
@@ -1361,31 +1554,58 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                 </div>
                             </div>
 
+                             <div class="b-programm__table-item_right">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        10:00
+                                    </div>
+                                    <div class="time-end">
+                                        10:10
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/speakers/petryashov.jpg" alt="Олег Петряшёв">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Олег Петряшёв
+                                    </div>
+                                    <div class="position">
+                                         Генеральный директор Russian Вlockchain Week
+                                    </div>
+                                    <div class="report">
+                                    	Открытие конференции
+                                    </div>
+                                </div>
+                            </div>
 
                             <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
-                                        10:00
+                                        10:10
                                     </div>
                                     <div class="time-end">
                                         10:30
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/speakers/novikov.jpg" alt="Дмитрий Булычков">
+                                    <img src="../img/lectors/default.png" alt="Анатолий Радченко">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Павел Новиков
+                                        Анатолий Радченко
                                     </div>
                                     <div class="position">
-                                         Директор центра финансовых технологий. Фонд Сколково
+                                         Управляющий партнер United Traders
                                     </div>
                                     <div class="report">
-                                    	3 очень конкретных совета, которые позволят блокчейн-проекту взлететь
+                                    	Основы технологии блокчейн и обзор криптовалют - 
+                                    	трейдинг, инвестиции и ICO
                                     </div>
                                 </div>
                             </div>
+
+                          
 
                             <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
@@ -1504,7 +1724,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     </div>
                                 </div>
                             </div>
-
+                            
                             <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -1515,17 +1735,17 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/matveev.png" alt="Павел Матвеев">
+                                    <img src="../img/lectors/merkulova.png" alt="Дина Меркулова">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Павел Матвеев
+                                        Дина Меркулова
                                     </div>
                                     <div class="position">
-                                        Основатель Wirex (более 500.000 клиентов в&nbsp;130 странах мира)
+                                         Управляющий директор по торговому финансированию Альфа-Банка
                                     </div>
                                     <div class="report">
-                                        Криптовалюты&nbsp;-&nbsp;будущее платежной индустрии
+                                        Кейсы Альфа-Банка при&nbsp;реализации технологии блокчейн
                                     </div>
                                 </div>
                             </div>
@@ -1540,7 +1760,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="Сергей Рыжавин ">
+                                    <img src="../img/speakers/ryjavin.jpg" alt="Сергей Рыжавин ">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
@@ -1637,7 +1857,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="Алексей Шульженко  ">
+                                    <img src="../img/speakers/shulgenko.jpg" alt="Алексей Шульженко  ">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
@@ -1753,6 +1973,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                 </div>
                             </div>
 
+                            
                             <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -1763,17 +1984,17 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/merkulova.png" alt="Дина Меркулова">
+                                    <img src="../img/lectors/matveev.png" alt="Павел Матвеев">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Дина Меркулова
+                                        Павел Матвеев
                                     </div>
                                     <div class="position">
-                                         Управляющий директор по торговому финансированию Альфа-Банка
+                                        Основатель Wirex (более 500.000 клиентов в&nbsp;130 странах мира)
                                     </div>
                                     <div class="report">
-                                        Кейсы Альфа-Банка при&nbsp;реализации
+                                        Криптовалюты&nbsp;-&nbsp;будущее платежной индустрии
                                     </div>
                                 </div>
                             </div>
@@ -2007,17 +2228,17 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/stukolov.png" alt="Павел Стуколов ">
+                                    <img src="../img/lectors/stukolov.png" alt="Владимир Шмидт">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Павел Стуколов
+                                       Владимир Шмидт
                                     </div>
                                     <div class="position">
-                                        CEO TokenStars
+                                        СЕО Alt.Estate
                                     </div>
                                     <div class="report">
-                                        Как привлечь более 1 млн $ на стадии pre-ICO
+                                        Новые классы активов, доступные для токенизации и проведения ICO
                                     </div>
                                 </div>
                             </div>
@@ -2115,6 +2336,31 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                 </div>
                             </div>
 
+                            <div class="b-programm__table-item_right">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        18:20
+                                    </div>
+                                    <div class="time-end">
+                                        18:40
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="img/speakers/malugin.jpg" alt="Александр Малюгин">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                         Александр Малюгин
+                                    </div>
+                                    <div class="position">
+                                         Telecore
+                                    </div>
+                                    <div class="report">
+                                        Ноу-хау обустройства инженерной инфраструктуры в майнинге
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                         <div class="b-programm__table-content_half">
 
@@ -2151,21 +2397,22 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                         17:30
                                     </div>
                                     <div class="time-end">
-                                        18:00
+                                        17:50
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="img">
+                                    <img src="../img/speakers/chernickiy.jpg" alt="Владимир Черницкий">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        СПИКЕР УТОЧНЯЕТСЯ
+                                        Владимир Черницкий
                                     </div>
                                     <div class="position">
-
+                                    	Сооснователь и CTO в Faceter
                                     </div>
                                     <div class="report">
-                                    	ТЕМА УТОЧНЯЕТСЯ
+                                    	Как запустить массовый продукт на децентрализованной 
+                                    	инфраструктуре: исследуем возможность и стоимость
                                     </div>
                                 </div>
                             </div>
@@ -2320,6 +2567,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     </div>
                                 </div>
                             </div>
+
                             <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -2330,20 +2578,21 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="img">
+                                    <img src="../img/speakers/soika.jpg" alt="Константин Сойка">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Спикер уточняется
+                                        Константин Сойка
                                     </div>
                                     <div class="position">
-
+                                    	Маркетолог в Snovio
                                     </div>
                                     <div class="report">
-                                        ТЕМА УТОЧНЯЕТСЯ
+                                        Маркетинг для ICO - поиск клиентов на проект
                                     </div>
                                 </div>
                             </div>
+
                              <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -2378,7 +2627,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="Андрей Юдин">
+                                    <img src="../img/speakers/yudin.jpg" alt="Андрей Юдин">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
@@ -2470,7 +2719,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="Иванов Алексей">
+                                    <img src="../img/speakers/ivanov-aleksey.jpg" alt="Иванов Алексей">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
@@ -2527,6 +2776,40 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                         Руководитель межведомственной рабочей группы по оценкам рисков оборота криптовалюты Государственной Думы.
                                     </div>
 
+
+
+                                    <div class="name">
+                                        Алексей Архипов
+                                    </div>
+                                    <div class="position">
+                                        Руководитель направления развития технологии распределенного реестра, Ассоциации ФинТех
+                                    </div>
+                                    <div class="name">
+                                        Герман Клименко
+                                    </div>
+                                    <div class="position">
+                                        Советник Президента РФ по вопросам интернета
+                                    </div>
+                                    <div class="name">
+                                        Юрий Припачкин
+                                    </div>
+                                    <div class="position">
+                                        Президент РАКиБ
+                                    </div>
+                                    <div class="name">
+                                        Владислав Мартынов
+                                    </div>
+                                    <div class="position">
+                                        Член наблюдательного совета Ethereum
+                                    </div>
+                                    <div class="name">
+                                        Владимир Гамза
+                                    </div>
+                                    <div class="position">
+                                        Председатель комитета ТПП РФ по финансовым рынкам
+										и кредитным организациям
+                                    </div>
+
                                 </div>
 
                             </div>
@@ -2559,6 +2842,8 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     </div>
                                 </div>
                             </div>
+
+                            
                             <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -2569,20 +2854,21 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/olin.png" alt="Алексей Олин  ">
+                                    <img src="../img/speakers/semenchuck.jpg" alt="img">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Алексей Олин
+                                        Вячеслав Семенчук
                                     </div>
                                     <div class="position">
-                                        Основатель DAO.Finance и iVenturer
+                                    	Серийный предприниматель. Основатель первой кошерной криптовалюты и блокчейн экосистемы. BITCOEN
                                     </div>
                                     <div class="report">
-                                        Тема уточняется
+                                    	Вокруг ico за 20 минут
                                     </div>
                                 </div>
                             </div>
+
                            <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
@@ -2614,21 +2900,71 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                         13:00
                                     </div>
                                     <div class="time-end">
+                                        13:20
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/speakers/malkov.jpg" alt="img">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Александ Мальков
+                                    </div>
+                                    <div class="position">
+                                    	CEO в Arbi
+                                    </div>
+                                    <div class="report">
+                                    	Потери инвестиций в ICO: причины и методы борьби
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="b-programm__table-item_left">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        13:20
+                                    </div>
+                                    <div class="time-end">
+                                        13:40
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/speakers/sevruga.jpg" alt="Сергей Севрюгин">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name">
+                                        Сергей Севрюгин
+                                    </div>
+                                    <div class="position">
+                                    	Со-основатель и CEO и в REGA Risk Insurance
+                                    </div>
+                                    <div class="report">
+                                    	Рынок страхования на блокчейн, технологические особенности
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="b-programm__table-item_left">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        13:40
+                                    </div>
+                                    <div class="time-end">
                                         14:00
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="img">
+                                    <img src="../img/speakers/plotnikova.jpg" alt="Анастасия Плотникова">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Спикер уточняется
+                                        Анастасия Плотникова
                                     </div>
                                     <div class="position">
-
+                                    	Директор по развитию в СНГ и Восточной Европе ETHLend
                                     </div>
                                     <div class="report">
-                                    	Тема уточняется
+                                    	Возможности для кредитирования малого и среднего бизнеса в сети блокчейн
                                     </div>
                                 </div>
                             </div>
@@ -2674,6 +3010,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 
                         </div>
                     </div>
+
                     <div class="b-programm__table-content">
                         <div class="b-programm__table-content_half">
 
@@ -2710,29 +3047,37 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                         16:40
                                     </div>
                                     <div class="time-end">
-                                        17:00
+                                        17:40
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="img">
+                                    <img src="../img/discuss.jpg" alt="img">
                                 </div>
                                 <div class="b-programm__table-item-text">
-                                    <div class="name">
-                                        Спикер уточняется
+                                    <div class="name"></div>
+                                    <div class="report">
+                                    	Публичная  дискуссия экспертного совета при Госуарственной Думе
+                                    </div>
+                                    <div class="position"></div>
+                                     <div class="name">
+                                        Артём Николаевыч Кольцов
                                     </div>
                                     <div class="position">
+                                        Председатель Эксперного совета по цыфровой экономике и блокчейн технологиям
+                                        при Комитете Государственноый Думы ФС РФ по экономической промышлености,
+                                        инновационному развитию и предпренимательству 
+                                    </div>
 
-                                    </div>
-                                    <div class="report">
-                                    	Тема уточняется
-                                    </div>
                                 </div>
+
                             </div>
 
+
                         </div>
+
                         <div class="b-programm__table-content_half">
 
-                        	<div class="b-programm__table-item_left">
+                            <div class="b-programm__table-item_left">
                                 <div class="b-programm__table-item-time">
                                     <div class="time-start">
                                         16:00
@@ -2742,17 +3087,17 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="img">
+                                    <img src="../img/speakers/sevancian.jpg" alt="Сергей Севанцян">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Вячеслав Семенчук
+                                        Сергей Севанцян
                                     </div>
                                     <div class="position">
-                                    	Серийный предприниматель. Основатель первой кошерной криптовалюты и блокчейн экосистемы. BITCOEN
+                                    	Blockchainer, Adviser, ICO supervisor
                                     </div>
                                     <div class="report">
-                                    	Тема уточняется
+                                    	ICO глазами full stack operator-ф и крипто-фондов
                                     </div>
                                 </div>
                             </div>
@@ -2767,23 +3112,25 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="img">
+                                    <img src="../img/speakers/churakov.jpg" alt="Илья Чураков">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
-                                        Спикер уточняется
+                                        Илья Чураков
                                     </div>
                                     <div class="position">
-
+                                    	Инвестор, канал Crypto Brothers, advisor в ico проектах, в fintech сфере с 2003 года
                                     </div>
                                     <div class="report">
-                                    	Тема уточняется
+                                    	Криптовалютная платежная система, её отличия от фиатной.
+                                    	Перспектывы и технологии, кейсы приминения
                                     </div>
                                 </div>
                             </div>
 
                         </div>
                     </div>
+
                     <div class="b-program__table-day">
                         <p>16:40-17:00 Закрытие конференции</p>
                     </div>
@@ -4766,9 +5113,6 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                     </div>
                     <div class="b-sponsor__item-bottom">
                         <div class="b-sponsor__btn j-sponsor9">О проекте</div>
-                        <div>
-                            <a href="../files/Faceter.pdf" target="_blank" class="b-sponsor__link">Смотреть презентацию</a>
-                        </div>
                     </div>
                 </div>
                 <div class="b-sponsor__item">
@@ -4856,7 +5200,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 
                <div class="b-sponsor__item">
                     <div class="b-sponsor__item-top">
-                        <div class="b-sponsor__title">Smart Valley</div>
+                        <div class="b-sponsor__title">SmartValley</div>
                         <a href="https://smartvalley.io" target="_blank" class="b-sponsor__img smartvalley"></a>
                     </div>
                     <div class="b-sponsor__text">
@@ -4899,47 +5243,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                     </div>
                 </div>
             </div>*/?>
-            <div class="b-sponsor__wrap">
-                <div class="b-sponsor__item">
-                    <div class="b-sponsor__item-top">
-                        <div class="b-sponsor__title">BONUM</div>
-                        <a href="http://bonumchain.com/" target="_blank" class="b-sponsor__img bonum"></a>
-                    </div>
-                    <div class="b-sponsor__text">
-                        Bonum&nbsp;–&nbsp;платформа, предоставляющая услуги:
-                        <ul>
-                            <li>Криптозайма&nbsp;–&nbsp;получения займа в&nbsp;криптовалюте или&nbsp;фиате
-                                с&nbsp;обеспечением в&nbsp;виде залога;</li>
-                            <li>Депозита&nbsp;–&nbsp;возможность вложения криптовалюты и&nbsp;токенов под&nbsp;процент.</li>
-                        </ul>
-                    </div>
-                    <div class="b-sponsor__item-bottom">
-                        <div class="b-sponsor__btn j-sponsor13">О проекте</div>
-                        <div>
-                            <a href="../files/Bonum.pdf" target="_blank" class="b-sponsor__link">Смотреть презентацию</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="b-sponsor__item">
-                    <div class="b-sponsor__item-top">
-                        <div class="b-sponsor__title">Smart Valley</div>
-                        <a href="https://smartvalley.io" target="_blank" class="b-sponsor__img smartvalley"></a>
-                    </div>
-                    <div class="b-sponsor__text">
-                        Smart&nbsp;Valley&nbsp;–&nbsp;автоматизированная площадка для&nbsp;привлечения финансирования проектов
-                        и&nbsp;проведения легального&nbsp;ICO. Сервис обеспечивает высокое качество проектов и&nbsp;защиту
-                        от&nbsp;мошенничества с&nbsp;помощью системы скоринга и&nbsp;биржи экспертов, построенными полностью
-                        на&nbsp;блокчейне.
-                    </div>
-                    <div class="b-sponsor__item-bottom">
-                        <div class="b-sponsor__btn j-sponsor7">О проекте</div>
-                        <div>
-                            <div class="b-sponsor__video-link j-video5">Видеоинтервью</div>
-                            <a href="../files/SmartValley.pdf" target="_blank" class="b-sponsor__link">Смотреть презентацию</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
 
 
 
@@ -5981,59 +6285,13 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
     <span class="modal_close">X</span>
     <div class="b-sponsor__popup">
         <div class="b-sponsor__item-top">
-            <div class="b-sponsor__title">Smart Valley</div>
+            <div class="b-sponsor__title">SmartValley</div>
             <a href="https://smartvalley.io" target="_blank" class="b-sponsor__img smartvalley-white"></a>
         </div>
-        <div class="b-video__wrapper">
-            <div class="b-video b-video-sp-5">
-                <img src="../img/smartvalley_preview.png" alt="">
-                <div id="youtube-sponsor-video-smartvalley-click"></div>
-            </div>
-        </div>
         <div class="b-sponsor__popup-text">
-            <p>Smart&nbsp;Valley&nbsp;—&nbsp;это децентрализованная «Силиконовая&nbsp;долина», которая связывает инвесторов, проекты,
-                специалистов, профессиональные сообщества со&nbsp;всего мира и&nbsp;из&nbsp;любой его&nbsp;точки,
-                где&nbsp;каждый проект может независимо от&nbsp;своего месторасположения привлечь инвестиции,
-                специалистов, сообщество и&nbsp;реализовать свою идею!</p>
-            <p>Одним из&nbsp;ключевых сервисов экосистемы будет сервис мультискоринга, который децентрализованно оценивает
-                проект с&nbsp;помощью экспертов, сообществ (мудрость толпы), и&nbsp;искусственного интеллекта.</p>
-            <p>На&nbsp;нашей платформе проект может выпустить токен на&nbsp;любой платформе, будь то&nbsp;Ethereum,
-                Bitshares, Waves или&nbsp;EOS</p>
-            <p>Благодаря нашему проекту инвесторы по&nbsp;всему миру смогут безопасно и&nbsp;легально вкладывать свои деньги,
-                проекты&nbsp;-&nbsp;их&nbsp;получать, специалисты найдут работу в&nbsp;новой отрасли, а&nbsp;проектные
-                команды и&nbsp;маркетологи найдут друг друга</p>
-            <p>Экосистема разрабатывается как&nbsp;децентрализованное приложение на&nbsp;платформе Ethereum.</p>
+            <p></p>
         </div>
     </div>
-    <a href="files/SmartValley.pdf" target="_blank" class="b-sponsor__link">Смотреть презентацию</a>
-</div>
-
-<div id="sponsor-video5" class="sponsor video-sp-5">
-    <span class="modal_close">X</span>
-    <div class="b-sponsor__popup">
-        <div class="b-sponsor__item-top">
-            <div class="b-sponsor__title">Smart Valley</div>
-            <a href="https://smartvalley.io" target="_blank" class="b-sponsor__img smartvalley-white"></a>
-        </div>
-        <div class="b-video__wrapper">
-            <div id="youtube-sponsor-video-smartvalley"></div>
-        </div>
-        <div class="b-sponsor__popup-text">
-            <p>Smart&nbsp;Valley&nbsp;—&nbsp;это децентрализованная «Силиконовая&nbsp;долина», которая связывает инвесторов, проекты,
-                специалистов, профессиональные сообщества со&nbsp;всего мира и&nbsp;из&nbsp;любой его&nbsp;точки,
-                где&nbsp;каждый проект может независимо от&nbsp;своего месторасположения привлечь инвестиции,
-                специалистов, сообщество и&nbsp;реализовать свою идею!</p>
-            <p>Одним из&nbsp;ключевых сервисов экосистемы будет сервис мультискоринга, который децентрализованно оценивает
-                проект с&nbsp;помощью экспертов, сообществ (мудрость толпы), и&nbsp;искусственного интеллекта.</p>
-            <p>На&nbsp;нашей платформе проект может выпустить токен на&nbsp;любой платформе, будь то&nbsp;Ethereum,
-                Bitshares, Waves или&nbsp;EOS</p>
-            <p>Благодаря нашему проекту инвесторы по&nbsp;всему миру смогут безопасно и&nbsp;легально вкладывать свои деньги,
-                проекты&nbsp;-&nbsp;их&nbsp;получать, специалисты найдут работу в&nbsp;новой отрасли, а&nbsp;проектные
-                команды и&nbsp;маркетологи найдут друг друга</p>
-            <p>Экосистема разрабатывается как&nbsp;децентрализованное приложение на&nbsp;платформе Ethereum.</p>
-        </div>
-    </div>
-    <a href="files/SmartValley.pdf" target="_blank" class="b-sponsor__link">Смотреть презентацию</a>
 </div>
 
 <div id="sponsor8" class="sponsor">
@@ -6083,7 +6341,6 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                 дороговизны таких решений.</p>
         </div>
     </div>
-    <a href="../files/Faceter.pdf" target="_blank" class="b-sponsor__presentation">Смотреть презентацию</a>
 </div>
 
 <div id="sponsor10" class="sponsor">
@@ -6445,50 +6702,6 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
     </div>
 </div>
 
-<div id="sponsor13" class="sponsor">
-    <span id="modal_close">X</span>
-    <div class="b-sponsor__popup">
-        <div class="b-sponsor__item-top">
-            <div class="b-sponsor__title">BONUM</div>
-            <a href="http://bonumchain.com/" target="_blank" class="b-sponsor__img bonum"></a>
-        </div>
-        <div class="b-sponsor__popup-text">
-            <p>Bonum предлагает своим клиентам следующие продукты:</p>
-            <p>Нецелевой займ в&nbsp;криптовалюте, токенах или&nbsp;фиатной валюте под&nbsp;залог криптоактивов
-                (криптовалют и&nbsp;токенов).</p>
-            <p>Благодаря платформе вы&nbsp;получаете возможность получить необходимые средства «здесь и&nbsp;сейчас»
-                и&nbsp;тратить&nbsp;их по&nbsp;своему усмотрению. Залог&nbsp;–&nbsp;единственное обеспечение займа.</p>
-            <p>Вклад в&nbsp;криптовалюте или токенах.</p>
-            <p>Bonum дает вам&nbsp;возможность преумножить свой капитал по&nbsp;принципу «вложил-забыл». Вклады будут обеспечены
-                залогами, а&nbsp;также резервным фондом, который будет формироваться в&nbsp;ходе&nbsp;ICO. Т.о.&nbsp;вклады
-                клиентов будут защищены.</p>
-            <p>Мультивалютная опция.</p>
-            <p>Мы реализуем опции мультивалютного залога и&nbsp;мультивалютного вклада. Иными словами, клиент может
-                сформировать залог и&nbsp;вклад в&nbsp;виде портфеля криптоактивов.</p>
-            <p>В&nbsp;нашей системе, клиенты могут играть роль, как&nbsp;вкладчика, так&nbsp;и&nbsp;заемщика. Заемщик
-                получает в&nbsp;свое распоряжение средства, которые может использовать по&nbsp;своему усмотрению. Вкладчик
-                получает возможность выгодного вложения.</p>
-            <p>Все существенные условия займа и&nbsp;вклада: ставка, срок, сумма, дата платежа и&nbsp;погашения известны клиенту
-                заранее и&nbsp;понятны: переменные процентные ставки, плавающие сроки платежа и&nbsp;погашения не&nbsp;используются,
-                скрытые комиссии отсутствуют.</p>
-            <p>Проект Bonum опирается на&nbsp;рост капитализации рынка блокчейн активов (не&nbsp;только криптовалют), вначале
-                которого мы&nbsp;сейчас находимся. Рост капитализации этого рынка будет привлекать все&nbsp;больше игроков и&nbsp;все
-                больше моделей экономического поведения из&nbsp;обычной, привычной нам&nbsp;экономики. Учитывая текущие размеры
-                указанного рынка можно прогнозировать, что он&nbsp;может вырасти даже не&nbsp;в&nbsp;десятки, а&nbsp;в&nbsp;сотни раз.
-                Соответственно, будут расти и&nbsp;объемы финансовых операций, связанных с&nbsp;пассивным извлечением доходов
-                (вкладами) и&nbsp;займами, основанными на&nbsp;блокчейн активах.</p>
-            <p>Наша цель&nbsp;–&nbsp;создать стандарт в&nbsp;отрасли и&nbsp;универсальное решение, позволяющее достигнуть эффективного
-                распределения криптовалют, исходя из&nbsp;нужд клиентов, и&nbsp;тем самым увеличить благосостояние вкладчиков
-                и&nbsp;удовлетворить потребности заемщиков.</p>
-            <p>Фаундеры проекта уже&nbsp;имеют опыт создания, управления и&nbsp;эффективного развития крупной федеральной
-                финансовой корпорации&nbsp;–&nbsp;одного из&nbsp;лидеров микрофинансового рынка&nbsp;РФ. Компания прошла комплексную
-                проверку Центрального Банка&nbsp;РФ, работает в&nbsp;правовом поле&nbsp;РФ и&nbsp;в&nbsp;восьми часовых поясах
-                по&nbsp;всей стране.</p>
-        </div>
-    </div>
-    <a href="../files/Bonum.pdf" target="_blank" class="b-sponsor__presentation">Смотреть презентацию</a>
-</div>
-
 
 <!-- Код тега ремаркетинга Google -->
 <script type="text/javascript">
@@ -6757,14 +6970,6 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
     youtubeVideoPlayerSp4Click = new YT.Player('youtube-sponsor-video-snovio-click', {
         videoId: 'BYIpuxVB5x8'
     });
-
-    youtubeVideoPlayerSp5 = new YT.Player('youtube-sponsor-video-smartvalley', {
-        videoId: 'j3iNkGWXpOY'
-    });
-
-    youtubeVideoPlayerSp5Click = new YT.Player('youtube-sponsor-video-smartvalley-click', {
-        videoId: 'j3iNkGWXpOY'
-    });
   }
 </script>
 
@@ -6773,7 +6978,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 <script src="js/jquery.formstyler.min.js"></script>
 <script src="js/jquery.maskedinput.min.js" type="text/javascript"></script>
 <script src="js/jquery.scrolldepth.min.js" type="text/javascript"></script>
-<script src="js/script.js?v=7"></script>
+<script src="js/script.js?v=6"></script>
 <script src="js/particles.js"></script>
 <script src="js/app.js"></script>
 <script src="http://malsup.github.com/jquery.cycle2.js"></script>
