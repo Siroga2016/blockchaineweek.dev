@@ -1243,268 +1243,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 	    </div>
 	</div>
 
-	<div class="block-night">
-        <div class="center">
-            <div class="title">
-                Blockchain.Night
-            </div>
-            <div class="time">
-                19:00, 27 октября
-            </div>
-            <div class="text">
-                Налаживайте связи и&nbsp;знакомства<br/>в неформальной обстановке
-            </div>
-            <a href="https://smartvalley.io/" target="_blank" class="logo">
-                <img src="/img/img-smartvalley.png" alt="img">
-            </a>
-            <a href="https://smartvalley.io/" target="_blank" class="logo-moobile">
-                 <img src="/img/img-smartvalley.png" alt="img">
-            </a>
-        </div>
-    </div>
-
-
-
-	<div class="block--video desktop">
-		<div class="center">
-			<div class="title">Интервью со спикерами</div>
-			<div class="list desktop-version">
-			    <div class="nav">
-			        <span class="prev" id="block-video-prev2"></span>
-			        <span class="next" id="block-video-next2"></span>
-			    </div>
-
-			    <div class="cycle-slideshow"
-			    data-cycle-fx="scrollHorz"
-			     data-cycle-timeout=0
-			      data-cycle-prev="#block-video-prev2"
-			       data-cycle-next="#block-video-next2"
-			        data-cycle-slides="> div" >
-
-			        <div>
-						<div class="video">
-		 					<div class="preview video-1">
-		 						<img src="img/video-preview-1.jpg" />
-		 						<div id="youtube-video-1"></div>
-		 					</div>
-		 					<div class="name">Дмитрий Булычков</div>
-		 					<div class="desc">Директор проектов Центра технологических инноваций Сбербанка</div>
-						</div>
-
-						<div class="video">
-		 					<div class="preview video-2">
-		 						<img src="img/video-preview-2.jpg"/>
-		  						<div id="youtube-video-2"></div>
-		 					</div>
-		 					<div class="name">Максим Азрильян</div>
-		 					<div class="desc">Главный технический архитектор <br />Альфа-Банка</div>
-						</div>
-
-						<div class="video">
-		 					<div class="preview video-9">
-		 						<img src="img/video-preview-9.jpg"/>
-		  						<div id="youtube-video-9"></div>
-		 					</div>
-		 					<div class="name">Алексей Архипов</div>
-		 					<div class="desc">Руководитель направления развития технологии распределенного реестра, Ассоциации ФинТех</div>
-						</div>
-					</div>
-
-					<div>
-						<div class="video">
-		 					<div class="preview video-5">
-		 						<img src="img/video-preview-4.jpg"/>
-		  						<div id="youtube-video-5"></div>
-		 					</div>
-		 					<div class="name">Алексей Федоров</div>
-		 					<div class="desc">Научный сотрудник Российского квантового центра, создатель «квантового блокчейна»</div>
-						</div>
-
-						<div class="video">
-		 					<div class="preview video-6">
-		 						<img src="img/video-preview-5.jpg"/>
-		  						<div id="youtube-video-6"></div>
-		 					</div>
-		 					<div class="name">Ярослав Кабаков</div>
-		 					<div class="desc">Заместитель генерального директора АО «Инвестиционная компания «ФИНАМ»</div>
-						</div>
-
-						<div class="video">
-		 					<div class="preview video-7">
-		 						<img src="img/video-preview-6.jpg"/>
-		  						<div id="youtube-video-7"></div>
-		 					</div>
-		 					<div class="name">Артём Гуревич</div>
-		 					<div class="desc">Co-founder Get Crypto</div>
-						</div>
-					</div>
-
-					<div>
-						<div class="video">
-		 					<div class="preview video-8">
-		 						<img src="img/video-preview-8.jpg"/>
-		  						<div id="youtube-video-8"></div>
-		 					</div>
-		 					<div class="name">Александр Бородич</div>
-		 					<div class="desc">Основатель блокчейн платформы Universa</div>
-						</div>
-
-						<div class="video">
-		 					<div class="preview video-3">
-		 						<img src="img/video-preview-3.jpg"/>
-		  						<div id="youtube-video-3"></div>
-		 					</div>
-		 					<div class="name">Степан Гершуни</div>
-		 					<div class="desc">Управляющий партнер <br />bits.capital</div>
-						</div>
-
-					</div>
-
-			    </div>
-		    </div>
-		</div>
-	</div>
-
-	<div class="block--video mobile">
-		<div class="center">
-			<div class="title">Интервью со спикерами</div>
-			<div class="list desktop-version">
-			    <div class="nav">
-			        <span class="prev" id="block-video-prev"></span>
-			        <span class="next" id="block-video-next"></span>
-			    </div>
-
-			    <div class="cycle-slideshow"
-			    data-cycle-fx="scrollHorz"
-			     data-cycle-timeout=0
-			      data-cycle-prev="#block-video-prev"
-			       data-cycle-next="#block-video-next"
-			        data-cycle-slides="> div" >
-
-			        <div>
-						<div class="video">
-		 					<div class="preview video-99">
-		 						<img src="img/video-preview-9.jpg"/>
-		  						<div id="youtube-video-99"></div>
-		 					</div>
-		 					<div class="name">Алексей Архипов</div>
-		 					<div class="desc">Руководитель направления развития технологии распределенного реестра, Ассоциации ФинТех</div>
-						</div>
-					</div>
-
-			        <div>
-						<div class="video">
-		 					<div class="preview video-11">
-		 						<img src="img/video-preview-1.jpg" />
-		 						<div id="youtube-video-11"></div>
-		 					</div>
-		 					<div class="name">Дмитрий Булычков</div>
-		 					<div class="desc">Директор проектов Центра технологических инноваций Сбербанка</div>
-						</div>
-					</div>
-					<div>
-						<div class="video">
-		 					<div class="preview video-22">
-		 						<img src="img/video-preview-2.jpg"/>
-		  						<div id="youtube-video-22"></div>
-		 					</div>
-		 					<div class="name">Максим Азрильян</div>
-		 					<div class="desc">Главный технический архитектор <br />Альфа-Банка</div>
-						</div>
-					</div>
-					<div>
-						<div class="video">
-		 					<div class="preview video-33">
-		 						<img src="img/video-preview-3.jpg"/>
-		  						<div id="youtube-video-33"></div>
-		 					</div>
-		 					<div class="name">Степан Гершуни</div>
-		 					<div class="desc">Управляющий партнер <br />bits.capital</div>
-						</div>
-					</div>
-					<div>
-						<div class="video">
-		 					<div class="preview video-55">
-		 						<img src="img/video-preview-4.jpg"/>
-		  						<div id="youtube-video-55"></div>
-		 					</div>
-		 					<div class="name">Алексей Федоров</div>
-		 					<div class="desc">Научный сотрудник Российского квантового центра, создатель «квантового блокчейна»</div>
-						</div>
-					</div>
-					<div>
-						<div class="video">
-		 					<div class="preview video-66">
-		 						<img src="img/video-preview-5.jpg"/>
-		  						<div id="youtube-video-66"></div>
-		 					</div>
-		 					<div class="name">Ярослав Кабаков</div>
-		 					<div class="desc">Заместитель генерального директора АО «Инвестиционная компания «ФИНАМ»</div>
-						</div>
-					</div>
-					<div>
-						<div class="video">
-		 					<div class="preview video-77">
-		 						<img src="img/video-preview-6.jpg"/>
-		  						<div id="youtube-video-77"></div>
-		 					</div>
-		 					<div class="name">Артём Гуревич</div>
-		 					<div class="desc">Co-founder Get Crypto</div>
-						</div>
-					</div>
-					<div>
-						<div class="video">
-		 					<div class="preview video-88">
-		 						<img src="img/video-preview-8.jpg"/>
-		  						<div id="youtube-video-88"></div>
-		 					</div>
-		 					<div class="name">Александр Бородич</div>
-		 					<div class="desc">Основатель блокчейн платформы Universa</div>
-						</div>
-					</div>
-
-			    </div>
-		    </div>
-		</div>
-	</div>
-
-	<div class="block5" id="block5">
-		<div class="center">
-			<div class="left">
-				<div class="title">Зарегистрируйтесь на RUSSIAN BLOCKCHAIN <br />WEEK 2017</div>
-				<p class="text">Оставьте заявку сейчас и забронируйте место по самой<br />выгодной цене.</p>
-				<p class="text"><a href="#block8-bottom">Подробнее о тарифах</a></p>
-			</div>
-
-			<div class="right">
-
-				<form id="form" class="registration-form">
-					<p>Зарегистрироваться <br>на мероприятие</p>
-					<input type="text" placeholder="Ваше имя" name="name" class="field-name">
-					<input type="email" placeholder="Ваш e-mail" name="email" class="field-email" required="required">
-					<input type="text" placeholder="Ваш номер телефона" name="phone" class="field-phone" required="required">
-					<select class="select" name="select_form">
-						<option>Тип билета </option>
-						<option>Базовый</option>
-						<option>Бизнес</option>
-						<option>Бизнес+</option>
-					</select>
-					<div class="form-item">
-						<input type="checkbox" id="checkbox-1-2" class="regular-checkbox">
-						<label for="checkbox-1-2"><a href="personal-info.pdf" target="_blank">Даю согласие на обработку<br/>персональных данных</a></label>
-					</div>
-					<input type="submit" value="Зарегистрироваться" class="disabled">
-					<button type="button" data-tc-event="59b96cd6519f7b0019309a7d"
-					        data-tc-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImlzcyI6InRpY2tldHNjbG91ZC5ydSJ9.eyJwIjoiNTk5ZWNjOThkMzUyODYwMDFhMTM2NTBmIn0.Ezb5GcX02rbPsSCSp0xgDx0FNNHOE1GYdy4SFW9oXOg">
-                            Купить сейчас
-                    </button>
-				</form>
-			</div>
-		</div>
-	</div>
-
-
-  	<div id="programm" class="l-program">
+	<div id="programm" class="l-program">
         <div class="b-program">
             <div class="center">
                 <div class="b-program__header">
@@ -3078,15 +2817,15 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                 <div class="b-programm__table-item-text">
 
                                     <div class="name">
-                                        Артём Николаевыч Кольцов
+                                        Артём Николаевич Кольцов
                                     </div>
                                     <div class="position">
-                                        Председатель Эксперного совета по цыфровой экономике и блокчейн технологиям
-                                        при Комитете Государственноый Думы ФС РФ по экономической промышлености,
+                                        Председатель Экспертного совета по цифровой экономике и блокчейн технологиям
+                                        при Комитете Государственноый Думы ФС РФ по экономической промышленности,
                                         инновационному развитию и предпренимательству
                                     </div>
                                     <div class="report">
-                                    	Публичная  дискуссия экспертного совета при Госуарственной Думе
+                                    	Публичная  дискуссия экспертного совета при Государственной Думе
                                     </div>
                                     <div class="position"></div>
 
@@ -4982,6 +4721,266 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
             </div>
         </div>-->
     </div>
+
+	<div class="block-night">
+        <div class="center">
+            <div class="title">
+                Blockchain.Night
+            </div>
+            <div class="time">
+                19:00, 27 октября
+            </div>
+            <div class="text">
+                Налаживайте связи и&nbsp;знакомства<br/>в неформальной обстановке
+            </div>
+            <a href="https://smartvalley.io/" target="_blank" class="logo">
+                <img src="/img/img-smartvalley.png" alt="img">
+            </a>
+            <a href="https://smartvalley.io/" target="_blank" class="logo-moobile">
+                 <img src="/img/img-smartvalley.png" alt="img">
+            </a>
+        </div>
+    </div>
+
+
+
+	<div class="block--video desktop">
+		<div class="center">
+			<div class="title">Интервью со спикерами</div>
+			<div class="list desktop-version">
+			    <div class="nav">
+			        <span class="prev" id="block-video-prev2"></span>
+			        <span class="next" id="block-video-next2"></span>
+			    </div>
+
+			    <div class="cycle-slideshow"
+			    data-cycle-fx="scrollHorz"
+			     data-cycle-timeout=0
+			      data-cycle-prev="#block-video-prev2"
+			       data-cycle-next="#block-video-next2"
+			        data-cycle-slides="> div" >
+
+			        <div>
+						<div class="video">
+		 					<div class="preview video-1">
+		 						<img src="img/video-preview-1.jpg" />
+		 						<div id="youtube-video-1"></div>
+		 					</div>
+		 					<div class="name">Дмитрий Булычков</div>
+		 					<div class="desc">Директор проектов Центра технологических инноваций Сбербанка</div>
+						</div>
+
+						<div class="video">
+		 					<div class="preview video-2">
+		 						<img src="img/video-preview-2.jpg"/>
+		  						<div id="youtube-video-2"></div>
+		 					</div>
+		 					<div class="name">Максим Азрильян</div>
+		 					<div class="desc">Главный технический архитектор <br />Альфа-Банка</div>
+						</div>
+
+						<div class="video">
+		 					<div class="preview video-9">
+		 						<img src="img/video-preview-9.jpg"/>
+		  						<div id="youtube-video-9"></div>
+		 					</div>
+		 					<div class="name">Алексей Архипов</div>
+		 					<div class="desc">Руководитель направления развития технологии распределенного реестра, Ассоциации ФинТех</div>
+						</div>
+					</div>
+
+					<div>
+						<div class="video">
+		 					<div class="preview video-5">
+		 						<img src="img/video-preview-4.jpg"/>
+		  						<div id="youtube-video-5"></div>
+		 					</div>
+		 					<div class="name">Алексей Федоров</div>
+		 					<div class="desc">Научный сотрудник Российского квантового центра, создатель «квантового блокчейна»</div>
+						</div>
+
+						<div class="video">
+		 					<div class="preview video-6">
+		 						<img src="img/video-preview-5.jpg"/>
+		  						<div id="youtube-video-6"></div>
+		 					</div>
+		 					<div class="name">Ярослав Кабаков</div>
+		 					<div class="desc">Заместитель генерального директора АО «Инвестиционная компания «ФИНАМ»</div>
+						</div>
+
+						<div class="video">
+		 					<div class="preview video-7">
+		 						<img src="img/video-preview-6.jpg"/>
+		  						<div id="youtube-video-7"></div>
+		 					</div>
+		 					<div class="name">Артём Гуревич</div>
+		 					<div class="desc">Co-founder Get Crypto</div>
+						</div>
+					</div>
+
+					<div>
+						<div class="video">
+		 					<div class="preview video-8">
+		 						<img src="img/video-preview-8.jpg"/>
+		  						<div id="youtube-video-8"></div>
+		 					</div>
+		 					<div class="name">Александр Бородич</div>
+		 					<div class="desc">Основатель блокчейн платформы Universa</div>
+						</div>
+
+						<div class="video">
+		 					<div class="preview video-3">
+		 						<img src="img/video-preview-3.jpg"/>
+		  						<div id="youtube-video-3"></div>
+		 					</div>
+		 					<div class="name">Степан Гершуни</div>
+		 					<div class="desc">Управляющий партнер <br />bits.capital</div>
+						</div>
+
+					</div>
+
+			    </div>
+		    </div>
+		</div>
+	</div>
+
+	<div class="block--video mobile">
+		<div class="center">
+			<div class="title">Интервью со спикерами</div>
+			<div class="list desktop-version">
+			    <div class="nav">
+			        <span class="prev" id="block-video-prev"></span>
+			        <span class="next" id="block-video-next"></span>
+			    </div>
+
+			    <div class="cycle-slideshow"
+			    data-cycle-fx="scrollHorz"
+			     data-cycle-timeout=0
+			      data-cycle-prev="#block-video-prev"
+			       data-cycle-next="#block-video-next"
+			        data-cycle-slides="> div" >
+
+			        <div>
+						<div class="video">
+		 					<div class="preview video-99">
+		 						<img src="img/video-preview-9.jpg"/>
+		  						<div id="youtube-video-99"></div>
+		 					</div>
+		 					<div class="name">Алексей Архипов</div>
+		 					<div class="desc">Руководитель направления развития технологии распределенного реестра, Ассоциации ФинТех</div>
+						</div>
+					</div>
+
+			        <div>
+						<div class="video">
+		 					<div class="preview video-11">
+		 						<img src="img/video-preview-1.jpg" />
+		 						<div id="youtube-video-11"></div>
+		 					</div>
+		 					<div class="name">Дмитрий Булычков</div>
+		 					<div class="desc">Директор проектов Центра технологических инноваций Сбербанка</div>
+						</div>
+					</div>
+					<div>
+						<div class="video">
+		 					<div class="preview video-22">
+		 						<img src="img/video-preview-2.jpg"/>
+		  						<div id="youtube-video-22"></div>
+		 					</div>
+		 					<div class="name">Максим Азрильян</div>
+		 					<div class="desc">Главный технический архитектор <br />Альфа-Банка</div>
+						</div>
+					</div>
+					<div>
+						<div class="video">
+		 					<div class="preview video-33">
+		 						<img src="img/video-preview-3.jpg"/>
+		  						<div id="youtube-video-33"></div>
+		 					</div>
+		 					<div class="name">Степан Гершуни</div>
+		 					<div class="desc">Управляющий партнер <br />bits.capital</div>
+						</div>
+					</div>
+					<div>
+						<div class="video">
+		 					<div class="preview video-55">
+		 						<img src="img/video-preview-4.jpg"/>
+		  						<div id="youtube-video-55"></div>
+		 					</div>
+		 					<div class="name">Алексей Федоров</div>
+		 					<div class="desc">Научный сотрудник Российского квантового центра, создатель «квантового блокчейна»</div>
+						</div>
+					</div>
+					<div>
+						<div class="video">
+		 					<div class="preview video-66">
+		 						<img src="img/video-preview-5.jpg"/>
+		  						<div id="youtube-video-66"></div>
+		 					</div>
+		 					<div class="name">Ярослав Кабаков</div>
+		 					<div class="desc">Заместитель генерального директора АО «Инвестиционная компания «ФИНАМ»</div>
+						</div>
+					</div>
+					<div>
+						<div class="video">
+		 					<div class="preview video-77">
+		 						<img src="img/video-preview-6.jpg"/>
+		  						<div id="youtube-video-77"></div>
+		 					</div>
+		 					<div class="name">Артём Гуревич</div>
+		 					<div class="desc">Co-founder Get Crypto</div>
+						</div>
+					</div>
+					<div>
+						<div class="video">
+		 					<div class="preview video-88">
+		 						<img src="img/video-preview-8.jpg"/>
+		  						<div id="youtube-video-88"></div>
+		 					</div>
+		 					<div class="name">Александр Бородич</div>
+		 					<div class="desc">Основатель блокчейн платформы Universa</div>
+						</div>
+					</div>
+
+			    </div>
+		    </div>
+		</div>
+	</div>
+
+	<div class="block5" id="block5">
+		<div class="center">
+			<div class="left">
+				<div class="title">Зарегистрируйтесь на RUSSIAN BLOCKCHAIN <br />WEEK 2017</div>
+				<p class="text">Оставьте заявку сейчас и забронируйте место по самой<br />выгодной цене.</p>
+				<p class="text"><a href="#block8-bottom">Подробнее о тарифах</a></p>
+			</div>
+
+			<div class="right">
+
+				<form id="form" class="registration-form">
+					<p>Зарегистрироваться <br>на мероприятие</p>
+					<input type="text" placeholder="Ваше имя" name="name" class="field-name">
+					<input type="email" placeholder="Ваш e-mail" name="email" class="field-email" required="required">
+					<input type="text" placeholder="Ваш номер телефона" name="phone" class="field-phone" required="required">
+					<select class="select" name="select_form">
+						<option>Тип билета </option>
+						<option>Базовый</option>
+						<option>Бизнес</option>
+						<option>Бизнес+</option>
+					</select>
+					<div class="form-item">
+						<input type="checkbox" id="checkbox-1-2" class="regular-checkbox">
+						<label for="checkbox-1-2"><a href="personal-info.pdf" target="_blank">Даю согласие на обработку<br/>персональных данных</a></label>
+					</div>
+					<input type="submit" value="Зарегистрироваться" class="disabled">
+					<button type="button" data-tc-event="59b96cd6519f7b0019309a7d"
+					        data-tc-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImlzcyI6InRpY2tldHNjbG91ZC5ydSJ9.eyJwIjoiNTk5ZWNjOThkMzUyODYwMDFhMTM2NTBmIn0.Ezb5GcX02rbPsSCSp0xgDx0FNNHOE1GYdy4SFW9oXOg">
+                            Купить сейчас
+                    </button>
+				</form>
+			</div>
+		</div>
+	</div>
 
 	<div class="block-8-top">
 		<div class="center">

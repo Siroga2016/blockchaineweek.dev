@@ -5303,6 +5303,7 @@ a.button-exit{
 	float: left;
 	width: 100%;
 	position: relative;
+    background: #F9F9F9;
 }
 
 .b-program-mobile {
@@ -5360,6 +5361,7 @@ a.button-exit{
     height: 70px;
     box-sizing: border-box;
     margin-top: 30px;
+    margin-right:0;
 
 }
 
