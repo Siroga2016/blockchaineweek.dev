@@ -1248,7 +1248,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
             <div class="center">
                 <div class="b-program__header">
                     <div class="title">Программа мероприятия</div>
-                    <a href="../files/RBW2017.pdf" download class="download">Скачать программу</a>
+                    <a href="https://cloud.mail.ru/public/7QyB/AWpRAwV3V" target="_blank" class="download">Скачать программу</a>
                 </div>
                 <div class="b-program__table">
                     <div class="b-program__table-header">
