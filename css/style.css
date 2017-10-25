@@ -1841,17 +1841,15 @@ ul.social li a.vk{
 	width:100%;
 	padding:0 0 90px 0;
 }
+
 .block8 .pay-container{
-	float:left;
-	width:100%;
+	float: none;
 	color:#000;
-	padding-left:290px;
 	position:relative;
 	box-sizing: border-box;
-
-	float: right;
 	padding: 0;
 	width: 872px;
+	margin: 0 auto;
 }
 .block8 .pay-container .pay-block{
 	background: #f9f9f9;
@@ -5154,6 +5152,11 @@ a.button-exit{
 	line-height: 45px;
 	vertical-align: middle;
 	font-weight: bold;
+}
+
+.b-sponsor__btn.disabled {
+	background: #c7cbcd!important;
+	pointer-events: none;
 }
 
 .b-sponsor__link {

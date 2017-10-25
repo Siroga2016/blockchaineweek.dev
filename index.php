@@ -5447,8 +5447,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 				            <div class="pay-text">Доступ в основной поток (конференц-зал)</div>
 				            <div class="pay-text">Доступ в выставочную зону</div>
 				        </div>
-				        <div class="price price1">19 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
-				        <div class="price price2">25 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
+				        <div class="price price1">25 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
 				        <a href="#block5" onClick='selectTicketType("Базовый"); ga("send", "event", "tarif", "сlick button", "Базовый");'>Забронировать билет</a>
 				    </div>
 				    <div class="pay-block green">
@@ -5459,8 +5458,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 				            <div class="pay-text">Доступ на презентацию стартапов и зал мастер-классов</div>
 				            <div class="pay-text">Презентации спикеров и видеозаписи выступлений</div>
 				        </div>
-				        <div class="price price1">29 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
-				        <div class="price price2">39 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
+				        <div class="price price1">39 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
 				        <a href="#block5" onClick='selectTicketType("Бизнес"); ga("send", "event", "tarif", "сlick button", "Бизнес");'>Забронировать билет</a>
 				    </div>
 				    <div class="pay-block orange">
@@ -5473,13 +5471,8 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 				            <div class="pay-text">Доступ на 3-ий день обучения (криптокласс)</div>
 				            <div class="pay-text">Сертификат об обучении от РЭУ им. Г.В. Плеханова</div>
 				        </div>
-				        <div class="price price1">38 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
-				        <div class="price price2">45 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
+				        <div class="price price1">45 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
 				        <a href="#block5" onClick='selectTicketType("Бизнес+"); ga("send", "event", "tarif", "сlick button", "Бизнес+");'>Забронировать билет</a>
-				    </div>
-				    <div class="pay-bottom">
-				        <div class="row">Цена до 25 октября<?/*<span>Скидка до 25 октября 10%</span>*/?></div>
-				        <div class="row">Цена в день мероприятия</div>
 				    </div>
 				</div>
 
@@ -5527,8 +5520,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 						            <div class="pay-text">Доступ в основной поток (конференц-зал)</div>
 						            <div class="pay-text">Доступ в выставочную зону</div>
 						        </div>
-						        <div class="price price1">19 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
-						        <div class="price price2">25 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
+						        <div class="price price1">25 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
 						        <a href="#block5" onClick='selectTicketType("Базовый"); ga("send", "event", "tarif", "сlick button", "Базовый");'>Забронировать билет</a>
 						    </div>
 						</div>
@@ -5541,8 +5533,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 						            <div class="pay-text">Доступ на презентацию стартапов и зал мастер-классов</div>
 						            <div class="pay-text">Презентации спикеров и видеозаписи выступлений</div>
 						        </div>
-						        <div class="price price1">29 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
-						        <div class="price price2">39 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
+						        <div class="price price1">39 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
 						        <a href="#block5" onClick='selectTicketType("Бизнес"); ga("send", "event", "tarif", "сlick button", "Бизнес");'>Забронировать билет</a>
 						    </div>
 						</div>
@@ -5557,8 +5548,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 						            <div class="pay-text">Доступ на 3-ий день обучения (криптокласс)</div>
 						            <div class="pay-text">Сертификат об обучении от РЭУ им. Г.В. Плеханова</div>
 						        </div>
-						        <div class="price price1">38 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
-						        <div class="price price2">45 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
+						        <div class="price price1">45 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
 						        <a href="#block5" onClick='selectTicketType("Бизнес+"); ga("send", "event", "tarif", "сlick button", "Бизнес+");'>Забронировать билет</a>
 						    </div>
 						</div>
@@ -5571,11 +5561,6 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                             Купить сейчас
                         </button>
                     </div>
-
-					<div class="pay-bottom">
-						<div class="row">Цена до<br />25 октября<?/*<span>Скидка до 25 октября 10%</span>*/?></div>
-						<div class="row">Цена в день меро&shy;приятия</div>
-					</div>
 
 				</div>
 			</div>
@@ -7710,11 +7695,11 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
         videoId: 'BYIpuxVB5x8'
     });
 
-    youtubeVideoPlayerSp5 = new YT.Player('youtube-sponsor-video-smartvalley', {
+    youtubeVideoPlayerSp11 = new YT.Player('youtube-sponsor-video-smartvalley', {
         videoId: 'j3iNkGWXpOY'
     });
 
-    youtubeVideoPlayerSp5Click = new YT.Player('youtube-sponsor-video-smartvalley-click', {
+    youtubeVideoPlayerSp11Click = new YT.Player('youtube-sponsor-video-smartvalley-click', {
         videoId: 'j3iNkGWXpOY'
     });
 
