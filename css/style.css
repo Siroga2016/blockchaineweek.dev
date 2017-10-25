@@ -989,6 +989,7 @@ ul.social li a.vk{
 	position:relative;
 	background: #78d55b;
 	text-align:center;
+	display:none;
 }
 
 .block-program .button-program {
@@ -1095,6 +1096,9 @@ ul.social li a.vk{
 @media (max-width: 640px){
 	.slider-mobile {
 		display: block;
+	}
+	.block-program{
+		display:block;
 	}
 }
 

@@ -325,12 +325,12 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 		</div>
 	</div>
 
-	<!--
+	
 	<div class="block-program" id="block-program">
 		<div class="center">
 			<a href="../RBW2017.pdf" target="_blank" class="button-program">Программа мероприятия</a>
 		</div>
-	</div>-->
+	</div>
 
 	<div class="block4" id="block4">
 		<div class="center">
@@ -3364,6 +3364,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
             </div>
         </div>
 
+        <!--
         <div class="b-program-mobile">
             <div class="center">
                 <div class="b-program__header">
@@ -4979,7 +4980,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
     </div>
 
 	<div class="block-8-top">
