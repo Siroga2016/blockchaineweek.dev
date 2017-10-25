@@ -1807,8 +1807,6 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     <img src="../img/ico-program.png" alt="img">
                                 </div>
                                 <div class="b-programm__table-item-text">
-                                    <div class="name"></div>
-                                    <div class="position"></div>
                                     <div class="report">
                                         Подписание соглашение между первым космическим университетом 
                                         и первым экономическом университете в сфере развития 
@@ -1929,20 +1927,14 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     <img src="../img/discuss.jpg" alt="img">
                                 </div>
                                 <div class="b-programm__table-item-text">
-                                    <div class="name">
-
-                                    </div>
-                                    <div class="report">
-                                    	Панельная дискуссия. <br>Криптовалюты 2018. Мнения экспертов
-                                    </div>
-                                    <div class="position">
-                                    </div>
-
                                      <div class="name">
                                         МОДЕРАТОР: Владимир Гамза
                                     </div>
                                     <div class="position">
                                         Председатель комитета ТПП РФ по финансовым рынкам и кредитным организациям
+                                    </div>
+                                     <div class="report">
+                                    	Панельная дискуссия. <br>Криптовалюты 2018. Мнения экспертов
                                     </div>
 
                                 </div>
