@@ -52,7 +52,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 				<li><a href="#block2" onClick='ga("send", "event", "menu", "click item", "О мероприятии");'>О мероприятии</a></li>
 				<li><a href="#block3" onClick='ga("send", "event", "menu", "click item", "Ключевые темы");'>Ключевые темы</a></li>
 				<li><a href="#block4" onClick='ga("send", "event", "menu", "click item", "Спикеры");'>Спикеры</a></li>
-				<li><a href="#block-programm" onclick='ga("send", "event", "menu", "click item", "Программа");'>Программа</a></li>
+				<li><a href="#programm" onclick='ga("send", "event", "menu", "click item", "Программа");'>Программа</a></li>
 				<li><a href="#block8-bottom" onClick='ga("send", "event", "menu", "click item", "Стоимость");'>Стоимость</a></li>
 				<li><a href="#block9-bottom" onClick='ga("send", "event", "menu", "click item", "Контакты");'>Контакты</a></li>
 				<li><a href="#block10" onClick='ga("send", "event", "menu", "click item", "Партнеры");'>Партнеры</a></li>
@@ -84,7 +84,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 				<li><a href="#block2" onClick='ga("send", "event", "menu", "click item", "О мероприятии");'>О мероприятии</a></li>
 				<li><a href="#block3" onClick='ga("send", "event", "menu", "click item", "Ключевые темы");'>Ключевые темы</a></li>
 				<li><a href="#block4" onClick='ga("send", "event", "menu", "click item", "Спикеры");'>Спикеры</a></li>
-				<li><a href="#block-program" onclick='ga("send", "event", "menu", "click item", "Программа");'>Программа</a></li>
+				<li><a href="#programm" onClick='ga("send", "event", "menu", "click item", "Программа");'>Программа</a></li>
 				<li><a href="#block8-bottom" onClick='ga("send", "event", "menu", "click item", "Стоимость");'>Стоимость</a></li>
 				<li><a href="#block9-bottom" onClick='ga("send", "event", "menu", "click item", "Контакты");'>Контакты</a></li>
 				<li><a href="#block10" onClick='ga("send", "event", "menu", "click item", "Партнеры");'>Партнеры</a></li>
@@ -104,7 +104,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 			<li><a href="#block2" onClick='ga("send", "event", "menu", "click item", "О мероприятии");'>О мероприятии</a></li>
 			<li><a href="#block3" onClick='ga("send", "event", "menu", "click item", "Ключевые темы");'>Ключевые темы</a></li>
 			<li><a href="#block4" onClick='ga("send", "event", "menu", "click item", "Спикеры");'>Спикеры</a></li>
-			<li><a href="#block-program" onclick='ga("send", "event", "menu", "click item", "Программа");'>Программа</a></li>
+			<li><a href="#programm" onClick='ga("send", "event", "menu", "click item", "Программа");'>Программа</a></li>
 			<li><a href="#block8-bottom" onClick='ga("send", "event", "menu", "click item", "Стоимость");'>Стоимость</a></li>
 			<li><a href="#block9-bottom.mobile" onClick='ga("send", "event", "menu", "click item", "Контакты");'>Контакты</a></li>
 			<li><a href="#block10" onClick='ga("send", "event", "menu", "click item", "Партнеры");'>Партнеры</a></li>
@@ -325,11 +325,12 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 		</div>
 	</div>
 
+	<!--
 	<div class="block-program" id="block-program">
 		<div class="center">
 			<a href="../RBW2017.pdf" target="_blank" class="button-program">Программа мероприятия</a>
 		</div>
-	</div>
+	</div>-->
 
 	<div class="block4" id="block4">
 		<div class="center">
@@ -467,7 +468,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                     <div class="img"><img src="img/speakers/voronin.jpg" alt="img"/></div>
                     <div class="name">Алексей Воронин</div>
                     <div class="about-people">
-                        Founder ICO LAB
+                        Основатель SmartValley
                     </div>
                 </div>
 
@@ -943,7 +944,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 						<div class="img"><img src="img/speakers/voronin.jpg" alt="img"/></div>
 						<div class="name">Алексей Воронин</div>
 						<div class="about-people">
-							Founder ICO LAB
+							Основатель SmartValley
 						</div>
 					</div>
 
@@ -1503,15 +1504,12 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 	</div>
 
 
-  	<!--<div id="programm" class="l-program">
+  	<div id="programm" class="l-program">
         <div class="b-program">
             <div class="center">
                 <div class="b-program__header">
                     <div class="title">Программа мероприятия</div>
-                    <a href="../files/program.pdf" download class="download">
-                        <img src="../img/program-download.png" alt="">
-                        <p>Скачать программу конференции</p>
-                    </a>
+                    <a href="../files/program.pdf" download class="download">Скачать программу</a>
                 </div>
                 <div class="b-program__table">
                     <div class="b-program__table-header">
@@ -1544,7 +1542,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                         9:00
                                     </div>
                                     <div class="time-end">
-                                        10:00
+                                        9:45
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-text">
@@ -1589,7 +1587,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-photo">
-                                    <img src="../img/lectors/default.png" alt="Анатолий Радченко">
+                                    <img src="../img/speakers/radchenko.jpg" alt="Анатолий Радченко">
                                 </div>
                                 <div class="b-programm__table-item-text">
                                     <div class="name">
@@ -1665,7 +1663,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                         9:00
                                     </div>
                                     <div class="time-end">
-                                        10:00
+                                        9:45
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-text registration-text">
@@ -1720,7 +1718,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                         Главный технический архитектор Альфа-Банк
                                     </div>
                                     <div class="report">
-                                        Блокчейн-проекты в&nbsp;банковском секторе
+                                        Когда блокчейн убьёт первый банк?
                                     </div>
                                 </div>
                             </div>
@@ -1796,6 +1794,28 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                     <div class="b-programm__table-content">
                         <div class="b-programm__table-content_half">
 
+                        	<div class="b-programm__table-item_right">
+                                <div class="b-programm__table-item-time">
+                                    <div class="time-start">
+                                        12:00
+                                    </div>
+                                    <div class="time-end">
+                                        12:25
+                                    </div>
+                                </div>
+                                <div class="b-programm__table-item-photo">
+                                    <img src="../img/ico-program.png" alt="img">
+                                </div>
+                                <div class="b-programm__table-item-text">
+                                    <div class="name"></div>
+                                    <div class="position"></div>
+                                    <div class="report">
+                                        Подписание соглашение между первым космическим университетом 
+                                        и первым экономическом университете в сфере развития 
+                                        цифровой экономики
+                                    </div>
+                                </div>
+                            </div>
 
                             <div class="b-programm__table-item_right">
                                 <div class="b-programm__table-item-time">
@@ -1915,6 +1935,16 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     <div class="report">
                                     	Панельная дискуссия. <br>Криптовалюты 2018. Мнения экспертов
                                     </div>
+                                    <div class="position">
+                                    </div>
+
+                                     <div class="name">
+                                        МОДЕРАТОР: Владимир Гамза
+                                    </div>
+                                    <div class="position">
+                                        Председатель комитета ТПП РФ по финансовым рынкам и кредитным организациям
+                                    </div>
+
                                 </div>
                             </div>
 
@@ -2086,7 +2116,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                         CEO Iskander ICOFund
                                     </div>
                                     <div class="report">
-                                        ТЕМА УТОЧНЯЕТСЯ
+                                       Взгляд криптоинвестора: успешная структура ICO
                                     </div>
                                 </div>
                             </div>
@@ -2133,7 +2163,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                         Алексей Воронин
                                     </div>
                                     <div class="position">
-                                          Founder ICO LAB
+                                          Основатель SmartValley
                                     </div>
                                     <div class="report">
                                         Как спасти ICO
@@ -2353,7 +2383,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                          Александр Малюгин
                                     </div>
                                     <div class="position">
-                                         Telecore
+                                         Руководитель направления продаж по комплексным решениям для майнинга и блокчейн
                                     </div>
                                     <div class="report">
                                         Ноу-хау обустройства инженерной инфраструктуры в майнинге
@@ -2443,7 +2473,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                         9:00
                                     </div>
                                     <div class="time-end">
-                                        10:00
+                                        9:45
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-text registration-text">
@@ -2496,7 +2526,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                         Основатель и руководитель в Bits.media
                                     </div>
                                     <div class="report">
-                                        Чего нового ожидать в Ethereum?
+                                        Что нового ожидать в Ethereum?
                                     </div>
                                 </div>
                             </div>
@@ -2533,7 +2563,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                         9:00
                                     </div>
                                     <div class="time-end">
-                                        10:00
+                                        9:45
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-text registration-text">
@@ -3054,12 +3084,8 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     <img src="../img/discuss.jpg" alt="img">
                                 </div>
                                 <div class="b-programm__table-item-text">
-                                    <div class="name"></div>
-                                    <div class="report">
-                                    	Публичная  дискуссия экспертного совета при Госуарственной Думе
-                                    </div>
-                                    <div class="position"></div>
-                                     <div class="name">
+                                    
+                                    <div class="name">
                                         Артём Николаевыч Кольцов
                                     </div>
                                     <div class="position">
@@ -3067,6 +3093,12 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                         при Комитете Государственноый Думы ФС РФ по экономической промышлености,
                                         инновационному развитию и предпренимательству
                                     </div>
+                                    <div class="report">
+                                    	Публичная  дискуссия экспертного совета при Госуарственной Думе
+                                    </div>
+                                    <div class="position"></div>
+                                   
+                                    
 
                                 </div>
 
@@ -3097,7 +3129,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                     	Blockchainer, Adviser, ICO supervisor
                                     </div>
                                     <div class="report">
-                                    	ICO глазами full stack operator-ф и крипто-фондов
+                                    	ICO глазами full stack operator-а и крипто-фондов
                                     </div>
                                 </div>
                             </div>
@@ -3132,7 +3164,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                     </div>
 
                     <div class="b-program__table-day">
-                        <p>16:40-17:00 Закрытие конференции</p>
+                        <p>17:00-18:00 Закрытие конференции</p>
                     </div>
                     <div class="b-programm__table-content_blue blockchain-night">
                     	<div class="left">
@@ -3364,7 +3396,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                         9:00
                                     </div>
                                     <div class="time-end">
-                                        10:00
+                                        9:45
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-text">
@@ -3465,7 +3497,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                         9:00
                                     </div>
                                     <div class="time-end">
-                                        10:00
+                                        9:45
                                     </div>
                                 </div>
                                 <div class="b-programm__table-item-text">
@@ -3924,7 +3956,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                                         Алексей Воронин
                                     </div>
                                     <div class="position">
-                                        Founder ICO LAB
+                                        Основатель SmartValley
                                     </div>
                                     <div class="report">
                                         Как спасти ICO
@@ -4956,7 +4988,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                 </div>
             </div>
         </div>
-    </div>-->
+    </div>
 
 	<div class="block-8-top">
 		<div class="center">

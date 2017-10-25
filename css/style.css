@@ -5340,9 +5340,23 @@ a.button-exit{
 }
 
 .b-program__header .download {
-	display: flex;
-	flex-flow: row nowrap;
-	width: 220px;
+	color: rgb(255, 255, 255);
+    font-size: 22px;
+    line-height: 1em;
+    text-transform: inherit;
+    font-family: GothamProBold;
+    display: inline-block;
+    box-shadow: none;
+    text-shadow: none;
+    padding: 23px 35px;
+    background: rgb(255, 150, 0);
+    margin: 0px auto;
+    border-radius: 0px;
+    text-decoration: none;
+    height: 70px;
+    box-sizing: border-box;
+    margin-top: 30px;
+
 }
 
 .b-program__header .download img {
