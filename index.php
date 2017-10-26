@@ -37,7 +37,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 	<title>Russian Blockchain Week 2017 Конференция по блокчейн</title>
 	<meta name="keywords" content="russian blockchain week, blockchain week, конференция блокчейн, blockchain конференция, конференция биткоин, блокчейн семинар, биткоин семинар, обучение блокчейн, обучение  blockchain, консультации блокчейн" />
 	<meta name="description" content="Russian blockсhain Week (Российская неделя блокчейн и криптовалют) — это главное событие года в своей индустрии, которое объединяет в себе 4 формата: конференция, выставка и шоу блокчейн-проектов, Blockchain.EXPO и Blockchain.NIGHT" />
-	<link href="css/style.css?v=14" type="text/css" rel="stylesheet"/>
+	<link href="css/style.css?v=16" type="text/css" rel="stylesheet"/>
 	<link href="css/fonts.css" type="text/css" rel="stylesheet"/>
 	<link href="css/jquery.formstyler.css" type="text/css" rel="stylesheet"/>
 	<link href="css/jquery.formstyler.theme.css" type="text/css" rel="stylesheet"/>
@@ -5159,6 +5159,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                     <div class="b-sponsor__item-bottom">
                         <div class="b-sponsor__btn j-sponsor12">О проекте</div>
                         <div>
+                            <div class="b-sponsor__video-link j-video15">Видеоинтервью</div>
                             <a href="../files/REGA-brief-last.pdf" target="_blank" class="b-sponsor__link">Смотреть презентацию</a>
                         </div>
                     </div>
@@ -5364,6 +5365,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                     <div class="b-sponsor__item-bottom">
                         <div class="b-sponsor__btn j-sponsor15">О проекте</div>
                         <div>
+                            <div class="b-sponsor__video-link j-video12">Видеоинтервью</div>
                             <a href="../files/Zodiaq.pdf" target="_blank" class="b-sponsor__link">Смотреть презентацию</a>
                         </div>
                     </div>
@@ -5404,6 +5406,10 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                     </div>
                     <div class="b-sponsor__item-bottom">
                          <div class="b-sponsor__btn j-sponsor16">О проекте</div>
+                         <div>
+                             <div class="b-sponsor__video-link j-video14">Видеоинтервью</div>
+                             <div class="b-sponsor__video-link j-video13">Видеопрезентация</div>
+                         </div>
                      </div>
                 </div>
                 <div class="b-sponsor__item">
@@ -5687,7 +5693,9 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 								<p style="margin-top: 30px;">Технический партнер</p>
 								<div class="content technical-partner">
 									<a target="_blank" href="http://avms.ru/"><img src="img/logo-partners/mediasystem-group.png" alt="img" class="avms-logo"/></a>
-									<span>MediaSystem Group — один из ведущих операторов по техническому оснащению мероприятий.</span>
+									<span>MediaSystem Group — один из ведущих операторов по техническому оснащению мероприятий.
+                                        <span class="b-tech-partner j-video-tech-partner"> О компании.</span>
+									</span>
 								</div>
 							</div>
 						</div>
@@ -5824,7 +5832,9 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 					<p>Технический партнер</p>
 					<div class="information-partners technical-partner">
 						<a target="_blank" href="http://avms.ru/"><img src="img/logo-partners/mediasystem-group.png" alt="img"/></a>
-						<span>MediaSystem Group — один из ведущих операторов по техническому оснащению мероприятий.</span>
+						<span>MediaSystem Group — один из ведущих операторов по техническому оснащению мероприятий.
+                            <span class="b-tech-partner j-video-tech-partner"> О компании.</span>
+						</span>
 					</div>
 
 					<br>
@@ -7089,6 +7099,43 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
             <div class="b-sponsor__title">REGA Risk Sharing</div>
             <a href="https://rega.life/" target="_blank" class="b-sponsor__img rega-risk_white"></a>
         </div>
+        <div class="b-video__wrapper">
+            <div class="b-video b-video-sp-15">
+                <img src="../img/rega-preview.png" alt="">
+                <div id="youtube-sponsor-video-rega-click"></div>
+            </div>
+        </div>
+        <div class="b-sponsor__popup-text">
+            <p>Разработчик децентрализованной crowdsurance платформы на&nbsp;технологии умных контрактов, скоринга
+                и&nbsp;искусственного интеллекта. <b>Краудшуранс&nbsp;(сrowdsurance)</b>&nbsp;-&nbsp;это&nbsp;объединение
+                физических&nbsp;лиц в&nbsp;группы с&nbsp;целью минимизации собственных рисков. Такое&nbsp;коллективное
+                объединение строится на&nbsp;принципах автономных децентрализованных организаций с&nbsp;применением
+                технологии блокчейн и&nbsp;регулируется смарт-контрактами.</p>
+            <p>Проект REGARiskSharing развивает собственную платформу на&nbsp;технологии блокчейн для&nbsp;развёртывания
+                на&nbsp;ее&nbsp;основе краудшуранс продуктов для&nbsp;конечных пользователей по&nbsp;взаимному
+                управлению рисками и&nbsp;минимизации их&nbsp;финансовых последствий.</p>
+            <p>REGARiskSharing&nbsp;-&nbsp;единственный проект в&nbsp;своем сегменте, выходящий на&nbsp;ICO
+                с&nbsp;уже&nbsp;имеющимся и&nbsp;работающим&nbsp;MVP. В&nbsp;марте&nbsp;2017&nbsp;года
+                <span style="white-space: nowrap">REGA RISK Sharing</span> запустила пилотный продукт
+                <span style="white-space: nowrap">Lexi Club</span>&nbsp;-&nbsp;социальный краудшуранс
+                сервис для&nbsp;владельцев домашних животных. Для защиты животного не&nbsp;требуется предварительное чипирование,
+                предъявление паспорта животного и&nbsp;встреча со&nbsp;страховым агентом.</p>
+            <p>Больше информации на&nbsp;<a href="https://rega.life/" target="_blank">сайте</a> проекта.</p>
+        </div>
+    </div>
+    <a href="../files/REGA-brief-last.pdf" target="_blank" class="b-sponsor__presentation">Смотреть презентацию</a>
+</div>
+
+<div id="sponsor-video15" class="sponsor video-sp-15">
+    <span class="modal_close">X</span>
+    <div class="b-sponsor__popup">
+        <div class="b-sponsor__item-top">
+            <div class="b-sponsor__title">REGA Risk Sharing</div>
+            <a href="https://rega.life/" target="_blank" class="b-sponsor__img rega-risk_white"></a>
+        </div>
+        <div class="b-video__wrapper">
+            <div id="youtube-sponsor-video-rega"></div>
+        </div>
         <div class="b-sponsor__popup-text">
             <p>Разработчик децентрализованной crowdsurance платформы на&nbsp;технологии умных контрактов, скоринга
                 и&nbsp;искусственного интеллекта. <b>Краудшуранс&nbsp;(сrowdsurance)</b>&nbsp;-&nbsp;это&nbsp;объединение
@@ -7160,6 +7207,12 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
         <div class="b-sponsor__item-top">
             <div class="b-sponsor__title">Zodiaq</div>
             <a href="http://bonumchain.com/" target="_blank" class="b-sponsor__img zodiaq_white"></a>
+        </div>
+        <div class="b-video__wrapper">
+            <div class="b-video b-video-sp-12">
+                <img src="../img/zodiaq_preview.jpg" alt="">
+                <div id="youtube-sponsor-video-zodiaq-click"></div>
+            </div>
         </div>
         <div class="b-sponsor__popup-text">
             <p>Мы создаем финансовую блокчейн корпорацию, которая станет универсальным криптовалютным центром, со&nbsp;всеми
@@ -7303,12 +7356,166 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
     <a href="files/Zodiaq.pdf" target="_blank" class="b-sponsor__presentation">Смотреть презентацию</a>
 </div>
 
+<div id="sponsor-video12" class="sponsor video-sp-12">
+    <span class="modal_close">X</span>
+    <div class="b-sponsor__popup">
+        <div class="b-sponsor__item-top">
+            <div class="b-sponsor__title">Zodiaq</div>
+            <a href="http://bonumchain.com/" target="_blank" class="b-sponsor__img zodiaq_white"></a>
+        </div>
+        <div class="b-video__wrapper">
+            <div id="youtube-sponsor-video-zodiaq"></div>
+        </div>
+        <div class="b-sponsor__popup-text">
+            <p>Мы создаем финансовую блокчейн корпорацию, которая станет универсальным криптовалютным центром, со&nbsp;всеми
+                инфраструктурными подразделениями, с&nbsp;ведением учета всех операций на&nbsp;блокчейн, вокруг которой будет
+                формироваться полноценная независимая экосистема. Ядром является существующий банк с&nbsp;лицензией
+                на&nbsp;осуществление операций с&nbsp;криптовалютами и&nbsp;традиционный банкинг.</p>
+            <p>Организация будет эволюционировать вместе с&nbsp;рынком и&nbsp;законодательством, что&nbsp;обеспечит стабильность
+                и&nbsp;долгосрочное развитие.</p>
+            <p>ZODIAQ предоставляет универсальный доступ через веб&nbsp;кабинет и&nbsp;мобильное приложение. Пользователь может
+                пользоваться любыми сервисами, управлять своими кошельками, счетами и&nbsp;картами.</p>
+
+            <p>Возможности.</p>
+            <p>
+            <ul>
+                <li>совершать переводы между своими счетами в&nbsp;различных фиатных и&nbsp;крипто валютах с&nbsp;моментальной
+                    конвертацией,
+                </li>
+                <li>совершать моментальные переводы на&nbsp;счета других пользователей;</li>
+                <li>настраивать доступ и&nbsp;управлять всеми своими <span style="white-space: nowrap">крипто-кошельками</span>
+                    и&nbsp;денежными счетами в&nbsp;едином окне;
+                </li>
+                <li>совершать обмен между основными <span style="white-space: nowrap">крипто-валютами</span>;</li>
+                <li>совершать p2p&nbsp;обмен фиатными и&nbsp;криптовалютами, а&nbsp;также&nbsp;другими цифровыми активами
+                    при&nbsp;участии системы в&nbsp;качестве escrow&nbsp;гаранта;
+                </li>
+                <li>выводить денежные средства на&nbsp;любую банковскую карту;</li>
+                <li>размещать депозиты в&nbsp;криптовалюте с&nbsp;фиксированным гарантированным размером дохода,
+                    вне&nbsp;зависимости от&nbsp;текущей стоимости криптовалют;
+                </li>
+                <li>осуществлять выпуск и&nbsp;обслуживание <span style="white-space: nowrap">мульти-криптовалютных</span> карт.</li>
+            </ul>
+            </p>
+            <p>Одно из&nbsp;основных подразделений&nbsp;-&nbsp;банк с&nbsp;государственной лицензией позволяющей проводить следующие
+                операции:</p>
+            <p>
+            <ul>
+                <li>Открытие и&nbsp;ведение счетов в&nbsp;фиатных и&nbsp;крипто валютах;</li>
+                <li>Кредитование в&nbsp;фиатных и&nbsp;крипто валютах;</li>
+                <li>Привлечение депозитов в&nbsp;фиатных и&nbsp;крипто валютах;</li>
+                <li>Денежные переводы;</li>
+                <li>Услуги традиционного банкинга;</li>
+                <li>Выпуск банковских карт <span style="white-space: nowrap">Visa/Master Card</span>
+                    c&nbsp;поддержкой Bitcoin;</li>
+            </ul>
+            </p>
+            <p>Ключевой особенностью проекта является создание собственного фонда
+                <span style="white-space: nowrap">ZEST (Zodiaq Economic Stability Trust)</span>
+                для&nbsp;обеспечения ликвидности всех&nbsp;операций внутри системы, этот&nbsp;инструмент станет
+                гарантом стабильности совершаемых операций внутри системы, а&nbsp;также&nbsp;обеспечит необходимый
+                уровень доходности.</p>
+            <p>Частью фонда ZEST является криптовалютный <span style="white-space: nowrap">хедж-фонд ZESTx</span>,
+                в&nbsp;котором управление активами базируется на&nbsp;принципах анализа больших данных и&nbsp;методов
+                глубокого машинного обучения. ZESTx осуществляет инвестирование в&nbsp;криптовалюты и&nbsp;иные
+                цифровые активы и&nbsp;связанные производные инструменты чтобы&nbsp;достичь своих инвестиционных целей.</p>
+            <p>Высокая волатильность, инвестиционная привлекательность и&nbsp;перспективы технологии Блокчейн позволяют
+                частным инвесторам получать доходность значительно превышающую доходность от&nbsp;инвестиций в&nbsp;акции
+                и иные&nbsp;активы.</p>
+            <p>Основная задача фонда ZESTx сводится к&nbsp;снижению общей волатильности портфеля и&nbsp;минимизации рыночных
+                рисков, это&nbsp;в&nbsp;свою&nbsp;очередь, позволит обогнать индекс на&nbsp;длительном временном промежутке.</p>
+            <p>Еще один важный компонент&nbsp;-&nbsp;криптовалютная биржа, которая предоставляет профессиональный терминал
+                для&nbsp;торговли&nbsp;–&nbsp;инструмент для&nbsp;осуществления биржевых операций с&nbsp;возможностью
+                проведения технического анализа и&nbsp;совершения операций с&nbsp;крипто валютой.</p>
+            <p>Особенности:</p>
+            <p>
+            <ul>
+                <li>Большой выбор финансовых инструментов.</li>
+                <li>Моментальный ввод-вывод средств, в&nbsp;том&nbsp;числе на&nbsp;карту ZODIAQ.</li>
+                <li>Индекс крипто валют как&nbsp;инструмент для&nbsp;хеджирования, который&nbsp;будет отражать среднюю
+                    динамику изменения курсов основных 10&nbsp;крипто валют.
+                </li>
+                <li>Обеспечение ликвидности по&nbsp;сделкам за&nbsp;счет собственных валютных резервов;</li>
+                <li>Сервис нового поколения&nbsp;-&nbsp;децентрализованная платформа для&nbsp;разработки и&nbsp;внедрения
+                    автономных торговых роботов по&nbsp;управлению цифровыми активами.
+                </li>
+            </ul>
+            </p>
+            <p>Мы&nbsp;интегрируем большое количество различных платежных сервисов, чтобы&nbsp;услугами нашей системы могли
+                воспользоваться как&nbsp;можно&nbsp;больше людей по&nbsp;всему&nbsp;миру.</p>
+            <p>Виды переводов</p>
+            <p>
+            <ul>
+                <li>Наличные денежные переводы</li>
+                <li>Пополнение счета наличными деньгами</li>
+                <li>Пополнение пластиковых карт наличными средствами</li>
+                <li>Мобильные переводы, в&nbsp;том&nbsp;числе через&nbsp;Telegram</li>
+                <li>Swift, Sepa переводы</li>
+            </ul>
+            </p>
+            <p>Один из&nbsp;актуальных компонентов&nbsp;-&nbsp;Р2Р&nbsp;сервис безопасного обмена активами.
+                Пользователи могут совершать обмен фиатными деньгами и&nbsp;активами, криптовалютами и&nbsp;токенами
+                напрямую между собой, система выступает в&nbsp;качестве escrow&nbsp;гаранта по&nbsp;сделке,
+                работая через <span style="white-space: nowrap">смарт-контракт</span>.</p>
+
+            <p>Для&nbsp;крупных международных переводов разрабатывается специализированная платформа ZODIAQ&nbsp;Findinamika.
+                Это&nbsp;многоконтурная платежная система для&nbsp;валютных обменов и&nbsp;торговли. Ee&nbsp;цель&nbsp;–&nbsp;повышение
+                эффективности, надежности и&nbsp;безопасности расчетов&nbsp;(транзакций) через&nbsp;создание учетной
+                единицы для&nbsp;товарообмена на&nbsp;нескольких контурах: товаров и&nbsp;натуральных стоимостей,
+                безналичного контура, валютного контура.</p>
+            <p>Способ реализации&nbsp;–&nbsp;создание платформы международных транзакций на&nbsp;основе универсальной
+                учетной единицы обмена в&nbsp;контурах товаров и&nbsp;натуральных стоимостей, безналичных расчетов
+                и распределяется на&nbsp;основе открытой математической модели, запрограммированной
+                <span style="white-space: nowrap">в&nbsp;смарт-контракте</span>. Данная финансовая модель обеспечит
+                токен реальными и&nbsp;криптовалютными активами, и, как&nbsp;следствие, стабильный и&nbsp;планомерный
+                рост стоимости токена. При&nbsp;этом&nbsp;мы&nbsp;создается общий оборотный капитал, которым будут
+                пользоваться все&nbsp;клиенты компании.</p>
+            <p>На&nbsp;среднемесячный остаток в&nbsp;токенах&nbsp;ZOD начисляются внутренние токены&nbsp;OZOD,
+                которые&nbsp;являются платежным средством внутри системы, в&nbsp;том числе обеспечивают соразмерный
+                объем беспроцентных операций.</p>
+            <p>Многофункциональная платформа для&nbsp;проведения&nbsp;ICO, обеспечивает всестороннюю поддержку, включает в&nbsp;себя
+                конструктор смарт контрактов, который&nbsp;позволяет интегрировать в&nbsp;смарт контракт логику, задавать условия
+                путем определения последовательности действий.</p>
+
+            <p>Для пользователей есть два физических платежных средства.</p>
+            <p>
+                <ol>
+                    <li>Пластиковые карты с&nbsp;привязкой к&nbsp;криптовалютным кошелькам.</li>
+            <p>Стандартная банковская карта, с&nbsp;помощью которой можно расплачиваться в&nbsp;магазине или&nbsp;снимать
+                наличность в&nbsp;банкомате. Может&nbsp;быть&nbsp;привязана как&nbsp;к&nbsp;фиатному счету, так&nbsp;и&nbsp;криптовалютному,
+                переключение между которыми осуществляется онлайн через мобильное приложение или&nbsp;личный кабинет.
+            </p>
+
+            <li>Смарт-карта с&nbsp;кошельком холодного хранения.</li>
+            <p>На&nbsp;смарт-карте можно&nbsp;хранить криптовалюту и&nbsp;токены, использовать для&nbsp;NFC&nbsp;платежей,
+                привязав обычные банковские карты. Также смарт-карта позволяет получать платежи, работая как&nbsp;POS-термиал.
+                <br/>
+                Карта оборудована экраном, Wi-Fi и&nbsp;Bluetooth модулями, подключается к&nbsp;компьютеру
+                по&nbsp;USB.</p>
+            </ol>
+            </p>
+
+            <p>ZODIAQ&nbsp;-&nbsp;универсальная точку входа в&nbsp;мир криптовалют. Пользователю не&nbsp;нужно заводить
+                много аккаунтов в&nbsp;разных платежных системах и&nbsp;биржах, будет достаточно одной учетной записи
+                в&nbsp;системе Zodiaq.</p>
+
+        </div>
+    </div>
+    <a href="../files/Zodiaq.pdf" target="_blank" class="b-sponsor__presentation">Смотреть презентацию</a>
+</div>
+
 <div id="sponsor16" class="sponsor">
     <span class="modal_close">X</span>
     <div class="b-sponsor__popup">
         <div class="b-sponsor__item-top">
             <div class="b-sponsor__title">ARBI</div>
             <a href="http://arbi.expert/" target="_blank" class="b-sponsor__img arbi_white"></a>
+        </div>
+        <div class="b-video__wrapper">
+            <div class="b-video b-video-sp-14">
+                <img src="../img/arbi-preview.png" alt="">
+                <div id="youtube-sponsor-video-arbii-click"></div>
+            </div>
         </div>
         <div class="b-sponsor__popup-text">
             <p>Arbi&nbsp;-&nbsp;ICO escrow service&nbsp;#1.</p>
@@ -7383,6 +7590,106 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
             технологиях.</p>
         </div>
     </div>
+    <a href="javascript:void(0);" target="_blank" class="b-sponsor__presentation j-video-13">Видеопрезентация</a>
+</div>
+
+<div id="sponsor-video14" class="sponsor video-sp-14">
+    <span class="modal_close">X</span>
+    <div class="b-sponsor__popup">
+        <div class="b-sponsor__item-top">
+            <div class="b-sponsor__title">Arbi</div>
+            <a href="http://arbi.expert/" target="_blank" class="b-sponsor__img arbi_white"></a>
+        </div>
+        <div class="b-video__wrapper">
+            <div id="youtube-sponsor-video-arbii"></div>
+        </div>
+        <div class="b-sponsor__popup-text">
+            <p>Arbi&nbsp;-&nbsp;ICO escrow service&nbsp;#1.</p>
+            <p>Идея проекта появилась на&nbsp;фоне новостей о&nbsp;стремительно возрастающем числе жертв инвестирования в&nbsp;ICO.
+                К&nbsp;сентябрю&nbsp;2017&nbsp;года этот&nbsp;показатель превысил 30&nbsp;000&nbsp;человек,
+                а&nbsp;в&nbsp;денежном выражении потери, вплотную,
+                приблизились к&nbsp;200&nbsp;млн.&nbsp;USD. Пример&nbsp;DAO, VERITASEUM, OnceCoin и&nbsp;многих
+                других проектов, наглядно демонстрирует к&nbsp;каким последствиям для&nbsp;инвесторов может привести
+                неосмотрительность основателей проекта или&nbsp;их&nbsp;попытки провести&nbsp;ICO ради&nbsp;собственного обогащения.</p>
+            <p>Ответом на&nbsp;многие из&nbsp;существующих угроз является использование escrow счетов, то&nbsp;есть поэтапного
+                финансирования с&nbsp;размещением собранных инвестиций на&nbsp;защищенных кошельках третьего лица&nbsp;-&nbsp;escrow агента.
+                Использование escrow счетов, позволяет проекту убедить потенциального инвестора, что&nbsp;их&nbsp;цель&nbsp;-&nbsp;
+                это&nbsp;создание продукта и&nbsp;построение компании, а&nbsp;не&nbsp;личное обогащение за&nbsp;счет
+                коллективного инвестирования. Изучив существовавшие на&nbsp;рынке ICO&nbsp;предложения по&nbsp;оказанию
+                Escrow услуг мы&nbsp;пришли к&nbsp;выводу, что&nbsp;основными его&nbsp;проблемами является механизм
+                подбора агента, то&nbsp;есть&nbsp;того, кому инвесторы и&nbsp;команда будут доверять свои средства
+                и&nbsp;абсолютно непрозрачные схемы как&nbsp;одобрения этапов финансирования, так&nbsp;и&nbsp;условия
+                возврата средств инвесторов. Основатели проектов, желая заявить о&nbsp;своем зрелом подходе к&nbsp;сбору
+                инвестиций заявляли escrow агентами: знакомых юристов, с&nbsp;непонятной компетенцией, друзей или&nbsp;вовсе
+                несуществующих личностей. Имея лицензию от&nbsp;финансового регулятора Швейцарии FINMA на&nbsp;открытие и&nbsp;ведение
+                escrow счетов, для&nbsp;нас&nbsp;является очевидным тот&nbsp;факт, что&nbsp;обстоятельства которые должны сопровождать
+                и&nbsp;одобрения этапа финансирования и&nbsp;отказ в&nbsp;таковом, должны быть прописаны абсолютно прозрачно,
+                а&nbsp;ответственным за&nbsp;принятие решений экспертам необходимо иметь подтвержденные допуски и&nbsp;квалификацию.</p>
+            <p>Результатом анализа существующих проблем и&nbsp;предложения стал проект Arbi, который на&nbsp;данном этапе имеет
+                существенные конкурентные преимущества, такие&nbsp;как:</p>
+            <p>
+            <ol>
+                <li>Оказание escrow услуги лицензированными профильными специалистами из&nbsp;Швейцарии, США
+                    и&nbsp;других надежных юрисдикций;
+                </li>
+                <li>Использование технологии multisig управляемой индивидуально разработанными смарт-контрактом,
+                    обеспечивающим автоматизацию многих процессов, в&nbsp;том&nbsp;числе возврат инвестиций, в&nbsp;случае несоблюдения
+                    проектом инвестиционных сроков и&nbsp;условий;
+                </li>
+                <li>Аудит стартапов на&nbsp;предмет AML&nbsp;и&nbsp;KYC&nbsp;рисков, посколько их&nbsp;наличие может
+                    так&nbsp;же&nbsp;негативно сказаться на&nbsp;успешной реализации проекта;
+                </li>
+                <li>Возможность предложить проекту конвертацию криптовалюты в&nbsp;фиатные средства с&nbsp;последующим
+                    депонированием на&nbsp;швейцарском escrow счете, что&nbsp;защитит средства инвесторов и&nbsp;проекта
+                    от&nbsp;волатильности курсов и&nbsp;хакерских атак.
+                </li>
+            </ol>
+            </p>
+            <p>Бизнес-модель проекта построена на&nbsp;комиссионном сборе. Arbi предлагает клиентам гибкую систему
+                ценообразования: проект может оплатить услуги посредством списания комиссии с&nbsp;общих сборов в&nbsp;размере
+                от&nbsp;1-2,5% или&nbsp;оплатить фиксированный сбор&nbsp;+&nbsp;процент от&nbsp;общих сборов,
+                не&nbsp;превышающий&nbsp;0,5%. Токен ARBI, продажа которого начинается&nbsp;30.10.2017 в&nbsp;рамках pre-ICO,
+                является, так&nbsp;называемым, utility токеном и&nbsp;предоставляет возможность получить скидку на&nbsp;услуги
+                сервиса в&nbsp;размере до&nbsp;30%. Таким образом, проектам, планирующим провести собственное ICO,
+                выгодно приобретение токена ARBI. Так&nbsp;же, компанией принята политика “сжигания” полученных
+                от&nbsp;клиентов токенов, что, учитывая ограниченную эмиссию, будет постепенно
+                увеличивать курс ARBI токена.</p>
+            <p>Еще до&nbsp;старта pre-ICO, компания вышла на&nbsp;финальные переговоры с&nbsp;несколькими потенциальными
+                клиентами, что&nbsp;демонстрирует интерес рынка к&nbsp;услуге. Партнерская программа с&nbsp;ведущими
+                юридическими компаниями, обеспечивает Arbi необходимый уровень квалифицированной поддержки на&nbsp;каждом
+                этапе оказания услуги, а&nbsp;так&nbsp;же повышает узнаваемость и&nbsp;авторитет среди участников рынка.</p>
+            <p>В&nbsp;долгосрочные планы развития компании, входит разработка и&nbsp;оказание следующих услуг:</p>
+            <p>
+            <ol>
+                <li>Полное юридическое сопровождение для&nbsp;проведение ICO&nbsp;(включая инкорпорацию, составление legal&nbsp;opinion,
+                    разработка AML, KYC&nbsp;policy, и&nbsp;других).
+                </li>
+                <li>Открытие и&nbsp;ведение escrow счетов для&nbsp;проведения любых сделок с&nbsp;товарами
+                    и&nbsp;услугами.
+                </li>
+            </ol>
+            </p>
+            <p>Появление и&nbsp;спрос на&nbsp;услуги проекта Arbi является следствием взросления рынка&nbsp;ICO, на&nbsp;котором,
+                стремительное возрастание количества мошенников уравновешивается средствами и&nbsp;методами борьбы с&nbsp;ними.
+                Использование escrow сервисов для&nbsp;ICO, в&nbsp;ближайшее время станет если и&nbsp;не&nbsp;обязательным
+                условием, то&nbsp;обычной практикой при&nbsp;привлечении крупных инвестиций в&nbsp;проекты основанные на&nbsp;блокчейн
+                технологиях.</p>
+        </div>
+    </div>
+    <a href="javascript:void(0);" target="_blank" class="b-sponsor__presentation j-video-13">Видеопрезентация</a>
+</div>
+
+<div id="sponsor-video13" class="sponsor video-sp-13">
+    <span class="modal_close">X</span>
+    <div class="b-sponsor__popup">
+        <div class="b-sponsor__item-top">
+            <div class="b-sponsor__title">ARBI</div>
+            <a href="http://arbi.expert/" target="_blank" class="b-sponsor__img arbi_white"></a>
+        </div>
+        <div class="b-video__wrapper">
+            <div id="youtube-sponsor-video-arbi"></div>
+        </div>
+    </div>
 </div>
 
 <div id="sponsor17" class="sponsor">
@@ -7426,6 +7733,14 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
     </div>
 </div>
 
+<div id="sponsor-video-tech-partner" class="sponsor">
+    <span class="modal_close">X</span>
+    <div class="b-sponsor__popup">
+        <div class="b-video__wrapper">
+            <div id="youtube-video-tech-partner"></div>
+        </div>
+    </div>
+</div>
 
 <!-- Код тега ремаркетинга Google -->
 <script type="text/javascript">
@@ -7742,6 +8057,38 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
     youtubeVideoPlayerSp10Click = new YT.Player('youtube-sponsor-video-faceter-click', {
         videoId: 'X7SalmLKK5k'
     });
+
+    youtubeVideoPlayerSp12 = new YT.Player('youtube-sponsor-video-zodiaq', {
+        videoId: 'XE6O8SYgQEM'
+    });
+
+    youtubeVideoPlayerSp12Click = new YT.Player('youtube-sponsor-video-zodiaq-click', {
+        videoId: 'XE6O8SYgQEM'
+    });
+
+    youtubeVideoPlayerSp13 = new YT.Player('youtube-sponsor-video-arbi', {
+        videoId: 'hwFMYKWEWtE'
+    });
+
+    youtubeVideoPlayerSp14 = new YT.Player('youtube-sponsor-video-arbii', {
+        videoId: '9wsYnf2SznU'
+    });
+
+    youtubeVideoPlayerSp14Click = new YT.Player('youtube-sponsor-video-arbii-click', {
+        videoId: '9wsYnf2SznU'
+    });
+
+    youtubeVideoPlayerSp15 = new YT.Player('youtube-sponsor-video-rega', {
+        videoId: 'IP5Xtoboc-o'
+    });
+
+    youtubeVideoPlayerSp15Click = new YT.Player('youtube-sponsor-video-rega-click', {
+        videoId: 'IP5Xtoboc-o'
+    });
+
+    youtubeVideoPlayerTechPartner = new YT.Player('youtube-video-tech-partner', {
+        videoId: 'xxyArE-ZIL4'
+    });
   }
 </script>
 
@@ -7750,7 +8097,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 <script src="js/jquery.formstyler.min.js"></script>
 <script src="js/jquery.maskedinput.min.js" type="text/javascript"></script>
 <script src="js/jquery.scrolldepth.min.js" type="text/javascript"></script>
-<script src="js/script.js?v=10.4"></script>
+<script src="js/script.js?v=10.7"></script>
 <script src="js/particles.js"></script>
 <script src="js/app.js"></script>
 <script src="http://malsup.github.com/jquery.cycle2.js"></script>

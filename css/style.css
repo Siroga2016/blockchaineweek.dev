@@ -3126,6 +3126,14 @@ ul.social li a.vk{
 	color:#222;
 	border-bottom: 1px solid #222;
 }
+
+.b-tech-partner {
+	display: inline!important;
+	width: initial!important;
+	float: none;
+	border-bottom: 1px solid #222;
+	cursor: pointer;
+}
 a.copyright{
 	margin-right:0;
 }

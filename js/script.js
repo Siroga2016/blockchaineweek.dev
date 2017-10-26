@@ -404,7 +404,7 @@ $(".j-video4").on("click", function(){
 $(".j-video5").on("click", function(){
     $('#sponsor-video5, #overlay').addClass('active');
     $('body').addClass('hidden');
-    youtubeVideoPlayerSp5.playVideo();
+    youtubeVideoPlayerSp11.playVideo();
 });
 
 $(".j-video6").on("click", function(){
@@ -435,6 +435,75 @@ $(".j-video10").on("click", function(){
     $('#sponsor-video10, #overlay').addClass('active');
     $('body').addClass('hidden');
     youtubeVideoPlayerSp10.playVideo();
+});
+
+$(".j-video12").on("click", function(){
+    $('#sponsor-video12, #overlay').addClass('active');
+    $('body').addClass('hidden');
+    youtubeVideoPlayerSp12.playVideo();
+});
+
+$(".j-video13").on("click", function(){
+    $('#sponsor-video13, #overlay').addClass('active');
+    $('body').addClass('hidden');
+    youtubeVideoPlayerSp13.playVideo();
+});
+
+$(".j-video-13").on("click", function(){
+    $('#modal_form, #overlay, #sponsor1, #sponsor2, #sponsor3, #sponsor4, #sponsor5, #sponsor6, #sponsor7, #sponsor8,' +
+        ' #sponsor9, #sponsor10, #sponsor11, #sponsor12, #sponsor13, #sponsor14, #sponsor15, #sponsor16, #sponsor17,' +
+        ' #sponsor-video1, #sponsor-video3, #sponsor-video4, #sponsor-video5, #sponsor-video6, #sponsor-video7,' +
+        ' #sponsor-video8, #sponsor-video9, #sponsor-video10, #sponsor-video12, #sponsor-video13, #sponsor-video14,' +
+        ' #sponsor-video15').removeClass('active');
+    $(".b-video").removeClass('is-active');
+    youtubeVideoPlayer4.stopVideo();
+    youtubeVideoPlayerSp1.stopVideo();
+    youtubeVideoPlayerSp1Click.stopVideo();
+    youtubeVideoPlayerSp3.stopVideo();
+    youtubeVideoPlayerSp3Click.stopVideo();
+    youtubeVideoPlayerSp4.stopVideo();
+    youtubeVideoPlayerSp4Click.stopVideo();
+    youtubeVideoPlayerSp11.stopVideo();
+    youtubeVideoPlayerSp11Click.stopVideo();
+    youtubeVideoPlayerSp6.stopVideo();
+    youtubeVideoPlayerSp6Click.stopVideo();
+    youtubeVideoPlayerSp7.stopVideo();
+    youtubeVideoPlayerSp7Click.stopVideo();
+    youtubeVideoPlayerSp8.stopVideo();
+    youtubeVideoPlayerSp8Click.stopVideo();
+    youtubeVideoPlayerSp9.stopVideo();
+    youtubeVideoPlayerSp9Click.stopVideo();
+    youtubeVideoPlayerSp10.stopVideo();
+    youtubeVideoPlayerSp10Click.stopVideo();
+    youtubeVideoPlayerSp12.stopVideo();
+    youtubeVideoPlayerSp12Click.stopVideo();
+    youtubeVideoPlayerSp13.stopVideo();
+    youtubeVideoPlayerSp14.stopVideo();
+    youtubeVideoPlayerSp14Click.stopVideo();
+    youtubeVideoPlayerSp15.stopVideo();
+    youtubeVideoPlayerSp15Click.stopVideo();
+    $('body').removeClass('hidden');
+    $('#sponsor-video13, #overlay').addClass('active');
+    $('body').addClass('hidden');
+    youtubeVideoPlayerSp13.playVideo();
+});
+
+$(".j-video14").on("click", function(){
+    $('#sponsor-video14, #overlay').addClass('active');
+    $('body').addClass('hidden');
+    youtubeVideoPlayerSp14.playVideo();
+});
+
+$(".j-video15").on("click", function(){
+    $('#sponsor-video15, #overlay').addClass('active');
+    $('body').addClass('hidden');
+    youtubeVideoPlayerSp15.playVideo();
+});
+
+$(".j-video-tech-partner").on("click", function(){
+    $('#sponsor-video-tech-partner, #overlay').addClass('active');
+    $('body').addClass('hidden');
+    youtubeVideoPlayerTechPartner.playVideo();
 });
 
 $(".j-sponsor2").on("click", function(){
@@ -523,7 +592,8 @@ $("#overlay, #modal_close, .modal_close").on("click", function(){
     $('#modal_form, #overlay, #sponsor1, #sponsor2, #sponsor3, #sponsor4, #sponsor5, #sponsor6, #sponsor7, #sponsor8,' +
         ' #sponsor9, #sponsor10, #sponsor11, #sponsor12, #sponsor13, #sponsor14, #sponsor15, #sponsor16, #sponsor17,' +
         ' #sponsor-video1, #sponsor-video3, #sponsor-video4, #sponsor-video5, #sponsor-video6, #sponsor-video7,' +
-        ' #sponsor-video8, #sponsor-video9, #sponsor-video10').removeClass('active');
+        ' #sponsor-video8, #sponsor-video9, #sponsor-video10, #sponsor-video12, #sponsor-video13, #sponsor-video14,' +
+        ' #sponsor-video15, #sponsor-video-tech-partner').removeClass('active');
     $(".b-video").removeClass('is-active');
     youtubeVideoPlayer4.stopVideo();
     youtubeVideoPlayerSp1.stopVideo();
@@ -532,8 +602,8 @@ $("#overlay, #modal_close, .modal_close").on("click", function(){
     youtubeVideoPlayerSp3Click.stopVideo();
     youtubeVideoPlayerSp4.stopVideo();
     youtubeVideoPlayerSp4Click.stopVideo();
-    youtubeVideoPlayerSp5.stopVideo();
-    youtubeVideoPlayerSp5Click.stopVideo();
+    youtubeVideoPlayerSp11.stopVideo();
+    youtubeVideoPlayerSp11Click.stopVideo();
     youtubeVideoPlayerSp6.stopVideo();
     youtubeVideoPlayerSp6Click.stopVideo();
     youtubeVideoPlayerSp7.stopVideo();
@@ -544,6 +614,14 @@ $("#overlay, #modal_close, .modal_close").on("click", function(){
     youtubeVideoPlayerSp9Click.stopVideo();
     youtubeVideoPlayerSp10.stopVideo();
     youtubeVideoPlayerSp10Click.stopVideo();
+    youtubeVideoPlayerSp12.stopVideo();
+    youtubeVideoPlayerSp12Click.stopVideo();
+    youtubeVideoPlayerSp13.stopVideo();
+    youtubeVideoPlayerSp14.stopVideo();
+    youtubeVideoPlayerSp14Click.stopVideo();
+    youtubeVideoPlayerSp15.stopVideo();
+    youtubeVideoPlayerSp15Click.stopVideo();
+    youtubeVideoPlayerTechPartner.stopVideo();
     $('body').removeClass('hidden');
 });
 
@@ -578,7 +656,7 @@ $(".b-video-sp-4").on("click", function () {
 
 $(".b-video-sp-5").on("click", function () {
     $(this).addClass('is-active');
-    youtubeVideoPlayerSp5Click.playVideo();
+    youtubeVideoPlayerSp11Click.playVideo();
 });
 
 $(".b-video-sp-6").on("click", function () {
@@ -604,4 +682,19 @@ $(".b-video-sp-9").on("click", function () {
 $(".b-video-sp-10").on("click", function () {
     $(this).addClass('is-active');
     youtubeVideoPlayerSp10Click.playVideo();
+});
+
+$(".b-video-sp-12").on("click", function () {
+    $(this).addClass('is-active');
+    youtubeVideoPlayerSp12Click.playVideo();
+});
+
+$(".b-video-sp-14").on("click", function () {
+    $(this).addClass('is-active');
+    youtubeVideoPlayerSp14Click.playVideo();
+});
+
+$(".b-video-sp-15").on("click", function () {
+    $(this).addClass('is-active');
+    youtubeVideoPlayerSp15Click.playVideo();
 });
