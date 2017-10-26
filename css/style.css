@@ -993,19 +993,19 @@ ul.social li a.vk{
 }
 
 .block-program .button-program {
-    color: rgb(255, 255, 255);
-    font-size: 22px;
-    line-height: 1em;
-    text-transform: inherit;
-    font-family: GothamProBold;
-    display: inline-block;
-    box-shadow: none;
-    text-shadow: none;
-    padding: 23px 35px;
-    background: rgb(255, 150, 0);
-    margin: 0px auto;
-    border-radius: 0px;
-    text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-size: 22px;
+	line-height: 1em;
+	text-transform: inherit;
+	font-family: GothamProBold;
+	display: inline-block;
+	box-shadow: none;
+	text-shadow: none;
+	padding: 23px 35px;
+	background: rgb(255, 150, 0);
+	margin: 0px auto;
+	border-radius: 0px;
+	text-decoration: none;
 }
 .block-program .button-program:hover{
 	text-decoration: none;
@@ -5165,6 +5165,7 @@ a.button-exit{
 .b-sponsor__btn.disabled {
 	background: #c7cbcd!important;
 	pointer-events: none;
+	cursor: default;
 }
 
 .b-sponsor__link {
@@ -5297,16 +5298,21 @@ a.button-exit{
 }
 
 .b-buy-now__mobile {
-	margin-top: 20px;
-	width: 450px;
-	float: right;
-	position: absolute;
-	bottom: -75px;
-	right: 21px;
+	float: left;
+	position: relative;
+	bottom: inherit;
+	right: inherit;
+	width: 100%;
 }
 
 .b-buy-now__mobile button {
-	background: #ff9600!important;
+	background: #c7cbcd!important;
+}
+
+.b-buy-now__mobile button:active,
+.b-buy-now__mobile button:hover {
+	color: #222222!important;
+	background: #f9f9f9!important;
 }
 
 .l-program {
@@ -5314,7 +5320,7 @@ a.button-exit{
 	float: left;
 	width: 100%;
 	position: relative;
-    background: #F9F9F9;
+	background: #F9F9F9;
 }
 
 .b-program-mobile {
@@ -5357,22 +5363,22 @@ a.button-exit{
 
 .b-program__header .download {
 	color: rgb(255, 255, 255);
-    font-size: 22px;
-    line-height: 1em;
-    text-transform: inherit;
-    font-family: GothamProBold;
-    display: inline-block;
-    box-shadow: none;
-    text-shadow: none;
-    padding: 23px 35px;
-    background: rgb(255, 150, 0);
-    margin: 0px auto;
-    border-radius: 0px;
-    text-decoration: none;
-    height: 70px;
-    box-sizing: border-box;
-    margin-top: 30px;
-    margin-right:0;
+	font-size: 22px;
+	line-height: 1em;
+	text-transform: inherit;
+	font-family: GothamProBold;
+	display: inline-block;
+	box-shadow: none;
+	text-shadow: none;
+	padding: 23px 35px;
+	background: rgb(255, 150, 0);
+	margin: 0px auto;
+	border-radius: 0px;
+	text-decoration: none;
+	height: 70px;
+	box-sizing: border-box;
+	margin-top: 30px;
+	margin-right:0;
 
 }
 

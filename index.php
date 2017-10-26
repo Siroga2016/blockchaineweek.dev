@@ -37,7 +37,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 	<title>Russian Blockchain Week 2017 Конференция по блокчейн</title>
 	<meta name="keywords" content="russian blockchain week, blockchain week, конференция блокчейн, blockchain конференция, конференция биткоин, блокчейн семинар, биткоин семинар, обучение блокчейн, обучение  blockchain, консультации блокчейн" />
 	<meta name="description" content="Russian blockсhain Week (Российская неделя блокчейн и криптовалют) — это главное событие года в своей индустрии, которое объединяет в себе 4 формата: конференция, выставка и шоу блокчейн-проектов, Blockchain.EXPO и Blockchain.NIGHT" />
-	<link href="css/style.css?v=16" type="text/css" rel="stylesheet"/>
+	<link href="css/style.css?v=17" type="text/css" rel="stylesheet"/>
 	<link href="css/fonts.css" type="text/css" rel="stylesheet"/>
 	<link href="css/jquery.formstyler.css" type="text/css" rel="stylesheet"/>
 	<link href="css/jquery.formstyler.theme.css" type="text/css" rel="stylesheet"/>
@@ -5528,6 +5528,13 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 						        </div>
 						        <div class="price price1">25 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
 						        <a href="#block5" onClick='selectTicketType("Базовый"); ga("send", "event", "tarif", "сlick button", "Базовый");'>Забронировать билет</a>
+						        <div class="b-buy-now__mobile">
+                                    <button type="button"
+                                        onclick='ga("send", "event", "tarif", "сlick button sale", "Базовый");'
+                                        data-tc-event="59b96cd6519f7b0019309a7d" data-tc-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImlzcyI6InRpY2tldHNjbG91ZC5ydSJ9.eyJwIjoiNTk5ZWNjOThkMzUyODYwMDFhMTM2NTBmIn0.Ezb5GcX02rbPsSCSp0xgDx0FNNHOE1GYdy4SFW9oXOg">
+                                        Купить сейчас
+                                    </button>
+                                </div>
 						    </div>
 						</div>
 						<div>
@@ -5541,6 +5548,13 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 						        </div>
 						        <div class="price price1">39 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
 						        <a href="#block5" onClick='selectTicketType("Бизнес"); ga("send", "event", "tarif", "сlick button", "Бизнес");'>Забронировать билет</a>
+						        <div class="b-buy-now__mobile">
+                                    <button type="button"
+                                        onclick='ga("send", "event", "tarif", "сlick button sale", "Бизнес");'
+                                        data-tc-event="59b96cd6519f7b0019309a7d" data-tc-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImlzcyI6InRpY2tldHNjbG91ZC5ydSJ9.eyJwIjoiNTk5ZWNjOThkMzUyODYwMDFhMTM2NTBmIn0.Ezb5GcX02rbPsSCSp0xgDx0FNNHOE1GYdy4SFW9oXOg">
+                                        Купить сейчас
+                                    </button>
+                                </div>
 						    </div>
 						</div>
 				        <div>
@@ -5556,17 +5570,16 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 						        </div>
 						        <div class="price price1">45 000 <img src="img/block8-icon-ruble.png" alt="img" /></div>
 						        <a href="#block5" onClick='selectTicketType("Бизнес+"); ga("send", "event", "tarif", "сlick button", "Бизнес+");'>Забронировать билет</a>
+						        <div class="b-buy-now__mobile">
+                                    <button type="button"
+                                        onclick='ga("send", "event", "tarif", "сlick button sale", "Бизнес+");'
+                                        data-tc-event="59b96cd6519f7b0019309a7d" data-tc-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImlzcyI6InRpY2tldHNjbG91ZC5ydSJ9.eyJwIjoiNTk5ZWNjOThkMzUyODYwMDFhMTM2NTBmIn0.Ezb5GcX02rbPsSCSp0xgDx0FNNHOE1GYdy4SFW9oXOg">
+                                        Купить сейчас
+                                    </button>
+                                </div>
 						    </div>
 						</div>
 				    </div>
-
-				    <div class="b-buy-now__mobile">
-                        <button type="button"
-                            onclick='ga("send", "event", "menu", "click item", "Купить сейчас");'
-                            data-tc-event="59b96cd6519f7b0019309a7d" data-tc-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImlzcyI6InRpY2tldHNjbG91ZC5ydSJ9.eyJwIjoiNTk5ZWNjOThkMzUyODYwMDFhMTM2NTBmIn0.Ezb5GcX02rbPsSCSp0xgDx0FNNHOE1GYdy4SFW9oXOg">
-                            Купить сейчас
-                        </button>
-                    </div>
 
 				</div>
 			</div>
