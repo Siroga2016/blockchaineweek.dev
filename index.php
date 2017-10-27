@@ -37,7 +37,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 	<title>Russian Blockchain Week 2017 Конференция по блокчейн</title>
 	<meta name="keywords" content="russian blockchain week, blockchain week, конференция блокчейн, blockchain конференция, конференция биткоин, блокчейн семинар, биткоин семинар, обучение блокчейн, обучение  blockchain, консультации блокчейн" />
 	<meta name="description" content="Russian blockсhain Week (Российская неделя блокчейн и криптовалют) — это главное событие года в своей индустрии, которое объединяет в себе 4 формата: конференция, выставка и шоу блокчейн-проектов, Blockchain.EXPO и Blockchain.NIGHT" />
-	<link href="css/style.css?v=18" type="text/css" rel="stylesheet"/>
+	<link href="css/style.css?v=19" type="text/css" rel="stylesheet"/>
 	<link href="css/fonts.css" type="text/css" rel="stylesheet"/>
 	<link href="css/jquery.formstyler.css" type="text/css" rel="stylesheet"/>
 	<link href="css/jquery.formstyler.theme.css" type="text/css" rel="stylesheet"/>
@@ -5354,8 +5354,9 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                         в&nbsp;различных климатических зонах.
                     </div>
                     <div class="b-sponsor__item-bottom">
-                        <div class="b-sponsor__btn disabled" onclick="var click = alert('Скоро здесь появится описание проекта');">О проекте</div><!--j-sponsor14-->
+                        <div class="b-sponsor__btn j-sponsor14" >О проекте</div>
                         <div>
+                            <div class="b-sponsor__video-link j-video17">Видеоинтервью</div>
                             <a href="files/telecore.pdf" class="b-sponsor__link">Смотреть презентацию</a>
                         </div>
                     </div>
@@ -7232,6 +7233,37 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
     <a href="../files/Bonum.pdf" target="_blank" class="b-sponsor__presentation">Смотреть презентацию</a>
 </div>
 
+<div id="sponsor14" class="sponsor">
+    <span class="modal_close">X</span>
+    <div class="b-sponsor__popup">
+        <div class="b-sponsor__item-top">
+            <div class="b-sponsor__title">Telecore</div>
+            <a href="http://www.telecore.ru/" target="_blank" class="b-sponsor__img telecore_white"></a>
+        </div>
+        <div class="b-video__wrapper">
+            <div class="b-video b-video-sp-17">
+                <img src="../img/telecore_preview.png" alt="">
+                <div id="youtube-sponsor-video-telecore-click"></div>
+            </div>
+        </div>
+        <a href="../files/telecore.pdf" target="_blank" class="b-sponsor__presentation">Смотреть презентацию</a>
+    </div>
+</div>
+
+<div id="sponsor-video17" class="sponsor video-sp-17">
+    <span class="modal_close">X</span>
+    <div class="b-sponsor__popup">
+        <div class="b-sponsor__item-top">
+            <div class="b-sponsor__title">Telecore</div>
+            <a href="http://www.telecore.ru/" target="_blank" class="b-sponsor__img telecore_white"></a>
+        </div>
+        <div class="b-video__wrapper">
+            <div id="youtube-sponsor-video-telecore"></div>
+        </div>
+    </div>
+    <a href="../files/telecore.pdf" target="_blank" class="b-sponsor__presentation">Смотреть презентацию</a>
+</div>
+
 <div id="sponsor15" class="sponsor">
     <span class="modal_close">X</span>
     <div class="b-sponsor__popup">
@@ -8125,6 +8157,14 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
         videoId: 'JLYmMMCA2bw'
     });
 
+    youtubeVideoPlayerSp17 = new YT.Player('youtube-sponsor-video-telecore', {
+        videoId: 'X8fAYhaF6OI'
+    });
+
+    youtubeVideoPlayerSp17Click = new YT.Player('youtube-sponsor-video-telecore-click', {
+        videoId: 'X8fAYhaF6OI'
+    });
+
     youtubeVideoPlayerTechPartner = new YT.Player('youtube-video-tech-partner', {
         videoId: 'xxyArE-ZIL4'
     });
@@ -8136,7 +8176,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 <script src="js/jquery.formstyler.min.js"></script>
 <script src="js/jquery.maskedinput.min.js" type="text/javascript"></script>
 <script src="js/jquery.scrolldepth.min.js" type="text/javascript"></script>
-<script src="js/script.js?v=10.8"></script>
+<script src="js/script.js?v=10.9"></script>
 <script src="js/particles.js"></script>
 <script src="js/app.js"></script>
 <script src="http://malsup.github.com/jquery.cycle2.js"></script>

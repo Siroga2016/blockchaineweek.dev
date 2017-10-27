@@ -1,183 +1,183 @@
 $(document).ready(function() {
 
-/* показать всех спикеров */
-$(".all-speakers.show").click(function(){
-    $(this).css('display' , 'none');
-    $('.all-speakers.hide').css('display' , 'inline-block');
-    $('.block4 .peoples .block.hide').css('display' , 'inline-block');
-});
-
-$(".all-speakers.hide").click(function(){
-    $(this).css('display' , 'none');
-     $('.all-speakers.show').css('display' , 'inline-block');
-    $('.block4 .peoples .block.hide').css('display' , 'none');
-});
-
-
-/* гамбургер меню */
-$(".menu-toggle").on("click", function(){
-  $(this).nextAll('.menu').slideToggle();
-});
-
-/* мобильное меню */
-$(document).click(function (event) {
-    if ($(event.target).closest(".header-fixed .toggle").length){
-        $('.header-fixed .toggle').closest('.header-fixed').toggleClass('menu-open');
-        return;
-    }
-    $('.header-fixed').removeClass('menu-open');
-    event.stopPropagation();
-});
-
-
-$("a[href^=#]").click(function(e){
-    /*$(".menu").slideToggle("");*/
-    e.preventDefault();
-
-    $(document).off("scroll");
-    $(menu_selector + " a.active").removeClass("active");
-    $(this).addClass("active");
-    var hash = $(this).attr("href");
-    var target = $(hash);
-
-    if (target.offset()){
-        $("html, body").animate({
-            scrollTop: target.offset().top-60
-        }, 500, function(){
-            window.location.hash = hash;
-            $(document).on("scroll", onScroll);
-        });
-    }
-});
-
-
-/* стилизация селектов */
-$(function() {
-  $('.select').styler();
-});
-
-jQuery(function($){
-   $(".field-phone").mask("+7(999) 999-9999");
-});
-
-
-$('#form, #form1').submit(function(event) {
-    var formName;
-    var data = $(this).serialize();
-
-    if ($(this).attr('id') == 'form1'){
-        formName = 'Верхняя форма';
-    }
-    if ($(this).attr('id') == 'form'){
-        formName = 'Нижняя форма';
-    }
-
-    $.ajax({
-     url: "send.php",
-     type: "POST",
-     data: data,
-     success: function(res){
-        ga("send", "event", "form", "success", formName);
-        window.location.href = "thank.html"
-    $('#form, #form1')[0].reset();
-     },
-     error: function(){
-        window.location.href = "thank.html"
-     }
+    /* показать всех спикеров */
+    $(".all-speakers.show").click(function(){
+        $(this).css('display' , 'none');
+        $('.all-speakers.hide').css('display' , 'inline-block');
+        $('.block4 .peoples .block.hide').css('display' , 'inline-block');
     });
-    return false;
-   });
 
-$('#form2').submit(function(event) {
-    var formName;
-    var data = $(this).serialize();
-
-    formName = 'Стать партнером';
-
-    $.ajax({
-     url: "send-become-partner.php",
-     type: "POST",
-     data: data,
-     success: function(res){
-        ga("send", "event", "form", "success", formName);
-        window.location.href = "thank.html"
-    $('#form2')[0].reset();
-     },
-     error: function(){
-        window.location.href = "thank.html"
-     }
+    $(".all-speakers.hide").click(function(){
+        $(this).css('display' , 'none');
+        $('.all-speakers.show').css('display' , 'inline-block');
+        $('.block4 .peoples .block.hide').css('display' , 'none');
     });
-    return false;
-   });
 
-$(".btn-become-partner").on("click", function(){
-    $('.block--become-partner').addClass('active');
-});
 
-$(".block--become-partner .close").on("click", function(){
-    $('.block--become-partner').removeClass('active');
-});
+    /* гамбургер меню */
+    $(".menu-toggle").on("click", function(){
+        $(this).nextAll('.menu').slideToggle();
+    });
 
-(function($){
-    jQuery.fn.lightTabs = function(options){
+    /* мобильное меню */
+    $(document).click(function (event) {
+        if ($(event.target).closest(".header-fixed .toggle").length){
+            $('.header-fixed .toggle').closest('.header-fixed').toggleClass('menu-open');
+            return;
+        }
+        $('.header-fixed').removeClass('menu-open');
+        event.stopPropagation();
+    });
 
-        var createTabs = function(){
-            tabs = this;
-            i = 0;
 
-            showPage = function(i){
-                $(tabs).children("div").children("div").hide();
-                $(tabs).children("div").children("div").eq(i).show();
-                $(tabs).children("ul").children("li").removeClass("active");
-                $(tabs).children("ul").children("li").eq(i).addClass("active");
+    $("a[href^=#]").click(function(e){
+        /*$(".menu").slideToggle("");*/
+        e.preventDefault();
+
+        $(document).off("scroll");
+        $(menu_selector + " a.active").removeClass("active");
+        $(this).addClass("active");
+        var hash = $(this).attr("href");
+        var target = $(hash);
+
+        if (target.offset()){
+            $("html, body").animate({
+                scrollTop: target.offset().top-60
+            }, 500, function(){
+                window.location.hash = hash;
+                $(document).on("scroll", onScroll);
+            });
+        }
+    });
+
+
+    /* стилизация селектов */
+    $(function() {
+        $('.select').styler();
+    });
+
+    jQuery(function($){
+        $(".field-phone").mask("+7(999) 999-9999");
+    });
+
+
+    $('#form, #form1').submit(function(event) {
+        var formName;
+        var data = $(this).serialize();
+
+        if ($(this).attr('id') == 'form1'){
+            formName = 'Верхняя форма';
+        }
+        if ($(this).attr('id') == 'form'){
+            formName = 'Нижняя форма';
+        }
+
+        $.ajax({
+            url: "send.php",
+            type: "POST",
+            data: data,
+            success: function(res){
+                ga("send", "event", "form", "success", formName);
+                window.location.href = "thank.html"
+                $('#form, #form1')[0].reset();
+            },
+            error: function(){
+                window.location.href = "thank.html"
             }
+        });
+        return false;
+    });
 
-            showPage(0);
+    $('#form2').submit(function(event) {
+        var formName;
+        var data = $(this).serialize();
 
-            $(tabs).children("ul").children("li").each(function(index, element){
-                $(element).attr("data-page", i);
-                i++;
-            });
+        formName = 'Стать партнером';
 
-            $(tabs).children("ul").children("li").click(function(){
-                showPage(parseInt($(this).attr("data-page")));
-            });
+        $.ajax({
+            url: "send-become-partner.php",
+            type: "POST",
+            data: data,
+            success: function(res){
+                ga("send", "event", "form", "success", formName);
+                window.location.href = "thank.html"
+                $('#form2')[0].reset();
+            },
+            error: function(){
+                window.location.href = "thank.html"
+            }
+        });
+        return false;
+    });
+
+    $(".btn-become-partner").on("click", function(){
+        $('.block--become-partner').addClass('active');
+    });
+
+    $(".block--become-partner .close").on("click", function(){
+        $('.block--become-partner').removeClass('active');
+    });
+
+    (function($){
+        jQuery.fn.lightTabs = function(options){
+
+            var createTabs = function(){
+                tabs = this;
+                i = 0;
+
+                showPage = function(i){
+                    $(tabs).children("div").children("div").hide();
+                    $(tabs).children("div").children("div").eq(i).show();
+                    $(tabs).children("ul").children("li").removeClass("active");
+                    $(tabs).children("ul").children("li").eq(i).addClass("active");
+                }
+
+                showPage(0);
+
+                $(tabs).children("ul").children("li").each(function(index, element){
+                    $(element).attr("data-page", i);
+                    i++;
+                });
+
+                $(tabs).children("ul").children("li").click(function(){
+                    showPage(parseInt($(this).attr("data-page")));
+                });
+            };
+            return this.each(createTabs);
         };
-        return this.each(createTabs);
-    };
-})(jQuery);
-$(document).ready(function(){
-    $(".tabs").lightTabs();
-});
+    })(jQuery);
+    $(document).ready(function(){
+        $(".tabs").lightTabs();
+    });
 
 
 
-$(".link-user a").on("click", function(){
-  $(this).prevAll('.about-link-user').css('display' , 'inline-block');
-});
+    $(".link-user a").on("click", function(){
+        $(this).prevAll('.about-link-user').css('display' , 'inline-block');
+    });
 
-$("body").click(function(e) {
-    if($(e.target).closest(".link-user").length==0) $(".about-link-user").css("display","none");
-});
+    $("body").click(function(e) {
+        if($(e.target).closest(".link-user").length==0) $(".about-link-user").css("display","none");
+    });
 
 
-var now = 0;
-function div23() {
+    var now = 0;
+    function div23() {
 
-    var count = $('.link-user-container').find('.link-user').length;
-    if (now == count) {
-        now = 0;
+        var count = $('.link-user-container').find('.link-user').length;
+        if (now == count) {
+            now = 0;
+        }
+        $('.link-user-container').find('.link-user').eq(now).addClass('active');
+        setTimeout(function() {
+            $('.link-user-container').find('.link-user').eq(now).removeClass('active');
+            now++;
+        }, 1000);
+
     }
-    $('.link-user-container').find('.link-user').eq(now).addClass('active');
-    setTimeout(function() {
-        $('.link-user-container').find('.link-user').eq(now).removeClass('active');
-        now++;
-    }, 1000);
-
-}
-setInterval(function() {
-    div23();
-}, 2000);
+    setInterval(function() {
+        div23();
+    }, 2000);
 
 });
 
@@ -506,6 +506,12 @@ $(".j-video16").on("click", function(){
     youtubeVideoPlayerSp16.playVideo();
 });
 
+$(".j-video17").on("click", function(){
+    $('#sponsor-video17, #overlay').addClass('active');
+    $('body').addClass('hidden');
+    youtubeVideoPlayerSp17.playVideo();
+});
+
 $(".j-video-tech-partner").on("click", function(){
     $('#sponsor-video-tech-partner, #overlay').addClass('active');
     $('body').addClass('hidden');
@@ -599,7 +605,7 @@ $("#overlay, #modal_close, .modal_close").on("click", function(){
         ' #sponsor9, #sponsor10, #sponsor11, #sponsor12, #sponsor13, #sponsor14, #sponsor15, #sponsor16, #sponsor17,' +
         ' #sponsor-video1, #sponsor-video3, #sponsor-video4, #sponsor-video5, #sponsor-video6, #sponsor-video7,' +
         ' #sponsor-video8, #sponsor-video9, #sponsor-video10, #sponsor-video12, #sponsor-video13, #sponsor-video14,' +
-        ' #sponsor-video15, #sponsor-video16, #sponsor-video-tech-partner').removeClass('active');
+        ' #sponsor-video15, #sponsor-video16, #sponsor-video17, #sponsor-video-tech-partner').removeClass('active');
     $(".b-video").removeClass('is-active');
     youtubeVideoPlayer4.stopVideo();
     youtubeVideoPlayerSp1.stopVideo();
@@ -629,6 +635,8 @@ $("#overlay, #modal_close, .modal_close").on("click", function(){
     youtubeVideoPlayerSp15Click.stopVideo();
     youtubeVideoPlayerSp16.stopVideo();
     youtubeVideoPlayerSp16Click.stopVideo();
+    youtubeVideoPlayerSp17.stopVideo();
+    youtubeVideoPlayerSp17Click.stopVideo();
     youtubeVideoPlayerTechPartner.stopVideo();
     $('body').removeClass('hidden');
 });
@@ -710,4 +718,9 @@ $(".b-video-sp-15").on("click", function () {
 $(".b-video-sp-16").on("click", function () {
     $(this).addClass('is-active');
     youtubeVideoPlayerSp16Click.playVideo();
+});
+
+$(".b-video-sp-17").on("click", function () {
+    $(this).addClass('is-active');
+    youtubeVideoPlayerSp17Click.playVideo();
 });

@@ -5165,8 +5165,6 @@ a.button-exit{
 .b-sponsor__btn.disabled {
 	background: #c7cbcd!important;
 	cursor: pointer;
-	filter: blur(2px);
-	-webkit-filter: blur(2px);
 }
 
 .b-sponsor__link {
