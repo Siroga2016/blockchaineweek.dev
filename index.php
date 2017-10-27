@@ -37,7 +37,7 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 	<title>Russian Blockchain Week 2017 Конференция по блокчейн</title>
 	<meta name="keywords" content="russian blockchain week, blockchain week, конференция блокчейн, blockchain конференция, конференция биткоин, блокчейн семинар, биткоин семинар, обучение блокчейн, обучение  blockchain, консультации блокчейн" />
 	<meta name="description" content="Russian blockсhain Week (Российская неделя блокчейн и криптовалют) — это главное событие года в своей индустрии, которое объединяет в себе 4 формата: конференция, выставка и шоу блокчейн-проектов, Blockchain.EXPO и Blockchain.NIGHT" />
-	<link href="css/style.css?v=17" type="text/css" rel="stylesheet"/>
+	<link href="css/style.css?v=18" type="text/css" rel="stylesheet"/>
 	<link href="css/fonts.css" type="text/css" rel="stylesheet"/>
 	<link href="css/jquery.formstyler.css" type="text/css" rel="stylesheet"/>
 	<link href="css/jquery.formstyler.theme.css" type="text/css" rel="stylesheet"/>
@@ -5104,12 +5104,6 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                     </div>
                 </div>
 
-                <?/*<div class="b-sponsor__item">
-                    <div class="b-sponsor__item-empty">
-                        Скоро здесь появится<br>новый блокчейн-проект
-                    </div>
-                </div>*/?>
-
                 <?/* <div class="b-sponsor__item">
                     <div class="b-sponsor__item-top">
                         <div class="b-sponsor__title">B2Broker</div>
@@ -5200,79 +5194,12 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                     <div class="b-sponsor__item-bottom">
                         <div class="b-sponsor__btn j-sponsor6">О проекте</div>
                         <div>
+                            <div class="b-sponsor__video-link j-video16">Видеоинтервью</div>
                             <a href="../files/Gelios.pdf" target="_blank" class="b-sponsor__link">Смотреть презентацию</a>
                         </div>
                     </div>
                 </div>
-                <?/*<div class="b-sponsor__item">
-                    <div class="b-sponsor__item-empty">
-                        Скоро здесь появится<br>новый блокчейн-проект
-                    </div>
-                </div>*/?>
             </div>
-            <?/*<div class="b-sponsor__wrap">
-
-				<div class="b-sponsor__item">
-                    <div class="b-sponsor__item-top">
-                        <div class="b-sponsor__title">Gelios</div>
-                        <a href="javascript:void(0)" target="_blank" class="b-sponsor__img gelios"></a>
-                    </div>
-                    <div class="b-sponsor__text">
-                    	Платформа P2Pкредитования в криптовалюте на блокчейн. Ключевая особенность площадки – тонкая настройка процессов под бизнес-процессы кредитора. Глобальный охват, KYCмаркет, кастомизированная риск-аналитика, white-labelрешение личного кабинета. Блокчейн используется для подтверждения доверия между сторонами, риск-аналитики. Проект развивается на платформе Brainysoft – компании-резидента Инновационного центра Сколково.
-                    </div>
-                    <!--<div class="b-sponsor__item-bottom">
-                        <div class="b-sponsor__btn j-sponsor6">О проекте</div>
-                        <div>
-                            <a href="files/B2Broker.pdf" download class="b-sponsor__link">Смотреть презентацию</a>
-                        </div>
-                    </div>-->
-                </div>
-
-               <div class="b-sponsor__item">
-                    <div class="b-sponsor__item-top">
-                        <div class="b-sponsor__title">Smart Valley</div>
-                        <a href="https://smartvalley.io" target="_blank" class="b-sponsor__img smartvalley"></a>
-                    </div>
-                    <div class="b-sponsor__text">
-
-                    </div>
-                    <div class="b-sponsor__item-bottom">
-                        <!--<div class="b-sponsor__btn j-sponsor7">О проекте</div>-->
-                        <div>
-                            <a href="files/SmartValley.pdf" target="_blank" class="b-sponsor__link">Смотреть презентацию</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>*/?>
-
-            <?/*<div class="b-sponsor__wrap">
-
-                <div class="b-sponsor__item">
-                    <div class="b-sponsor__item-top">
-                        <div class="b-sponsor__title">ETHLend</div>
-                        <a href="http://ethlend.io" target="_blank" class="b-sponsor__img ethlend"></a>
-                    </div>
-                    <div class="b-sponsor__text">
-                    	Децентрализованная peer-2-peer платформа для кредитования, работающая на основе сети Ethereum и смарт-контрактов.
-
-						Данная система явлеется полностью прозрачной и позволяет воспользоваться услугами кредитования из любой точки планетыбыстро и эффективно, используя приемущества blockchain. При этом риск контрагента сведен к минимуму  в результате применения залога и смарт-контрактов.
-
-                    </div>
-                    <div class="b-sponsor__item-bottom">
-                        <div class="b-sponsor__btn j-sponsor8">О проекте</div>
-                        <div>
-                            <!--<a href="files/presentation.pdf" target="_blank" class="b-sponsor__link">Смотреть презентацию</a>-->
-                        </div>
-                    </div>
-                </div>
-
-                <div class="b-sponsor__item">
-                    <div class="b-sponsor__item-empty">
-                        Скоро здесь появится<br>новый блокчейн-проект
-                    </div>
-                </div>
-            </div>*/?>
             <div class="b-sponsor__wrap">
                 <div class="b-sponsor__item">
                     <div class="b-sponsor__item-top">
@@ -5413,8 +5340,24 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                      </div>
                 </div>
                 <div class="b-sponsor__item">
-                    <div class="b-sponsor__item-empty">
-                        Скоро здесь появится<br>новый блокчейн-проект
+                    <div class="b-sponsor__item-top">
+                        <div class="b-sponsor__title">TELECORE</div>
+                        <a href="http://www.telecore.ru/" target="_blank" class="b-sponsor__img telecore"></a>
+                    </div>
+                    <div class="b-sponsor__text">
+                        Российский разработчик и&nbsp;производитель комплексных решений для&nbsp;майнинга криптовалюты
+                        в&nbsp;промышленных масштабах, инженерных комплексов для&nbsp;автоматизации, ИТ, управления,
+                        связи, безопасности и&nbsp;энергоснабжения.
+                        <br>
+                        Нашими заказчиками являются крупнейшие российские и&nbsp;зарубежные предприятия
+                        и&nbsp;государственные ведомства, а&nbsp;продукция многие годы безупречно работает
+                        в&nbsp;различных климатических зонах.
+                    </div>
+                    <div class="b-sponsor__item-bottom">
+                        <div class="b-sponsor__btn disabled" onclick="var click = alert('Скоро здесь появится описание проекта');">О проекте</div><!--j-sponsor14-->
+                        <div>
+                            <a href="files/telecore.pdf" class="b-sponsor__link">Смотреть презентацию</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -6441,11 +6384,17 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
 </div>
 
 <div id="sponsor6" class="sponsor">
-    <span id="modal_close">X</span>
+    <span class="modal_close">X</span>
     <div class="b-sponsor__popup">
         <div class="b-sponsor__item-top">
             <div class="b-sponsor__title">Gelios</div>
             <a href="javascript:void(0)" target="_blank" class="b-sponsor__img gelios-white"></a>
+        </div>
+        <div class="b-video__wrapper">
+            <div class="b-video b-video-sp-16">
+                <img src="img/gelios-preview.png" alt="">
+                <div id="youtube-sponsor-video-gelios-click"></div>
+            </div>
         </div>
         <div class="b-sponsor__popup-text">
             <p><b>Gelios.io&nbsp;–&nbsp;платформа p2p&nbsp;кредитования в&nbsp;криптовалюте на&nbsp;блокчейн.</b> Целью
@@ -6500,6 +6449,75 @@ foreach($utm as $v){if(trim($_GET[$v])&&!$_SESSION[$v]){$_SESSION[$v] = trim($_G
                         Сколково
                     </li>
                 </ol>
+            </p>
+        </div>
+    </div>
+    <a href="../files/Gelios.pdf" target="_blank" class="b-sponsor__link">Смотреть презентацию</a>
+</div>
+
+<div id="sponsor-video16" class="sponsor video-sp-16">
+    <span class="modal_close">X</span>
+    <div class="b-sponsor__popup">
+        <div class="b-sponsor__item-top">
+            <div class="b-sponsor__title">Gelios</div>
+            <a href="javascript:void(0)" target="_blank" class="b-sponsor__img gelios-white"></a>
+        </div>
+        <div class="b-video__wrapper">
+            <div id="youtube-sponsor-video-gelios"></div>
+        </div>
+        <div class="b-sponsor__popup-text">
+            <p><b>Gelios.io&nbsp;–&nbsp;платформа p2p&nbsp;кредитования в&nbsp;криптовалюте на&nbsp;блокчейн.</b> Целью
+                платформы является предоставление возможности людям по&nbsp;всему земному шару выдавать средства
+                в&nbsp;кредит, выбирая ключевые условия финансирования&nbsp;–&nbsp;ставку, срок, сумму кредита.
+                Криптовалюта&nbsp;–&nbsp;внутренний токен Gelios, выпущенный на&nbsp;блокчейне Ethereum по&nbsp;стандарту
+                ERC&nbsp;20 позволяет нивелировать страновые границы между заинтересоваными сторонами, устранить риск
+                хардфорков (что&nbsp;в&nbsp;основном касается мейнистрим-криптовалют), осуществлять микротранзакции.
+                Ключевым отличием площадки от&nbsp;подобных проектов является максимальная кастомизируемость процесса
+                выдачи для&nbsp;кредитора, что&nbsp;приводит к&nbsp;бОльшему предложению средств для&nbsp;заемщика.</p>
+            <p>Участники системы: кредитор, заемщик, провайдер&nbsp;KYC, риск-аналитик, коллектор, вебмастер.</p>
+            <p><b>Архитектура платформы:</b></p>
+            <p>
+            <ol>
+                <li>Ограниченное количество токенов стандарта ERC20&nbsp;на&nbsp;блокчейн Ethereum</li>
+                <li>Hyperledger&nbsp;Fabric&nbsp;v.1.0: запись показателей сторон в&nbsp;блокчейн, обеспечение траста между сторонами,
+                    включая показатели по&nbsp;кредитам заемщика (выплаты, просрочки). Майнерами системы являются риск-аналитики,
+                    которым предоставляется возможность изучать блокчейн и&nbsp;транзакции всех заемщиков в&nbsp;анонимизированном
+                    виде.
+                </li>
+                <li>Расчетное ядро Brainysoft.</li>
+            </ol>
+            </p>
+            <p>Функции Gelios:</p>
+            <p><b>KYC&nbsp;маркет</b>: решения, такие как&nbsp;Civic, Oz&nbsp;Forensics, CredyCo позволяют либо&nbsp;выдать
+                однозначную оценку об&nbsp;идентификации и&nbsp;верификации пользователя, либо&nbsp;предоставить
+                скоринговый балл. Интеграция с&nbsp;Gelios происходит по&nbsp;API.</p>
+            <p><b>Рынок риск-алгоритмов</b>: так&nbsp;как&nbsp;майнерами в&nbsp;системе выступают риск-аналитики,
+                это&nbsp;позволяет им&nbsp;строить модели, как&nbsp;общей направленности на&nbsp;определенный тип
+                кредитного продукта, так&nbsp;и&nbsp;более&nbsp;сегментированные,
+                например c&nbsp;использованием данных о&nbsp;просрочках во&nbsp;внутреннем блокчейне, сегментацией
+                на&nbsp;отдельную страну
+                или&nbsp;даже&nbsp;город, повторных заемщиков.</p>
+            <p><b>White-label решения для&nbsp;личного кабинета заемщика.</b> Позволяет кредитору подключить личный кабинет заемщика
+                к&nbsp;собственному домену или&nbsp;мобильному приложению и&nbsp;работать по&nbsp;собственной бизнес-схеме,
+                используя все&nbsp;возможности Gelios.</p>
+            <p><b>CPA&nbsp;маркет</b>: представив свой оффер для&nbsp;вебмастеров (сумму за&nbsp;одного выданного заемщика)
+                кредитор решает
+                вопрос привлечения трафика на&nbsp;платформу. Лидогенерация является на&nbsp;текущий момент одним из&nbsp;основных
+                методов по&nbsp;привлечению трафика во&nbsp;всем&nbsp;мире. Использование антифрод-технологий (защита от&nbsp;сбрасывания
+                лидов кредитором) позволяет вебмастеру быть уверенным в&nbsp;благонадежном использовании трафика.</p>
+            <p><b>Управляющие</b>&nbsp;–&nbsp;профессиональные участники платформы, принимающие средства под управление.</p>
+            <p>Разработчик платформы&nbsp;–&nbsp;компания Brainysoft, резидент Инновационного центра Сколково с&nbsp;2014 года. Продукт
+                включает в&nbsp;себя&nbsp;API, кредитный конвейер, полное соответствие нормам регуляторов.</p>
+            <p>Механика ICO и преимущества:</p>
+            <p>
+            <ol>
+                <li>Ограниченное количество токенов&nbsp;–&nbsp;80000000.</li>
+                <li>Pre-ICO&nbsp;–&nbsp;декабрь&nbsp;2017. ICO&nbsp;–&nbsp;март&nbsp;2018</li>
+                <li>Президент проекта&nbsp;–&nbsp;Виктор Орловский&nbsp;–&nbsp;управляющий директор SBT&nbsp;Venture&nbsp;Fund 1 и 2.</li>
+                <li>Платформа разработана на&nbsp;основе действующего бизнеса Brainysoft&nbsp;–&nbsp;резидента Инновационного центра
+                    Сколково
+                </li>
+            </ol>
             </p>
         </div>
     </div>
@@ -8099,6 +8117,14 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
         videoId: 'IP5Xtoboc-o'
     });
 
+    youtubeVideoPlayerSp16 = new YT.Player('youtube-sponsor-video-gelios', {
+        videoId: 'JLYmMMCA2bw'
+    });
+
+    youtubeVideoPlayerSp16Click = new YT.Player('youtube-sponsor-video-gelios-click', {
+        videoId: 'JLYmMMCA2bw'
+    });
+
     youtubeVideoPlayerTechPartner = new YT.Player('youtube-video-tech-partner', {
         videoId: 'xxyArE-ZIL4'
     });
@@ -8110,7 +8136,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 <script src="js/jquery.formstyler.min.js"></script>
 <script src="js/jquery.maskedinput.min.js" type="text/javascript"></script>
 <script src="js/jquery.scrolldepth.min.js" type="text/javascript"></script>
-<script src="js/script.js?v=10.7"></script>
+<script src="js/script.js?v=10.8"></script>
 <script src="js/particles.js"></script>
 <script src="js/app.js"></script>
 <script src="http://malsup.github.com/jquery.cycle2.js"></script>
