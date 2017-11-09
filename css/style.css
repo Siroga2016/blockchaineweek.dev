@@ -5944,3 +5944,172 @@ a.button-exit{
 .b-video.is-active iframe {
 	display: block;
 }
+
+.l-video {
+	float:left;
+	width:100%;
+	padding:50px 0 28px 0;
+	position:relative;
+	background: #FFFFFF;
+}
+
+.l-video .title {
+	position:relative;
+	width:100%;
+	font-size:56px;
+	font-family: "GothamProBold";
+	font-weight: 400;
+	color: #78d55b;
+	line-height: 60px;
+	letter-spacing: 0.6px;
+	margin-bottom: 25px;
+}
+
+.b-video__item {
+	display: flex;
+	padding: 10px 15px;
+	margin-bottom: 15px;
+	border-radius: 6px;
+	border: 1px solid rgba(130, 130, 130, 0.4);
+}
+
+.l-video .b-program__table-day {
+	margin-bottom: 30px;
+}
+
+.b-video__video {
+	width: auto;
+	height: 165px;
+}
+
+.b-video__video iframe {
+	height: 100%;
+	width: auto;
+}
+
+.b-video__description {
+	display: flex;
+	margin-left: 25px;
+}
+
+.b-video__description-info .name {
+	font-family: "GothamProRegular";
+	font-weight: bold;
+	color: #000000;
+	font-size: 17px;
+	text-transform: uppercase;
+	margin-top: 35px;
+}
+
+.b-video__description-info .position {
+	font-family: "GothamProRegular";
+	color: #000000;
+	font-size: 17px;
+	margin-bottom: 55px;
+}
+
+.b-video__description-info .report {
+	font-family: "GothamProRegular";
+	color: #000000;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+@media (max-width: 640px) {
+	.b-video__item {
+		flex-flow: column nowrap;
+	}
+
+	.b-video__video {
+		margin: 0 auto 15px auto;
+	}
+
+	.b-video__description {
+		margin-left: 0;
+	}
+}
+
+.l-auth {
+	height: 100%;
+	width: 100%;
+	background-color: #8a8a8a;
+}
+
+.b-auth {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #ffffff;
+	border-radius: 6px;
+	padding: 25px 50px;
+	width: 500px;
+}
+
+.b-auth__title {
+	color: #000000;
+	font-family: "GothamProRegular";
+	font-size: 26px;
+	font-weight: 300;
+	line-height: 29px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.b-auth .b-auth__input {
+	width: calc(100% - 25px);
+	height: 60px;
+	border: 1px solid #8a8a8a;
+	margin-bottom: 10px;
+	padding-left: 25px;
+//color: #5f5f5f;
+	font-family: "GothamProRegular";
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.b-auth__button {
+	width: 100%;
+	height: 60px;
+	border-radius: 6px;
+	background-color: #8a8a8a;
+	color: #fefefe;
+	font-family: "GothamProRegular";
+	font-size: 24px;
+	font-weight: 300;
+	border: none;
+}
+
+.b-auth__button:hover {
+	opacity: 0.5;
+}
+
+.b-auth__button:active {
+	background-color: #FF9600;
+}
+
+.b-auth__error {
+	color: #ef3124;
+	text-align: center;
+	font-family: "GothamProRegular";
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.b-auth__close,
+.b-auth__close:hover {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	text-decoration: none;
+	color: #000000;
+	font-size: 40px;
+	transform: rotate(45deg);
+}
+
+@media (max-width: 640px) {
+	.b-auth {
+		width: auto;
+	}
+}
