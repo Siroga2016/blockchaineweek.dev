@@ -1020,7 +1020,7 @@ ul.social li a.vk{
 	position:relative;
 	background: #F9F9F9;
 }
-.block3 .title{
+.block3 .title {
 	font-size:56px;
 	font-family: "GothamProBold";
 	color:#75D75B;
@@ -5974,7 +5974,8 @@ a.button-exit{
 }
 
 .l-video .b-program__table-day {
-	margin-bottom: 30px;
+	margin-bottom: 15px;
+	margin-top: 25px;
 }
 
 .b-video__video {
